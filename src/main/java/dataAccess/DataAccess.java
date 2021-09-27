@@ -136,22 +136,18 @@ public class DataAccess {
 				q6 = ev17.addQuestion("Golak sartuko dira lehenengo zatian?", 2);
 			}
 
-			Admin a1 = new Admin("Ramon", "Rodriguez", "Soto", "Admin", "aaaaaaaa", "666666666","ramonAdmindb.@gmail.com", UtilDate.newDate(2001,2,12));
+			Admin a1 = new Admin("Aitor", "Paredes", "Zatarain", "Admin", "aaaaaaaa", "666666666","Admindb.@gmail.com", UtilDate.newDate(2001,2,12));
 			
-			Langilea l1 = new Langilea("Oier", "Elola", "Urkizu", "Elola", "aaaaaaaa", "987654321", "oierurkizu@gmail.com", UtilDate.newDate(2001,7,23));
-			Langilea l2 = new Langilea("Unax", "Lazkanotegi", "Bengoetxea", "UnaxLazka", "aaaaaaaa", "384625395","UnaxLazka@gmail.com", UtilDate.newDate(2001,7,23));
+			Langilea l1 = new Langilea("Zdravko", "Todorov", "Petkov", "zdra", "aaaaaaaa", "987654321", "zdra@gmail.com", UtilDate.newDate(2001,7,23));
+			Langilea l2 = new Langilea("Iñaki", "Moreno", "Artabe", "inakimoreno", "aaaaaaaa", "384625395","inakimoreno@gmail.com", UtilDate.newDate(2001,7,23));
 			
-			Bezeroa b1 = new Bezeroa("Tarek", "Chamkhi", "Ermina", "Tarek12301", "aaaaaaaa", "123456789", "Tarek12301@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b2 = new Bezeroa("Josu", "Loidi", "Gorostidi", "Josulo", "aaaaaaaa", "123456789", "josulo@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b1 = new Bezeroa("pepe", "popo", "pupu", "pepopu12301", "aaaaaaaa", "123456789", "pepopu12301@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b2 = new Bezeroa("Koldo", "Beitialarrangoitia", "Munez", "kobemu", "aaaaaaaa", "123456789", "kobemu@gmail.com",UtilDate.newDate(2001,8,9));
 			b2.setPublikoa(false);
-			Bezeroa b3 = new Bezeroa("Jose", "García", "Perez", "JoseRamon", "aaaaaaaa", "123456789", "JoseRamon@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b4 = new Bezeroa("Josu", "Perez", "Galdos", "Josueeee", "aaaaaaaa", "123456789", "Josueeee@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b3 = new Bezeroa("Jose", "Miguel", "Perez", "JoseMi", "aaaaaaaa", "123456789", "JoseMiguel@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b4 = new Bezeroa("Antxon", "Urrutia", "Garcia", "antxon", "aaaaaaaa", "123456789", "antxon@gmail.com",UtilDate.newDate(2001,8,9));
 			Bezeroa b5 = new Bezeroa("Saioa", "Goikoetxea", "Ugarte", "Saioo99", "b", "123456789", "Saioo99@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b6 = new Bezeroa("Mikel", "Artola", "Peraz", "Gamer75", "aaaaaaaa", "123456789", "Gamer75@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b7 = new Bezeroa("Pello", "Garcia", "Lorca", "PelloJoxepe", "aaaaaaaa", "123456789", "PelloJoxepe@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b8 = new Bezeroa("Karmele", "Loidi", "Gorostidi", "Katuu19", "aaaaaaaa", "123456789", "Katuu19@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b9 = new Bezeroa("Eneko", "Sagastume", "Ontsalo", "Ontsalo", "aaaaaaaa", "123456789", "Ontsalo@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b10 = new Bezeroa("Naiara", "Agirre", "Urriza", "Na1ara", "aaaaaaaa", "123456789", "Na1ara@gmail.com",UtilDate.newDate(2001,8,9));
+			
 			
 			
 			Event event1 = new Event(21,"Eibar-Celta", UtilDate.newDate(2021, 2, 17));
@@ -244,11 +240,7 @@ public class DataAccess {
 			db.persist(b3);
 			db.persist(b4);
 			db.persist(b5);
-			db.persist(b6);
-			db.persist(b7);
-			db.persist(b8);
-			db.persist(b9);
-			db.persist(b10);
+
 
 			db.persist(q1);
 			db.persist(q2);
