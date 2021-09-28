@@ -35,12 +35,13 @@ import exceptions.UserAlreadyExist;
 @WebService(endpointInterface = "businessLogic.BLFacade")
 public class BLFacadeImplementation  implements BLFacade {
 	DataAccess dbManager;
+	private String initializeStr = "initialize";
 
 	public BLFacadeImplementation()  {		
 		System.out.println("Creating BLFacadeImplementation instance");
 		ConfigXML c=ConfigXML.getInstance();
-		dbManager=new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
-		if (c.getDataBaseOpenMode().equals("initialize")) {
+		dbManager=new DataAccess(c.getDataBaseOpenMode().equals(initializeStr));
+		if (c.getDataBaseOpenMode().equals(initializeStr)) {
 			dbManager.initializeDB();
 			dbManager.close();
 		}
@@ -51,7 +52,7 @@ public class BLFacadeImplementation  implements BLFacade {
 		System.out.println("Creating BLFacadeImplementation instance with DataAccess parameter");
 		ConfigXML c=ConfigXML.getInstance();
 		
-		if (c.getDataBaseOpenMode().equals("initialize")) {
+		if (c.getDataBaseOpenMode().equals(initializeStr)) {
 			da.open(true);
 			da.initializeDB();
 			da.close();
@@ -88,7 +89,7 @@ public class BLFacadeImplementation  implements BLFacade {
 		dbManager.close();
 		
 		return qry;
-   };
+   }
 	
 	/**
 	 * This method invokes the data access to retrieve the events of a given date 
@@ -174,7 +175,7 @@ public class BLFacadeImplementation  implements BLFacade {
  		Pronostikoa p=dbManager.createPronostic(question,description,kuota);		
  		dbManager.close();
  		return p;
-    };
+    }
     
     @WebMethod
     public void emaitzaIpini(Question question, Pronostikoa pronostikoa){

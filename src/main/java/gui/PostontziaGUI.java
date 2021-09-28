@@ -601,8 +601,8 @@ public class PostontziaGUI extends JFrame {
 						nork.setText(ResourceBundle.getBundle("Etiquetas").getString("Who")+": "+selectedBezeroartekoMezua.getIgorlea());
 						mezua.setText(ResourceBundle.getBundle("Etiquetas").getString("Message")+" "+selectedBezeroartekoMezua.getMezua());
 						baldintzak.setText(ResourceBundle.getBundle("Etiquetas").getString("Conditions"));
-						euroko.setText(ResourceBundle.getBundle("Etiquetas").getString("EuroBet")+" "+selectedBezeroartekoMezua.getZenbatApostatu()+"€");
-						hilabetean.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("MaxMonth")+" "+selectedBezeroartekoMezua.getHilabeteanZenbat()+"€");
+						euroko.setText(ResourceBundle.getBundle("Etiquetas").getString("EuroBet")+" "+selectedBezeroartekoMezua.getZenbatApostatu()+"ï¿½");
+						hilabetean.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("MaxMonth")+" "+selectedBezeroartekoMezua.getHilabeteanZenbat()+"ï¿½");
 						if(!selectedBezeroartekoMezua.isIrakurrita()) {
 							onartuGaldera.setBounds(50, 291, 210, 14);
 							onartuGaldera.setVisible(true);
@@ -631,8 +631,8 @@ public class PostontziaGUI extends JFrame {
 						nork.setText(ResourceBundle.getBundle("Etiquetas").getString("Who")+": "+selectedBezeroartekoMezua.getIgorlea());
 						mezua.setText(ResourceBundle.getBundle("Etiquetas").getString("Message")+" "+selectedBezeroartekoMezua.getMezua());
 						baldintzak.setText(ResourceBundle.getBundle("Etiquetas").getString("Conditions"));
-						euroko.setText(ResourceBundle.getBundle("Etiquetas").getString("EuroBet")+" "+selectedBezeroartekoMezua.getZenbatApostatu()+"€");
-						hilabetean.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("MaxMonth")+" "+selectedBezeroartekoMezua.getHilabeteanZenbat()+"€");
+						euroko.setText(ResourceBundle.getBundle("Etiquetas").getString("EuroBet")+" "+selectedBezeroartekoMezua.getZenbatApostatu()+"ï¿½");
+						hilabetean.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("MaxMonth")+" "+selectedBezeroartekoMezua.getHilabeteanZenbat()+"ï¿½");
 						komisioa.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("Commission")+" %"+selectedBezeroartekoMezua.getZenbatErrepikatuarentzat()*100);
 						if(!selectedBezeroartekoMezua.isIrakurrita()) {
 							onartuGaldera.setBounds(225, 301, 210, 14);
@@ -757,7 +757,10 @@ public class PostontziaGUI extends JFrame {
 					}else {
 						row.add(ResourceBundle.getBundle("Etiquetas").getString("Admin"));
 					}
-					row.add(getElkarrizketa((ArretaMezua)m).getGaia());
+					ArretaElkarrizketa tmp = getElkarrizketa((ArretaMezua)m);
+					if(tmp != null) {
+						row.add(tmp.getGaia());
+					}
 					String egoera;
 					if(m.isIrakurrita()) {
 						egoera=ResourceBundle.getBundle("Etiquetas").getString("Answered");
@@ -784,7 +787,7 @@ public class PostontziaGUI extends JFrame {
 	private ArretaElkarrizketa getElkarrizketa(ArretaMezua m) {
 		for(ArretaElkarrizketa ae : elkarrizketak) {
 			for(ArretaMezua am : ae.getLangileakBidalitakoak()) {
-				if(am.getIdentifikadorea()==m.getIdentifikadorea()) {
+				if(am.getIdentifikadorea().equals(m.getIdentifikadorea())) {
 					return ae;
 				}
 			}

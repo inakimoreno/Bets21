@@ -10,6 +10,7 @@ import businessLogic.BLFacade;
 import domain.Bezeroa;
 
 import javax.swing.JTextField;
+import javax.swing.WindowConstants;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -48,7 +49,7 @@ public class DiruaSartuGUI extends JFrame {
 	 */
 	public void DiruaSartuGUIExekuzioa() {
 		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("PutMoneyGUI"));
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

@@ -22,7 +22,6 @@ public class ArretaZerbitzuaEmanGUI extends JFrame {
 	
 	private static final long serialVersionUID = 1L;
 	
-	//private BezeroartekoMezuaContainer selectedMezua;
 	private JScrollPane scrollPaneMezuak = new JScrollPane();
 	private JTable tableMezua = new JTable();
 	private DefaultTableModel tableModelMezuak;

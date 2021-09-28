@@ -8,7 +8,6 @@ import java.util.Date;
 
 
 
-//import domain.Booking;
 import domain.Question;
 import domain.Apustua;
 import domain.ArretaElkarrizketa;
@@ -35,7 +34,7 @@ import javax.jws.WebService;
  * Interface that specifies the business logic.
  */
 @WebService
-public interface BLFacade  {
+public interface BLFacade {
 	  
 
 	/**

@@ -83,26 +83,26 @@ public class DataAccess {
 				year += 1;
 			}
 
-			Event ev1 = new Event(1,"Atlético-Athletic", UtilDate.newDate(year, month, 17));
+			Event ev1 = new Event(1,"Atlï¿½tico-Athletic", UtilDate.newDate(year, month, 17));
 			Event ev2 = new Event(2, "Eibar-Barcelona", UtilDate.newDate(year, month, 17));
 			Event ev3 = new Event(3, "Getafe-Celta", UtilDate.newDate(year, month, 17));
-			Event ev4 = new Event(4, "Alavés-Deportivo", UtilDate.newDate(year, month, 17));
-			Event ev5 = new Event(5, "Español-Villareal", UtilDate.newDate(year, month, 17));
+			Event ev4 = new Event(4, "Alavï¿½s-Deportivo", UtilDate.newDate(year, month, 17));
+			Event ev5 = new Event(5, "Espaï¿½ol-Villareal", UtilDate.newDate(year, month, 17));
 			Event ev6 = new Event(6, "Las Palmas-Sevilla", UtilDate.newDate(year, month, 17));
 			Event ev7 = new Event(7, "Malaga-Valencia", UtilDate.newDate(year, month, 17));
-			Event ev8 = new Event(8, "Girona-Leganés", UtilDate.newDate(year, month, 17));
+			Event ev8 = new Event(8, "Girona-Leganï¿½s", UtilDate.newDate(year, month, 17));
 			Event ev9 = new Event(9, "Real Sociedad-Levante", UtilDate.newDate(year, month, 17));
 			Event ev10 = new Event(10, "Betis-Real Madrid", UtilDate.newDate(year, month, 17));
 
 			Event ev11 = new Event(11, "Atletico-Athletic", UtilDate.newDate(year, month, 1));
 			Event ev12 = new Event(12, "Eibar-Barcelona", UtilDate.newDate(year, month, 1));
 			Event ev13 = new Event(13, "Getafe-Celta", UtilDate.newDate(year, month, 1));
-			Event ev14 = new Event(14, "Alavés-Deportivo", UtilDate.newDate(year, month, 1));
-			Event ev15 = new Event(15, "Español-Villareal", UtilDate.newDate(year, month, 1));
+			Event ev14 = new Event(14, "Alavï¿½s-Deportivo", UtilDate.newDate(year, month, 1));
+			Event ev15 = new Event(15, "Espaï¿½ol-Villareal", UtilDate.newDate(year, month, 1));
 			Event ev16 = new Event(16, "Las Palmas-Sevilla", UtilDate.newDate(year, month, 1));
 
-			Event ev17 = new Event(17, "Málaga-Valencia", UtilDate.newDate(year, month + 1, 28));
-			Event ev18 = new Event(18, "Girona-Leganés", UtilDate.newDate(year, month + 1, 28));
+			Event ev17 = new Event(17, "Mï¿½laga-Valencia", UtilDate.newDate(year, month + 1, 28));
+			Event ev18 = new Event(18, "Girona-Leganï¿½s", UtilDate.newDate(year, month + 1, 28));
 			Event ev19 = new Event(19, "Real Sociedad-Levante", UtilDate.newDate(year, month + 1, 28));
 			Event ev20 = new Event(20, "Betis-Real Madrid", UtilDate.newDate(year, month + 1, 28));
 
@@ -139,7 +139,7 @@ public class DataAccess {
 			Admin a1 = new Admin("Aitor", "Paredes", "Zatarain", "Admin", "aaaaaaaa", "666666666","Admindb.@gmail.com", UtilDate.newDate(2001,2,12));
 			
 			Langilea l1 = new Langilea("Zdravko", "Todorov", "Petkov", "zdra", "aaaaaaaa", "987654321", "zdra@gmail.com", UtilDate.newDate(2001,7,23));
-			Langilea l2 = new Langilea("Iñaki", "Moreno", "Artabe", "inakimoreno", "aaaaaaaa", "384625395","inakimoreno@gmail.com", UtilDate.newDate(2001,7,23));
+			Langilea l2 = new Langilea("Iï¿½aki", "Moreno", "Artabe", "inakimoreno", "aaaaaaaa", "384625395","inakimoreno@gmail.com", UtilDate.newDate(2001,7,23));
 			
 			Bezeroa b1 = new Bezeroa("pepe", "popo", "pupu", "pepopu12301", "aaaaaaaa", "123456789", "pepopu12301@gmail.com",UtilDate.newDate(2001,8,9));
 			Bezeroa b2 = new Bezeroa("Koldo", "Beitialarrangoitia", "Munez", "kobemu", "aaaaaaaa", "123456789", "kobemu@gmail.com",UtilDate.newDate(2001,8,9));
@@ -159,30 +159,31 @@ public class DataAccess {
 			Question ques4 = event2.addQuestion("Golik sartuko al da lehen zatian?", 1);
 			
 			Pronostikoa pronos1, pronos2, pronos3, pronos4, pronos5, pronos6, pronos7, pronos8, pronos9, pronos10, pronos11, pronos12, pronos13, pronos14, pronos15, pronos16, pronos17;
-			pronos1 = ques1.addPronostic("1", (double)1.2);
-			pronos2 = ques1.addPronostic("X", (double)1.5);//
-			pronos3 = ques1.addPronostic("2", (double)1.8);
-			pronos4 = ques2.addPronostic("1", (double)1.2);//
-			pronos5 = ques2.addPronostic("2", (double)1.6);
-			pronos6 = ques2.addPronostic("Golik ez", (double)1.8);
-			pronos7 = ques3.addPronostic("1", (double)2.2);//
-			pronos8 = ques3.addPronostic("X", (double)1.4);
-			pronos9 = ques3.addPronostic("2", (double)1.2);
-			pronos10 = ques4.addPronostic("Bai", (double)1.3);
-			pronos11 = ques4.addPronostic("Ez", (double)2.5);//
+			pronos1 = ques1.addPronostic("1", 1.2);
+			pronos2 = ques1.addPronostic("X", 1.5);//
+			pronos3 = ques1.addPronostic("2", 1.8);
+			pronos4 = ques2.addPronostic("1", 1.2);//
+			pronos5 = ques2.addPronostic("2", 1.6);
+			pronos6 = ques2.addPronostic("Golik ez", 1.8);
+			pronos7 = ques3.addPronostic("1", 2.2);//
+			pronos8 = ques3.addPronostic("X", 1.4);
+			pronos9 = ques3.addPronostic("2", 1.2);
+			pronos10 = ques4.addPronostic("Bai", 1.3);
+			pronos11 = ques4.addPronostic("Ez", 2.5);//
 		
-			pronos12 = q1.addPronostic("1", (double)1.2);
-			pronos13 = q1.addPronostic("X", (double)1.5);//
-			pronos14 = q1.addPronostic("2", (double)1.8);
-			pronos15 = q2.addPronostic("1", (double)1.2);//
-			pronos16 = q2.addPronostic("2", (double)1.6);
-			pronos17 = q2.addPronostic("Golik ez", (double)1.8);
-			pronos12 = q3.addPronostic("1", (double)1.2);
-			pronos13 = q3.addPronostic("X", (double)1.5);//
-			pronos14 = q3.addPronostic("2", (double)1.8);
-			pronos15 = q4.addPronostic("<2", (double)1.2);//
-			pronos16 = q4.addPronostic("3", (double)1.6);
-			pronos17 = q4.addPronostic(">3", (double)1.8);
+			q1.addPronostic("1", 1.2);
+			q1.addPronostic("X", 1.5);//
+			q1.addPronostic("2", 1.8);
+			q2.addPronostic("1", 1.2);//
+			q2.addPronostic("2", 1.6);
+			 q2.addPronostic("Golik ez", 1.8);
+			 
+			pronos12 = q3.addPronostic("1", 1.2);
+			pronos13 = q3.addPronostic("X", 1.5);//
+			pronos14 = q3.addPronostic("2", 1.8);
+			pronos15 = q4.addPronostic("<2",1.2);//
+			pronos16 = q4.addPronostic("3", 1.6);
+			pronos17 = q4.addPronostic(">3",1.8);
 			
 			
 			Errepikapena errepikapenBerria = b2.addErrepikatzailea(b5, 2, 10, 0.2);
@@ -466,7 +467,7 @@ public class DataAccess {
 
 		Question q = db.find(Question.class, question.getQuestionNumber());
 		
-		if(q.DoesPronosticExists(description))
+		if(q.doesPronosticExists(description))
 			throw new PronosticAlreadyExist();
 
 		db.getTransaction().begin();
@@ -613,7 +614,7 @@ public class DataAccess {
 						bezeroa.addMugimendua("Apustuaren dirua itzuli ("+bet.getIdentifikadorea()+")", bet.getKopurua(),"bueltatu");
 						bezeroa.removeApustua(bet);
 						db.remove(bet);
-					}else if(bet.getAsmatutakoKop()==bet.getPronostikoKop()) {
+					}else if(bet.getAsmatutakoKop().equals(bet.getPronostikoKop())) {
 						double komisioa = 0;
 						if (bet.getErrepikatua()!=null) {
 							Bezeroa bez = bet.getErrepikatua();

@@ -187,7 +187,7 @@ public class ApustuaEginGUI extends JFrame {
 				jLabelMsg.setText("");
 				pronosticAdded.setText("");
 				try {
-					double bet = Double.valueOf(textFieldBet.getText());
+					double bet = Double.parseDouble(textFieldBet.getText());
 					if(bet>bezeroa.getDirua()) {
 						jLabelMsg.setForeground(Color.RED);
 						jLabelMsg.setText(ResourceBundle.getBundle("Etiquetas").getString("NoMoney"));
@@ -195,7 +195,7 @@ public class ApustuaEginGUI extends JFrame {
 						double minBet = getMinBet();
 						if(bet<minBet) {
 							jLabelMsg.setForeground(Color.RED);
-							jLabelMsg.setText(ResourceBundle.getBundle("Etiquetas").getString("NotMinBet")+" "+minBet+"€");
+							jLabelMsg.setText(ResourceBundle.getBundle("Etiquetas").getString("NotMinBet")+" "+minBet+"ï¿½");
 						}else{
 							BLFacade facade = MainGUI.getBusinessLogic();
 							bezeroa=facade.apustuaEgin(pronostikoak,bet,bezeroa);
@@ -205,7 +205,7 @@ public class ApustuaEginGUI extends JFrame {
 							for(int i = 0; i<pronostikoak.size(); i++) {
 								tableModelApustua.removeRow(0);
 							}
-							pronostikoak.removeAll(pronostikoak);
+							pronostikoak.clear();
 							jButtonCreate.setEnabled(false);
 							TotalMinBet.setText("");
 							TotalFee.setText("");
@@ -302,7 +302,7 @@ public class ApustuaEginGUI extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				pronosticAdded.setText("");
 				tableModelApustua.removeRow(pronosI);
-				double kuotaZaharra = pronostikoak.get((int)pronosI).getKuota();
+				double kuotaZaharra = pronostikoak.get(pronosI).getKuota();
 				pronostikoak.remove((int)pronosI);
 				if(pronostikoak.isEmpty()) {
 					TotalMinBet.setText("");
@@ -460,15 +460,12 @@ public static void paintDaysWithEvents(JCalendar jCalendar,Vector<Date> datesWit
 		calendar.set(Calendar.DAY_OF_MONTH, 1);
 		int offset = calendar.get(Calendar.DAY_OF_WEEK);
 
-//		if (Locale.getDefault().equals(new Locale("es")))
-//			offset += 4;
-//		else
-			offset += 5;
+		offset += 5;
 		
 	 	for (Date d:datesWithEventsCurrentMonth){
 	 		calendar.setTime(d);
 	 		System.out.println(d);
-			Component o = (Component) jCalendar.getDayChooser().getDayPanel()
+			Component o = jCalendar.getDayChooser().getDayPanel()
 					.getComponent(calendar.get(Calendar.DAY_OF_MONTH) + offset);
 			o.setBackground(Color.CYAN);
 	 	}
@@ -486,7 +483,7 @@ public static void paintDaysWithEvents(JCalendar jCalendar,Vector<Date> datesWit
 	
 	public boolean hartutaDago(Question question) {
 		for(Pronostikoa p : pronostikoak) {
-			if(p.getQuestion().getQuestionNumber()==question.getQuestionNumber()) {
+			if(p.getQuestion().getQuestionNumber().equals(question.getQuestionNumber())) {
 				return true;
 			}
 		}

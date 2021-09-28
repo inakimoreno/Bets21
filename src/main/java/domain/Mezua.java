@@ -29,11 +29,11 @@ public abstract class Mezua implements Serializable{
 	private boolean irakurrita;
 	private Date data;
 	
-	public Mezua(){
+	protected Mezua(){
 		super();
 	}
 	
-	public Mezua (String mezua) {
+	protected Mezua (String mezua) {
 		data=new Date();
 		this.mezua=mezua;
 		irakurrita=false;

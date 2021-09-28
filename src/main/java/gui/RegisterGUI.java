@@ -313,7 +313,7 @@ public class RegisterGUI extends JFrame {
 	 */
 	public boolean check() {
 		boolean pasa = true;
-		Pattern pattern=Pattern.compile("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"+"[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$");
+		Pattern pattern=Pattern.compile("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+){0,3}@"+"[A-Za-z0-9]+(\\.[A-Za-z0-9]+){0,1}(\\.[A-Za-z]{2,})$");
 		Matcher mather=pattern.matcher(e_mail.getText());
 		if(mather.find()!=true) {
 			emailMezua.setText(ResourceBundle.getBundle("Etiquetas").getString("Invalid"));

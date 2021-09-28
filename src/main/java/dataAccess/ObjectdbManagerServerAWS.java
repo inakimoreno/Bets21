@@ -20,7 +20,7 @@ public class ObjectdbManagerServerAWS {
 		try{
 
 			System.out.println("Lauching objectdb server");
-		    try { // Se va a ejecutar en máquina Linux: usar "/"
+		    try { // Se va a ejecutar en mï¿½quina Linux: usar "/"
 		    	String st="java -cp resources/objectdb.jar com.objectdb.Server -port "+ c.getDatabasePort()+" start";
 		    	System.out.println(st);
 		    	Runtime.getRuntime().exec(st);
@@ -37,6 +37,7 @@ public class ObjectdbManagerServerAWS {
 		    	}
 			
 		} catch (Exception e) {
+			Thread.currentThread().interrupt();
 			System.out.println("Something has happened in ObjectdbManagerServer: "+e.toString());
 
 		}

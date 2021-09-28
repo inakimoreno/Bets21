@@ -105,7 +105,7 @@ public class Pronostikoa implements Serializable{
 		this.apustuak.remove(a);
 	}
 	
-	public boolean equals(Pronostikoa p) {
-		return p.deskripzioa.equals(this.deskripzioa) && p.question.getQuestionNumber()==question.getQuestionNumber();
+	public boolean pronostikoaEquals(Pronostikoa p) {
+		return p.deskripzioa.equals(this.deskripzioa) && p.question.getQuestionNumber().equals(question.getQuestionNumber());
 	}
 }

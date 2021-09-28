@@ -34,7 +34,7 @@ public class Apustua implements Serializable{
 	@XmlIDREF
 	private Bezeroa errepikatua;
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private ArrayList<Pronostikoa> pronostikoak=new ArrayList<Pronostikoa>();
+	private ArrayList<Pronostikoa> pronostikoak=new ArrayList<>();
 	private Integer pronostikoKop;
 	private Integer asmatutakoKop;
 	private double kuotaTotala;
@@ -134,7 +134,7 @@ public class Apustua implements Serializable{
 	public boolean eguneratuAsmatutakoKop() {
 		asmatutakoKop=asmatutakoKop+1;
 		System.out.println(asmatutakoKop+"=="+pronostikoKop);
-		return asmatutakoKop==pronostikoKop;
+		return asmatutakoKop.equals(pronostikoKop);
 	}
 
 	public Bezeroa getErrepikatua() {
@@ -145,8 +145,9 @@ public class Apustua implements Serializable{
 		this.errepikatua = errepikatua;
 	}
 	
-	public boolean equals(Apustua apus) {
-		if(this.pronostikoKop!=apus.getPronostikoKop()) {
+	public boolean apustuaEquals(Apustua apus) {
+
+		if(!this.pronostikoKop.equals(apus.getPronostikoKop())) {
 			return false;
 		}
 		for(Pronostikoa p : pronostikoak) {
