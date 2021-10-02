@@ -478,17 +478,20 @@ public class DataAccess {
 
 	}
 	
-	public void emaitzaIpini(Question question, Pronostikoa pronostikoa){
-		Pronostikoa p = db.find(Pronostikoa.class, pronostikoa.getIdentifikadorea());
+	public Vector<Double> emaitzaIpini(Question question, Pronostikoa pronostikoa){
+		Pronostikoa p = 
+				db.find(Pronostikoa.class, pronostikoa.getIdentifikadorea());
 		Question q = db.find(Question.class, question.getQuestionNumber());
 		db.getTransaction().begin();
 		q.setResult(pronostikoa.getDeskripzioa());
 		Vector<Apustua> apustuak = p.getApustuak();
 		Bezeroa bezeroa;
-		double irabazia;
+		double irabazia=0;
 		boolean irabazi;
 		double komisioa;
+		double apustuKop=0;
 		for(Apustua a : apustuak) {
+			apustuKop++;
 			irabazi=a.eguneratuAsmatutakoKop();
 			komisioa=0;
 			if(irabazi) {
@@ -496,15 +499,21 @@ public class DataAccess {
 					Bezeroa bez = a.getErrepikatua();
 					bezeroa = a.getBezeroa();
 					Errepikapena errepikapen=bezeroa.getErrepikapena(bez);
+					System.out.println(a.getKopurua()+" "+a.getKuotaTotala()+" "+a.getKopurua()+" "+errepikapen.getKomisioa());
 					komisioa=(a.getKopurua()*a.getKuotaTotala()-a.getKopurua())*errepikapen.getKomisioa();
+					System.out.println(komisioa);
 					bez.addMugimendua("Apustu errepikatuaren komisioa ("+bezeroa+")", komisioa,"irabazi");
 				}
 				bezeroa=a.getBezeroa();
 				irabazia=a.getKopurua()*a.getKuotaTotala()-komisioa;
 				bezeroa.addMugimendua("Apustua irabazi ("+a.getIdentifikadorea()+")", irabazia, "irabazi");
 			}
-		}	
+		}
 		db.getTransaction().commit();
+		Vector<Double> em = new Vector<Double>();
+		em.add(apustuKop);
+		em.add(irabazia);
+		return em;
 	}
 	
 	public Bezeroa apustuaEgin(ArrayList<Pronostikoa> pronostikoak, double a, Bezeroa bezero) {

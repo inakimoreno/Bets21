@@ -61,6 +61,10 @@ public class Errepikapena implements Serializable{
 		return komisioa;
 	}
 
+	public void setKomisioa(double komisioa) {
+		this.komisioa = komisioa;
+	}
+	
 	public void setIdentifikadorea(Integer identifikadorea) {
 		this.identifikadorea = identifikadorea;
 	}

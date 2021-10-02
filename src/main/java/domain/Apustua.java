@@ -132,7 +132,8 @@ public class Apustua implements Serializable{
 	}
 	
 	public boolean eguneratuAsmatutakoKop() {
-		asmatutakoKop=asmatutakoKop+1;
+		//asmatutakoKop=asmatutakoKop+1;
+		asmatutakoKop++;
 		System.out.println(asmatutakoKop+"=="+pronostikoKop);
 		return asmatutakoKop.equals(pronostikoKop);
 	}
