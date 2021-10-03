@@ -407,20 +407,26 @@ public class DataAccess {
 		}
 	}
 	
-	public Pertsona register(String izena, String abizena1, String abizena2, String erabiltzaileIzena, String pasahitza, String telefonoZbkia, String emaila, Date jaiotzeData, String mota) throws UserAlreadyExist{
-		TypedQuery<Pertsona> query = db.createQuery("SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1", Pertsona.class);
+	public Pertsona register(String izena, String abizena1, String abizena2, String erabiltzaileIzena, String pasahitza,
+			String telefonoZbkia, String emaila, Date jaiotzeData, String mota) throws UserAlreadyExist {
+
+		TypedQuery<Pertsona> query = db.createQuery("SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1",
+				Pertsona.class);
 		query.setParameter(1, erabiltzaileIzena);
 		List<Pertsona> pertsona = query.getResultList();
-		if(!pertsona.isEmpty()) {
+		if (!pertsona.isEmpty()) {
 			throw new UserAlreadyExist();
-		}else {
+		} else {
 			Pertsona berria = null;
-			if(mota.equals("admin")) {
-				berria = new Admin(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila, jaiotzeData);
-			}else if (mota.equals("langilea")) {
-				berria = new Langilea(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila, jaiotzeData);
-			}else if (mota.equals("bezeroa")) {
-				berria = new Bezeroa(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila, jaiotzeData);
+			if (mota.equals("admin")) {
+				berria = new Admin(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila,
+						jaiotzeData);
+			} else if (mota.equals("langilea")) {
+				berria = new Langilea(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila,
+						jaiotzeData);
+			} else {
+				berria = new Bezeroa(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila,
+						jaiotzeData);
 			}
 			db.getTransaction().begin();
 			db.persist(berria);

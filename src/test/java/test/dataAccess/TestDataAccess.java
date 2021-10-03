@@ -14,6 +14,7 @@ import domain.Apustua;
 import domain.Bezeroa;
 import domain.Errepikapena;
 import domain.Event;
+import domain.Pertsona;
 import domain.Pronostikoa;
 import domain.Question;
 
@@ -203,5 +204,34 @@ public class TestDataAccess {
 		db.getTransaction().begin();
 		db.persist(qu);
 		db.getTransaction().commit();
+	}
+	
+	public Pertsona addUser(Pertsona usr) {
+		System.out.println(">> DataAccessTest: addUser");
+		db.getTransaction().begin();
+		db.persist(usr);
+		db.getTransaction().commit();
+		return usr;
+	}
+	
+	public boolean removeUser(Pertsona user) {
+		System.out.println(">> DataAccessTest: removeEvent");
+		Pertsona usr = db.find(Pertsona.class, user.erabiltzaileIzena);
+		if (usr != null) {
+			db.getTransaction().begin();
+			db.remove(usr);
+			db.getTransaction().commit();
+			return true;
+		}
+		return false;
+	}
+	
+	public Pertsona getUser(Pertsona user) {
+		System.out.println(">> DataAccessTest: removeEvent");
+		Pertsona usr = db.find(Pertsona.class, user.erabiltzaileIzena);
+		if (usr != null) {
+			return usr;
+		}
+		return null;
 	}
 }
