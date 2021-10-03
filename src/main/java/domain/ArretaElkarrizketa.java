@@ -28,7 +28,7 @@ public class ArretaElkarrizketa implements Serializable{
 	@XmlID
 	@XmlJavaTypeAdapter(IntegerAdapter.class)
 	@GeneratedValue
-	private Integer identifikadorea;
+	private Integer identifikadorea = 1;
 	@OneToOne
 	private Bezeroa bezeroa;
 	@OneToOne
@@ -143,5 +143,10 @@ public class ArretaElkarrizketa implements Serializable{
 	
 	public void removeLangilearenMezua(ArretaMezua m) {
 		langileakBidalitakoak.remove(m);
+	}
+	
+	public void setId(Integer id) {
+		
+		identifikadorea = id;
 	}
 }

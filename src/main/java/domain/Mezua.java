@@ -24,7 +24,7 @@ public abstract class Mezua implements Serializable{
 	@XmlID
 	@XmlJavaTypeAdapter(IntegerAdapter.class)
 	@GeneratedValue
-	private Integer identifikadorea;
+	private Integer identifikadorea = 1;
 	private String mezua;
 	private boolean irakurrita;
 	private Date data;
@@ -61,5 +61,10 @@ public abstract class Mezua implements Serializable{
 	
 	public String toString() {
 		return data.toString();
+	}
+	
+	public void setId (Integer id){
+		
+		identifikadorea = id;
 	}
 }
