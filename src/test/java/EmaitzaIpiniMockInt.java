@@ -35,7 +35,8 @@ public class EmaitzaIpiniMockInt {
 	@Test
 	public void test2() {
 		try {
-			Mockito.doReturn(new Exception()).when(dataAccess.emaitzaIpini(null, null));
+			Mockito.doThrow(new Exception()).when(dataAccess).emaitzaIpini(null, null);
+			sut.emaitzaIpini(new Question(), new Pronostikoa());
 			fail();
 		}catch(Exception e) {
 			assertTrue(true);
@@ -45,7 +46,8 @@ public class EmaitzaIpiniMockInt {
 	@Test
 	public void test3() {
 		try {
-			Mockito.doReturn(new Exception()).when(dataAccess.emaitzaIpini(new Question(), new Pronostikoa()));
+			Mockito.doThrow(new Exception()).when(dataAccess).emaitzaIpini(new Question(), new Pronostikoa());
+			sut.emaitzaIpini(new Question(), new Pronostikoa());
 			fail();
 		}catch(Exception e) {
 			assertTrue(true);
