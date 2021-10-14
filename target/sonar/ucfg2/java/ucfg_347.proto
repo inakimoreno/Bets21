@@ -1,0 +1,91 @@
+
+nbusinessLogic.BLFacadeImplementation#createPronostic(Ldomain/Question;Ljava/lang/String;D)Ldomain/Pronostikoa;T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠ ≠(&"startingBlock*‹
+startingBlockT
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠& ≠([£
+†
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+questiondomain.Questionå
+â
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠0 ≠(8
+questiondomain.Question"__annotation*
+
+%6ß
+§
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¨ ¨(
+%7"
+__annotate*
+javax.jws.WebMethod*!
+
+descriptionjava.lang.Stringê
+ç
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠A ≠(L
+descriptionjava.lang.String"__annotation*
+
+%7*
+1*Í
+1T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ(µ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerµ≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)µ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÙÒ
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(F
+%3domain.Pronostikoa"_dataAccess.DataAccess#createPronostic(Ldomain/Question;Ljava/lang/String;D)Ldomain/Pronostikoa;*
+
+%2dataAccess.DataAccess*
+
+questiondomain.Question*!
+
+descriptionjava.lang.String*
+""25createPronostic(Ldomain/Question;Ljava/lang/String;D)î
+ë
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(G
+pdomain.Pronostikoa"__id*
+
+%3domain.Pronostikoaµ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager≠™
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"q
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
+
+pdomain.Pronostikoa:
+questiondomain.Question:
+descriptionjava.lang.String:
+""B(&
+$businessLogic.BLFacadeImplementation

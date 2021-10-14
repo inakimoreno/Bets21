@@ -1,0 +1,81 @@
+
+/domain.Apustua#apustuaEquals(Ldomain/Apustua;)Z>
+2/root/git/Bets21/src/main/java/domain/Apustua.java• •("7*Æ
+2>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaš š(i
+g
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaš š(
+pdomain.Pronostikoa"__id*
+""
+Š
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaš š(
+pdomain.Pronostikoa"
+__arrayGet*
+
+%3java.util.ArrayList*
+""*
+4
+1*
+3>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaœ œ("H
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaœ œ(
+""*³
+4>
+2/root/git/Bets21/src/main/java/domain/Apustua.java› ›(åâ
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.java› ›(
+%4boolean"5domain.Apustua#baduPronostikoa(Ldomain/Pronostikoa;)Z*
+
+apusdomain.Apustua*
+
+pdomain.Pronostikoa2%baduPronostikoa(Ldomain/Pronostikoa;)*
+2
+3*Õ
+5>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaš š("Š
+‡
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaš š("
+%3java.util.ArrayList"__id*$*"
+domain.Apustua"
+pronostikoak*
+2*
+6>
+2/root/git/Bets21/src/main/java/domain/Apustua.java˜
+ ˜("H
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.java˜ ˜(
+""*ð
+7>
+2/root/git/Bets21/src/main/java/domain/Apustua.java— —(
+‰
+†
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.java— —(
+%0java.lang.Integer"__id*%*#
+domain.Apustua"
+pronostikoKopÀ½
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.java—  —(7
+%1java.lang.Integer"4domain.Apustua#getPronostikoKop()Ljava/lang/Integer;*
+
+apusdomain.Apustua2getPronostikoKop()ÓÐ
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.java— —(8
+%2boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.Integer*
+
+%1java.lang.Integer2equals(Ljava/lang/Object;)*
+5
+6*
+1>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaŸ	 Ÿ("H
+>
+2/root/git/Bets21/src/main/java/domain/Apustua.javaŸ Ÿ(
+"":
+apusdomain.ApustuaB
+domain.Apustua

@@ -1,0 +1,72 @@
+
+\businessLogic.BLFacadeImplementation#getErrepikapenak(Ldomain/Bezeroa;)Ljava/util/ArrayList;T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþ) þ(9"startingBlock*›
+startingBlockT
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþ9 þ(J¡
+ž
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaý ý(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+bezeroadomain.BezeroaŠ
+‡
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþB þ(I
+bezeroadomain.Bezeroa"__annotation*
+
+%6*
+1*´
+1T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÿ ÿ(µ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÿ ÿ(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerµ²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÿ ÿ(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)µ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java€3 €(<
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager£ 
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java€3 €(V
+%3java.util.ArrayList"MdataAccess.DataAccess#getErrepikapenak(Ldomain/Bezeroa;)Ljava/util/ArrayList;*
+
+%2dataAccess.DataAccess*
+
+bezeroadomain.Bezeroa2"getErrepikapenak(Ldomain/Bezeroa;)¢
+Ÿ
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java€ €(W$
+errepikapenakjava.util.ArrayList"__id*
+
+%3java.util.ArrayListµ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager­ª
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"~
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java‚ ‚(&
+$
+errepikapenakjava.util.ArrayList:
+bezeroadomain.BezeroaB(&
+$businessLogic.BLFacadeImplementation

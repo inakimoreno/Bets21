@@ -1,0 +1,72 @@
+
+SbusinessLogic.BLFacadeImplementation#getQuestions(Ldomain/Event;)Ljava/util/Vector;T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java• •(%"startingBlock*ì
+startingBlockT
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java•% •(2ù
+ö
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java§ §(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+eventdomain.EventÜ
+É
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java•, •(1
+eventdomain.Event"__annotation*
+
+%6*
+1*ç
+1T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¶ ¶(µ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¶ ¶(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerµ≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¶ ¶(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)µ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaß ß('
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerçä
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaß ß(;
+%3java.util.Vector"DdataAccess.DataAccess#getQuestions(Ldomain/Event;)Ljava/util/Vector;*
+
+%2dataAccess.DataAccess*
+
+eventdomain.Event2getQuestions(Ldomain/Event;)ò
+ï
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaß ß(<
+	questionsjava.util.Vector"__id*
+
+%3java.util.Vectorµ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java® ®(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager≠™
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java® ®(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"w
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(
+
+	questionsjava.util.Vector:
+eventdomain.EventB(&
+$businessLogic.BLFacadeImplementation

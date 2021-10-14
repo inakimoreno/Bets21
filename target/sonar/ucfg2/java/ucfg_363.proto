@@ -1,0 +1,91 @@
+
+businessLogic.BLFacadeImplementation#arretaMezuaBidali(Ldomain/ArretaElkarrizketa;Ljava/lang/String;Z)Ldomain/ArretaElkarrizketa;T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª ª(,"startingBlock*ì
+startingBlockT
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª, ª(o±
+®
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(
+%6"
+__annotate*
+javax.jws.WebMethod*+
+)
+elkarrizketadomain.ArretaElkarrizketaš
+—
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª@ ª(L)
+elkarrizketadomain.ArretaElkarrizketa"__annotation*
+
+%6¡
+
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(
+%7"
+__annotate*
+javax.jws.WebMethod*
+
+mezuajava.lang.StringŠ
+‡
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaªU ª(Z
+mezuajava.lang.String"__annotation*
+
+%7*
+1*¹
+1T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(µ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerµ²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)µ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¬ ¬((
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¢Ÿ
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¬ ¬([
+%3domain.ArretaElkarrizketa"rdataAccess.DataAccess#arretaMezuaBidali(Ldomain/ArretaElkarrizketa;Ljava/lang/String;Z)Ldomain/ArretaElkarrizketa;*
+
+%2dataAccess.DataAccess*+
+)
+elkarrizketadomain.ArretaElkarrizketa*
+
+mezuajava.lang.String*
+""2AarretaMezuaBidali(Ldomain/ArretaElkarrizketa;Ljava/lang/String;Z)¨
+¥
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¬ ¬(\$
+emaitzadomain.ArretaElkarrizketa"__id*!
+
+%3domain.ArretaElkarrizketaµ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java­ ­(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager­ª
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java­ ­(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"~
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java® ®(&
+$
+emaitzadomain.ArretaElkarrizketa:)
+elkarrizketadomain.ArretaElkarrizketa:
+mezuajava.lang.String:
+""B(&
+$businessLogic.BLFacadeImplementation

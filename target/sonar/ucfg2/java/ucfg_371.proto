@@ -1,0 +1,52 @@
+
+EbusinessLogic.BLFacadeImplementation#getLangileak()Ljava/util/Vector;T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÊ Ê(%"1*Œ
+1T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÁ Á(µ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÁ Á(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerµ≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÁ Á(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)µ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaË Ë(#
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÿ’
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaË Ë(2
+%3java.util.Vector"6dataAccess.DataAccess#getLangileak()Ljava/util/Vector;*
+
+%2dataAccess.DataAccess2getLangileak()ì
+ê
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaË Ë(3
+listjava.util.Vector"__id*
+
+%3java.util.Vectorµ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÈ È(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager≠™
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÈ È(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"r
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÍ Í(
+
+listjava.util.VectorB(&
+$businessLogic.BLFacadeImplementation

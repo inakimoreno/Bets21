@@ -1,0 +1,406 @@
+
+YdataAccess.DataAccess#apustuaEgin(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Bezeroa;E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç("22*Œ
+14E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö(õ
+ò
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö(&
+%14javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbˆÛ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö(
+%15void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*(
+&
+%14javax.persistence.EntityManager*
+
+apusdomain.Apustua2persist(Ljava/lang/Object;)‘—
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ$ õ(F
+%16java.util.Vector"6domain.Bezeroa#getErrepikatzaileak()Ljava/util/Vector;* 
+
+erabiltzailedomain.Bezeroa2getErrepikatzaileak()ç
+ä
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(G 
+jarraitzailejava.util.Vector"__id*
+
+%16java.util.Vector*
+2*Î
+15E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaó ó(p
+n
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaó ó(
+pdomain.Pronostikoa"__id*
+""°
+û
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaó ó(
+pdomain.Pronostikoa"
+__arrayGet*(
+&
+pronostikoSortajava.util.ArrayList*
+""*
+14
+16*∞
+16E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò(‹Ÿ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò(
+%13void"0domain.Pronostikoa#addApustua(Ldomain/Apustua;)V*
+
+pdomain.Pronostikoa*
+
+apusdomain.Apustua2addApustua(Ldomain/Apustua;)*
+15*Ç	
+18E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(ö
+ó
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(%
+%9javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbàÖ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(*
+%10#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
+%
+%9javax.persistence.EntityManager2getTransaction()ºπ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(
+%11void",javax.persistence.EntityTransaction#begin()V*,
+*
+%10#javax.persistence.EntityTransaction2begin()ƒ¡
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(B
+%12domain.Apustua"Qdomain.Bezeroa#addApustua(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Apustua;* 
+
+erabiltzailedomain.Bezeroa*(
+&
+pronostikoSortajava.util.ArrayList*
+""*
+""22addApustua(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ä
+~
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(C
+apusdomain.Apustua"__id*
+
+%12domain.Apustua*
+15*Ë
+19E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(p
+n
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(
+pdomain.Pronostikoa"__id*
+""û
+õ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(
+pdomain.Pronostikoa"
+__arrayGet*%
+#
+pronostikoakjava.util.ArrayList*
+""*
+18
+20*ﬁ
+1E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaØ Ø(ª∏
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaØ Ø(;
+%34domain.Mugimendua"Vdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;)Ldomain/Mugimendua;* 
+
+erabiltzailedomain.Bezeroa*
+Apustua egin *
+""*
+
+jokatu24addMugimendua(Ljava/lang/String;DLjava/lang/String;)õ
+ò
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java∞ ∞(&
+%35javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbâÜ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java∞ ∞(*
+%36#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%35javax.persistence.EntityManager2getTransaction()æª
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java∞ ∞(
+%37void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%36#javax.persistence.EntityTransaction2commit()"i
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java± ±( 
+
+erabiltzailedomain.Bezeroa*Á
+2E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(r
+p
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(
+erdomain.Errepikapena"__id*
+""ù
+ö
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(
+erdomain.Errepikapena"
+__arrayGet*"
+ 
+jarraitzailejava.util.Vector*
+""*
+1
+12*˝
+3E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©(∏µ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©(
+%27domain.Bezeroa"-domain.Errepikapena#getNork()Ldomain/Bezeroa;*
+
+erdomain.Errepikapena2	getNork()Æ
+´
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java©  ©(H
+%28java.lang.String"__concat*
+Apustu errepikatua egin (* 
+
+erabiltzailedomain.Bezeroaè
+å
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java©  ©(L
+%29java.lang.String"__concat*
+
+%28java.lang.String*
+)∫∑
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©(d
+%30domain.Mugimendua"Vdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;)Ldomain/Mugimendua;*
+
+%27domain.Bezeroa*
+
+%29java.lang.String*
+""*
+
+jokatu24addMugimendua(Ljava/lang/String;DLjava/lang/String;)Ÿ÷
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(4
+%31void"7domain.Errepikapena#eguneratuHilHonetanGeratzenDena(D)V*
+
+erdomain.Errepikapena*
+""2"eguneratuHilHonetanGeratzenDena(D)õ
+ò
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´(&
+%32javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbˆÛ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´(
+%33void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*(
+&
+%32javax.persistence.EntityManager*
+
+apusdomain.Apustua2persist(Ljava/lang/Object;)*
+2*Ë
+4E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¶
+ ¶(p
+n
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¶
+ ¶(
+pdomain.Pronostikoa"__id*
+""°
+û
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¶
+ ¶(
+pdomain.Pronostikoa"
+__arrayGet*(
+&
+pronostikoSortajava.util.ArrayList*
+""*
+3
+5*∞
+5E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaß ß(ﬁ€
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaß ß(
+%26void"0domain.Pronostikoa#addApustua(Ldomain/Apustua;)V*
+
+pdomain.Pronostikoa*
+
+apustudomain.Apustua2addApustua(Ldomain/Apustua;)*
+4*Ë
+7E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(∏µ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java• •("
+%24domain.Bezeroa"-domain.Errepikapena#getNork()Ldomain/Bezeroa;*
+
+erdomain.Errepikapena2	getNork()’“
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(X
+%25domain.Apustua"Qdomain.Bezeroa#addApustua(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Apustua;*
+
+%24domain.Bezeroa*(
+&
+pronostikoSortajava.util.ArrayList*
+""* 
+
+erabiltzailedomain.Bezeroa22addApustua(Ljava/util/ArrayList;DLdomain/Bezeroa;)É
+Ä
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(Y
+apustudomain.Apustua"__id*
+
+%25domain.Apustua*
+4*™
+8E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §(
+∏µ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §(
+%22domain.Bezeroa"-domain.Errepikapena#getNork()Ldomain/Bezeroa;*
+
+erdomain.Errepikapena2	getNork()öó
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §(
+%23double"domain.Bezeroa#getDirua()D*
+
+%22domain.Bezeroa2
+getDirua()*
+2
+7*°
+9E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¢ ¢(œÃ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¢ ¢(3
+%21double"5domain.Errepikapena#getHilabeteHonetanGeratzenDena()D*
+
+erdomain.Errepikapena2 getHilabeteHonetanGeratzenDena()*
+8*ø
+20E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(ö
+ó
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(%
+%5javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db–Õ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaí' í(=
+%6java.lang.Integer":domain.Pronostikoa#getIdentifikadorea()Ljava/lang/Integer;*
+
+pdomain.Pronostikoa2getIdentifikadorea()∏µ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(>
+%7domain.Pronostikoa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%5javax.persistence.EntityManager*
+""*
+
+%6java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)ä
+á
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(>
+pronosdomain.Pronostikoa"__id*
+
+%7domain.Pronostikoa≥
+∞
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì(
+%8boolean"
+__arrayAdd*(
+&
+pronostikoSortajava.util.ArrayList*: *
+
+pronosdomain.Pronostikoa*
+19*à
+10E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(µ≤
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(&
+%20double"(domain.Errepikapena#getApustatukoDena()D*
+
+erdomain.Errepikapena2getApustatukoDena()*
+8*õ
+22E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(ö
+ó
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db–Õ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaé0 é(M
+%1java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
+
+bezerodomain.Bezeroa2getErabiltzaileIzena()≥∞
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(N
+%2domain.Bezeroa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)à
+Ö
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(O
+erabiltzailedomain.Bezeroa"__id*
+
+%2domain.Bezeroau
+s
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaè è(
+pronosdomain.Pronostikoa"__id*
+""yw
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaê/ ê(E
+%3java.util.ArrayList"java.util.ArrayListå
+â
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaê+ ê(G
+%4"java.util.ArrayList#<init>()V*
+
+%3java.util.ArrayListï
+í
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(H&
+pronostikoSortajava.util.ArrayList"__id*
+
+%3java.util.ArrayList*
+19*ﬁ
+11E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(
+œÃ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(+
+%18double"5domain.Errepikapena#getHilabeteHonetanGeratzenDena()D*
+
+erdomain.Errepikapena2 getHilabeteHonetanGeratzenDena()µ≤
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaü- ü(C
+%19double"(domain.Errepikapena#getApustatukoDena()D*
+
+erdomain.Errepikapena2getApustatukoDena()*
+9
+10*¶
+12E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(œÃ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaû û(*
+%17double"5domain.Errepikapena#getHilabeteHonetanGeratzenDena()D*
+
+erdomain.Errepikapena2 getHilabeteHonetanGeratzenDena()*
+2
+11:#
+pronostikoakjava.util.ArrayList:
+"":
+bezerodomain.BezeroaB
+dataAccess.DataAccess

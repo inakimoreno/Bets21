@@ -1,0 +1,72 @@
+
+UbusinessLogic.BLFacadeImplementation#getLangilea(Ljava/lang/String;)Ldomain/Langilea;T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaä ä("startingBlock*³
+startingBlockT
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaä ä(9­
+ª
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaã ã(
+%6"
+__annotate*
+javax.jws.WebMethod*'
+%
+ErabiltzaileIzenajava.lang.String–
+“
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaä' ä(8%
+ErabiltzaileIzenajava.lang.String"__annotation*
+
+%6*
+1*Ž
+1T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaå å(µ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaå å(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerµ²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaå å(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)µ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¡ž
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(:
+%3domain.Langilea"FdataAccess.DataAccess#getLangilea(Ljava/lang/String;)Ldomain/Langilea;*
+
+%2dataAccess.DataAccess*'
+%
+ErabiltzaileIzenajava.lang.String2getLangilea(Ljava/lang/String;)Ž
+‹
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(;
+ldomain.Langilea"__id*
+
+%3domain.Langileaµ
+²
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaç ç(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager­ª
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaç ç(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"n
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè è(
+
+ldomain.Langilea:%
+ErabiltzaileIzenajava.lang.StringB(&
+$businessLogic.BLFacadeImplementation

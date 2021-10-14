@@ -1,0 +1,72 @@
+
+TbusinessLogic.BLFacadeImplementation#deleteApustua(Ldomain/Apustua;)Ldomain/Bezeroa;T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≈ ≈( "startingBlock*è
+startingBlockT
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≈  ≈(+õ
+ò
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaƒ ƒ(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+adomain.ApustuaÑ
+Å
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≈) ≈(*
+adomain.Apustua"__annotation*
+
+%6*
+1*É
+1T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∆ ∆(µ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∆ ∆(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerµ≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∆ ∆(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)µ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «( 
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerçä
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(1
+%3domain.Bezeroa"EdataAccess.DataAccess#deleteApustua(Ldomain/Apustua;)Ldomain/Bezeroa;*
+
+%2dataAccess.DataAccess*
+
+adomain.Apustua2deleteApustua(Ldomain/Apustua;)í
+è
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(2
+bezeroadomain.Bezeroa"__id*
+
+%3domain.Bezeroaµ
+≤
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java» »(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager≠™
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java» »(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"s
+T
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java… …(
+
+bezeroadomain.Bezeroa:
+adomain.ApustuaB(&
+$businessLogic.BLFacadeImplementation

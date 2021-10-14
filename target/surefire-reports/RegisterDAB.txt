@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------
+Test set: RegisterDAB
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.039 sec <<< FAILURE! - in RegisterDAB
+test1(RegisterDAB)  Time elapsed: 0.002 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test2(RegisterDAB)  Time elapsed: 0.002 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test3(RegisterDAB)  Time elapsed: 0.003 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test4(RegisterDAB)  Time elapsed: 0.002 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test5(RegisterDAB)  Time elapsed: 0.002 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test14(RegisterDAB)  Time elapsed: 0.003 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test7(RegisterDAB)  Time elapsed: 0.003 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test8(RegisterDAB)  Time elapsed: 0.002 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test9(RegisterDAB)  Time elapsed: 0.004 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test10(RegisterDAB)  Time elapsed: 0.003 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test11(RegisterDAB)  Time elapsed: 0.003 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test12(RegisterDAB)  Time elapsed: 0.003 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test13(RegisterDAB)  Time elapsed: 0.004 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+
+test6(RegisterDAB)  Time elapsed: 0.003 sec  <<< ERROR!
+com.objectdb.o._RollbackException: Failed to commit transaction: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: javax.persistence.EntityExistsException: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+Caused by: com.objectdb.o.UserException: Attempt to reuse an existing primary key value (domain.Admin:'Admin')
+	at RegisterDAB.dbInit(RegisterDAB.java:34)
+

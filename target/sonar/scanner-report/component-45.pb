@@ -1,0 +1,1 @@
+- 2javaX9hr%src/main/java/domain/ArretaMezua.java

@@ -1,0 +1,1 @@
+I (2javaX:hr&src/test/java/EmaitzaIpiniMockInt.java

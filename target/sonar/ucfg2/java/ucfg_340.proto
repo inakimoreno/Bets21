@@ -1,0 +1,72 @@
+
+WbusinessLogic.BLFacadeImplementation#getEventsMonth(Ljava/util/Date;)Ljava/util/Vector;R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javas  s(."startingBlock*è
+startingBlockR
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javas. s(9ú
+ô
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javas s(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+datejava.util.DateÖ
+Ç
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javas4 s(8
+datejava.util.Date"__annotation*
+
+%6*
+1*¸
+1R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javat t(≥
+∞
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javat t(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager≥∞
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javat t(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)≥
+∞
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javau u(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerîë
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javau u(4
+%3java.util.Vector"HdataAccess.DataAccess#getEventsMonth(Ljava/util/Date;)Ljava/util/Vector;*
+
+%2dataAccess.DataAccess*
+
+datejava.util.Date2 getEventsMonth(Ljava/util/Date;)í
+è
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javau u(5
+datesjava.util.Vector"__id*
+
+%3java.util.Vector≥
+∞
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javav v(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager´®
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javav v(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"q
+R
+H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaw w(
+
+datesjava.util.Vector:
+datejava.util.DateB(&
+$businessLogic.BLFacadeImplementation

@@ -1,0 +1,129 @@
+
+0gui.MainGUI#getLblNewLabel()Ljavax/swing/JLabel;;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaç ç("3*é
+2;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaè# è(1ﬂ
+‹
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaè# è(H
+%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasıÚ
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaè# è(b
+%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%1java.util.ResourceBundle*
+SelectOption2getString(Ljava/lang/String;)mk
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaè è("
+%3javax.swing.JLabel"javax.swing.JLabel¨
+©
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaè è(c
+%4".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
+
+%3javax.swing.JLabel*
+
+%2java.lang.Stringâ
+Ü
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaè è(c%
+gui.MainGUI"
+jLabelSelectOption"__id*
+
+%3javax.swing.JLabelâ
+Ü
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaê ê(
+%5javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionX
+V
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaê1 ê(:	
+%6int"__id*
+""ca
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaê" ê(&
+%7java.awt.Font"java.awt.Font©
+¶
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaê ê(?
+%8"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%7java.awt.Font*
+
+Tahoma*
+	
+%6int*2À»
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaê ê(@
+
+%9void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*
+
+%5javax.swing.JLabel*
+
+%7java.awt.Font2setFont(Ljava/awt/Font;)ä
+á
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaë ë(
+%10javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptiond
+b
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaë$ ë(/
+%11java.awt.Color"__id*
+""›⁄
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaë ë(0
+%12void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
+
+%10javax.swing.JLabel*
+
+%11java.awt.Color2setForeground(Ljava/awt/Color;)ä
+á
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaí í(
+%13javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOptionY
+W
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaí- í(B
+
+%14int"__id*
+""¬ø
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaí í(C
+%15void"-javax.swing.JLabel#setHorizontalAlignment(I)V*
+
+%13javax.swing.JLabel*
+
+
+%14int2setHorizontalAlignment(I)*
+1*‘
+3;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaé é(â
+Ü
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaé é(
+%0javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption*
+2
+1*©
+1;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaî	 î(ä
+á
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaî	 î(
+%16javax.swing.JLabel"__id*'*%
+gui.MainGUI"
+jLabelSelectOption"Z
+;
+//root/git/Bets21/src/main/java/gui/MainGUI.javaî î(
+
+%16javax.swing.JLabelB
+gui.MainGUI

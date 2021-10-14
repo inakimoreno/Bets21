@@ -1,0 +1,106 @@
+
+~dataAccess.DataAccess#arretaElkarrizketaSortu(Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;)Ldomain/ArretaElkarrizketa;E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaô ô(2"1*ô
+1E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(š
+—
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÑÎ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ1 õ(O
+%1java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
+
+bezeroadomain.Bezeroa2getErabiltzaileIzena()³°
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(P
+%2domain.Bezeroa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)‰
+†
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(Q
+erabiltzaileadomain.Bezeroa"__id*
+
+%2domain.Bezeroaš
+—
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö(%
+%3javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db‡„
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö()
+%4#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
+%
+%3javax.persistence.EntityManager2getTransaction()º·
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö(
+
+%5void",javax.persistence.EntityTransaction#begin()V*+
+)
+%4#javax.persistence.EntityTransaction2begin()ž›
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java÷$ ÷(G
+%6domain.ArretaElkarrizketa"Mdomain.Bezeroa#addElkarrizketa(Ljava/lang/String;)Ldomain/ArretaElkarrizketa;*!
+
+erabiltzaileadomain.Bezeroa*
+
+gaiajava.lang.String2#addElkarrizketa(Ljava/lang/String;)ž
+›
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(H)
+elkarrizketadomain.ArretaElkarrizketa"__id*!
+
+%6domain.ArretaElkarrizketaÆÃ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaø ø($
+%7domain.ArretaMezua"]domain.ArretaElkarrizketa#addMezua(Ljava/lang/String;Ljava/lang/Boolean;)Ldomain/ArretaMezua;*+
+)
+elkarrizketadomain.ArretaElkarrizketa*
+
+mezuajava.lang.String*
+""2/addMezua(Ljava/lang/String;Ljava/lang/Boolean;)š
+—
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(%
+%8javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db‡„
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(
+
+%9void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*'
+%
+%8javax.persistence.EntityManager*+
+)
+elkarrizketadomain.ArretaElkarrizketa2persist(Ljava/lang/Object;)›
+˜
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(&
+%10javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db‰†
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(*
+%11#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%10javax.persistence.EntityManager2getTransaction()¾»
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(
+%12void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%11#javax.persistence.EntityTransaction2commit()"t
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaû û(+
+)
+elkarrizketadomain.ArretaElkarrizketa:
+bezeroadomain.Bezeroa:
+gaiajava.lang.String:
+mezuajava.lang.StringB
+dataAccess.DataAccess

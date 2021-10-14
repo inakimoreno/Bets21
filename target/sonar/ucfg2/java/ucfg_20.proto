@@ -1,0 +1,31 @@
+
+FdataAccess.DataAccess#getLangilea(Ljava/lang/String;)Ldomain/Langilea;E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”("1*¦
+1E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(š
+—
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÃÀ
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(D
+%1domain.Langilea"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*'
+%
+ErabiltzaileIzenajava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)Š
+‡
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(E
+erabiltzailedomain.Langilea"__id*
+
+%1domain.Langilea"j
+E
+9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java– –(!
+
+erabiltzailedomain.Langilea:%
+ErabiltzaileIzenajava.lang.StringB
+dataAccess.DataAccess

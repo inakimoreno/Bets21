@@ -1,0 +1,47 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-09-27 19:38:34 #1 store] 
+Database 'C:\Users\Iñaki Moreno\git\Bets21\src\main\resources\bets.temp' is opened by 23460@DESKTOP-UN6F2EK
+
+[2021-09-27 19:38:34 #2 store] 
+Configuration path: ?
+
+[2021-09-27 19:38:34 #3 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-09-27 19:38:34 #4 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-09-27 19:38:34 #5 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-09-27 19:38:34 #6 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-09-27 19:38:34 #7 type] 
+Type domain.Question is not enhanced.
+
+[2021-09-27 19:38:34 #8 type] 
+Type domain.ArretaElkarrizketa is not enhanced.
+
+[2021-09-27 19:38:34 #9 type] 
+Type domain.Errepikapena is not enhanced.
+
+[2021-09-27 19:38:34 #10 type] 
+Type domain.Mezua is not enhanced.
+
+[2021-09-27 19:38:34 #11 type] 
+Type domain.BezeroartekoMezua is not enhanced.
+
+[2021-09-27 19:38:34 #12 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2021-09-27 19:38:34 #13 type] 
+Type domain.Event is not enhanced.
+
+[2021-09-27 19:38:34 #14 type] 
+Type domain.ArretaMezua is not enhanced.
+
+[2021-09-27 19:38:34 #15 type] 
+Type domain.Langilea is not enhanced.
+
