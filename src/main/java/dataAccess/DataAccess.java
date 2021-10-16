@@ -545,15 +545,19 @@ public class DataAccess {
 			p.addApustua(apus);
 		}
 		db.persist(apus);
+		
+		errepApostuaEgin(pronostikoSorta, erabiltzaile, a, apus);
+		erabiltzaile.addMugimendua("Apustua egin ", -a, "jokatu");
+		db.getTransaction().commit();
+		return erabiltzaile;
+	}
+	
+	public void errepApostuaEgin(ArrayList<Pronostikoa> pronostikoSorta, Bezeroa erabiltzaile, double a, Apustua apus) {
 		Vector<Errepikapena> jarraitzaile=erabiltzaile.getErrepikatzaileak();
 		for(Errepikapena er: jarraitzaile) {
 			double apustudiru=0;
 			if (er.getHilabeteHonetanGeratzenDena()>0) {
-				if (er.getHilabeteHonetanGeratzenDena()>=er.getApustatukoDena()*a) {
-					apustudiru=er.getApustatukoDena()*a;
-				} else {
-					apustudiru=er.getHilabeteHonetanGeratzenDena();
-				}
+				apustudiru = Math.min(er.getHilabeteHonetanGeratzenDena(), er.getApustatukoDena()*a);
 				if (er.getNork().getDirua() >= apustudiru) {
 					Apustua apustu = er.getNork().addApustua(pronostikoSorta, apustudiru, erabiltzaile);
 					for (Pronostikoa p : pronostikoSorta) {
@@ -565,11 +569,7 @@ public class DataAccess {
 				}
 			}
 		}
-		erabiltzaile.addMugimendua("Apustua egin ", -a, "jokatu");
-		db.getTransaction().commit();
-		return erabiltzaile;
 	}
-	
 	public Bezeroa deleteApustua(Apustua apustua) throws EventFinished{
 		db.getTransaction().begin();
 		Apustua a=db.find(Apustua.class, apustua.getIdentifikadorea());

@@ -84,6 +84,11 @@ public class RegisterMockInt {
 			
 			Mockito.when(mockDA.register("Antxon null Garcia", "antxon18 12345678 admin",
 					"666666666 antxon@gmail.com", date)).thenThrow(UserAlreadyExist.class);
+		} catch (Exception e) {
+			fail();
+		}	
+		
+		try {
 			
 			Pertsona p = sut.register("Antxon null Garcia", "antxon18 12345678 admin",
 					"666666666 antxon@gmail.com", date);
