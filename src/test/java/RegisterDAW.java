@@ -21,8 +21,8 @@ public class RegisterDAW {
 	static TestDataAccess testDA = new TestDataAccess();
 	
 	private Date date = UtilDate.newDate(1990,10,10);
-	private Pertsona usr = new Admin("Antxon", "Urrutia", "Garcia", "antxon18", "12345678",
-			"666666666","antxon@gmail.com", date);
+	private Pertsona usr = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",
+			"666666666 antxon@gmail.com", date);
 
 	@Before
 	public void dbInit() {
@@ -30,7 +30,7 @@ public class RegisterDAW {
 			return;
 		}
 		testDA.open();
-		testDA.addUser(new Admin("Aitor", "Paredes", "Zatarain", "Admin", "aaaaaaaa", "666666666","Admindb.@gmail.com", date));
+		testDA.addUser(new Admin("Aitor Paredes Zatarain", "Admin aaaaaaaa", "666666666 Admindb.@gmail.com", date));
 		testDA.close();
 		setUpDone = true;
 	}
@@ -43,8 +43,8 @@ public class RegisterDAW {
 		testDA.addUser(usr);
 		testDA.close();
 		
-		sut.register("Antxon", "Urrutia", "Garcia", "antxon18", "12345678",
-				"666666666","antxon@gmail.com", date, "admin");
+		sut.register("Antxon Urrutia Garcia", "antxon18 12345678 admin",
+				"666666666 antxon@gmail.com", date);
 		fail();
 		} catch (UserAlreadyExist e) {
 			assertTrue(true);
@@ -59,12 +59,12 @@ public class RegisterDAW {
 	
 	@Test
 	public void test2() {
-		Pertsona newUser = new Admin("Antxon", "Urrutia", "Garcia", "antxon18", "12345678",
-				"666666666","antxon@gmail.com", date); 
+		Pertsona newUser = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",
+				"666666666 antxon@gmail.com", date); 
 		try {
 		
-		newUser = sut.register("Antxon", "Urrutia", "Garcia", "antxon18", "12345678",
-				"666666666","antxon@gmail.com", date, "admin");
+		newUser = sut.register("Antxon Urrutia Garcia", "antxon18 12345678 admin",
+				"666666666 antxon@gmail.com", date);
 		testDA.open();
 		Pertsona dbUser = testDA.getUser(newUser);
 		testDA.close();
@@ -82,13 +82,13 @@ public class RegisterDAW {
 	@Test
 	public void test3() {
 		
-		Pertsona newUser = new Admin("Antxon", "Urrutia", "Garcia", "antxon18", "12345678",
-				"666666666","antxon@gmail.com", date); 
+		Pertsona newUser = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",
+				"666666666 antxon@gmail.com", date); 
 		
 		try {
 		
-		newUser = sut.register("Antxon", "Urrutia", "Garcia", "antxon18", "12345678",
-				"666666666","antxon@gmail.com", date, "langilea");
+		newUser = sut.register("Antxon Urrutia Garcia", "antxon18 12345678 langilea",
+				"666666666 antxon@gmail.com", date);
 		testDA.open();
 		Pertsona dbUser = testDA.getUser(newUser);
 		testDA.close();
@@ -106,13 +106,13 @@ public class RegisterDAW {
 	@Test
 	public void test4() {
 		
-		Pertsona newUser = new Admin("Antxon", "Urrutia", "Garcia", "antxon18", "12345678",
-				"666666666","antxon@gmail.com", date); 
+		Pertsona newUser = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",
+				"666666666 antxon@gmail.com", date); 
 		
 		try {
 		
-		newUser = sut.register("Antxon", "Urrutia", "Garcia", "antxon18", "12345678",
-				"666666666","antxon@gmail.com", date, "bezeroa");
+		newUser = sut.register("Antxon Urrutia Garcia", "antxon18 12345678 bezeroa",
+				"666666666 antxon@gmail.com", date);
 		testDA.open();
 		Pertsona dbUser = testDA.getUser(newUser);
 		testDA.close();

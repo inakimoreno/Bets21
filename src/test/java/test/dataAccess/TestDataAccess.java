@@ -175,8 +175,8 @@ public class TestDataAccess {
 		db.getTransaction().begin();
 		try {
 			pron = new Pronostikoa();
-			Bezeroa bez = new Bezeroa("a", "", "", "", "", "", "", new Date());
-			Bezeroa noriBez = new Bezeroa("b", "", "", "", "", "", "", new Date());
+			Bezeroa bez = new Bezeroa("a null null", "null null", "null null", new Date());
+			Bezeroa noriBez = new Bezeroa("b null null", "null null", "null null", new Date());
 			Errepikapena err = new Errepikapena(bez, noriBez, 20, 20, 2);
 			bez.addErrepikatua(err);
 			ap = new Apustua();

@@ -21,6 +21,6 @@ public class Admin extends Pertsona implements Serializable{
 	}
 
 	public Admin(String pertsonaDatuak, String erabiltzailea,String kontaktua, Date jaiotzeData) {
-		super(pertsonaDatuak, jaiotzeData, erabiltzailea,kontaktua);
+		super(pertsonaDatuak, jaiotzeData, erabiltzailea, kontaktua);
 	}
 }

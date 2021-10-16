@@ -31,8 +31,8 @@ public class RemoveMezuaDAW {
 	public void test1() {
 
 			testDA.open();
-			Bezeroa bez1 = new Bezeroa("dsvddsv", "svsdxdfv", "fddsxv", "gdsdgsdg", "fsddfsd", "fsddf", "fdsdfs", new Date());
-			Bezeroa bez2 = new Bezeroa("dsvdddsv", "svsddxdfv", "fdddsxv", "gdsddgsdg", "fsdddfsd", "fsdddf", "fdsddfs", new Date());
+			Bezeroa bez1 = new Bezeroa("dsvddsv svsdxdfv fddsxv", "gdsdgsdg fsddfsd", "fsddf fdsdfs", new Date());
+			Bezeroa bez2 = new Bezeroa("dsvdddsv svsddxdfv fdddsxv", "gdsddgsdg fsdddfsd", "fsdddf fdsddfs", new Date());
 			BezeroartekoMezua bezm = new BezeroartekoMezua("fsdgds", "vsdvsdv", "vsdvsd", 3.5, 4.3, 6.7, bez1, bez2);
 			testDA.addBezeroartekoMezua(bezm);
 			Integer id = bezm.getIdentifikadorea();
@@ -54,7 +54,7 @@ public class RemoveMezuaDAW {
 	public void test2() {
 
 			testDA.open();
-			Bezeroa bez = new Bezeroa("dsvdsv", "svsdxfv", "fdsxv", "gsdgsdg", "fsdfsd", "fsdf", "fdsfs", new Date());
+			Bezeroa bez = new Bezeroa("dsvdsv svsdxfv fdsxv", "gsdgsdg fsdfsd", "fsdf fdsfs", new Date());
 			ArretaElkarrizketa ael = new ArretaElkarrizketa(bez, "Gaia");
 			ael.setId(1);
 			ael.setAmaituta(false);
@@ -83,7 +83,7 @@ public class RemoveMezuaDAW {
 	public void test3() {
 
 			testDA.open();
-			Bezeroa bez = new Bezeroa("dsvddsv", "svsddxfv", "fdsxdv", "gsdgdsdg", "fsdfdsd", "fsddf", "fddsfs", new Date());
+			Bezeroa bez = new Bezeroa("dsvddsv svsddxfv fdsxdv", "gsdgdsdg fsdfdsd", "fsddf fddsfs", new Date());
 			ArretaElkarrizketa ael = new ArretaElkarrizketa(bez, "Gaia");
 			ael.setId(2);
 			ael.setAmaituta(true);
@@ -114,8 +114,8 @@ public class RemoveMezuaDAW {
 	public void test4() {
 
 			testDA.open();
-			Bezeroa bez1 = new Bezeroa("dsvdddsv", "svdsddxfv", "fdsxddv", "gsdgddsdg", "fsddfdsd", "fsdddf", "fdddsfs", new Date());
-			Bezeroa bez2 = new Bezeroa("dsvddddsv", "svddsddxfv", "fdsxdddv", "gsdgdddsdg", "fsddfddsd", "fsddddf", "fddddsfs", new Date());
+			Bezeroa bez1 = new Bezeroa("dsvdddsv svdsddxfv fdsxddv", "gsdgddsdg fsddfdsd", "fsdddf fdddsfs", new Date());
+			Bezeroa bez2 = new Bezeroa("dsvddddsv svddsddxfv fdsxdddv", "gsdgdddsdg fsddfddsd", "fsddddf fddddsfs", new Date());
 			ArretaElkarrizketa ael1 = new ArretaElkarrizketa(bez1, "Gaia1");
 			ael1.setId(3);
 			ArretaElkarrizketa ael2 = new ArretaElkarrizketa(bez2, "Gaia2");

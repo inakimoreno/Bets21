@@ -21,8 +21,8 @@ public class RemoveMezuaDAB {
 	@Test
 	public void test1() {
 		try {
-			Bezeroa bez1 = new Bezeroa("dsvddsv", "svsdxdfv", "fddsxv", "gdsdgsdg", "fsddfsd", "fsddf", "fdsdfs", new Date());
-			Bezeroa bez2 = new Bezeroa("dsvdddsv", "svsddxdfv", "fdddsxv", "gdsddgsdg", "fsdddfsd", "fsdddf", "fdsddfs", new Date());
+			Bezeroa bez1 = new Bezeroa("dsvddsv svsdxdfv fddsxv", "gdsdgsdg fsddfsd", "fsddf fdsdfs", new Date());
+			Bezeroa bez2 = new Bezeroa("dsvdddsv svsddxdfv fdddsxv", "gdsddgsdg fsdddfsd", "fsdddf fdsddfs", new Date());
 			BezeroartekoMezua bezm = new BezeroartekoMezua("Proba mezua", "vsdvsdv", "vsdvsd", 3.5, 4.3, 6.7, bez1, bez2);
 			Integer id = bezm.getIdentifikadorea();
 
@@ -42,7 +42,7 @@ public class RemoveMezuaDAB {
 	@Test
 	public void test2() {
 		try {
-			Bezeroa bez = new Bezeroa("dsvdsv", "svsdxfv", "fdsxv", "gsdgsdg", "fsdfsd", "fsdf", "fdsfs", new Date());
+			Bezeroa bez = new Bezeroa("dsvdsv svsdxfv fdsxv", "gsdgsdg fsdfsd", "fsdf fdsfs", new Date());
 			ArretaElkarrizketa ael = new ArretaElkarrizketa(bez, "Gaia");
 			ArretaMezua am = new ArretaMezua("Proba", ael);
 			Integer id = am.getIdentifikadorea();

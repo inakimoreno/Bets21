@@ -282,12 +282,6 @@ public class RegisterGUI extends JFrame {
 					String erabiltzailea = userName.getText() + " " + new String(pas_1.getPassword()) + " bezeroa";
 					String kontaktua = e_mail.getText() + " " + phoneNumber.getText();
 					Date jaiotzeData = UtilDate.newDate(Integer.valueOf(year.getText()),hilabeteak.getIndexOf(hilabeteak.getSelectedItem()),Integer.valueOf(day.getText()));
-					/*String abizena1=abizena_1.getText();
-					String abizena2=abizena_2.getText();
-					String erabiltzaileIzena=userName.getText();
-					String pasahitza = new String(pas_1.getPassword());
-					String emaila = e_mail.getText();
-					String telefonoa = phoneNumber.getText();*/
 					BLFacade facade = MainGUI.getBusinessLogic();
 					try {
 						Pertsona pertsona = facade.register(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);
