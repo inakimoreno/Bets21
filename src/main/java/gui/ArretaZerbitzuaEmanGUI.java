@@ -193,18 +193,7 @@ public class ArretaZerbitzuaEmanGUI extends JFrame {
 					aldatuTamaina(630,327);
 					back.setBounds(10, 257, 89, 23);
 				}else {
-					tableMezua.setVisible(false);
-					scrollPaneMezuak.setVisible(false);
-					send.setVisible(false);
-					send.setEnabled(false);
-					erantzun.setVisible(false);
-					erantzun.setEnabled(false);
-					mezuraItzuli.setVisible(false);
-					mezuraItzuli.setEnabled(false);
-					textArea.setVisible(false);
-					gaia.setText("");
-					aldatuTamaina(630,108);
-					back.setBounds(10, 15, 89, 23);
+					setPaneElkarrizketan();
 					bukatu.setVisible(false);
 					bukatu.setEnabled(false);
 					stop.setVisible(false);
@@ -361,24 +350,15 @@ public class ArretaZerbitzuaEmanGUI extends JFrame {
 		aurrekoa.setVisible(true);
 	}
 	
+
+	
 	private void eguneratuElkarrizketak() {
 		elkarrizketak.removeAllElements();
 		BLFacade facade=MainGUI.getBusinessLogic();
 		langilea = facade.getLangilea(langilea.getErabiltzaileIzena());
 		Vector<ArretaElkarrizketa> elkarrizketaZerrenda = langilea.getArretaElkarrizketak();
 		if(elkarrizketaZerrenda.isEmpty()) {
-			tableMezua.setVisible(false);
-			scrollPaneMezuak.setVisible(false);
-			send.setVisible(false);
-			send.setEnabled(false);
-			erantzun.setVisible(false);
-			erantzun.setEnabled(false);
-			mezuraItzuli.setVisible(false);
-			mezuraItzuli.setEnabled(false);
-			textArea.setVisible(false);
-			gaia.setText("");
-			aldatuTamaina(630,108);
-			back.setBounds(10, 15, 89, 23);
+			setPaneElkarrizketan();
 			choose.setVisible(false);
 			elkarrizketakConbo.setVisible(false);	
 			choose.setText(ResourceBundle.getBundle("Etiquetas").getString("NoCustomerAssigned"));
@@ -390,6 +370,21 @@ public class ArretaZerbitzuaEmanGUI extends JFrame {
 		for(ArretaElkarrizketa ae : elkarrizketaZerrenda) {
 			elkarrizketak.addElement(ae);
 		}
+	}
+	
+	public void setPaneElkarrizketan() {
+		tableMezua.setVisible(false);
+		scrollPaneMezuak.setVisible(false);
+		send.setVisible(false);
+		send.setEnabled(false);
+		erantzun.setVisible(false);
+		erantzun.setEnabled(false);
+		mezuraItzuli.setVisible(false);
+		mezuraItzuli.setEnabled(false);
+		textArea.setVisible(false);
+		gaia.setText("");
+		aldatuTamaina(630,108);
+		back.setBounds(10, 15, 89, 23);
 	}
 	
 	private void eguneratuMezuak() {

@@ -149,7 +149,6 @@ public class DataAccess {
 			Bezeroa b5 = new Bezeroa("Saioa Goikoetxea Ugarte", "Saioo99 b", "123456789 Saioo99@gmail.com",UtilDate.newDate(2001,8,9));
 			
 			
-			
 			Event event1 = new Event(21,"Eibar-Celta", UtilDate.newDate(2021, 2, 17));
 			Event event2 = new Event(22,"Granada-Athletic", UtilDate.newDate(2021, 2, 17));
 			
@@ -279,6 +278,7 @@ public class DataAccess {
 			db.persist(pronos17);
 
 			db.getTransaction().commit();
+			arretaElkarrizketaSortu(b3, "Proba", "Proba elakrrizketa");
 			System.out.println("Db initialized");
 		} catch (Exception e) {
 			e.printStackTrace();
