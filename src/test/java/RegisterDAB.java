@@ -25,7 +25,7 @@ public class RegisterDAB {
 	private Pertsona usr = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",
 			"666666666 antxon@gmail.com", date);
 	
-	@Before
+	/*@Before
 	public void dbInit() {
 		if (setUpDone == true) {
 			return;
@@ -35,7 +35,7 @@ public class RegisterDAB {
 		testDA.close();
 		setUpDone = true;
 	}
-	
+	*/
 	@Test
 	public void test1() {
 		
