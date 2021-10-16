@@ -491,35 +491,45 @@ public class DataAccess {
 		db.getTransaction().begin();
 		q.setResult(pronostikoa.getDeskripzioa());
 		Vector<Apustua> apustuak = p.getApustuak();
+		Vector<Double> em = eguneratuApustuak(apustuak);
+		db.getTransaction().commit();
+		return em;
+	}
+
+	private Vector<Double> eguneratuApustuak(Vector<Apustua> apustuak) {
 		Bezeroa bezeroa;
-		double irabazia=0;
+		double komisioa,apustuKop=0,irabazia=0;
 		boolean irabazi;
-		double komisioa;
-		double apustuKop=0;
 		for(Apustua a : apustuak) {
 			apustuKop++;
 			irabazi=a.eguneratuAsmatutakoKop();
 			komisioa=0;
 			if(irabazi) {
-				if (a.getErrepikatua()!=null) {
-					Bezeroa bez = a.getErrepikatua();
-					bezeroa = a.getBezeroa();
-					Errepikapena errepikapen=bezeroa.getErrepikapena(bez);
-					System.out.println(a.getKopurua()+" "+a.getKuotaTotala()+" "+a.getKopurua()+" "+errepikapen.getKomisioa());
-					komisioa=(a.getKopurua()*a.getKuotaTotala()-a.getKopurua())*errepikapen.getKomisioa();
-					System.out.println(komisioa);
-					bez.addMugimendua("Apustu errepikatuaren komisioa ("+bezeroa+")", komisioa,"irabazi");
-				}
-				bezeroa=a.getBezeroa();
-				irabazia=a.getKopurua()*a.getKuotaTotala()-komisioa;
-				bezeroa.addMugimendua("Apustua irabazi ("+a.getIdentifikadorea()+")", irabazia, "irabazi");
+				irabazia = apustuaIrabazi(komisioa, a);
 			}
 		}
-		db.getTransaction().commit();
 		Vector<Double> em = new Vector<Double>();
 		em.add(apustuKop);
 		em.add(irabazia);
 		return em;
+	}
+
+	private double apustuaIrabazi(double komisioa, Apustua a) {
+		Bezeroa bezeroa;
+		double irabazia;
+		if (a.getErrepikatua()!=null) {
+			Bezeroa bez = a.getErrepikatua();
+			bezeroa = a.getBezeroa();
+			Errepikapena errepikapen=bezeroa.getErrepikapena(bez);
+			System.out.println(a.getKopurua()+" "+a.getKuotaTotala()+" "+a.getKopurua()+" "+errepikapen.getKomisioa());
+			komisioa=(a.getKopurua()*a.getKuotaTotala()-a.getKopurua())*errepikapen.getKomisioa();
+			System.out.println(komisioa);
+			bez.addMugimendua("Apustu errepikatuaren komisioa ("+bezeroa+")", komisioa,"irabazi");
+		}
+		bezeroa=a.getBezeroa();
+		irabazia=a.getKopurua()*a.getKuotaTotala()-komisioa;
+		bezeroa.addMugimendua("Apustua irabazi ("+a.getIdentifikadorea()+")", irabazia, "irabazi");
+		return irabazia;
 	}
 	
 	public Bezeroa apustuaEgin(ArrayList<Pronostikoa> pronostikoak, double a, Bezeroa bezero) {
