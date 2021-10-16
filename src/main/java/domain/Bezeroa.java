@@ -64,8 +64,8 @@ public class Bezeroa extends Pertsona implements Serializable{
 		this.mugimenduak = mugimenduak;
 	}
 
-	public Bezeroa(String izena, String abizena1, String abizena2, String erabiltzaileIzena, String pasahitza, String telefonoZbkia, String email, Date jaiotzeData) {
-		super(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, email, jaiotzeData);
+	public Bezeroa(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) {
+		super(pertsonaDatuak, jaiotzeData, erabiltzailea,kontaktua);
 		this.dirua=0;
 		jokatuak=0;
 		irabaziak=0;

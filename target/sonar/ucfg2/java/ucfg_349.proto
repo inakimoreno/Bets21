@@ -1,104 +1,0 @@
-
-hbusinessLogic.BLFacadeImplementation#apustuaEgin(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Bezeroa;T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaº º("startingBlock*ﬁ
-startingBlockT
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaº º(]´
-®
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª ª(
-%8"
-__annotate*
-javax.jws.WebMethod*%
-#
-pronostikoakjava.util.ArrayListî
-ë
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaº6 º(B#
-pronostikoakjava.util.ArrayList"__annotation*
-
-%8†
-ù
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª ª(
-%9"
-__annotate*
-javax.jws.WebMethod*
-
-bezerodomain.Bezeroaâ
-Ü
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaºV º(\
-bezerodomain.Bezeroa"__annotation*
-
-%9*
-1*”
-1T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩ Ω(µ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩ Ω(
-%0dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerµ≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩ Ω(
-
-%1void"dataAccess.DataAccess#open(Z)V*
-
-%0dataAccess.DataAccess*
-""2open(Z)Å
-
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(
-%2java.io.PrintStream"__id*
-""ÌÍ
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(
-
-%3void"0java.io.PrintStream#println(Ljava/lang/Object;)V*
-
-%2java.io.PrintStream*
-
-bezerodomain.Bezeroa2println(Ljava/lang/Object;)µ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaø ø( 
-%4dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerÈÊ
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaø ø(C
-%5domain.Bezeroa"YdataAccess.DataAccess#apustuaEgin(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Bezeroa;*
-
-%4dataAccess.DataAccess*%
-#
-pronostikoakjava.util.ArrayList*
-""*
-
-bezerodomain.Bezeroa23apustuaEgin(Ljava/util/ArrayList;DLdomain/Bezeroa;)í
-è
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaø ø(D
-bezeroadomain.Bezeroa"__id*
-
-%5domain.Bezeroaµ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¿ ¿(
-%6dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager≠™
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¿ ¿(
-
-%7void"dataAccess.DataAccess#close()V*
-
-%6dataAccess.DataAccess2close()"s
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¡ ¡(
-
-bezeroadomain.Bezeroa:#
-pronostikoakjava.util.ArrayList:
-"":
-bezerodomain.BezeroaB(&
-$businessLogic.BLFacadeImplementation

@@ -18,6 +18,7 @@ import javax.swing.JPasswordField;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.ResourceBundle;
 import java.util.regex.Matcher;
@@ -276,16 +277,20 @@ public class RegisterGUI extends JFrame {
 				date_Mezua2.setText("");
 				boolean pasa = check();		
 				if(pasa) {
-					String izena= name.getText();
-					String abizena1=abizena_1.getText();
+					String pertsonaDatuak= name.getText() + " " + abizena_1.getText() + " " + abizena_2.getText() ;
+					System.out.println(pertsonaDatuak);
+					String erabiltzailea = userName.getText() + " " + new String(pas_1.getPassword()) + " bezeroa";
+					String kontaktua = e_mail.getText() + " " + phoneNumber.getText();
+					Date jaiotzeData = UtilDate.newDate(Integer.valueOf(year.getText()),hilabeteak.getIndexOf(hilabeteak.getSelectedItem()),Integer.valueOf(day.getText()));
+					/*String abizena1=abizena_1.getText();
 					String abizena2=abizena_2.getText();
 					String erabiltzaileIzena=userName.getText();
 					String pasahitza = new String(pas_1.getPassword());
 					String emaila = e_mail.getText();
-					String telefonoa = phoneNumber.getText();
+					String telefonoa = phoneNumber.getText();*/
 					BLFacade facade = MainGUI.getBusinessLogic();
 					try {
-						Pertsona pertsona = facade.register(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoa, emaila, UtilDate.newDate(Integer.valueOf(year.getText()),hilabeteak.getIndexOf(hilabeteak.getSelectedItem()),Integer.valueOf(day.getText())), "bezeroa");
+						Pertsona pertsona = facade.register(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);
 						loginBezeroa((Bezeroa)pertsona);
 					}catch (UserAlreadyExist e) {
 						usernameMezua.setText(ResourceBundle.getBundle("Etiquetas").getString("AlredyUsed"));

@@ -1,72 +1,0 @@
-
-abusinessLogic.BLFacadeImplementation#bezeroaEsleitu(Ldomain/Langilea;)Ldomain/ArretaElkarrizketa;T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java² ²()"startingBlock*Ÿ
-startingBlockT
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java²) ²(<£
- 
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
-%6"
-__annotate*
-javax.jws.WebMethod*
-
-langileadomain.LangileaŒ
-‰
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java²3 ²(;
-langileadomain.Langilea"__annotation*
-
-%6*
-1*Ñ
-1T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java³ ³(µ
-²
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java³ ³(
-%0dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerµ²
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java³ ³(
-
-%1void"dataAccess.DataAccess#open(Z)V*
-
-%0dataAccess.DataAccess*
-""2open(Z)µ
-²
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java´$ ´(-
-%2dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager¯¬
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java´$ ´(F
-%3domain.ArretaElkarrizketa"RdataAccess.DataAccess#bezeroaEsleitu(Ldomain/Langilea;)Ldomain/ArretaElkarrizketa;*
-
-%2dataAccess.DataAccess*
-
-langileadomain.Langilea2!bezeroaEsleitu(Ldomain/Langilea;)­
-ª
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java´ ´(G)
-elkarrizketadomain.ArretaElkarrizketa"__id*!
-
-%3domain.ArretaElkarrizketaµ
-²
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaµ µ(
-%4dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager­ª
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaµ µ(
-
-%5void"dataAccess.DataAccess#close()V*
-
-%4dataAccess.DataAccess2close()"ƒ
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¶ ¶(+
-)
-elkarrizketadomain.ArretaElkarrizketa:
-langileadomain.LangileaB(&
-$businessLogic.BLFacadeImplementation

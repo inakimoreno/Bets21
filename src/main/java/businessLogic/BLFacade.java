@@ -96,7 +96,7 @@ public interface BLFacade {
 	 * @return
 	 * @throws UserAlreadyExist
 	 */
-	@WebMethod public Pertsona register(String izena, String abizena1, String abizena2, String erabiltzaileIzena, String pasahitza, String telefonoa, String emaila, Date jaiotzeData, String mota) throws UserAlreadyExist;
+	@WebMethod public Pertsona register(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) throws UserAlreadyExist;
 	
 	/**
 	 * Metodo honek description eta eventDate dituen gertaerarik ez badago datu basean, sortu eta gehitu egiten du

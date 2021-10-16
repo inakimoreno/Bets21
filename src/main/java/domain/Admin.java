@@ -20,7 +20,7 @@ public class Admin extends Pertsona implements Serializable{
 		super();
 	}
 
-	public Admin(String izena, String abizena1, String abizena2, String erabiltzaileIzena, String pasahitza, String telefonoZbkia, String email, Date jaiotzeData) {
-		super(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, email, jaiotzeData);
+	public Admin(String pertsonaDatuak, String erabiltzailea,String kontaktua, Date jaiotzeData) {
+		super(pertsonaDatuak, jaiotzeData, erabiltzailea,kontaktua);
 	}
 }

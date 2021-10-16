@@ -1,76 +1,0 @@
-
-[businessLogic.BLFacadeImplementation#eguneratuEzarpenak(Ldomain/Bezeroa;DZ)Ldomain/Bezeroa;T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaì ì(%"startingBlock*è
-startingBlockT
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaì% ì(Rõ
-ò
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí í(
-%6"
-__annotate*
-javax.jws.WebMethod*
-
-bdomain.BezeroaÑ
-Å
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaì. ì(/
-bdomain.Bezeroa"__annotation*
-
-%6*
-1*ü
-1T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaî î(µ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaî î(
-%0dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerµ≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaî î(
-
-%1void"dataAccess.DataAccess#open(Z)V*
-
-%0dataAccess.DataAccess*
-""2open(Z)µ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaï ï(
-%2dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager´®
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaï ï(G
-%3domain.Bezeroa"LdataAccess.DataAccess#eguneratuEzarpenak(Ldomain/Bezeroa;DZ)Ldomain/Bezeroa;*
-
-%2dataAccess.DataAccess*
-
-bdomain.Bezeroa*
-""*
-""2&eguneratuEzarpenak(Ldomain/Bezeroa;DZ)ë
-é
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaï ï(H
-berriadomain.Bezeroa"__id*
-
-%3domain.Bezeroaµ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javañ ñ(
-%4dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager≠™
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javañ ñ(
-
-%5void"dataAccess.DataAccess#close()V*
-
-%4dataAccess.DataAccess2close()"r
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaó ó(
-
-berriadomain.Bezeroa:
-bdomain.Bezeroa:
-"":
-""B(&
-$businessLogic.BLFacadeImplementation

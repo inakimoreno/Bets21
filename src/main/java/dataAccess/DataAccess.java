@@ -136,17 +136,17 @@ public class DataAccess {
 				q6 = ev17.addQuestion("Golak sartuko dira lehenengo zatian?", 2);
 			}
 
-			Admin a1 = new Admin("Aitor", "Paredes", "Zatarain", "Admin", "aaaaaaaa", "666666666","Admindb.@gmail.com", UtilDate.newDate(2001,2,12));
+			Admin a1 = new Admin("Aitor Paredes Zatarain", "Admin aaaaaaaa", "666666666 Admindb.@gmail.com", UtilDate.newDate(2001,2,12));
 			
-			Langilea l1 = new Langilea("Zdravko", "Todorov", "Petkov", "zdra", "aaaaaaaa", "987654321", "zdra@gmail.com", UtilDate.newDate(2001,7,23));
-			Langilea l2 = new Langilea("I�aki", "Moreno", "Artabe", "inakimoreno", "aaaaaaaa", "384625395","inakimoreno@gmail.com", UtilDate.newDate(2001,7,23));
+			Langilea l1 = new Langilea("Zdravko Todorov Petkov", "zdra aaaaaaaa", "987654321 zdra@gmail.com", UtilDate.newDate(2001,7,23));
+			Langilea l2 = new Langilea("I�aki Moreno Artabe", "inakimoreno aaaaaaaa", "384625395 inakimoreno@gmail.com", UtilDate.newDate(2001,7,23));
 			
-			Bezeroa b1 = new Bezeroa("pepe", "popo", "pupu", "pepopu12301", "aaaaaaaa", "123456789", "pepopu12301@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b2 = new Bezeroa("Koldo", "Beitialarrangoitia", "Munez", "kobemu", "aaaaaaaa", "123456789", "kobemu@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b1 = new Bezeroa("pepe popo pupu", "pepopu12301 aaaaaaaa", "123456789 pepopu12301@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b2 = new Bezeroa("Koldo Beitialarrangoitia Munez", "kobemu aaaaaaaa", "123456789 kobemu@gmail.com",UtilDate.newDate(2001,8,9));
 			b2.setPublikoa(false);
-			Bezeroa b3 = new Bezeroa("Jose", "Miguel", "Perez", "JoseMi", "aaaaaaaa", "123456789", "JoseMiguel@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b4 = new Bezeroa("Antxon", "Urrutia", "Garcia", "antxon", "aaaaaaaa", "123456789", "antxon@gmail.com",UtilDate.newDate(2001,8,9));
-			Bezeroa b5 = new Bezeroa("Saioa", "Goikoetxea", "Ugarte", "Saioo99", "b", "123456789", "Saioo99@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b3 = new Bezeroa("Jose Miguel Perez", "JoseMi aaaaaaaa", "123456789 JoseMiguel@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b4 = new Bezeroa("Antxon Urrutia Garcia", "antxon aaaaaaaa", "123456789 antxon@gmail.com",UtilDate.newDate(2001,8,9));
+			Bezeroa b5 = new Bezeroa("Saioa Goikoetxea Ugarte", "Saioo99 b", "123456789 Saioo99@gmail.com",UtilDate.newDate(2001,8,9));
 			
 			
 			
@@ -407,31 +407,30 @@ public class DataAccess {
 		}
 	}
 	
-	public Pertsona register(String izena, String abizena1, String abizena2, String erabiltzaileIzena, String pasahitza,
-			String telefonoZbkia, String emaila, Date jaiotzeData, String mota) throws UserAlreadyExist {
-
-		TypedQuery<Pertsona> query = db.createQuery("SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1",
-				Pertsona.class);
-		query.setParameter(1, erabiltzaileIzena);
+	public Pertsona register(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) throws UserAlreadyExist {
+		String[] erabiltzaileaParts = erabiltzailea.split(" ");
+		TypedQuery<Pertsona> query = db.createQuery("SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1", Pertsona.class);
+		query.setParameter(1, erabiltzaileaParts[0]);
 		List<Pertsona> pertsona = query.getResultList();
 		if (!pertsona.isEmpty()) {
 			throw new UserAlreadyExist();
 		} else {
-			Pertsona berria = null;
-			if (mota.equals("admin")) {
-				berria = new Admin(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila,
-						jaiotzeData);
-			} else if (mota.equals("langilea")) {
-				berria = new Langilea(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila,
-						jaiotzeData);
-			} else {
-				berria = new Bezeroa(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, emaila,
-						jaiotzeData);
-			}
+			Pertsona berria = pertsonaSortu(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);
 			db.getTransaction().begin();
 			db.persist(berria);
 			db.getTransaction().commit();
 			return berria;
+		}
+	}
+	
+	public Pertsona pertsonaSortu(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) {
+		String[] erabiltzaileaParts = erabiltzailea.split(" ");
+		if (erabiltzaileaParts[2].equals("admin")) {
+			return new Admin(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);
+		} else if (erabiltzaileaParts[2].equals("langilea")) {
+			return new Langilea(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);
+		} else {
+			return new Bezeroa(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);
 		}
 	}
 	

@@ -1,72 +1,0 @@
-
-XbusinessLogic.BLFacadeImplementation#getPronostikoak(Ldomain/Apustua;)Ljava/util/Vector;T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¢% ¢(4"startingBlock*
-startingBlockT
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¢4 ¢(?›
-˜
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¡ ¡(
-%6"
-__annotate*
-javax.jws.WebMethod*
-
-adomain.Apustua„
-
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¢= ¢(>
-adomain.Apustua"__annotation*
-
-%6*
-1*‘
-1T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java£ £(µ
-²
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java£ £(
-%0dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerµ²
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java£ £(
-
-%1void"dataAccess.DataAccess#open(Z)V*
-
-%0dataAccess.DataAccess*
-""2open(Z)µ
-²
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¤, ¤(5
-%2dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager•’
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¤, ¤(H
-%3java.util.Vector"IdataAccess.DataAccess#getPronostikoak(Ldomain/Apustua;)Ljava/util/Vector;*
-
-%2dataAccess.DataAccess*
-
-adomain.Apustua2!getPronostikoak(Ldomain/Apustua;)–
-“
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¤ ¤(I
-emaitzajava.util.Vector"__id*
-
-%3java.util.Vectorµ
-²
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¥ ¥(
-%4dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager­ª
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¥ ¥(
-
-%5void"dataAccess.DataAccess#close()V*
-
-%4dataAccess.DataAccess2close()"u
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¦ ¦(
-
-emaitzajava.util.Vector:
-adomain.ApustuaB(&
-$businessLogic.BLFacadeImplementation

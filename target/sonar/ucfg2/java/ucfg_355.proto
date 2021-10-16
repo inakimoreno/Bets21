@@ -1,89 +1,0 @@
-
-fbusinessLogic.BLFacadeImplementation#getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)Ljava/util/Vector;T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÏ Ï(&"startingBlock*“
-startingBlockT
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÏ& Ï(H§
-°
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÎ Î(
-%6"
-__annotate*
-javax.jws.WebMethod*
-
-usernamejava.lang.Stringç
-ä
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÏ. Ï(6
-usernamejava.lang.String"__annotation*
-
-%6°
-û
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÎ Î(
-%7"
-__annotate*
-javax.jws.WebMethod*
-
-bezeroadomain.Bezeroaä
-á
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÏ@ Ï(G
-bezeroadomain.Bezeroa"__annotation*
-
-%7*
-1*’
-1T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ Ì(µ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ Ì(
-%0dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerµ≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ Ì(
-
-%1void"dataAccess.DataAccess#open(Z)V*
-
-%0dataAccess.DataAccess*
-""2open(Z)µ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ  Ó()
-%2dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager◊‘
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ  Ó(H
-%3java.util.Vector"WdataAccess.DataAccess#getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)Ljava/util/Vector;*
-
-%2dataAccess.DataAccess*
-
-usernamejava.lang.String*
-
-bezeroadomain.Bezeroa2/getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)ó
-î
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ Ó(I
-bezeroakjava.util.Vector"__id*
-
-%3java.util.Vectorµ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÔ Ô(
-%4dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager≠™
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÔ Ô(
-
-%5void"dataAccess.DataAccess#close()V*
-
-%4dataAccess.DataAccess2close()"v
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (
-
-bezeroakjava.util.Vector:
-usernamejava.lang.String:
-bezeroadomain.BezeroaB(&
-$businessLogic.BLFacadeImplementation

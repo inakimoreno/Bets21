@@ -1,1 +1,0 @@
-. 2javaXphr%src/main/java/domain/Pronostikoa.java

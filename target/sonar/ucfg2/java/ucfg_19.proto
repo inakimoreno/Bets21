@@ -1,31 +1,0 @@
-
-DdataAccess.DataAccess#getBezeroa(Ljava/lang/String;)Ldomain/Bezeroa;E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaè è("1*¢
-1E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(ö
-ó
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(%
-%0javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-db¬ø
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(B
-%1domain.Bezeroa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
-%
-%0javax.persistence.EntityManager*
-""*'
-%
-ErabiltzaileIzenajava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)à
-Ö
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(C
-erabiltzailedomain.Bezeroa"__id*
-
-%1domain.Bezeroa"i
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë( 
-
-erabiltzailedomain.Bezeroa:%
-ErabiltzaileIzenajava.lang.StringB
-dataAccess.DataAccess

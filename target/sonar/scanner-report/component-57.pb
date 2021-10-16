@@ -1,1 +1,0 @@
-9 2javaX3hr.src/main/java/domain/PronostikoaContainer.java

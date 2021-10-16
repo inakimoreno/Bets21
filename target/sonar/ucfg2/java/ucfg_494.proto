@@ -1,16 +1,0 @@
-
-6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;9
-//root/git/Bets21/src/main/java/gui/MainGUI.java" "(("1*©
-19
-//root/git/Bets21/src/main/java/gui/MainGUI.java#	 #(‹
-ˆ
-9
-//root/git/Bets21/src/main/java/gui/MainGUI.java#	 #(
-%0businessLogic.BLFacade"__id*'*%
-gui.MainGUI"
-appFacadeInterface"[
-9
-//root/git/Bets21/src/main/java/gui/MainGUI.java# #(
-
-%0businessLogic.BLFacadeB"
-gui.MainGUI

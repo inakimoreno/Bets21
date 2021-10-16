@@ -1,17 +1,0 @@
-
-9configuration.ConfigXML#getDbFilename()Ljava/lang/String;G
-;/root/git/Bets21/src/main/java/configuration/ConfigXML.javaŸ Ÿ("1*Ë
-1G
-;/root/git/Bets21/src/main/java/configuration/ConfigXML.java 	  (—
-”
-G
-;/root/git/Bets21/src/main/java/configuration/ConfigXML.java 	  (
-%0java.lang.String"__id*+*)
-configuration.ConfigXML"
-
-dbFilename"c
-G
-;/root/git/Bets21/src/main/java/configuration/ConfigXML.java   (
-
-%0java.lang.StringB
-configuration.ConfigXML

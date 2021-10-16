@@ -27,8 +27,8 @@ public class Langilea extends Pertsona implements Serializable{
 		super();
 	}
 
-	public Langilea(String izena, String abizena1, String abizena2, String erabiltzaileIzena, String pasahitza, String telefonoZbkia, String email, Date jaiotzeData) {
-		super(izena, abizena1, abizena2, erabiltzaileIzena, pasahitza, telefonoZbkia, email, jaiotzeData);
+	public Langilea(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) {
+		super(pertsonaDatuak, jaiotzeData, erabiltzailea,kontaktua);
 	}
 	
 	public void addElkarrizketa(ArretaElkarrizketa elkarrizketa) {

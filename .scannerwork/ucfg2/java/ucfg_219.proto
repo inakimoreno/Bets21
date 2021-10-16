@@ -1,0 +1,74 @@
+
+(domain.Apustua#eguneratuAsmatutakoKop()ZI
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaÜ Ü(&"1*ê
+1I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaà à(î
+ë
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaà à(
+%0java.lang.Integer"__id*%*#
+domain.Apustua"
+asmatutakoKopv
+t
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaâ â(
+%1java.io.PrintStream"__id*
+""î
+ë
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaâ â("
+%2java.lang.Integer"__id*%*#
+domain.Apustua"
+asmatutakoKopì
+ê
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaâ â('
+%3java.lang.String"__concat*
+
+%2java.lang.Integer*
+==î
+ë
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaâ( â(5
+%4java.lang.Integer"__id*%*#
+domain.Apustua"
+pronostikoKop•
+¢
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaâ â(5
+%5java.lang.String"__concat*
+
+%3java.lang.String*
+
+%4java.lang.Integer‡›
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaâ â(6
+
+%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%1java.io.PrintStream*
+
+%5java.lang.String2println(Ljava/lang/String;)î
+ë
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaä	 ä(
+%7java.lang.Integer"__id*%*#
+domain.Apustua"
+asmatutakoKopî
+ë
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaä ä(+
+%8java.lang.Integer"__id*%*#
+domain.Apustua"
+pronostikoKopﬁ€
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaä	 ä(,
+%9boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%7java.lang.Integer*
+
+%8java.lang.Integer2equals(Ljava/lang/Object;)"S
+I
+=C:/Users/Usuario/git/Bets21/src/main/java/domain/Apustua.javaä ä(-
+""B
+domain.Apustua

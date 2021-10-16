@@ -1,41 +1,0 @@
-
-CdataAccess.DataAccess#getMezuak(Ldomain/Bezeroa;)Ljava/util/Vector;E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java» »("1*£	
-1E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¼ ¼(š
-—
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¼ ¼(%
-%0javax.persistence.EntityManager"__id*!*
-dataAccess.DataAccess"
-dbÑÎ
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¼1 ¼(O
-%1java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
-
-bezeroadomain.Bezeroa2getErabiltzaileIzena()³°
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¼ ¼(P
-%2domain.Bezeroa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
-%
-%0javax.persistence.EntityManager*
-""*
-
-%1java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)‰
-†
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java¼ ¼(Q
-erabiltzaileadomain.Bezeroa"__id*
-
-%2domain.BezeroaÀ½
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java½	 ½("
-%3java.util.Vector",domain.Bezeroa#getMezuak()Ljava/util/Vector;*!
-
-erabiltzaileadomain.Bezeroa2getMezuak()"a
-E
-9/root/git/Bets21/src/main/java/dataAccess/DataAccess.java½ ½(#
-
-%3java.util.Vector:
-bezeroadomain.BezeroaB
-dataAccess.DataAccess

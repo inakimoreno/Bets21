@@ -1,99 +1,0 @@
-
-*gui.MainGUI#getPanel()Ljavax/swing/JPanel;;
-//root/git/Bets21/src/main/java/gui/MainGUI.java¾ ¾("3*´
-2;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÀ À(mk
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÀ À(
-%1javax.swing.JPanel"javax.swing.JPanel
-}
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÀ À(
-%2"javax.swing.JPanel#<init>()V*
-
-%1javax.swing.JPanel{
-y
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÀ À(
-gui.MainGUI"
-panel"__id*
-
-%1javax.swing.JPanel{
-y
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÁ Á(
-%3javax.swing.JPanel"__id**
-gui.MainGUI"
-panel³
-°
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÁ Á('
-%4javax.swing.JRadioButton"@gui.MainGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;*
-gui.MainGUIõò
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÁ Á((
-%5java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
-
-%3javax.swing.JPanel* 
-
-%4javax.swing.JRadioButton2add(Ljava/awt/Component;){
-y
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÂ Â(
-%6javax.swing.JPanel"__id**
-gui.MainGUI"
-panel³
-°
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÂ Â('
-%7javax.swing.JRadioButton"@gui.MainGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;*
-gui.MainGUIõò
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÂ Â((
-%8java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
-
-%6javax.swing.JPanel* 
-
-%7javax.swing.JRadioButton2add(Ljava/awt/Component;){
-y
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÃ Ã(
-%9javax.swing.JPanel"__id**
-gui.MainGUI"
-panel²
-¯
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÃ Ã(%
-%10javax.swing.JRadioButton">gui.MainGUI#getRdbtnNewRadioButton()Ljavax/swing/JRadioButton;*
-gui.MainGUI÷ô
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÃ Ã(&
-%11java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
-
-%9javax.swing.JPanel*!
-
-%10javax.swing.JRadioButton2add(Ljava/awt/Component;)*
-1*Å
-3;
-//root/git/Bets21/src/main/java/gui/MainGUI.java¿ ¿({
-y
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.java¿ ¿(
-%0javax.swing.JPanel"__id**
-gui.MainGUI"
-panel*
-2
-1*š
-1;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÅ	 Å(|
-z
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÅ	 Å(
-%12javax.swing.JPanel"__id**
-gui.MainGUI"
-panel"Z
-;
-//root/git/Bets21/src/main/java/gui/MainGUI.javaÅ Å(
-
-%12javax.swing.JPanelB
-gui.MainGUI

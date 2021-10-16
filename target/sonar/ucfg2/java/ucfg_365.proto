@@ -1,106 +1,0 @@
-
-çbusinessLogic.BLFacadeImplementation#arretaElkarrizketaSortu(Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;)Ldomain/ArretaElkarrizketa;T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∫ ∫(2"startingBlock*˚
-startingBlockT
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∫2 ∫(^°
-û
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaπ π(
-%6"
-__annotate*
-javax.jws.WebMethod*
-
-bezeroadomain.Bezeroaä
-á
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∫; ∫(B
-bezeroadomain.Bezeroa"__annotation*
-
-%6†
-ù
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaπ π(
-%7"
-__annotate*
-javax.jws.WebMethod*
-
-gaiajava.lang.Stringâ
-Ü
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∫K ∫(O
-gaiajava.lang.String"__annotation*
-
-%7°
-û
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaπ π(
-%8"
-__annotate*
-javax.jws.WebMethod*
-
-mezuajava.lang.Stringä
-á
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∫X ∫(]
-mezuajava.lang.String"__annotation*
-
-%8*
-1*⁄
-1T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª ª(µ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª ª(
-%0dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerµ≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª ª(
-
-%1void"dataAccess.DataAccess#open(Z)V*
-
-%0dataAccess.DataAccess*
-""2open(Z)µ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaº! º(*
-%2dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManageræª
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaº! º(X
-%3domain.ArretaElkarrizketa"~dataAccess.DataAccess#arretaElkarrizketaSortu(Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;)Ldomain/ArretaElkarrizketa;*
-
-%2dataAccess.DataAccess*
-
-bezeroadomain.Bezeroa*
-
-gaiajava.lang.String*
-
-mezuajava.lang.String2MarretaElkarrizketaSortu(Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;)™
-ß
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaº º(Y&
-	erantzunadomain.ArretaElkarrizketa"__id*!
-
-%3domain.ArretaElkarrizketaµ
-≤
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩ Ω(
-%4dataAccess.DataAccess"__id*7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager≠™
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩ Ω(
-
-%5void"dataAccess.DataAccess#close()V*
-
-%4dataAccess.DataAccess2close()"Ä
-T
-H/root/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ((
-&
-	erantzunadomain.ArretaElkarrizketa:
-bezeroadomain.Bezeroa:
-gaiajava.lang.String:
-mezuajava.lang.StringB(&
-$businessLogic.BLFacadeImplementation

@@ -1,83 +1,0 @@
-
-Edomain.Bezeroa#getErrepikapena(Ldomain/Bezeroa;)Ldomain/Errepikapena;>
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java ($"6*Ë
-2>
-2/root/git/Bets21/src/main/java/domain/Bezeroa.javaƒ ƒ(m
-k
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.javaƒ ƒ(
-erredomain.Errepikapena"__id*
-""Ž
-‹
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.javaƒ ƒ(
-erredomain.Errepikapena"
-__arrayGet*
-
-%1java.util.Vector*
-""*
-4
-1*¤
-3>
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java† †("_
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java† †(
-
-erredomain.Errepikapena*´
-4>
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java„ „(²¯
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java„ „(%
-%2domain.Bezeroa"-domain.Errepikapena#getNori()Ldomain/Bezeroa;*
-
-erredomain.Errepikapena2	getNori()ÅÂ
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java„ „(<
-%3java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
-
-%2domain.Bezeroa2getErabiltzaileIzena()…
-‚
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java„ „(= 
-erabiltzailejava.lang.String"__id*
-
-%3java.lang.StringáÞ
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java… …(%
-%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*"
- 
-erabiltzailejava.lang.String*
-
-	erabIzenajava.lang.String2equals(Ljava/lang/Object;)*
-2
-3*Ò
-5>
-2/root/git/Bets21/src/main/java/domain/Bezeroa.javaƒ ƒ(%‡
-„
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.javaƒ ƒ(%
-%1java.util.Vector"__id*$*"
-domain.Bezeroa"
-errepikatuak*
-2*•
-6>
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java‚ ‚(ÆÃ
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java‚ ‚(-
-%0java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
-
-bezdomain.Bezeroa2getErabiltzaileIzena()
-
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java‚ ‚(.
-	erabIzenajava.lang.String"__id*
-
-%0java.lang.String*
-5*
-1>
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java‰	 ‰("H
->
-2/root/git/Bets21/src/main/java/domain/Bezeroa.java‰ ‰(
-"":
-bezdomain.BezeroaB
-domain.Bezeroa
