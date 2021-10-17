@@ -2,6 +2,7 @@ package businessLogic;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.ResourceBundle;
 import java.util.Vector;
 
@@ -243,7 +244,12 @@ public class BLFacadeImplementation  implements BLFacade {
     @WebMethod 
     public Bezeroa bidaliMezua(Bezeroa nork, Bezeroa nori, String mezua, String gaia, String mota, double zenbatApostatu, double hilabeteanZenbat, double zenbatErrepikatuarentzat) {
     	dbManager.open(false);
-    	Bezeroa bezeroa = dbManager.bidaliMezua(nork, nori, mezua, gaia, mota, zenbatApostatu, hilabeteanZenbat, zenbatErrepikatuarentzat);
+    	String mezuOsoa = mezua+" "+gaia+" "+mota;
+    	List<Double> zenbakiParametroak = new ArrayList<>();
+    	zenbakiParametroak.add(zenbatApostatu);
+    	zenbakiParametroak.add(hilabeteanZenbat);
+    	zenbakiParametroak.add(zenbatErrepikatuarentzat);
+    	Bezeroa bezeroa = dbManager.bidaliMezua(nork, nori, mezuOsoa, zenbakiParametroak);
     	dbManager.close();
     	return bezeroa;
     }

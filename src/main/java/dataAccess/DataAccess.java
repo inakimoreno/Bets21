@@ -636,13 +636,7 @@ public class DataAccess {
 		for (Question question : e.getQuestions()) {
 			for (Pronostikoa pronostic : question.getPronostics()) {
 				for (Apustua bet : pronostic.getApustuak()) {
-					x = bet.removePronostikoa(pronostic);
-					if (x == 0) {
-						itzuliMugimendua(bet);
-					} else if (bet.getAsmatutakoKop().equals(bet.getPronostikoKop())) {
-						irabaziMugimendua(bet);
-					}
-					System.out.println(bet.getPronostikoak() + "  berrize");
+					ezabatuPronostikoa(pronostic, bet);
 				}
 			}
 		}
@@ -650,6 +644,17 @@ public class DataAccess {
 		db.getTransaction().commit();
 		Apustua a = db.find(Apustua.class, 53);
 		System.out.println(a);
+	}
+
+	private void ezabatuPronostikoa(Pronostikoa pronostic, Apustua bet) {
+		int x;
+		x = bet.removePronostikoa(pronostic);
+		if (x == 0) {
+			itzuliMugimendua(bet);
+		} else if (bet.getAsmatutakoKop().equals(bet.getPronostikoKop())) {
+			irabaziMugimendua(bet);
+		}
+		System.out.println(bet.getPronostikoak() + "  berrize");
 	}
 
 	private void irabaziMugimendua(Apustua bet) {
@@ -704,11 +709,14 @@ public class DataAccess {
 		return res;
 	}
 	
-	public Bezeroa bidaliMezua(Bezeroa nork, Bezeroa nori, String mezua, String gaia, String mota, double zenbatApostatu, double hilabeteanZenbat, double zenbatErrepikatuarentzat) {
+	public Bezeroa bidaliMezua(Bezeroa nork, Bezeroa nori, String mezua, List<Double> zenbakiParametroak) {
+		
+		String[] mezuaParts = mezua.split(" ");
+		
 		Bezeroa igorlea = db.find(Bezeroa.class, nork.getErabiltzaileIzena());
 		Bezeroa hartzailea = db.find(Bezeroa.class, nori.getErabiltzaileIzena());
 		db.getTransaction().begin();
-		BezeroartekoMezua mezuBerria = igorlea.addBidalitakoBezeroMezua(nori, mezua, gaia, mota, zenbatApostatu, hilabeteanZenbat, zenbatErrepikatuarentzat);
+		BezeroartekoMezua mezuBerria = igorlea.addBidalitakoBezeroMezua(nori, mezuaParts[0], mezuaParts[1], mezuaParts[2], zenbakiParametroak.get(0), zenbakiParametroak.get(1), zenbakiParametroak.get(2));
 		hartzailea.addJasotakoBezeroMezua(mezuBerria);
 		db.persist(mezuBerria);
 		db.getTransaction().commit();

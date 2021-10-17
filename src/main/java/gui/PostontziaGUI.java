@@ -385,19 +385,9 @@ public class PostontziaGUI extends JFrame {
 				hiru.setVisible(false);
 				lau.setVisible(false);
 				bost.setVisible(false);
-				rate.setText("");
-				jakinarazpenak.setText("");
-				textArea.setText("");
-				textArea.setVisible(false);
-				nork.setText("");
-				mezua.setText("");
-				baldintzak.setText("");
-				euroko.setText("");
-				hilabetean.setText("");
-				komisioa.setText("");
-				onartuGaldera.setVisible(false);
-				bai.setVisible(false);
-				ez.setVisible(false);
+				
+				setRemoved();
+				
 				getSelectedMezua();
 				bai.setVisible(false);
 				ez.setVisible(false);
@@ -564,19 +554,7 @@ public class PostontziaGUI extends JFrame {
 		tableMezua.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				rate.setText("");
-				jakinarazpenak.setText("");
-				textArea.setText("");
-				textArea.setVisible(false);
-				nork.setText("");
-				mezua.setText("");
-				baldintzak.setText("");
-				euroko.setText("");
-				hilabetean.setText("");
-				komisioa.setText("");
-				onartuGaldera.setVisible(false);
-				bai.setVisible(false);
-				ez.setVisible(false);
+				setRemoved();
 				bat.setVisible(false);
 				bi.setVisible(false);
 				hiru.setVisible(false);
@@ -794,4 +772,21 @@ public class PostontziaGUI extends JFrame {
 		}
 		return null;
 	}
+	
+	private void setRemoved() {
+		rate.setText("");
+		jakinarazpenak.setText("");
+		textArea.setText("");
+		textArea.setVisible(false);
+		nork.setText("");
+		mezua.setText("");
+		baldintzak.setText("");
+		euroko.setText("");
+		hilabetean.setText("");
+		komisioa.setText("");
+		onartuGaldera.setVisible(false);
+		bai.setVisible(false);
+		ez.setVisible(false);
+	}
+	
 }
