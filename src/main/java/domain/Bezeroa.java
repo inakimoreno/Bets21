@@ -237,7 +237,8 @@ public class Bezeroa extends Pertsona implements Serializable{
 	}
 	
 	public Errepikapena addErrepikatzailea(Bezeroa nork, double apustatukoDena, double hilabetekoMax, double komisioa) {
-		Errepikapena errepikapenBerria = new Errepikapena(nork, this, apustatukoDena, hilabetekoMax,komisioa);
+		BezeroParea bezPare = new BezeroParea(nork, this);
+		Errepikapena errepikapenBerria = new Errepikapena(bezPare, apustatukoDena, hilabetekoMax,komisioa);
 		this.errepikatzaileak.add(errepikapenBerria);
 		return errepikapenBerria;
 	}

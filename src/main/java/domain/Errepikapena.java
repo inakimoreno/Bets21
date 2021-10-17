@@ -40,9 +40,9 @@ public class Errepikapena implements Serializable{
 		super();
 	}
 	
-	public Errepikapena(Bezeroa nork, Bezeroa nori, double apustatukoDena, double hilabetekoMax, double komisioa) {
-		this.nork=nork;
-		this.nori=nori;
+	public Errepikapena(BezeroParea bezPare, double apustatukoDena, double hilabetekoMax, double komisioa) {
+		nork = bezPare.getNork();
+		nori = bezPare.getNori();
 		this.apustatukoDena=apustatukoDena;
 		this.hilabetekoMax=hilabetekoMax;
 		hilabeteHonetanGeratzenDena=hilabetekoMax;
