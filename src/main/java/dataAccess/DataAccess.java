@@ -570,44 +570,53 @@ public class DataAccess {
 			}
 		}
 	}
-	public Bezeroa deleteApustua(Apustua apustua) throws EventFinished{
+
+	public Bezeroa deleteApustua(Apustua apustua) throws EventFinished {
 		db.getTransaction().begin();
-		Apustua a=db.find(Apustua.class, apustua.getIdentifikadorea());
+		Apustua a = db.find(Apustua.class, apustua.getIdentifikadorea());
 		ArrayList<Pronostikoa> pronostikoak = a.getPronostikoak();
 		Date today = new Date();
-		for(Pronostikoa p : pronostikoak) {
+		for (Pronostikoa p : pronostikoak) {
 			Date eventDate = p.getQuestion().getEvent().getEventDate();
-			if(!eventDate.after(today)) {
+			if (!eventDate.after(today)) {
 				throw new EventFinished();
 			}
 		}
 		Bezeroa bezeroa = a.getBezeroa();
 		bezeroa.removeApustua(a);
-		if(a.getErrepikatua()!=null) {
-			Errepikapena errepikapen=bezeroa.getErrepikapena(a.getErrepikatua());
-			errepikapen.eguneratuHilHonetanGeratzenDena(a.getKopurua());
-		}
-		bezeroa.addMugimendua("Apustua ezabatu ("+a.getIdentifikadorea()+")",a.getKopurua(),"bueltatu");
-		for(Pronostikoa p : pronostikoak) {
-			p.removeApustua(a);
-		}
-		Vector<Errepikapena> errepikatzaileak= bezeroa.getErrepikatzaileak();
-		for(Errepikapena er : errepikatzaileak) {
+		ezabatuApustua(a, pronostikoak, bezeroa);
+		ezabatuErrepikatuak(a, bezeroa);
+		db.remove(a);
+		db.getTransaction().commit();
+		return bezeroa;
+	}
+
+	private void ezabatuErrepikatuak(Apustua a, Bezeroa bezeroa) {
+		Vector<Errepikapena> errepikatzaileak = bezeroa.getErrepikatzaileak();
+		for (Errepikapena er : errepikatzaileak) {
 			Bezeroa bez = er.getNork();
 			Apustua apusErr = bez.baduApustua(a);
-			if(apusErr!=null) {
+			if (apusErr != null) {
 				bez.removeApustua(apusErr);
-				bez.addMugimendua("Apustu errepikatua ezabatu ("+bezeroa+")", apusErr.getKopurua(), "bueltatu");
-				for (Pronostikoa p: apusErr.getPronostikoak()) {
+				bez.addMugimendua("Apustu errepikatua ezabatu (" + bezeroa + ")", apusErr.getKopurua(), "bueltatu");
+				for (Pronostikoa p : apusErr.getPronostikoak()) {
 					p.removeApustua(apusErr);
 				}
 				er.eguneratuHilHonetanGeratzenDena(apusErr.getKopurua());
 				db.remove(apusErr);
 			}
 		}
-		db.remove(a);
-		db.getTransaction().commit();
-		return bezeroa;
+	}
+
+	private void ezabatuApustua(Apustua a, ArrayList<Pronostikoa> pronostikoak, Bezeroa bezeroa) {
+		if (a.getErrepikatua() != null) {
+			Errepikapena errepikapen = bezeroa.getErrepikapena(a.getErrepikatua());
+			errepikapen.eguneratuHilHonetanGeratzenDena(a.getKopurua());
+		}
+		bezeroa.addMugimendua("Apustua ezabatu (" + a.getIdentifikadorea() + ")", a.getKopurua(), "bueltatu");
+		for (Pronostikoa p : pronostikoak) {
+			p.removeApustua(a);
+		}
 	}
 	
 	public Bezeroa diruaSartu(double u, Bezeroa bezeroa) {
