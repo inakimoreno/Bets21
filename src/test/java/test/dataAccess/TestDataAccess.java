@@ -13,6 +13,7 @@ import configuration.ConfigXML;
 import domain.Apustua;
 import domain.ArretaElkarrizketa;
 import domain.ArretaMezua;
+import domain.BezeroParea;
 import domain.Bezeroa;
 import domain.BezeroartekoMezua;
 import domain.Errepikapena;
@@ -177,7 +178,8 @@ public class TestDataAccess {
 			pron = new Pronostikoa();
 			Bezeroa bez = new Bezeroa("a null null", "null null", "null null", new Date());
 			Bezeroa noriBez = new Bezeroa("b null null", "null null", "null null", new Date());
-			Errepikapena err = new Errepikapena(bez, noriBez, 20, 20, 2);
+			BezeroParea bezPare = new BezeroParea(bez, noriBez);
+			Errepikapena err = new Errepikapena(bezPare, 20, 20, 2);
 			bez.addErrepikatua(err);
 			ap = new Apustua();
 			db.persist(bez);
