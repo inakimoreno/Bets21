@@ -598,11 +598,7 @@ public class PostontziaGUI extends JFrame {
 					aldatuTamaina(630, 455);
 					String mota = selectedBezeroartekoMezua.getMota();
 					if(mota.equals("eskaera")) {
-						nork.setText(ResourceBundle.getBundle("Etiquetas").getString("Who")+": "+selectedBezeroartekoMezua.getIgorlea());
-						mezua.setText(ResourceBundle.getBundle("Etiquetas").getString("Message")+" "+selectedBezeroartekoMezua.getMezua());
-						baldintzak.setText(ResourceBundle.getBundle("Etiquetas").getString("Conditions"));
-						euroko.setText(ResourceBundle.getBundle("Etiquetas").getString("EuroBet")+" "+selectedBezeroartekoMezua.getZenbatApostatu()+"�");
-						hilabetean.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("MaxMonth")+" "+selectedBezeroartekoMezua.getHilabeteanZenbat()+"�");
+						eskaeraOnartu();
 						if(!selectedBezeroartekoMezua.isIrakurrita()) {
 							onartuGaldera.setBounds(50, 291, 210, 14);
 							onartuGaldera.setVisible(true);
@@ -628,12 +624,7 @@ public class PostontziaGUI extends JFrame {
 						remove.setEnabled(true);
 						remove.setVisible(true);
 					}else if (mota.equals("errepikatuak eskaera onartu")) {
-						nork.setText(ResourceBundle.getBundle("Etiquetas").getString("Who")+": "+selectedBezeroartekoMezua.getIgorlea());
-						mezua.setText(ResourceBundle.getBundle("Etiquetas").getString("Message")+" "+selectedBezeroartekoMezua.getMezua());
-						baldintzak.setText(ResourceBundle.getBundle("Etiquetas").getString("Conditions"));
-						euroko.setText(ResourceBundle.getBundle("Etiquetas").getString("EuroBet")+" "+selectedBezeroartekoMezua.getZenbatApostatu()+"�");
-						hilabetean.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("MaxMonth")+" "+selectedBezeroartekoMezua.getHilabeteanZenbat()+"�");
-						komisioa.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("Commission")+" %"+selectedBezeroartekoMezua.getZenbatErrepikatuarentzat()*100);
+						eskaeraOnartu();
 						if(!selectedBezeroartekoMezua.isIrakurrita()) {
 							onartuGaldera.setBounds(225, 301, 210, 14);
 							onartuGaldera.setVisible(true);
@@ -694,6 +685,15 @@ public class PostontziaGUI extends JFrame {
 					}
 					
 				}
+			}
+
+			private void eskaeraOnartu() {
+				nork.setText(ResourceBundle.getBundle("Etiquetas").getString("Who")+": "+selectedBezeroartekoMezua.getIgorlea());
+				mezua.setText(ResourceBundle.getBundle("Etiquetas").getString("Message")+" "+selectedBezeroartekoMezua.getMezua());
+				baldintzak.setText(ResourceBundle.getBundle("Etiquetas").getString("Conditions"));
+				euroko.setText(ResourceBundle.getBundle("Etiquetas").getString("EuroBet")+" "+selectedBezeroartekoMezua.getZenbatApostatu()+"�");
+				hilabetean.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("MaxMonth")+" "+selectedBezeroartekoMezua.getHilabeteanZenbat()+"�");
+				komisioa.setText("-"+ResourceBundle.getBundle("Etiquetas").getString("Commission")+" %"+selectedBezeroartekoMezua.getZenbatErrepikatuarentzat()*100);
 			}
 		});
 	}
