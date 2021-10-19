@@ -1,0 +1,97 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-02 16:57:53 #1 store] 
+Database '/root/git/Bets21/src/main/resources/bets.temp' is opened by 4573@inakimoreno
+
+[2021-10-02 16:57:53 #2 store] 
+Configuration path: /home/inakimoreno/Desktop/objectdb-2.8.6/objectdb.conf
+
+[2021-10-02 16:57:53 #3 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-10-02 16:57:53 #4 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-10-02 16:57:53 #5 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-10-02 16:57:53 #6 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-10-02 16:57:53 #7 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-02 16:57:53 #8 type] 
+Type domain.ArretaElkarrizketa is not enhanced.
+
+[2021-10-02 16:57:53 #9 type] 
+Type domain.Errepikapena is not enhanced.
+
+[2021-10-02 16:57:53 #10 type] 
+Type domain.Mezua is not enhanced.
+
+[2021-10-02 16:57:53 #11 type] 
+Type domain.BezeroartekoMezua is not enhanced.
+
+[2021-10-02 16:57:53 #12 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2021-10-02 16:57:53 #13 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-02 16:57:53 #14 type] 
+Type domain.ArretaMezua is not enhanced.
+
+[2021-10-02 16:57:53 #15 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-10-02 16:57:53 #16 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-02 16:58:05 #1 store] 
+Database '/root/git/Bets21/src/main/resources/bets.temp' is opened by 4675@inakimoreno
+
+[2021-10-02 16:58:05 #2 store] 
+Configuration path: /home/inakimoreno/Desktop/objectdb-2.8.6/objectdb.conf
+
+[2021-10-02 16:58:05 #3 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-02 16:58:05 #4 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-02 16:58:05 #5 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-10-02 16:58:05 #6 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-10-02 16:58:05 #7 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-10-02 16:58:05 #8 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-10-02 16:58:05 #9 type] 
+Type domain.ArretaElkarrizketa is not enhanced.
+
+[2021-10-02 16:58:05 #10 type] 
+Type domain.Errepikapena is not enhanced.
+
+[2021-10-02 16:58:05 #11 type] 
+Type domain.Mezua is not enhanced.
+
+[2021-10-02 16:58:05 #12 type] 
+Type domain.BezeroartekoMezua is not enhanced.
+
+[2021-10-02 16:58:05 #13 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2021-10-02 16:58:05 #14 type] 
+Type domain.ArretaMezua is not enhanced.
+
+[2021-10-02 16:58:05 #15 type] 
+Type domain.Langilea is not enhanced.
+

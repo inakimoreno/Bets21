@@ -1,0 +1,47 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-14 13:30:48 #1 store] 
+Database '/root/git/Bets21/src/main/resources/bets.temp' is opened by 5433@inakimoreno
+
+[2021-10-14 13:30:48 #2 store] 
+Configuration path: /home/inakimoreno/Desktop/objectdb-2.8.6/objectdb.conf
+
+[2021-10-14 13:30:49 #3 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-14 13:30:49 #4 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-14 13:30:49 #5 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-10-14 13:30:49 #6 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-10-14 13:30:49 #7 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-10-14 13:30:49 #8 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-10-14 13:30:49 #9 type] 
+Type domain.ArretaElkarrizketa is not enhanced.
+
+[2021-10-14 13:30:49 #10 type] 
+Type domain.Errepikapena is not enhanced.
+
+[2021-10-14 13:30:49 #11 type] 
+Type domain.Mezua is not enhanced.
+
+[2021-10-14 13:30:49 #12 type] 
+Type domain.BezeroartekoMezua is not enhanced.
+
+[2021-10-14 13:30:49 #13 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2021-10-14 13:30:49 #14 type] 
+Type domain.ArretaMezua is not enhanced.
+
+[2021-10-14 13:30:49 #15 type] 
+Type domain.Langilea is not enhanced.
+
