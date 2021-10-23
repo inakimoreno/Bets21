@@ -315,7 +315,7 @@ public class DataAccessRemoveMezua {
 		db.close();
 		System.out.println("DataBase closed");
 	}
-	
+
 	public void removeMezua(Mezua mezua) {
 		if(mezua instanceof BezeroartekoMezua) {
 			BezeroartekoMezua m = db.find(BezeroartekoMezua.class, mezua.getIdentifikadorea());
