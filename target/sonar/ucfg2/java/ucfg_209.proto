@@ -1,9 +1,17 @@
 
-domain.Pronostikoa#getKuota()DL
-B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javaT T("1*©
-1L
-B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javaU	 U("V
-L
-B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javaU U(
-""B
+2domain.Pronostikoa#getApustuak()Ljava/util/Vector;D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.java\ \(#"1*ª
+1D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.java]	 ](ç
+ä
+D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.java]	 ](
+%0java.util.Vector"__id*$*"
+domain.Pronostikoa"
+
+apustuak"`
+D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.java] ](
+
+%0java.util.VectorB
 domain.Pronostikoa

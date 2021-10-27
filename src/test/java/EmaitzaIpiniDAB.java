@@ -19,10 +19,10 @@ public class EmaitzaIpiniDAB {
 	private Question qu;
 	
 	//sut:system under test
-	static DataAccess sut=new DataAccess(true);
+	DataAccess sut=new DataAccess(true);
 		 
 	//additional operations needed to execute the test 
-	static TestDataAccess testDA=new TestDataAccess();
+	TestDataAccess testDA=new TestDataAccess();
 	
 	@Test
 	public void test1() {
@@ -38,7 +38,14 @@ public class EmaitzaIpiniDAB {
 			sut.emaitzaIpini(qu, pr);
 			assertTrue(true);
 		}catch(Exception e) {
+			e.printStackTrace();
 			fail();
+		} finally {
+			testDA.open();
+			testDA.removeEvent(ev);
+			testDA.removeQuestion(qu);
+			testDA.removePronostikoa(pr);
+			testDA.close();
 		}
 	}
 	

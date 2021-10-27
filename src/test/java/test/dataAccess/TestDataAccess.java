@@ -75,7 +75,29 @@ public class TestDataAccess {
 		} else
 			return false;
 	}
+	
+	public boolean removeQuestion(Question qu) {
+		Question q = db.find(Question.class, qu.getQuestionNumber());
+		if (q != null) {
+			db.getTransaction().begin();
+			db.remove(q);
+			db.getTransaction().commit();
+			return true;
+		} else
+			return false;
+	}
 
+	public boolean removePronostikoa(Pronostikoa pr) {
+		Pronostikoa p = 
+				db.find(Pronostikoa.class, pr.getIdentifikadorea());
+		if (p != null) {
+			db.getTransaction().begin();
+			db.remove(p);
+			db.getTransaction().commit();
+			return true;
+		} else
+			return false;
+	}
 	public Event addEventWithQuestion(String desc, Date d, String question, float qty) {
 		System.out.println(">> DataAccessTest: addEvent");
 		Event ev = null;

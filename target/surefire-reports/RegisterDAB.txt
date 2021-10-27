@@ -1,60 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: RegisterDAB
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE! - in RegisterDAB
-test5(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+Tests run: 14, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.468 sec <<< FAILURE! - in RegisterDAB
+test9(RegisterDAB)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test9(RegisterDAB.java:243)
 
-test14(RegisterDAB)  Time elapsed: 0.001 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test12(RegisterDAB)  Time elapsed: 0.039 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test12(RegisterDAB.java:311)
 
-test1(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test13(RegisterDAB)  Time elapsed: 0.038 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test13(RegisterDAB.java:335)
 
-test2(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test10(RegisterDAB)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test10(RegisterDAB.java:265)
 
-test3(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test11(RegisterDAB)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test11(RegisterDAB.java:288)
 
-test6(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test4(RegisterDAB)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test4(RegisterDAB.java:128)
 
-test7(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test5(RegisterDAB)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test5(RegisterDAB.java:151)
 
-test8(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test6(RegisterDAB)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test6(RegisterDAB.java:174)
 
-test9(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test7(RegisterDAB)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test7(RegisterDAB.java:201)
 
-test10(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
-
-test11(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
-
-test12(RegisterDAB)  Time elapsed: 0.001 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
-
-test13(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
-
-test4(RegisterDAB)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RegisterDAB.<init>(RegisterDAB.java:20)
+test8(RegisterDAB)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test8(RegisterDAB.java:220)
 

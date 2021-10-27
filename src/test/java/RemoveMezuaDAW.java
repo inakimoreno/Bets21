@@ -15,9 +15,9 @@ import test.dataAccess.TestDataAccess;
 
 public class RemoveMezuaDAW {
 
-	static DataAccess sut = new DataAccess(true);
+	DataAccess sut = new DataAccess(true);
 
-	static TestDataAccess testDA = new TestDataAccess();
+	TestDataAccess testDA = new TestDataAccess();
 
 	private BezeroartekoMezua bm;
 	private ArretaElkarrizketa ael;

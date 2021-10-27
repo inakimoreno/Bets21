@@ -16,11 +16,11 @@ import domain.Admin;
 
 public class Register2DAB {
 
-	private static boolean setUpDone = false;
+	private boolean setUpDone = false;
 	
-	static DataAccessRegister sut = new DataAccessRegister(true);
+	DataAccessRegister sut = new DataAccessRegister(true);
 	
-	static TestDataAccess testDA = new TestDataAccess();
+	TestDataAccess testDA = new TestDataAccess();
 	
 	private Date date = UtilDate.newDate(1990,10,10);
 	private Pertsona usr = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",
@@ -82,6 +82,7 @@ public class Register2DAB {
 		
 		} catch (Exception e) {;
 			fail();
+			e.printStackTrace();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);

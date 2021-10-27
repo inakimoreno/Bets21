@@ -14,9 +14,9 @@ import test.dataAccess.TestDataAccess;
 
 public class RemoveMezuaDAB {
 	
-	static DataAccess sut = new DataAccess(true);
+	DataAccess sut = new DataAccess(true);
 		 
-	static TestDataAccess testDA = new TestDataAccess();
+	TestDataAccess testDA = new TestDataAccess();
 	
 	@Test
 	public void test1() {

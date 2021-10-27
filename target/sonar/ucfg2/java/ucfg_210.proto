@@ -1,16 +1,30 @@
 
-:domain.Pronostikoa#getIdentifikadorea()Ljava/lang/Integer;L
-B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javaX X(""1*‹
-1L
-B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javaY	 Y(ù
-ö
-L
-B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javaY	 Y(
-%0java.lang.Integer"__id*+*)
-domain.Pronostikoa"
-identifikadorea"i
-L
-B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javaY Y(
-
-%0java.lang.IntegerB
+/domain.Pronostikoa#toString()Ljava/lang/String;D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.java` `("1*ﬂ
+1D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javaa	 a(ê
+ç
+D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javaa	 a(
+%0java.lang.String"__id*'*%
+domain.Pronostikoa"
+deskripzioaé
+ã
+D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javaa	 a(
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+ : ç
+ä
+D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javaa	 a($
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+"""`
+D
+:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javaa a(%
+
+%2java.lang.StringB
 domain.Pronostikoa

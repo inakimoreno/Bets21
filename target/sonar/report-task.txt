@@ -3,5 +3,5 @@ projectKey=Bets2222:Bets2222
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.24335
 dashboardUrl=https://sonarcloud.io/dashboard?id=Bets2222%3ABets2222
-ceTaskId=AXzBS_0FmoXo6SB-ZlS2
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXzBS_0FmoXo6SB-ZlS2
+ceTaskId=AXzB0jZ1v8OaYBwJnDAy
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXzB0jZ1v8OaYBwJnDAy

@@ -16,7 +16,7 @@ public class RegisterDAW {
 	
 	private boolean setUpDone = false;
 	
-	DataAccess sut = new DataAccess(false);
+	DataAccess sut = new DataAccess(true);
 	
 	TestDataAccess testDA = new TestDataAccess();
 	
@@ -30,7 +30,7 @@ public class RegisterDAW {
 			return;
 		}
 		testDA.open();
-		testDA.addUser(new Admin("Aitor Paredes Zatarain", "Admin aaaaaaaa", "666666666 Admindb.@gmail.com", date));
+		//testDA.addUser(new Admin("Aitor Paredes Zatarain", "Admin aaaaaaaa", "666666666 Admindb.@gmail.com", date));
 		testDA.close();
 		setUpDone = true;
 	}

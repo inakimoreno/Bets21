@@ -71,14 +71,14 @@ public class Pronostikoa implements Serializable{
 <span class="nc" id="L71">		this.kuota = kuota;</span>
 <span class="nc" id="L72">	}</span>
 
-<span class="nc" id="L74">	public Pronostikoa(String deskripzioa, double kuota, Question question) {</span>
-<span class="nc" id="L75">		this.deskripzioa = deskripzioa;</span>
-<span class="nc" id="L76">		this.kuota = kuota;</span>
-<span class="nc" id="L77">		this.question = question;</span>
-<span class="nc" id="L78">	}</span>
+<span class="fc" id="L74">	public Pronostikoa(String deskripzioa, double kuota, Question question) {</span>
+<span class="fc" id="L75">		this.deskripzioa = deskripzioa;</span>
+<span class="fc" id="L76">		this.kuota = kuota;</span>
+<span class="fc" id="L77">		this.question = question;</span>
+<span class="fc" id="L78">	}</span>
 
 	public String getDeskripzioa() {
-<span class="nc" id="L81">		return deskripzioa;</span>
+<span class="fc" id="L81">		return deskripzioa;</span>
 	}
 
 	public double getKuota() {
@@ -86,11 +86,11 @@ public class Pronostikoa implements Serializable{
 	}
 	
 	public Integer getIdentifikadorea() {
-<span class="nc" id="L89">		return identifikadorea;</span>
+<span class="fc" id="L89">		return identifikadorea;</span>
 	}
 	
 	public Vector&lt;Apustua&gt; getApustuak(){
-<span class="nc" id="L93">		return apustuak;</span>
+<span class="fc" id="L93">		return apustuak;</span>
 	}
 	
 	public String toString() {
@@ -98,8 +98,8 @@ public class Pronostikoa implements Serializable{
 	}
 	
 	public void addApustua(Apustua apustua) {
-<span class="nc" id="L101">		apustuak.add(apustua);</span>
-<span class="nc" id="L102">	}</span>
+<span class="fc" id="L101">		apustuak.add(apustua);</span>
+<span class="fc" id="L102">	}</span>
 	
 	public void removeApustua(Apustua a) {
 <span class="nc" id="L105">		this.apustuak.remove(a);</span>

@@ -33,15 +33,15 @@ public class Apustua implements Serializable{
 	private Bezeroa bezeroa;
 	@XmlIDREF
 	private Bezeroa errepikatua;
-<span class="nc" id="L36">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
+<span class="pc" id="L36">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
 	private ArrayList&lt;Pronostikoa&gt; pronostikoak=new ArrayList&lt;&gt;();
 	private Integer pronostikoKop;
 	private Integer asmatutakoKop;
 	private double kuotaTotala;
 	
 	public Apustua(){
-<span class="nc" id="L43">		super();</span>
-<span class="nc" id="L44">	}</span>
+<span class="fc" id="L43">		super();</span>
+<span class="fc" id="L44">	}</span>
 	
 <span class="nc" id="L46">	public Apustua(double kopurua, Bezeroa bezeroa, ArrayList&lt;Pronostikoa&gt; pronostikoak, Bezeroa errepikatua) {</span>
 <span class="nc" id="L47">		this.kopurua = kopurua;</span>
@@ -62,36 +62,36 @@ public class Apustua implements Serializable{
 	}
 
 	public void setPronostikoKop(Integer pronostikoKop) {
-<span class="nc" id="L65">		this.pronostikoKop = pronostikoKop;</span>
-<span class="nc" id="L66">	}</span>
+<span class="fc" id="L65">		this.pronostikoKop = pronostikoKop;</span>
+<span class="fc" id="L66">	}</span>
 
 	public Integer getAsmatutakoKop() {
-<span class="nc" id="L69">		return asmatutakoKop;</span>
+<span class="fc" id="L69">		return asmatutakoKop;</span>
 	}
 
 	public void setAsmatutakoKop(Integer asmatutakoKop) {
-<span class="nc" id="L73">		this.asmatutakoKop = asmatutakoKop;</span>
-<span class="nc" id="L74">	}</span>
+<span class="fc" id="L73">		this.asmatutakoKop = asmatutakoKop;</span>
+<span class="fc" id="L74">	}</span>
 
 	public double getKuotaTotala() {
-<span class="nc" id="L77">		return kuotaTotala;</span>
+<span class="fc" id="L77">		return kuotaTotala;</span>
 	}
 
 	public void setKuotaTotala(double kuotaTotala) {
-<span class="nc" id="L81">		this.kuotaTotala = kuotaTotala;</span>
-<span class="nc" id="L82">	}</span>
+<span class="fc" id="L81">		this.kuotaTotala = kuotaTotala;</span>
+<span class="fc" id="L82">	}</span>
 
 	public void setKopurua(double kopurua) {
-<span class="nc" id="L85">		this.kopurua = kopurua;</span>
-<span class="nc" id="L86">	}</span>
+<span class="fc" id="L85">		this.kopurua = kopurua;</span>
+<span class="fc" id="L86">	}</span>
 
 	public void setIdentifikadorea(Integer identifikadorea) {
 <span class="nc" id="L89">		this.identifikadorea = identifikadorea;</span>
 <span class="nc" id="L90">	}</span>
 
 	public void setBezeroa(Bezeroa bezeroa) {
-<span class="nc" id="L93">		this.bezeroa = bezeroa;</span>
-<span class="nc" id="L94">	}</span>
+<span class="fc" id="L93">		this.bezeroa = bezeroa;</span>
+<span class="fc" id="L94">	}</span>
 
 	public void setPronostikoak(ArrayList&lt;Pronostikoa&gt; pronostikoak) {
 <span class="nc" id="L97">		this.pronostikoak = pronostikoak;</span>
@@ -102,15 +102,15 @@ public class Apustua implements Serializable{
 <span class="nc" id="L102">	}</span>
 	
 	public double getKopurua() {
-<span class="nc" id="L105">		return kopurua;</span>
+<span class="fc" id="L105">		return kopurua;</span>
 	}
 	
 	public Integer getIdentifikadorea() {
-<span class="nc" id="L109">		return identifikadorea;</span>
+<span class="fc" id="L109">		return identifikadorea;</span>
 	}
 	
 	public Bezeroa getBezeroa() {
-<span class="nc" id="L113">		return bezeroa;</span>
+<span class="fc" id="L113">		return bezeroa;</span>
 	}
 	
 	public ArrayList&lt;Pronostikoa&gt; getPronostikoak() {
@@ -133,18 +133,18 @@ public class Apustua implements Serializable{
 	
 	public boolean eguneratuAsmatutakoKop() {
 		//asmatutakoKop=asmatutakoKop+1;
-<span class="nc" id="L136">		asmatutakoKop++;</span>
-<span class="nc" id="L137">		System.out.println(asmatutakoKop+&quot;==&quot;+pronostikoKop);</span>
-<span class="nc" id="L138">		return asmatutakoKop.equals(pronostikoKop);</span>
+<span class="fc" id="L136">		asmatutakoKop++;</span>
+<span class="fc" id="L137">		System.out.println(asmatutakoKop+&quot;==&quot;+pronostikoKop);</span>
+<span class="fc" id="L138">		return asmatutakoKop.equals(pronostikoKop);</span>
 	}
 
 	public Bezeroa getErrepikatua() {
-<span class="nc" id="L142">		return errepikatua;</span>
+<span class="fc" id="L142">		return errepikatua;</span>
 	}
 
 	public void setErrepikatua(Bezeroa errepikatua) {
-<span class="nc" id="L146">		this.errepikatua = errepikatua;</span>
-<span class="nc" id="L147">	}</span>
+<span class="fc" id="L146">		this.errepikatua = errepikatua;</span>
+<span class="fc" id="L147">	}</span>
 	
 	public boolean apustuaEquals(Apustua apus) {
 

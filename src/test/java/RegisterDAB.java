@@ -15,7 +15,7 @@ import domain.Admin;
 
 public class RegisterDAB {
 
-	private static boolean setUpDone = false;
+	private boolean setUpDone = false;
 	
 	DataAccess sut = new DataAccess(true);
 	

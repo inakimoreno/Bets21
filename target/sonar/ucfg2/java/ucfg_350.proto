@@ -1,71 +1,71 @@
 
-RbusinessLogic.BLFacadeImplementation#getEvents(Ljava/util/Date;)Ljava/util/Vector;^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaf f("startingBlock*≥
-startingBlock^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaf f(*®
-•
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javae e(
+RbusinessLogic.BLFacadeImplementation#getEvents(Ljava/util/Date;)Ljava/util/Vector;V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaf f("startingBlock*õ
+startingBlockV
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaf f(*†
+ù
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javae e(
 %6"
 __annotate*
 javax.jws.WebMethod*
 
-datejava.util.Dateë
-é
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaf% f()
+datejava.util.Dateâ
+Ü
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaf% f()
 datejava.util.Date"__annotation*
 
 %6*
-1*‡
-1^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javag g(ø
-º
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javag g(
+1*ò
+1V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javag g(∑
+¥
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javag g(
 %0dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerøº
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javag g(
+	dbManager∑¥
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javag g(
 
 %1void"dataAccess.DataAccess#open(Z)V*
 
 %0dataAccess.DataAccess*
-""2open(Z)ø
-º
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javah h(!
+""2open(Z)∑
+¥
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javah h(!
 %2dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerñì
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javah h(1
+	dbManageréã
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javah h(1
 %3java.util.Vector"CdataAccess.DataAccess#getEvents(Ljava/util/Date;)Ljava/util/Vector;*
 
 %2dataAccess.DataAccess*
 
-datejava.util.Date2getEvents(Ljava/util/Date;)ü
-ú
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javah h(2
+datejava.util.Date2getEvents(Ljava/util/Date;)ó
+î
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javah h(2
 eventsjava.util.Vector"__id*
 
-%3java.util.Vectorø
-º
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javai i(
+%3java.util.Vector∑
+¥
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javai i(
 %4dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager∑¥
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javai i(
+	dbManagerØ¨
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javai i(
 
 %5void"dataAccess.DataAccess#close()V*
 
-%4dataAccess.DataAccess2close()"~
-^
-T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaj j(
+%4dataAccess.DataAccess2close()"v
+V
+LD:/Coding/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaj j(
 
 eventsjava.util.Vector:
 datejava.util.DateB(&

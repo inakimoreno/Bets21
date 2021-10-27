@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: RemoveMezuaDAB
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in RemoveMezuaDAB
-test1(RemoveMezuaDAB)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.ExceptionInInitializerError
-	at RemoveMezuaDAB.<clinit>(RemoveMezuaDAB.java:17)
-
-test2(RemoveMezuaDAB)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NoClassDefFoundError: Could not initialize class RemoveMezuaDAB
-
-test3(RemoveMezuaDAB)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NoClassDefFoundError: Could not initialize class RemoveMezuaDAB
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in RemoveMezuaDAB

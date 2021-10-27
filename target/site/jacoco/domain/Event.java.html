@@ -25,11 +25,11 @@ public class Event implements Serializable {
 	private Integer eventNumber;
 	private String description; 
 	private Date eventDate;
-<span class="nc" id="L28">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)</span>
+<span class="fc" id="L28">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)</span>
 	private Vector&lt;Question&gt; questions=new Vector&lt;Question&gt;();
 
 	public Vector&lt;Question&gt; getQuestions() {
-<span class="nc" id="L32">		return questions;</span>
+<span class="fc" id="L32">		return questions;</span>
 	}
 
 	public void setQuestions(Vector&lt;Question&gt; questions) {
@@ -37,22 +37,22 @@ public class Event implements Serializable {
 <span class="nc" id="L37">	}</span>
 
 	public Event() {
-<span class="nc" id="L40">		super();</span>
-<span class="nc" id="L41">	}</span>
+<span class="fc" id="L40">		super();</span>
+<span class="fc" id="L41">	}</span>
 
-<span class="nc" id="L43">	public Event(Integer eventNumber, String description,Date eventDate) {</span>
-<span class="nc" id="L44">		this.eventNumber = eventNumber;</span>
-<span class="nc" id="L45">		this.description = description;</span>
-<span class="nc" id="L46">		this.eventDate=eventDate;</span>
-<span class="nc" id="L47">	}</span>
+<span class="fc" id="L43">	public Event(Integer eventNumber, String description,Date eventDate) {</span>
+<span class="fc" id="L44">		this.eventNumber = eventNumber;</span>
+<span class="fc" id="L45">		this.description = description;</span>
+<span class="fc" id="L46">		this.eventDate=eventDate;</span>
+<span class="fc" id="L47">	}</span>
 	
-<span class="nc" id="L49">	public Event( String description,Date eventDate) {</span>
-<span class="nc" id="L50">		this.description = description;</span>
-<span class="nc" id="L51">		this.eventDate=eventDate;</span>
-<span class="nc" id="L52">	}</span>
+<span class="fc" id="L49">	public Event( String description,Date eventDate) {</span>
+<span class="fc" id="L50">		this.description = description;</span>
+<span class="fc" id="L51">		this.eventDate=eventDate;</span>
+<span class="fc" id="L52">	}</span>
 
 	public Integer getEventNumber() {
-<span class="nc" id="L55">		return eventNumber;</span>
+<span class="fc" id="L55">		return eventNumber;</span>
 	}
 
 	public void setEventNumber(Integer eventNumber) {
@@ -88,9 +88,9 @@ public class Event implements Serializable {
 	 * @return Bet
 	 */
 	public Question addQuestion(String question, double betMinimum)  {
-<span class="nc" id="L91">        Question q=new Question(question,betMinimum, this);</span>
-<span class="nc" id="L92">        questions.add(q);</span>
-<span class="nc" id="L93">        return q;</span>
+<span class="fc" id="L91">        Question q=new Question(question,betMinimum, this);</span>
+<span class="fc" id="L92">        questions.add(q);</span>
+<span class="fc" id="L93">        return q;</span>
 	}
 
 	

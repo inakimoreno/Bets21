@@ -27,34 +27,34 @@ public class Bezeroa extends Pertsona implements Serializable{
 	private boolean publikoa;
 	private double komisioAutomatikoa;
 	
-<span class="nc" id="L30">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
+<span class="fc" id="L30">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
 	private Vector&lt;Mugimendua&gt; mugimenduak=new Vector&lt;Mugimendua&gt;();
 	
-<span class="nc" id="L33">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
+<span class="fc" id="L33">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
 	private Vector&lt;Apustua&gt; apustuak=new Vector&lt;Apustua&gt;();
 	
-<span class="nc" id="L36">	@XmlIDREF</span>
+<span class="fc" id="L36">	@XmlIDREF</span>
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
 	private Vector&lt;BezeroartekoMezua&gt; bidalitakoBezeroMezuak=new Vector&lt;BezeroartekoMezua&gt;();
 	
-<span class="nc" id="L40">	@XmlIDREF</span>
+<span class="fc" id="L40">	@XmlIDREF</span>
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
 	private Vector&lt;BezeroartekoMezua&gt; jasotakoBezeroMezuak=new Vector&lt;BezeroartekoMezua&gt;();
 	
-<span class="nc" id="L44">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
+<span class="fc" id="L44">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
 	private Vector&lt;Errepikapena&gt; errepikatzaileak=new Vector&lt;Errepikapena&gt;();
 	
-<span class="nc" id="L47">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
+<span class="fc" id="L47">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
 	private Vector&lt;Errepikapena&gt; errepikatuak=new Vector&lt;Errepikapena&gt;();
 	
-<span class="nc" id="L50">	@XmlIDREF</span>
+<span class="fc" id="L50">	@XmlIDREF</span>
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
 	private Vector&lt;ArretaElkarrizketa&gt; arretaElkarrizketak=new Vector&lt;ArretaElkarrizketa&gt;();
 	
 	
 	public Bezeroa(){
-<span class="nc" id="L56">		super();</span>
-<span class="nc" id="L57">	}</span>
+<span class="fc" id="L56">		super();</span>
+<span class="fc" id="L57">	}</span>
 	
 	public void setDirua(double dirua) {
 <span class="nc" id="L60">		this.dirua = dirua;</span>
@@ -65,19 +65,19 @@ public class Bezeroa extends Pertsona implements Serializable{
 <span class="nc" id="L65">	}</span>
 
 	public Bezeroa(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) {
-<span class="nc" id="L68">		super(pertsonaDatuak, jaiotzeData, erabiltzailea,kontaktua);</span>
-<span class="nc" id="L69">		this.dirua=0;</span>
-<span class="nc" id="L70">		jokatuak=0;</span>
-<span class="nc" id="L71">		irabaziak=0;</span>
-<span class="nc" id="L72">		publikoa=true;</span>
-<span class="nc" id="L73">		komisioAutomatikoa=-1;</span>
-<span class="nc" id="L74">	}</span>
+<span class="fc" id="L68">		super(pertsonaDatuak, jaiotzeData, erabiltzailea,kontaktua);</span>
+<span class="fc" id="L69">		this.dirua=0;</span>
+<span class="fc" id="L70">		jokatuak=0;</span>
+<span class="fc" id="L71">		irabaziak=0;</span>
+<span class="fc" id="L72">		publikoa=true;</span>
+<span class="fc" id="L73">		komisioAutomatikoa=-1;</span>
+<span class="fc" id="L74">	}</span>
 	
 	public Mugimendua addMugimendua(String deskripzioa, double kuota, String mota) {
-<span class="nc" id="L77">		eguneratuDirua(kuota);</span>
-<span class="nc" id="L78">		Mugimendua berria = new Mugimendua(deskripzioa, kuota, this, mota);</span>
-<span class="nc" id="L79">		mugimenduak.add(berria);</span>
-<span class="nc" id="L80">		return berria;</span>
+<span class="fc" id="L77">		eguneratuDirua(kuota);</span>
+<span class="fc" id="L78">		Mugimendua berria = new Mugimendua(deskripzioa, kuota, this, mota);</span>
+<span class="fc" id="L79">		mugimenduak.add(berria);</span>
+<span class="fc" id="L80">		return berria;</span>
 	}
 	
 	public Mugimendua addMugimendua(String deskripzioa, double kuota, String mota, Date data) {
@@ -91,8 +91,8 @@ public class Bezeroa extends Pertsona implements Serializable{
 	}
 	
 	public void eguneratuDirua(double zenbatekoa) {
-<span class="nc" id="L94">		dirua+=zenbatekoa;</span>
-<span class="nc" id="L95">	}</span>
+<span class="fc" id="L94">		dirua+=zenbatekoa;</span>
+<span class="fc" id="L95">	}</span>
 	
 	public double getDirua() {
 <span class="nc" id="L98">		return dirua;</span>
@@ -156,7 +156,7 @@ public class Bezeroa extends Pertsona implements Serializable{
 <span class="nc" id="L156">	}</span>
 	
 	public String toString() {
-<span class="nc" id="L159">		return erabiltzaileIzena;</span>
+<span class="fc" id="L159">		return erabiltzaileIzena;</span>
 	}
 	
 	public BezeroartekoMezua addBidalitakoBezeroMezua(Bezeroa nori, String mezua, String gaia, String mota, double zenbatApostatu, double hilabeteanZenbat, double zenbatErrepikatuarentzat) {
@@ -178,12 +178,12 @@ public class Bezeroa extends Pertsona implements Serializable{
 <span class="nc" id="L178">	}</span>
 	
 	public void ezabatuBidalitakoBezeroMezua(BezeroartekoMezua mezua) {
-<span class="nc" id="L181">		bidalitakoBezeroMezuak.remove(mezua);</span>
-<span class="nc" id="L182">	}</span>
+<span class="fc" id="L181">		bidalitakoBezeroMezuak.remove(mezua);</span>
+<span class="fc" id="L182">	}</span>
 	
 	public void ezabatuJasotakoBezeroMezua(BezeroartekoMezua mezua) {
-<span class="nc" id="L185">		jasotakoBezeroMezuak.remove(mezua);</span>
-<span class="nc" id="L186">	}</span>
+<span class="fc" id="L185">		jasotakoBezeroMezuak.remove(mezua);</span>
+<span class="fc" id="L186">	}</span>
 	
 	public boolean baduMezua(Bezeroa bestea) {
 		//erabiltzaileak badu mezuren bat besteak bidalitakoa irakurri gabe.
@@ -244,8 +244,8 @@ public class Bezeroa extends Pertsona implements Serializable{
 	}
 	
 	public void addErrepikatua(Errepikapena e) {
-<span class="nc" id="L247">		this.errepikatuak.add(e);</span>
-<span class="nc" id="L248">	}</span>
+<span class="fc" id="L247">		this.errepikatuak.add(e);</span>
+<span class="fc" id="L248">	}</span>
 
 	public Vector&lt;Errepikapena&gt; getErrepikatzaileak() {
 <span class="nc" id="L251">		return errepikatzaileak;</span>
@@ -256,11 +256,11 @@ public class Bezeroa extends Pertsona implements Serializable{
 	}
 	
 	public Errepikapena getErrepikapena(Bezeroa bez) {
-<span class="nc" id="L259">		String erabIzena=bez.getErabiltzaileIzena();</span>
-<span class="nc bnc" id="L260" title="All 2 branches missed.">		for (Errepikapena erre:errepikatuak) {</span>
-<span class="nc" id="L261">			String erabiltzaile=erre.getNori().getErabiltzaileIzena();</span>
-<span class="nc bnc" id="L262" title="All 2 branches missed.">			if (erabiltzaile.equals(erabIzena)) {</span>
-<span class="nc" id="L263">				return erre;</span>
+<span class="fc" id="L259">		String erabIzena=bez.getErabiltzaileIzena();</span>
+<span class="pc bpc" id="L260" title="1 of 2 branches missed.">		for (Errepikapena erre:errepikatuak) {</span>
+<span class="fc" id="L261">			String erabiltzaile=erre.getNori().getErabiltzaileIzena();</span>
+<span class="pc bpc" id="L262" title="1 of 2 branches missed.">			if (erabiltzaile.equals(erabIzena)) {</span>
+<span class="fc" id="L263">				return erre;</span>
 			}
 <span class="nc" id="L265">		}</span>
 <span class="nc" id="L266">		return null;</span>

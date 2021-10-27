@@ -19,10 +19,10 @@ public class EmaitzaIpini2DAB {
 	private Question qu;
 	
 	//sut:system under test
-	static DataAccessEmaitzaIpini sut=new DataAccessEmaitzaIpini(true);
+	DataAccessEmaitzaIpini sut=new DataAccessEmaitzaIpini(true);
 		 
 	//additional operations needed to execute the test 
-	static TestDataAccess testDA=new TestDataAccess();
+	TestDataAccess testDA=new TestDataAccess();
 	
 	@Test
 	public void test1() {
@@ -39,6 +39,12 @@ public class EmaitzaIpini2DAB {
 			assertTrue(true);
 		}catch(Exception e) {
 			fail();
+		} finally {
+			testDA.open();
+			testDA.removeEvent(ev);
+			testDA.removeQuestion(qu);
+			testDA.removePronostikoa(pr);
+			testDA.close();
 		}
 	}
 	

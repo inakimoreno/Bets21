@@ -17,19 +17,19 @@ public class Langilea extends Pertsona implements Serializable{
 	/**
 	 * 
 	 */
-<span class="nc" id="L20">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
+<span class="fc" id="L20">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
 	private Vector&lt;ArretaElkarrizketa&gt; arretaElkarrizketak=new Vector&lt;ArretaElkarrizketa&gt;();
-<span class="nc" id="L22">	private int[] balorazioak=new int [5];</span>
+<span class="fc" id="L22">	private int[] balorazioak=new int [5];</span>
 	
 	private static final long serialVersionUID = 1L;
 	
 	public Langilea(){
-<span class="nc" id="L27">		super();</span>
-<span class="nc" id="L28">	}</span>
+<span class="fc" id="L27">		super();</span>
+<span class="fc" id="L28">	}</span>
 
 	public Langilea(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) {
-<span class="nc" id="L31">		super(pertsonaDatuak, jaiotzeData, erabiltzailea,kontaktua);</span>
-<span class="nc" id="L32">	}</span>
+<span class="fc" id="L31">		super(pertsonaDatuak, jaiotzeData, erabiltzailea,kontaktua);</span>
+<span class="fc" id="L32">	}</span>
 	
 	public void addElkarrizketa(ArretaElkarrizketa elkarrizketa) {
 <span class="nc" id="L35">		arretaElkarrizketak.add(elkarrizketa);</span>

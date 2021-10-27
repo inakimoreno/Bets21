@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: RemoveMezua2DAB
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in RemoveMezua2DAB
-test3(RemoveMezua2DAB)  Time elapsed: 0.001 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at RemoveMezua2DAB.<init>(RemoveMezua2DAB.java:17)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in RemoveMezua2DAB

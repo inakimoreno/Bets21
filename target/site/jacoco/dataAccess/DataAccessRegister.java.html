@@ -54,9 +54,9 @@ public class DataAccessRegister {
 
 <span class="fc" id="L55">		System.out.println(&quot;Creating DataAccess instance =&gt; isDatabaseLocal: &quot; + c.isDatabaseLocal()</span>
 <span class="fc" id="L56">				+ &quot; getDatabBaseOpenMode: &quot; + c.getDataBaseOpenMode());</span>
-<span class="nc" id="L57">		open(initializeMode);</span>
+<span class="fc" id="L57">		open(initializeMode);</span>
 
-<span class="nc" id="L59">	}</span>
+<span class="fc" id="L59">	}</span>
 
 	public DataAccessRegister() {
 <span class="nc" id="L62">		this(false);</span>
@@ -290,8 +290,8 @@ public class DataAccessRegister {
 		}
 
 <span class="pc bpc" id="L292" title="1 of 2 branches missed.">		if (c.isDatabaseLocal()) {</span>
-<span class="nc" id="L293">			emf = Persistence.createEntityManagerFactory(&quot;objectdb:&quot; + fileName);</span>
-<span class="nc" id="L294">			db = emf.createEntityManager();</span>
+<span class="fc" id="L293">			emf = Persistence.createEntityManagerFactory(&quot;objectdb:&quot; + fileName);</span>
+<span class="fc" id="L294">			db = emf.createEntityManager();</span>
 		} else {
 <span class="nc" id="L296">			Map&lt;String, String&gt; properties = new HashMap&lt;String, String&gt;();</span>
 <span class="nc" id="L297">			properties.put(&quot;javax.persistence.jdbc.user&quot;, c.getUser());</span>
@@ -303,33 +303,33 @@ public class DataAccessRegister {
 <span class="nc" id="L303">			db = emf.createEntityManager();</span>
 		}
 
-<span class="nc" id="L306">	}</span>
+<span class="fc" id="L306">	}</span>
 
 	
 	public Pertsona register(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) throws UserAlreadyExist {
-<span class="nc" id="L310">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
-<span class="nc" id="L311">		TypedQuery&lt;Pertsona&gt; query = db.createQuery(&quot;SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1&quot;, Pertsona.class);</span>
-<span class="nc" id="L312">		query.setParameter(1, erabiltzaileaParts[0]);</span>
-<span class="nc" id="L313">		List&lt;Pertsona&gt; pertsona = query.getResultList();</span>
-<span class="nc bnc" id="L314" title="All 2 branches missed.">		if (!pertsona.isEmpty()) {</span>
+<span class="fc" id="L310">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
+<span class="fc" id="L311">		TypedQuery&lt;Pertsona&gt; query = db.createQuery(&quot;SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1&quot;, Pertsona.class);</span>
+<span class="fc" id="L312">		query.setParameter(1, erabiltzaileaParts[0]);</span>
+<span class="fc" id="L313">		List&lt;Pertsona&gt; pertsona = query.getResultList();</span>
+<span class="pc bpc" id="L314" title="1 of 2 branches missed.">		if (!pertsona.isEmpty()) {</span>
 <span class="nc" id="L315">			throw new UserAlreadyExist();</span>
 		} else {
-<span class="nc" id="L317">			Pertsona berria = pertsonaSortu(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
-<span class="nc" id="L318">			db.getTransaction().begin();</span>
-<span class="nc" id="L319">			db.persist(berria);</span>
-<span class="nc" id="L320">			db.getTransaction().commit();</span>
-<span class="nc" id="L321">			return berria;</span>
+<span class="fc" id="L317">			Pertsona berria = pertsonaSortu(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="fc" id="L318">			db.getTransaction().begin();</span>
+<span class="fc" id="L319">			db.persist(berria);</span>
+<span class="fc" id="L320">			db.getTransaction().commit();</span>
+<span class="fc" id="L321">			return berria;</span>
 		}
 	}
 	
 	public Pertsona pertsonaSortu(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) {
-<span class="nc" id="L326">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
-<span class="nc bnc" id="L327" title="All 2 branches missed.">		if (erabiltzaileaParts[2].equals(&quot;admin&quot;)) {</span>
-<span class="nc" id="L328">			return new Admin(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
-<span class="nc bnc" id="L329" title="All 2 branches missed.">		} else if (erabiltzaileaParts[2].equals(&quot;langilea&quot;)) {</span>
-<span class="nc" id="L330">			return new Langilea(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="fc" id="L326">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
+<span class="fc bfc" id="L327" title="All 2 branches covered.">		if (erabiltzaileaParts[2].equals(&quot;admin&quot;)) {</span>
+<span class="fc" id="L328">			return new Admin(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="fc bfc" id="L329" title="All 2 branches covered.">		} else if (erabiltzaileaParts[2].equals(&quot;langilea&quot;)) {</span>
+<span class="fc" id="L330">			return new Langilea(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
 		} else {
-<span class="nc" id="L332">			return new Bezeroa(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="fc" id="L332">			return new Bezeroa(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
 		}
 	}
 	

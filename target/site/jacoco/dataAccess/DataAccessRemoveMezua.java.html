@@ -54,9 +54,9 @@ public class DataAccessRemoveMezua {
 
 <span class="fc" id="L55">		System.out.println(&quot;Creating DataAccess instance =&gt; isDatabaseLocal: &quot; + c.isDatabaseLocal()</span>
 <span class="fc" id="L56">				+ &quot; getDatabBaseOpenMode: &quot; + c.getDataBaseOpenMode());</span>
-<span class="nc" id="L57">		open(initializeMode);</span>
+<span class="fc" id="L57">		open(initializeMode);</span>
 
-<span class="nc" id="L59">	}</span>
+<span class="fc" id="L59">	}</span>
 
 	public DataAccessRemoveMezua() {
 <span class="nc" id="L62">		this(false);</span>
@@ -296,8 +296,8 @@ public class DataAccessRemoveMezua {
 		}
 
 <span class="pc bpc" id="L298" title="1 of 2 branches missed.">		if (c.isDatabaseLocal()) {</span>
-<span class="nc" id="L299">			emf = Persistence.createEntityManagerFactory(&quot;objectdb:&quot; + fileName);</span>
-<span class="nc" id="L300">			db = emf.createEntityManager();</span>
+<span class="fc" id="L299">			emf = Persistence.createEntityManagerFactory(&quot;objectdb:&quot; + fileName);</span>
+<span class="fc" id="L300">			db = emf.createEntityManager();</span>
 		} else {
 <span class="nc" id="L302">			Map&lt;String, String&gt; properties = new HashMap&lt;String, String&gt;();</span>
 <span class="nc" id="L303">			properties.put(&quot;javax.persistence.jdbc.user&quot;, c.getUser());</span>
@@ -309,7 +309,7 @@ public class DataAccessRemoveMezua {
 <span class="nc" id="L309">			db = emf.createEntityManager();</span>
 		}
 
-<span class="nc" id="L312">	}</span>
+<span class="fc" id="L312">	}</span>
 
 	public void close() {
 <span class="nc" id="L315">		db.close();</span>

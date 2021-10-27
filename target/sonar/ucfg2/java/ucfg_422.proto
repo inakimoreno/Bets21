@@ -1,129 +1,129 @@
 
-gdataAccess.DataAccessEmaitzaIpini#emaitzaIpini(Ldomain/Question;Ldomain/Pronostikoa;)Ljava/util/Vector;]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaƒ ƒ(#"1*Æ%
-1]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java∆ ∆(æ
-ª
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java∆ ∆(%
+gdataAccess.DataAccessEmaitzaIpini#emaitzaIpini(Ldomain/Question;Ldomain/Pronostikoa;)Ljava/util/Vector;U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaƒ ƒ(#"1*˛#
+1U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java∆ ∆(∂
+≥
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java∆ ∆(%
 %0javax.persistence.EntityManager"__id*-*+#
 !dataAccess.DataAccessEmaitzaIpini"
-dbÚÔ
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java∆ ∆(?
+dbÍÁ
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java∆ ∆(?
 %1java.lang.Integer":domain.Pronostikoa#getIdentifikadorea()Ljava/lang/Integer;*#
 !
-pronostikoadomain.Pronostikoa2getIdentifikadorea()–Õ
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java∆ ∆(@
+pronostikoadomain.Pronostikoa2getIdentifikadorea()»≈
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java∆ ∆(@
 %2domain.Pronostikoa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
 %
 %0javax.persistence.EntityManager*
 ""*
 
-%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)ù
-ö
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java≈ ∆(A
+%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)ï
+í
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java≈ ∆(A
 pdomain.Pronostikoa"__id*
 
-%2domain.Pronostikoaæ
-ª
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java« «(%
+%2domain.Pronostikoa∂
+≥
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java« «(%
 %3javax.persistence.EntityManager"__id*-*+#
 !dataAccess.DataAccessEmaitzaIpini"
-dbÁ‰
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java«' «(C
+dbﬂ‹
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java«' «(C
 %4java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
 
-questiondomain.Question2getQuestionNumber()Õ 
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java« «(D
+questiondomain.Question2getQuestionNumber()≈¬
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java« «(D
 %5domain.Question"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
 %
 %3javax.persistence.EntityManager*
 ""*
 
-%4java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)ó
-î
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java« «(E
+%4java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)è
+å
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java« «(E
 qdomain.Question"__id*
 
-%5domain.Questionæ
-ª
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java» »(%
+%5domain.Question∂
+≥
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java» »(%
 %6javax.persistence.EntityManager"__id*-*+#
 !dataAccess.DataAccessEmaitzaIpini"
-dbüú
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java» »()
+dbóî
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java» »()
 %7#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
 %
-%6javax.persistence.EntityManager2getTransaction()“œ
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java» »(
+%6javax.persistence.EntityManager2getTransaction() «
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java» »(
 
 %8void",javax.persistence.EntityTransaction#begin()V*+
 )
-%7#javax.persistence.EntityTransaction2begin()ËÂ
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java… …(*
+%7#javax.persistence.EntityTransaction2begin()‡›
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java… …(*
 %9java.lang.String"5domain.Pronostikoa#getDeskripzioa()Ljava/lang/String;*#
 !
-pronostikoadomain.Pronostikoa2getDeskripzioa()Ì
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java… …(+
+pronostikoadomain.Pronostikoa2getDeskripzioa()ËÂ
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java… …(+
 %10void".domain.Question#setResult(Ljava/lang/String;)V*
 
 qdomain.Question*
 
-%9java.lang.String2setResult(Ljava/lang/String;)Ÿ÷
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java   (,
+%9java.lang.String2setResult(Ljava/lang/String;)—Œ
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java   (,
 %11java.util.Vector"2domain.Pronostikoa#getApustuak()Ljava/util/Vector;*
 
-pdomain.Pronostikoa2getApustuak()°
-û
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java   (-
+pdomain.Pronostikoa2getApustuak()ô
+ñ
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java   (-
 apustuakjava.util.Vector"__id*
 
-%11java.util.Vectorù
-ö
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÀ À(1
+%11java.util.Vectorï
+í
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÀ À(1
 %12java.util.Vector"YdataAccess.DataAccessEmaitzaIpini#eguneratuApustuak(Ljava/util/Vector;)Ljava/util/Vector;*%#
 !dataAccess.DataAccessEmaitzaIpini*
 
-apustuakjava.util.Vectorõ
-ò
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÀ À(2
+apustuakjava.util.Vectorì
+ê
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÀ À(2
 emjava.util.Vector"__id*
 
-%12java.util.Vectorø
-º
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÃ Ã(&
+%12java.util.Vector∑
+¥
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÃ Ã(&
 %13javax.persistence.EntityManager"__id*-*+#
 !dataAccess.DataAccessEmaitzaIpini"
-db°û
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÃ Ã(*
+dbôñ
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÃ Ã(*
 %14#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
-%13javax.persistence.EntityManager2getTransaction()÷”
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÃ Ã(
+%13javax.persistence.EntityManager2getTransaction()ŒÀ
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÃ Ã(
 %15void"-javax.persistence.EntityTransaction#commit()V*,
 *
-%14#javax.persistence.EntityTransaction2commit()"y
-]
-Q/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÕ Õ(
+%14#javax.persistence.EntityTransaction2commit()"q
+U
+ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÕ Õ(
 
 emjava.util.Vector:
 questiondomain.Question:!

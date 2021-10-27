@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: EmaitzaIpiniDAW
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in EmaitzaIpiniDAW
-test1(EmaitzaIpiniDAW)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at EmaitzaIpiniDAW.<init>(EmaitzaIpiniDAW.java:21)
-
-test2(EmaitzaIpiniDAW)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at EmaitzaIpiniDAW.<init>(EmaitzaIpiniDAW.java:21)
-
-test3(EmaitzaIpiniDAW)  Time elapsed: 0.001 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at EmaitzaIpiniDAW.<init>(EmaitzaIpiniDAW.java:21)
-
-test4(EmaitzaIpiniDAW)  Time elapsed: 0 sec  <<< ERROR!
-javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp;drop
-	at EmaitzaIpiniDAW.<init>(EmaitzaIpiniDAW.java:21)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec - in EmaitzaIpiniDAW

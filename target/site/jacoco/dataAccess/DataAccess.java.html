@@ -54,9 +54,9 @@ public class DataAccess {
 
 <span class="fc" id="L55">		System.out.println(&quot;Creating DataAccess instance =&gt; isDatabaseLocal: &quot; + c.isDatabaseLocal()</span>
 <span class="fc" id="L56">				+ &quot; getDatabBaseOpenMode: &quot; + c.getDataBaseOpenMode());</span>
-<span class="nc" id="L57">		open(initializeMode);</span>
+<span class="fc" id="L57">		open(initializeMode);</span>
 
-<span class="nc" id="L59">	}</span>
+<span class="fc" id="L59">	}</span>
 
 	public DataAccess() {
 <span class="nc" id="L62">		this(false);</span>
@@ -367,14 +367,14 @@ public class DataAccess {
 <span class="fc" id="L367">				+ &quot; getDatabBaseOpenMode: &quot; + c.getDataBaseOpenMode());</span>
 
 <span class="fc" id="L369">		String fileName = c.getDbFilename();</span>
-<span class="fc bfc" id="L370" title="All 2 branches covered.">		if (initializeMode) {</span>
+<span class="pc bpc" id="L370" title="1 of 2 branches missed.">		if (initializeMode) {</span>
 <span class="fc" id="L371">			fileName = fileName + &quot;;drop&quot;;</span>
 <span class="fc" id="L372">			System.out.println(&quot;Deleting the DataBase&quot;);</span>
 		}
 
 <span class="pc bpc" id="L375" title="1 of 2 branches missed.">		if (c.isDatabaseLocal()) {</span>
-<span class="nc" id="L376">			emf = Persistence.createEntityManagerFactory(&quot;objectdb:&quot; + fileName);</span>
-<span class="nc" id="L377">			db = emf.createEntityManager();</span>
+<span class="fc" id="L376">			emf = Persistence.createEntityManagerFactory(&quot;objectdb:&quot; + fileName);</span>
+<span class="fc" id="L377">			db = emf.createEntityManager();</span>
 		} else {
 <span class="nc" id="L379">			Map&lt;String, String&gt; properties = new HashMap&lt;String, String&gt;();</span>
 <span class="nc" id="L380">			properties.put(&quot;javax.persistence.jdbc.user&quot;, c.getUser());</span>
@@ -386,7 +386,7 @@ public class DataAccess {
 <span class="nc" id="L386">			db = emf.createEntityManager();</span>
 		}
 
-<span class="nc" id="L389">	}</span>
+<span class="fc" id="L389">	}</span>
 
 	public boolean existQuestion(Event event, String question) {
 <span class="nc" id="L392">		System.out.println(&quot;&gt;&gt; DataAccess: existQuestion=&gt; event= &quot; + event + &quot; question= &quot; + question);</span>
@@ -408,29 +408,29 @@ public class DataAccess {
 	}
 	
 	public Pertsona register(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) throws UserAlreadyExist {
-<span class="nc" id="L411">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
-<span class="nc" id="L412">		TypedQuery&lt;Pertsona&gt; query = db.createQuery(&quot;SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1&quot;, Pertsona.class);</span>
-<span class="nc" id="L413">		query.setParameter(1, erabiltzaileaParts[0]);</span>
-<span class="nc" id="L414">		List&lt;Pertsona&gt; pertsona = query.getResultList();</span>
-<span class="nc bnc" id="L415" title="All 2 branches missed.">		if (!pertsona.isEmpty()) {</span>
-<span class="nc" id="L416">			throw new UserAlreadyExist();</span>
+<span class="fc" id="L411">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
+<span class="fc" id="L412">		TypedQuery&lt;Pertsona&gt; query = db.createQuery(&quot;SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1&quot;, Pertsona.class);</span>
+<span class="fc" id="L413">		query.setParameter(1, erabiltzaileaParts[0]);</span>
+<span class="fc" id="L414">		List&lt;Pertsona&gt; pertsona = query.getResultList();</span>
+<span class="fc bfc" id="L415" title="All 2 branches covered.">		if (!pertsona.isEmpty()) {</span>
+<span class="fc" id="L416">			throw new UserAlreadyExist();</span>
 		} else {
-<span class="nc" id="L418">			Pertsona berria = pertsonaSortu(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
-<span class="nc" id="L419">			db.getTransaction().begin();</span>
-<span class="nc" id="L420">			db.persist(berria);</span>
-<span class="nc" id="L421">			db.getTransaction().commit();</span>
-<span class="nc" id="L422">			return berria;</span>
+<span class="fc" id="L418">			Pertsona berria = pertsonaSortu(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="fc" id="L419">			db.getTransaction().begin();</span>
+<span class="fc" id="L420">			db.persist(berria);</span>
+<span class="fc" id="L421">			db.getTransaction().commit();</span>
+<span class="fc" id="L422">			return berria;</span>
 		}
 	}
 	
 	public Pertsona pertsonaSortu(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) {
-<span class="nc" id="L427">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
-<span class="nc bnc" id="L428" title="All 2 branches missed.">		if (erabiltzaileaParts[2].equals(&quot;admin&quot;)) {</span>
-<span class="nc" id="L429">			return new Admin(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
-<span class="nc bnc" id="L430" title="All 2 branches missed.">		} else if (erabiltzaileaParts[2].equals(&quot;langilea&quot;)) {</span>
-<span class="nc" id="L431">			return new Langilea(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="fc" id="L427">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
+<span class="fc bfc" id="L428" title="All 2 branches covered.">		if (erabiltzaileaParts[2].equals(&quot;admin&quot;)) {</span>
+<span class="fc" id="L429">			return new Admin(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="fc bfc" id="L430" title="All 2 branches covered.">		} else if (erabiltzaileaParts[2].equals(&quot;langilea&quot;)) {</span>
+<span class="fc" id="L431">			return new Langilea(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
 		} else {
-<span class="nc" id="L433">			return new Bezeroa(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="fc" id="L433">			return new Bezeroa(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
 		}
 	}
 	
@@ -484,51 +484,51 @@ public class DataAccess {
 	}
 	
 	public Vector&lt;Double&gt; emaitzaIpini(Question question, Pronostikoa pronostikoa){
-<span class="nc" id="L487">		Pronostikoa p = </span>
-<span class="nc" id="L488">				db.find(Pronostikoa.class, pronostikoa.getIdentifikadorea());</span>
-<span class="nc" id="L489">		Question q = db.find(Question.class, question.getQuestionNumber());</span>
-<span class="nc" id="L490">		db.getTransaction().begin();</span>
-<span class="nc" id="L491">		q.setResult(pronostikoa.getDeskripzioa());</span>
-<span class="nc" id="L492">		Vector&lt;Apustua&gt; apustuak = p.getApustuak();</span>
-<span class="nc" id="L493">		Vector&lt;Double&gt; em = eguneratuApustuak(apustuak);</span>
-<span class="nc" id="L494">		db.getTransaction().commit();</span>
-<span class="nc" id="L495">		return em;</span>
+<span class="fc" id="L487">		Pronostikoa p = </span>
+<span class="fc" id="L488">				db.find(Pronostikoa.class, pronostikoa.getIdentifikadorea());</span>
+<span class="fc" id="L489">		Question q = db.find(Question.class, question.getQuestionNumber());</span>
+<span class="fc" id="L490">		db.getTransaction().begin();</span>
+<span class="fc" id="L491">		q.setResult(pronostikoa.getDeskripzioa());</span>
+<span class="fc" id="L492">		Vector&lt;Apustua&gt; apustuak = p.getApustuak();</span>
+<span class="fc" id="L493">		Vector&lt;Double&gt; em = eguneratuApustuak(apustuak);</span>
+<span class="fc" id="L494">		db.getTransaction().commit();</span>
+<span class="fc" id="L495">		return em;</span>
 	}
 
 	private Vector&lt;Double&gt; eguneratuApustuak(Vector&lt;Apustua&gt; apustuak) {
 		Bezeroa bezeroa;
-<span class="nc" id="L500">		double komisioa,apustuKop=0,irabazia=0;</span>
+<span class="fc" id="L500">		double komisioa,apustuKop=0,irabazia=0;</span>
 		boolean irabazi;
-<span class="nc bnc" id="L502" title="All 2 branches missed.">		for(Apustua a : apustuak) {</span>
-<span class="nc" id="L503">			apustuKop++;</span>
-<span class="nc" id="L504">			irabazi=a.eguneratuAsmatutakoKop();</span>
-<span class="nc" id="L505">			komisioa=0;</span>
-<span class="nc bnc" id="L506" title="All 2 branches missed.">			if(irabazi) {</span>
-<span class="nc" id="L507">				irabazia = apustuaIrabazi(komisioa, a);</span>
+<span class="fc bfc" id="L502" title="All 2 branches covered.">		for(Apustua a : apustuak) {</span>
+<span class="fc" id="L503">			apustuKop++;</span>
+<span class="fc" id="L504">			irabazi=a.eguneratuAsmatutakoKop();</span>
+<span class="fc" id="L505">			komisioa=0;</span>
+<span class="fc bfc" id="L506" title="All 2 branches covered.">			if(irabazi) {</span>
+<span class="fc" id="L507">				irabazia = apustuaIrabazi(komisioa, a);</span>
 			}
-<span class="nc" id="L509">		}</span>
-<span class="nc" id="L510">		Vector&lt;Double&gt; em = new Vector&lt;Double&gt;();</span>
-<span class="nc" id="L511">		em.add(apustuKop);</span>
-<span class="nc" id="L512">		em.add(irabazia);</span>
-<span class="nc" id="L513">		return em;</span>
+<span class="fc" id="L509">		}</span>
+<span class="fc" id="L510">		Vector&lt;Double&gt; em = new Vector&lt;Double&gt;();</span>
+<span class="fc" id="L511">		em.add(apustuKop);</span>
+<span class="fc" id="L512">		em.add(irabazia);</span>
+<span class="fc" id="L513">		return em;</span>
 	}
 
 	private double apustuaIrabazi(double komisioa, Apustua a) {
 		Bezeroa bezeroa;
 		double irabazia;
-<span class="nc bnc" id="L519" title="All 2 branches missed.">		if (a.getErrepikatua()!=null) {</span>
-<span class="nc" id="L520">			Bezeroa bez = a.getErrepikatua();</span>
-<span class="nc" id="L521">			bezeroa = a.getBezeroa();</span>
-<span class="nc" id="L522">			Errepikapena errepikapen=bezeroa.getErrepikapena(bez);</span>
-<span class="nc" id="L523">			System.out.println(a.getKopurua()+&quot; &quot;+a.getKuotaTotala()+&quot; &quot;+a.getKopurua()+&quot; &quot;+errepikapen.getKomisioa());</span>
-<span class="nc" id="L524">			komisioa=(a.getKopurua()*a.getKuotaTotala()-a.getKopurua())*errepikapen.getKomisioa();</span>
-<span class="nc" id="L525">			System.out.println(komisioa);</span>
-<span class="nc" id="L526">			bez.addMugimendua(&quot;Apustu errepikatuaren komisioa (&quot;+bezeroa+&quot;)&quot;, komisioa,&quot;irabazi&quot;);</span>
+<span class="fc bfc" id="L519" title="All 2 branches covered.">		if (a.getErrepikatua()!=null) {</span>
+<span class="fc" id="L520">			Bezeroa bez = a.getErrepikatua();</span>
+<span class="fc" id="L521">			bezeroa = a.getBezeroa();</span>
+<span class="fc" id="L522">			Errepikapena errepikapen=bezeroa.getErrepikapena(bez);</span>
+<span class="fc" id="L523">			System.out.println(a.getKopurua()+&quot; &quot;+a.getKuotaTotala()+&quot; &quot;+a.getKopurua()+&quot; &quot;+errepikapen.getKomisioa());</span>
+<span class="fc" id="L524">			komisioa=(a.getKopurua()*a.getKuotaTotala()-a.getKopurua())*errepikapen.getKomisioa();</span>
+<span class="fc" id="L525">			System.out.println(komisioa);</span>
+<span class="fc" id="L526">			bez.addMugimendua(&quot;Apustu errepikatuaren komisioa (&quot;+bezeroa+&quot;)&quot;, komisioa,&quot;irabazi&quot;);</span>
 		}
-<span class="nc" id="L528">		bezeroa=a.getBezeroa();</span>
-<span class="nc" id="L529">		irabazia=a.getKopurua()*a.getKuotaTotala()-komisioa;</span>
-<span class="nc" id="L530">		bezeroa.addMugimendua(&quot;Apustua irabazi (&quot;+a.getIdentifikadorea()+&quot;)&quot;, irabazia, &quot;irabazi&quot;);</span>
-<span class="nc" id="L531">		return irabazia;</span>
+<span class="fc" id="L528">		bezeroa=a.getBezeroa();</span>
+<span class="fc" id="L529">		irabazia=a.getKopurua()*a.getKuotaTotala()-komisioa;</span>
+<span class="fc" id="L530">		bezeroa.addMugimendua(&quot;Apustua irabazi (&quot;+a.getIdentifikadorea()+&quot;)&quot;, irabazia, &quot;irabazi&quot;);</span>
+<span class="fc" id="L531">		return irabazia;</span>
 	}
 	
 	public Bezeroa apustuaEgin(ArrayList&lt;Pronostikoa&gt; pronostikoak, double a, Bezeroa bezero) {
@@ -746,31 +746,31 @@ public class DataAccess {
 <span class="nc" id="L746">	}</span>
 	
 	public void removeMezua(Mezua mezua) {
-<span class="nc bnc" id="L749" title="All 2 branches missed.">		if(mezua instanceof BezeroartekoMezua) {</span>
-<span class="nc" id="L750">			BezeroartekoMezua m = db.find(BezeroartekoMezua.class, mezua.getIdentifikadorea());</span>
-<span class="nc" id="L751">			Bezeroa nork = m.getIgorlea();</span>
-<span class="nc" id="L752">			Bezeroa nori = m.getHartzailea();</span>
-<span class="nc" id="L753">			db.getTransaction().begin();</span>
-<span class="nc" id="L754">			nork.ezabatuBidalitakoBezeroMezua(m);</span>
-<span class="nc" id="L755">			nori.ezabatuJasotakoBezeroMezua(m);</span>
-<span class="nc" id="L756">			db.remove(m);</span>
-<span class="nc" id="L757">			db.getTransaction().commit();</span>
-<span class="nc" id="L758">		}else {</span>
-<span class="nc" id="L759">			ArretaMezua m = db.find(ArretaMezua.class, mezua.getIdentifikadorea());</span>
-<span class="nc" id="L760">			ArretaElkarrizketa elkarrizketa = m.getElkarrizketa();</span>
-<span class="nc" id="L761">			db.getTransaction().begin();</span>
-<span class="nc bnc" id="L762" title="All 2 branches missed.">			if(elkarrizketa.isAmaituta()) {</span>
-<span class="nc" id="L763">				elkarrizketa.removeMezua(m);</span>
-<span class="nc" id="L764">				db.remove(m);</span>
-<span class="nc bnc" id="L765" title="All 2 branches missed.">				if(elkarrizketa.mezurikEz()) {</span>
-<span class="nc" id="L766">					db.remove(elkarrizketa);</span>
+<span class="fc bfc" id="L749" title="All 2 branches covered.">		if(mezua instanceof BezeroartekoMezua) {</span>
+<span class="fc" id="L750">			BezeroartekoMezua m = db.find(BezeroartekoMezua.class, mezua.getIdentifikadorea());</span>
+<span class="fc" id="L751">			Bezeroa nork = m.getIgorlea();</span>
+<span class="fc" id="L752">			Bezeroa nori = m.getHartzailea();</span>
+<span class="fc" id="L753">			db.getTransaction().begin();</span>
+<span class="fc" id="L754">			nork.ezabatuBidalitakoBezeroMezua(m);</span>
+<span class="fc" id="L755">			nori.ezabatuJasotakoBezeroMezua(m);</span>
+<span class="fc" id="L756">			db.remove(m);</span>
+<span class="fc" id="L757">			db.getTransaction().commit();</span>
+<span class="fc" id="L758">		}else {</span>
+<span class="fc" id="L759">			ArretaMezua m = db.find(ArretaMezua.class, mezua.getIdentifikadorea());</span>
+<span class="fc" id="L760">			ArretaElkarrizketa elkarrizketa = m.getElkarrizketa();</span>
+<span class="fc" id="L761">			db.getTransaction().begin();</span>
+<span class="fc bfc" id="L762" title="All 2 branches covered.">			if(elkarrizketa.isAmaituta()) {</span>
+<span class="fc" id="L763">				elkarrizketa.removeMezua(m);</span>
+<span class="fc" id="L764">				db.remove(m);</span>
+<span class="pc bpc" id="L765" title="1 of 2 branches missed.">				if(elkarrizketa.mezurikEz()) {</span>
+<span class="fc" id="L766">					db.remove(elkarrizketa);</span>
 				}
 			}else {
-<span class="nc" id="L769">				m.setIkusgaiBezeroarentzat(false);</span>
+<span class="fc" id="L769">				m.setIkusgaiBezeroarentzat(false);</span>
 			}
-<span class="nc" id="L771">			db.getTransaction().commit();</span>
+<span class="fc" id="L771">			db.getTransaction().commit();</span>
 		}
-<span class="nc" id="L773">    }</span>
+<span class="fc" id="L773">    }</span>
 	
 	public Bezeroa eguneratuEzarpenak(Bezeroa b, double komisioa, boolean publikoa) {
 <span class="nc" id="L776">		Bezeroa erabiltzailea = db.find(Bezeroa.class, b.getErabiltzaileIzena());</span>

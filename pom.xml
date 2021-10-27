@@ -39,19 +39,17 @@
                </includes>
             </configuration>
         </plugin>
+       	<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+        </plugin>
    </plugins>
 </build>
- <repositories>
-	<repository>
-		<id>objectdb</id>
-		<name>ObjectDB Repository</name>
-		<url>https://m2.objectdb.com</url>
-	</repository>
-</repositories>
 
 <properties>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
         <sonar.organization>inakimoreno-1</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
     <sonar.login>b311e82cd723878fb1481c5f07d2829e763f8b8c</sonar.login> 
@@ -105,6 +103,16 @@
 			<artifactId>javax.persistence</artifactId>
 			<version>2.1.0</version>
 		</dependency>
+		
+		
+		<dependency>
+			<groupId>com.sample</groupId>
+    		<artifactId>sample</artifactId>
+    		<version>1.0</version>
+    		<scope>system</scope>
+    		<systemPath>${project.basedir}/objectdb-2.8.6/bin/objectdb.jar</systemPath>
+		</dependency>
+		
 		<dependency>
 			<groupId>javax.transaction</groupId>
 			<artifactId>jta</artifactId>

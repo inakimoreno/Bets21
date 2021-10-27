@@ -1,142 +1,142 @@
 
-+domain.Bezeroa#baduMezua(Ldomain/Bezeroa;)ZJ
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¼ ¼("11*ó
-2J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä({
-y
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(
++domain.Bezeroa#baduMezua(Ldomain/Bezeroa;)ZB
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¼ ¼("11*Û
+2B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(s
+q
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(
 mdomain.BezeroartekoMezua"__id*
-""œ
-™
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(
+""”
+‘
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(
 mdomain.BezeroartekoMezua"
 __arrayGet*
 
 %6java.util.Vector*
 ""*
 5
-1*¥
-3J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÆ Æ("T
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÆ Æ(
-""*ˆ
-4J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÅV Å(W®«
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÅV Å(f
+1*•
+3B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÆ Æ("L
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÆ Æ(
+""*ø
+4B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÅV Å(W¦£
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÅV Å(f
 %11boolean"domain.Mezua#isIrakurrita()Z*
 
 mdomain.BezeroartekoMezua2isIrakurrita()*
 2
-3*±
-5J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÅ Å(ËÈ
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÅ Å(
+3*‰
+5B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÅ Å(ÃÀ
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÅ Å(
 %7domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*
 
-mdomain.BezeroartekoMezua2getIgorlea()ÑÎ
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÅ Å(+
+mdomain.BezeroartekoMezua2getIgorlea()ÉÆ
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÅ Å(+
 %8java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
-%7domain.Bezeroa2getErabiltzaileIzena()ÕÒ
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÅ3 Å(P
+%7domain.Bezeroa2getErabiltzaileIzena()ÍÊ
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÅ3 Å(P
 %9java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
-besteadomain.Bezeroa2getErabiltzaileIzena()ÝÚ
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÅ Å(Q
+besteadomain.Bezeroa2getErabiltzaileIzena()ÕÒ
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÅ Å(Q
 %10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %8java.lang.String*
 
 %9java.lang.String2equals(Ljava/lang/Object;)*
 2
-4*ò
-6J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(0›
-˜
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(0
+4*â
+6B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(0“
+
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÄ Ä(0
 %6java.util.Vector"__id*,**
 domain.Bezeroa"
 jasotakoBezeroMezuak*
-2*ô
-7J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¾ ¾({
-y
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(
+2*Ü
+7B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(s
+q
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(
 mdomain.BezeroartekoMezua"__id*
-""œ
-™
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(
+""”
+‘
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(
 mdomain.BezeroartekoMezua"
 __arrayGet*
 
 %0java.util.Vector*
 ""*
 6
-10*¥
-8J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÀ À("T
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÀ À(
-""*‡
-9J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¿Z ¿([­ª
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¿Z ¿(j
+10*•
+8B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÀ À("L
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÀ À(
+""*÷
+9B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¿Z ¿([¥¢
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¿Z ¿(j
 %5boolean"domain.Mezua#isIrakurrita()Z*
 
 mdomain.BezeroartekoMezua2isIrakurrita()*
 7
-8*·
-10J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¿ ¿(ÑÎ
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¿ ¿(
+8*
+10B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¿ ¿(ÉÆ
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¿ ¿(
 %1domain.Bezeroa"8domain.BezeroartekoMezua#getHartzailea()Ldomain/Bezeroa;*
 
-mdomain.BezeroartekoMezua2getHartzailea()ÑÎ
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¿ ¿(.
+mdomain.BezeroartekoMezua2getHartzailea()ÉÆ
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¿ ¿(.
 %2java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
-%1domain.Bezeroa2getErabiltzaileIzena()ÕÒ
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¿6 ¿(S
+%1domain.Bezeroa2getErabiltzaileIzena()ÍÊ
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¿6 ¿(S
 %3java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
-besteadomain.Bezeroa2getErabiltzaileIzena()ÜÙ
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¿ ¿(T
+besteadomain.Bezeroa2getErabiltzaileIzena()ÔÑ
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¿ ¿(T
 %4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %2java.lang.String*
 
 %3java.lang.String2equals(Ljava/lang/Object;)*
 7
-9*õ
-11J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(2
-š
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(2
+9*å
+11B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(2•
+’
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.java¾ ¾(2
 %0java.util.Vector"__id*.*,
 domain.Bezeroa"
 bidalitakoBezeroMezuak*
-7*¥
-1J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÉ	 É("T
-J
->/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaÉ É(
+7*•
+1B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÉ	 É("L
+B
+6D:/Coding/git/Bets21/src/main/java/domain/Bezeroa.javaÉ É(
 "":
 besteadomain.BezeroaB
 domain.Bezeroa

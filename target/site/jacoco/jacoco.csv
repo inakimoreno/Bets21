@@ -48,7 +48,7 @@ Bets2222,net.bytebuddy.implementation.auxiliary,TypeProxy.ForSuperMethodByConstr
 Bets2222,net.bytebuddy.implementation.auxiliary,AuxiliaryType.NamingStrategy.SuffixingRandom,65,0,8,0,5,0,8,0,4,0
 Bets2222,net.bytebuddy.implementation.auxiliary,TypeProxy.ForDefaultMethod,141,0,12,0,13,0,11,0,5,0
 Bets2222,net.bytebuddy.implementation.auxiliary,TypeProxy.ForSuperMethodByReflectionFactory,153,0,14,0,13,0,12,0,5,0
-Bets2222,javax.jdo,JDOHelper,1783,0,188,0,478,0,149,0,55,0
+Bets2222,javax.jdo,JDOHelper,1620,163,188,0,439,39,145,4,51,4
 Bets2222,javax.jdo,JDOUserException,34,0,0,0,14,0,7,0,7,0
 Bets2222,javax.jdo,JDOUnsupportedOptionException,17,0,0,0,8,0,4,0,4,0
 Bets2222,javax.jdo,JDOFatalDataStoreException,34,0,0,0,14,0,7,0,7,0
@@ -61,9 +61,9 @@ Bets2222,javax.jdo,JDOHelper.new PrivilegedExceptionAction() {...},20,0,0,0,2,0,
 Bets2222,javax.jdo,JDOHelper.new PrivilegedExceptionAction() {...},20,0,0,0,2,0,2,0,2,0
 Bets2222,javax.jdo,JDOHelper.new PrivilegedAction() {...},6,0,0,0,2,0,2,0,2,0
 Bets2222,javax.jdo,JDOHelper.new PrivilegedAction() {...},15,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},7,0,0,0,2,0,2,0,2,0
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},4,3,0,0,1,1,1,1,1,1
 Bets2222,javax.jdo,JDOHelper.new ErrorHandler() {...},8,0,0,0,4,0,4,0,4,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},7,0,0,0,2,0,2,0,2,0
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},4,3,0,0,1,1,1,1,1,1
 Bets2222,javax.jdo,JDOFatalUserException,34,0,0,0,14,0,7,0,7,0
 Bets2222,javax.jdo,JDODataStoreException,34,0,0,0,14,0,7,0,7,0
 Bets2222,javax.jdo,JDOCanRetryException,34,0,0,0,14,0,7,0,7,0
@@ -73,15 +73,15 @@ Bets2222,javax.jdo,JDOException,376,0,42,0,91,0,38,0,17,0
 Bets2222,javax.jdo,JDONullIdentityException,22,0,0,0,10,0,5,0,5,0
 Bets2222,javax.jdo,JDOOptimisticVerificationException,29,0,0,0,12,0,6,0,6,0
 Bets2222,javax.jdo,JDOFatalInternalException,34,0,0,0,14,0,7,0,7,0
-Bets2222,javax.jdo,JDOHelper.new PrivilegedAction() {...},5,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationObjectReturn() {...},7,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationObjectReturn() {...},7,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},7,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},7,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationObjectReturn() {...},7,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationObjectReturn() {...},7,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},7,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},7,0,0,0,2,0,2,0,2,0
+Bets2222,javax.jdo,JDOHelper.new PrivilegedAction() {...},0,5,0,0,0,2,0,2,0,2
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationObjectReturn() {...},4,3,0,0,1,1,1,1,1,1
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationObjectReturn() {...},4,3,0,0,1,1,1,1,1,1
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},4,3,0,0,1,1,1,1,1,1
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},4,3,0,0,1,1,1,1,1,1
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationObjectReturn() {...},4,3,0,0,1,1,1,1,1,1
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationObjectReturn() {...},4,3,0,0,1,1,1,1,1,1
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},4,3,0,0,1,1,1,1,1,1
+Bets2222,javax.jdo,JDOHelper.new JDOImplHelper.StateInterrogationBooleanReturn() {...},4,3,0,0,1,1,1,1,1,1
 Bets2222,javax.jdo,JDOReadOnlyException,17,0,0,0,8,0,4,0,4,0
 Bets2222,javax.jdo,JDODetachedFieldAccessException,22,0,0,0,10,0,5,0,5,0
 Bets2222,net.bytebuddy.dynamic.scaffold,FieldLocator.Resolution.Simple,46,0,8,0,5,0,9,0,5,0
@@ -564,12 +564,12 @@ Bets2222,net.bytebuddy.utility.visitor,LocalVariableAwareMethodVisitor,36,0,3,0,
 Bets2222,net.bytebuddy.utility.visitor,MetadataAwareClassVisitor,203,0,6,0,73,0,27,0,24,0
 Bets2222,net.bytebuddy.utility.visitor,ExceptionTableSensitiveMethodVisitor,215,0,2,0,82,0,33,0,32,0
 Bets2222,net.bytebuddy.utility.visitor,LineNumberPrependingMethodVisitor,32,0,2,0,11,0,4,0,3,0
-Bets2222,com.objectdb.jpa,Provider,252,0,38,0,77,0,33,0,14,0
-Bets2222,com.objectdb.jpa,EMF,376,0,38,0,112,0,39,0,20,0
+Bets2222,com.objectdb.jpa,Provider,199,53,33,5,58,19,29,4,10,4
+Bets2222,com.objectdb.jpa,EMF,301,75,36,2,91,21,33,6,14,6
 Bets2222,com.objectdb.jpa,ObjectdbJpaVendorAdapter,63,0,0,0,18,0,9,0,9,0
-Bets2222,com.objectdb.jpa,MetamodelImpl,347,0,31,0,88,0,28,0,12,0
-Bets2222,com.objectdb.jpa,EMImpl,973,0,82,0,306,0,106,0,65,0
-Bets2222,com.objectdb.jpa,JpaQuery,723,0,66,0,168,0,73,0,40,0
+Bets2222,com.objectdb.jpa,MetamodelImpl,326,21,31,0,82,6,27,1,11,1
+Bets2222,com.objectdb.jpa,EMImpl,748,225,71,11,230,76,87,19,46,19
+Bets2222,com.objectdb.jpa,JpaQuery,659,64,63,3,154,14,69,4,36,4
 Bets2222,net.bytebuddy.description.modifier,ParameterManifestation,53,0,4,0,10,0,8,0,6,0
 Bets2222,net.bytebuddy.description.modifier,Visibility,143,0,23,0,21,0,23,0,10,0
 Bets2222,net.bytebuddy.description.modifier,MethodArguments,53,0,4,0,10,0,8,0,6,0
@@ -953,13 +953,13 @@ Bets2222,exceptions,EventAlreadyExist,7,0,0,0,4,0,2,0,2,0
 Bets2222,exceptions,PronosticAlreadyExist,7,0,0,0,4,0,2,0,2,0
 Bets2222,exceptions,ResultAlreadyExist,7,0,0,0,4,0,2,0,2,0
 Bets2222,exceptions,QuestionAlreadyExist,7,0,0,0,4,0,2,0,2,0
-Bets2222,exceptions,UserAlreadyExist,7,0,0,0,4,0,2,0,2,0
+Bets2222,exceptions,UserAlreadyExist,4,3,0,0,2,2,1,1,1,1
 Bets2222,exceptions,EventFinished,7,0,0,0,4,0,2,0,2,0
-Bets2222,javax.jdo.identity,IntIdentity,139,0,12,0,40,0,18,0,12,0
+Bets2222,javax.jdo.identity,IntIdentity,122,17,12,0,34,6,16,2,10,2
 Bets2222,javax.jdo.identity,ShortIdentity,139,0,12,0,40,0,18,0,12,0
 Bets2222,javax.jdo.identity,ByteIdentity,139,0,12,0,40,0,18,0,12,0
-Bets2222,javax.jdo.identity,StringIdentity,108,0,10,0,29,0,13,0,8,0
-Bets2222,javax.jdo.identity,SingleFieldIdentity,131,0,16,0,41,0,23,0,15,0
+Bets2222,javax.jdo.identity,StringIdentity,94,14,10,0,25,4,12,1,7,1
+Bets2222,javax.jdo.identity,SingleFieldIdentity,101,30,14,2,29,12,18,5,10,5
 Bets2222,javax.jdo.identity,ObjectIdentity,227,0,20,0,55,0,19,0,9,0
 Bets2222,javax.jdo.identity,LongIdentity,155,0,16,0,45,0,20,0,12,0
 Bets2222,javax.jdo.identity,ObjectIdentity.new PrivilegedAction() {...},5,0,0,0,2,0,2,0,2,0
@@ -1008,26 +1008,26 @@ Bets2222,com.toedter.components,JSpinFieldBeanInfo,5,0,0,0,0,0,1,0,1,0
 Bets2222,com.toedter.components,UTF8ResourceBundle.UTF8PropertyResourceBundle,35,0,2,0,0,0,4,0,3,0
 Bets2222,com.toedter.components,JTitlePanel,98,0,4,0,0,0,4,0,2,0
 Bets2222,com.toedter.components,GenericBeanInfo,106,0,11,0,0,0,9,0,2,0
-Bets2222,domain,Pertsona,35,77,0,0,18,21,9,9,9,9
-Bets2222,domain,Apustua,263,0,14,0,65,0,31,0,24,0
+Bets2222,domain,Pertsona,32,80,0,0,16,23,8,10,8,10
+Bets2222,domain,Apustua,167,78,14,0,41,24,17,14,10,14
 Bets2222,domain,IntegerAdapter,14,0,2,0,4,0,4,0,3,0
-Bets2222,domain,Mugimendua,120,0,0,0,41,0,17,0,17,0
+Bets2222,domain,Mugimendua,85,23,0,0,32,9,15,2,15,2
 Bets2222,domain,ApustuaContainer,33,0,0,0,14,0,6,0,6,0
-Bets2222,domain,Admin,3,7,0,0,2,2,1,1,1,1
-Bets2222,domain,Mezua,42,7,0,0,14,4,8,1,8,1
-Bets2222,domain,Bezeroa,739,0,62,0,164,0,76,0,45,0
-Bets2222,domain,Pronostikoa,109,8,4,0,30,3,18,1,16,1
-Bets2222,domain,Question,113,8,4,0,36,3,18,1,16,1
-Bets2222,domain,BezeroParea,15,0,0,0,6,0,3,0,3,0
-Bets2222,domain,ArretaElkarrizketa,203,0,12,0,53,0,27,0,21,0
+Bets2222,domain,Admin,0,10,0,0,0,4,0,2,0,2
+Bets2222,domain,Mezua,17,32,0,0,6,12,5,4,5,4
+Bets2222,domain,Bezeroa,567,167,60,2,130,34,67,9,36,9
+Bets2222,domain,Pronostikoa,70,40,4,0,20,13,13,6,11,6
+Bets2222,domain,Question,69,52,4,0,22,17,14,5,12,5
+Bets2222,domain,BezeroParea,0,15,0,0,0,6,0,3,0,3
+Bets2222,domain,ArretaElkarrizketa,114,89,9,3,29,24,18,9,12,9
 Bets2222,domain,ErrepikatuakContainer,32,0,0,0,12,0,5,0,5,0
-Bets2222,domain,ArretaMezua,30,3,0,0,12,2,6,1,6,1
-Bets2222,domain,Langilea,172,0,10,0,27,0,15,0,10,0
-Bets2222,domain,Event,147,0,12,0,47,0,22,0,16,0
+Bets2222,domain,ArretaMezua,7,26,0,0,3,11,2,5,2,5
+Bets2222,domain,Langilea,144,28,10,0,21,6,13,2,8,2
+Bets2222,domain,Event,88,59,12,0,30,17,16,6,10,6
 Bets2222,domain,BezeroaContainer,35,0,0,0,14,0,6,0,6,0
-Bets2222,domain,Errepikapena,74,0,0,0,29,0,15,0,15,0
+Bets2222,domain,Errepikapena,42,32,0,0,17,12,11,4,11,4
 Bets2222,domain,PronostikoaContainer,48,0,0,0,19,0,8,0,8,0
-Bets2222,domain,BezeroartekoMezua,66,3,0,0,26,2,13,1,13,1
+Bets2222,domain,BezeroartekoMezua,35,34,0,0,15,13,10,4,10,4
 Bets2222,net.bytebuddy.implementation.bytecode.assign.reference,GenericTypeAwareAssigner,56,0,12,0,10,0,8,0,2,0
 Bets2222,net.bytebuddy.implementation.bytecode.assign.reference,GenericTypeAwareAssigner.IsAssignableToVisitor.OfNonGenericType,23,0,2,0,5,0,3,0,2,0
 Bets2222,net.bytebuddy.implementation.bytecode.assign.reference,GenericTypeAwareAssigner.IsAssignableToVisitor,166,0,22,0,25,0,20,0,9,0
@@ -1046,22 +1046,22 @@ Bets2222,net.bytebuddy.jar.asm.commons,ModuleHashesAttribute,157,0,8,0,40,0,8,0,
 Bets2222,net.bytebuddy.jar.asm.commons,MethodRemapper,372,0,32,0,73,0,35,0,19,0
 Bets2222,net.bytebuddy.jar.asm.commons,ModuleRemapper,141,0,10,0,32,0,14,0,9,0
 Bets2222,net.bytebuddy.jar.asm.commons,SignatureRemapper,184,0,2,0,50,0,19,0,18,0
-Bets2222,gui,FindQuestionsGUI.new PropertyChangeListener() {...},263,0,12,0,39,0,8,0,2,0
+Bets2222,gui,FindQuestionsGUI.new PropertyChangeListener() {...},240,0,12,0,39,0,8,0,2,0
 Bets2222,gui,FindQuestionsGUI.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
-Bets2222,gui,FindQuestionsGUI.new MouseAdapter() {...},117,0,4,0,17,0,4,0,2,0
+Bets2222,gui,FindQuestionsGUI.new MouseAdapter() {...},103,0,4,0,17,0,4,0,2,0
 Bets2222,gui,PostontziaGUI,1492,0,30,0,270,0,23,0,8,0
 Bets2222,gui,ErrepikatzekoEskaeraEginGUI,651,0,0,0,117,0,3,0,3,0
 Bets2222,gui,MainGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,MainGUI.new ActionListener() {...},14,0,0,0,4,0,2,0,2,0
-Bets2222,gui,MainGUI.new ActionListener() {...},25,0,0,0,4,0,2,0,2,0
-Bets2222,gui,MainGUI.new ActionListener() {...},25,0,0,0,4,0,2,0,2,0
+Bets2222,gui,MainGUI.new ActionListener() {...},19,0,0,0,4,0,2,0,2,0
+Bets2222,gui,MainGUI.new ActionListener() {...},19,0,0,0,4,0,2,0,2,0
 Bets2222,gui,EzarpenakAldatuGUI.new ActionListener() {...},68,0,0,0,13,0,2,0,2,0
-Bets2222,gui,EzarpenakAldatuGUI.new ActionListener() {...},244,0,20,0,42,0,12,0,2,0
+Bets2222,gui,EzarpenakAldatuGUI.new ActionListener() {...},220,0,20,0,42,0,12,0,2,0
 Bets2222,gui,EzarpenakAldatuGUI.new ActionListener() {...},22,0,0,0,5,0,2,0,2,0
 Bets2222,gui,MainGUI.new WindowAdapter() {...},9,0,0,0,3,0,2,0,2,0
 Bets2222,gui,EzarpenakAldatuGUI.new ActionListener() {...},30,0,0,0,6,0,2,0,2,0
 Bets2222,gui,EzarpenakAldatuGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
-Bets2222,gui,MainGUI.new ActionListener() {...},25,0,0,0,5,0,2,0,2,0
+Bets2222,gui,MainGUI.new ActionListener() {...},19,0,0,0,5,0,2,0,2,0
 Bets2222,gui,LangileaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,LangileaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,LangileaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
@@ -1069,44 +1069,44 @@ Bets2222,gui,LangileaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,LangileaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,LangileaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,FindQuestionsGUI,344,0,0,0,60,0,3,0,3,0
-Bets2222,gui,CreateQuestionGUI,578,0,6,0,110,0,8,0,5,0
+Bets2222,gui,CreateQuestionGUI,571,0,6,0,110,0,8,0,5,0
 Bets2222,gui,ApostuaEzabatuGUI,456,0,6,0,83,0,6,0,3,0
-Bets2222,gui,CreateQuestionGUI.new PropertyChangeListener() {...},248,0,14,0,39,0,9,0,2,0
+Bets2222,gui,CreateQuestionGUI.new PropertyChangeListener() {...},213,0,14,0,39,0,9,0,2,0
 Bets2222,gui,CreateQuestionGUI.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
 Bets2222,gui,CreateQuestionGUI.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
 Bets2222,gui,MainGUI,313,0,16,0,69,0,22,0,14,0
 Bets2222,gui,GertaeraEzabatuGUI,408,0,2,0,78,0,5,0,4,0
 Bets2222,gui,CreateEventGUI,305,0,0,0,53,0,3,0,3,0
-Bets2222,gui,BezeroaGUI,519,0,0,0,114,0,13,0,13,0
-Bets2222,gui,MugimenduakIkusiGUI,343,0,12,0,70,0,9,0,3,0
-Bets2222,gui,ArretaZerbitzuaEmanGUI,942,0,14,0,176,0,14,0,7,0
-Bets2222,gui,ArretaZerbitzuaEmanGUI.new MouseAdapter() {...},114,0,4,0,18,0,4,0,2,0
-Bets2222,gui,LangileaGUI,320,0,0,0,73,0,9,0,9,0
-Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},136,0,2,0,28,0,3,0,2,0
+Bets2222,gui,BezeroaGUI,510,0,0,0,114,0,13,0,13,0
+Bets2222,gui,MugimenduakIkusiGUI,342,0,12,0,70,0,9,0,3,0
+Bets2222,gui,ArretaZerbitzuaEmanGUI,935,0,14,0,176,0,14,0,7,0
+Bets2222,gui,ArretaZerbitzuaEmanGUI.new MouseAdapter() {...},112,0,4,0,18,0,4,0,2,0
+Bets2222,gui,LangileaGUI,311,0,0,0,73,0,9,0,9,0
+Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},134,0,2,0,28,0,3,0,2,0
 Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},125,0,2,0,24,0,3,0,2,0
-Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},101,0,2,0,19,0,3,0,2,0
+Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},100,0,2,0,19,0,3,0,2,0
 Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},65,0,0,0,14,0,2,0,2,0
 Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},17,0,0,0,5,0,2,0,2,0
 Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},40,0,0,0,8,0,2,0,2,0
 Bets2222,gui,ArretaZerbitzuaEmanGUI.new ActionListener() {...},57,0,0,0,12,0,2,0,2,0
 Bets2222,gui,LoginGUI,313,0,0,0,66,0,7,0,7,0
-Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},214,0,8,0,31,0,6,0,2,0
-Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},125,0,2,0,16,0,3,0,2,0
-Bets2222,gui,ApustuaEginGUI.new PropertyChangeListener() {...},199,0,10,0,34,0,7,0,2,0
+Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},196,0,8,0,31,0,6,0,2,0
+Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},109,0,2,0,16,0,3,0,2,0
+Bets2222,gui,ApustuaEginGUI.new PropertyChangeListener() {...},178,0,10,0,34,0,7,0,2,0
 Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
 Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},68,0,4,0,14,0,4,0,2,0
-Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},175,0,6,0,31,0,5,0,2,0
+Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},166,0,6,0,31,0,5,0,2,0
 Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},78,0,6,0,17,0,5,0,2,0
-Bets2222,gui,ApustuaEginGUI.new MouseAdapter() {...},21,0,0,0,4,0,2,0,2,0
-Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},75,0,2,0,12,0,3,0,2,0
+Bets2222,gui,ApustuaEginGUI.new MouseAdapter() {...},20,0,0,0,4,0,2,0,2,0
+Bets2222,gui,ApustuaEginGUI.new ActionListener() {...},68,0,2,0,12,0,3,0,2,0
 Bets2222,gui,ApustuaEginGUI,977,0,10,0,173,0,11,0,6,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},17,0,0,0,4,0,2,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},17,0,0,0,4,0,2,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},17,0,0,0,4,0,2,0,2,0
-Bets2222,gui,PostontziaGUI.new MouseAdapter() {...},714,0,26,0,104,0,16,0,3,0
+Bets2222,gui,PostontziaGUI.new MouseAdapter() {...},643,0,26,0,104,0,16,0,3,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},17,0,0,0,4,0,2,0,2,0
-Bets2222,gui,DiruaSartuGUI.new ActionListener() {...},69,0,2,0,12,0,3,0,2,0
+Bets2222,gui,DiruaSartuGUI.new ActionListener() {...},68,0,2,0,12,0,3,0,2,0
 Bets2222,gui,DiruaSartuGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,LoginGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,LoginGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
@@ -1119,22 +1119,22 @@ Bets2222,gui,ErrepikatzaileakGUI,439,0,12,0,87,0,10,0,4,0
 Bets2222,gui,CreatePronosticGUI.new ActionListener() {...},72,0,6,0,15,0,5,0,2,0
 Bets2222,gui,CreatePronosticGUI.new ActionListener() {...},50,0,2,0,10,0,3,0,2,0
 Bets2222,gui,CreatePronosticGUI.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
-Bets2222,gui,CreatePronosticGUI.new PropertyChangeListener() {...},254,0,12,0,40,0,8,0,2,0
+Bets2222,gui,CreatePronosticGUI.new PropertyChangeListener() {...},219,0,12,0,40,0,8,0,2,0
 Bets2222,gui,CreatePronosticGUI.new ActionListener() {...},127,0,8,0,30,0,6,0,2,0
 Bets2222,gui,BezeroaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,BezeroaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,CreateEventGUI.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
 Bets2222,gui,CreateEventGUI.new ActionListener() {...},88,0,4,0,20,0,4,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
-Bets2222,gui,PostontziaGUI.new ActionListener() {...},719,0,30,0,116,0,17,0,2,0
+Bets2222,gui,PostontziaGUI.new ActionListener() {...},701,0,30,0,116,0,17,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},148,0,0,0,29,0,2,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},93,0,4,0,17,0,4,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},85,0,4,0,16,0,4,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},40,0,0,0,8,0,2,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},17,0,0,0,4,0,2,0,2,0
-Bets2222,gui,PostontziaGUI.new ActionListener() {...},62,0,0,0,11,0,2,0,2,0
+Bets2222,gui,PostontziaGUI.new ActionListener() {...},60,0,0,0,11,0,2,0,2,0
 Bets2222,gui,PostontziaGUI.new ActionListener() {...},55,0,0,0,11,0,2,0,2,0
-Bets2222,gui,MugimenduakIkusiGUI.new ActionListener() {...},101,0,2,0,9,0,3,0,2,0
+Bets2222,gui,MugimenduakIkusiGUI.new ActionListener() {...},73,0,2,0,9,0,3,0,2,0
 Bets2222,gui,MugimenduakIkusiGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,PuntuazioakIkusiGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,PuntuazioakIkusiGUI,436,0,4,0,83,0,6,0,4,0
@@ -1148,39 +1148,39 @@ Bets2222,gui,BezeroaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,BezeroaGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,BezeroaGUI.new ActionListener() {...},14,0,0,0,4,0,2,0,2,0
 Bets2222,gui,GertaeraEzabatuGUI.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
-Bets2222,gui,GertaeraEzabatuGUI.new ActionListener() {...},162,0,6,0,27,0,5,0,2,0
-Bets2222,gui,GertaeraEzabatuGUI.new PropertyChangeListener() {...},264,0,14,0,41,0,9,0,2,0
+Bets2222,gui,GertaeraEzabatuGUI.new ActionListener() {...},142,0,6,0,27,0,5,0,2,0
+Bets2222,gui,GertaeraEzabatuGUI.new PropertyChangeListener() {...},228,0,14,0,41,0,9,0,2,0
 Bets2222,gui,GertaeraEzabatuGUI.new ActionListener() {...},25,0,0,0,5,0,2,0,2,0
 Bets2222,gui,EmaitzaIpiniGUI.new ActionListener() {...},71,0,6,0,15,0,5,0,2,0
 Bets2222,gui,EmaitzaIpiniGUI.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
 Bets2222,gui,EmaitzaIpiniGUI.new ActionListener() {...},45,0,2,0,9,0,3,0,2,0
-Bets2222,gui,EmaitzaIpiniGUI.new PropertyChangeListener() {...},249,0,12,0,39,0,8,0,2,0
+Bets2222,gui,EmaitzaIpiniGUI.new PropertyChangeListener() {...},214,0,12,0,39,0,8,0,2,0
 Bets2222,gui,EmaitzaIpiniGUI.new ActionListener() {...},73,0,6,0,16,0,5,0,2,0
 Bets2222,gui,EmaitzaIpiniGUI.new ActionListener() {...},87,0,4,0,17,0,4,0,2,0
 Bets2222,gui,ErrepikatzaileakGUI.new MouseAdapter() {...},38,0,2,0,8,0,3,0,2,0
 Bets2222,gui,ErrepikatzaileakGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
 Bets2222,gui,ErrepikatzaileakGUI.new MouseAdapter() {...},41,0,2,0,9,0,3,0,2,0
-Bets2222,gui,ErrepikatzekoEskaeraEginGUI.new ActionListener() {...},128,0,0,0,22,0,2,0,2,0
+Bets2222,gui,ErrepikatzekoEskaeraEginGUI.new ActionListener() {...},121,0,0,0,22,0,2,0,2,0
 Bets2222,gui,ErrepikatzekoEskaeraEginGUI.new ActionListener() {...},138,0,6,0,26,0,5,0,2,0
 Bets2222,gui,ErrepikatzekoEskaeraEginGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
-Bets2222,gui,ErrepikatzekoEskaeraEginGUI.new ActionListener() {...},261,0,12,0,42,0,8,0,2,0
-Bets2222,gui,ErrepikatzekoEskaeraEginGUI.new ActionListener() {...},207,0,4,0,16,0,4,0,2,0
-Bets2222,gui,CreatePronosticGUI,637,0,2,0,115,0,5,0,4,0
-Bets2222,gui,ApplicationLauncher,125,0,2,0,24,0,3,0,2,0
+Bets2222,gui,ErrepikatzekoEskaeraEginGUI.new ActionListener() {...},252,0,12,0,42,0,8,0,2,0
+Bets2222,gui,ErrepikatzekoEskaeraEginGUI.new ActionListener() {...},149,0,4,0,16,0,4,0,2,0
+Bets2222,gui,CreatePronosticGUI,631,0,2,0,115,0,5,0,4,0
+Bets2222,gui,ApplicationLauncher,93,0,2,0,24,0,3,0,2,0
 Bets2222,gui,MugimenduakIkusiGUI.listaBackground,39,0,2,0,8,0,2,0,1,0
 Bets2222,gui,RegisterGUI,1236,0,28,0,221,0,19,0,5,0
 Bets2222,gui,ArretaZerbitzuaEskatuGUI,298,0,4,0,58,0,6,0,4,0
-Bets2222,gui,AdminGUI,250,0,0,0,53,0,5,0,5,0
+Bets2222,gui,AdminGUI,241,0,0,0,53,0,5,0,5,0
 Bets2222,gui,RegisterGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
-Bets2222,gui,RegisterGUI.new ActionListener() {...},175,0,2,0,25,0,3,0,2,0
+Bets2222,gui,RegisterGUI.new ActionListener() {...},149,0,2,0,25,0,3,0,2,0
 Bets2222,gui,DiruaSartuGUI,236,0,0,0,50,0,3,0,3,0
 Bets2222,gui,EmaitzaIpiniGUI,540,0,2,0,99,0,5,0,4,0
-Bets2222,gui,EzarpenakAldatuGUI,607,0,6,0,102,0,6,0,3,0
-Bets2222,gui,ArretaZerbitzuaEskatuGUI.new ActionListener() {...},122,0,8,0,22,0,6,0,2,0
+Bets2222,gui,EzarpenakAldatuGUI,586,0,6,0,102,0,6,0,3,0
+Bets2222,gui,ArretaZerbitzuaEskatuGUI.new ActionListener() {...},119,0,8,0,22,0,6,0,2,0
 Bets2222,gui,ArretaZerbitzuaEskatuGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
-Bets2222,gui,ApostuaEzabatuGUI.new ActionListener() {...},316,0,6,0,45,0,5,0,2,0
+Bets2222,gui,ApostuaEzabatuGUI.new ActionListener() {...},293,0,6,0,45,0,5,0,2,0
 Bets2222,gui,ApostuaEzabatuGUI.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
-Bets2222,gui,ApostuaEzabatuGUI.new ActionListener() {...},110,0,4,0,21,0,4,0,2,0
+Bets2222,gui,ApostuaEzabatuGUI.new ActionListener() {...},107,0,4,0,21,0,4,0,2,0
 Bets2222,net.bytebuddy.implementation.bytecode.assign,TypeCasting,73,0,10,0,9,0,11,0,6,0
 Bets2222,net.bytebuddy.implementation.bytecode.assign,Assigner,17,0,0,0,2,0,1,0,1,0
 Bets2222,net.bytebuddy.implementation.bytecode.assign,InstanceCheck,75,0,10,0,9,0,11,0,6,0
@@ -1192,8 +1192,8 @@ Bets2222,net.bytebuddy.implementation.bytecode.assign,Assigner.EqualTypesOnly,24
 Bets2222,com.objectdb.jdo,JdoListenerManager.ListenerWrapper,39,0,6,0,10,0,5,0,2,0
 Bets2222,com.objectdb.jdo,PMF,756,0,48,0,222,0,62,0,38,0
 Bets2222,com.objectdb.jdo,JdoListenerManager,731,0,130,0,162,0,85,0,20,0
-Bets2222,com.objectdb.jdo,JdoQuery,1055,0,58,0,318,0,84,0,55,0
-Bets2222,com.objectdb.jdo,PMImpl,2762,0,345,0,857,0,294,0,119,0
+Bets2222,com.objectdb.jdo,JdoQuery,1049,6,58,0,316,2,83,1,54,1
+Bets2222,com.objectdb.jdo,PMImpl,2668,94,330,15,815,42,283,11,108,11
 Bets2222,net.bytebuddy.utility.privilege,GetSystemPropertyAction,45,0,8,0,4,0,8,0,4,0
 Bets2222,net.bytebuddy.utility.privilege,SetAccessibleAction,48,0,8,0,5,0,8,0,4,0
 Bets2222,org.objenesis.instantiator.util,DefineClassHelper.Java11,167,0,0,0,29,0,7,0,7,0
@@ -1202,13 +1202,13 @@ Bets2222,org.objenesis.instantiator.util,DefineClassHelper,23,0,2,0,2,0,3,0,2,0
 Bets2222,org.objenesis.instantiator.util,ClassDefinitionUtils,114,0,2,0,19,0,5,0,4,0
 Bets2222,org.objenesis.instantiator.util,DefineClassHelper.Java8,81,0,4,0,16,0,5,0,3,0
 Bets2222,org.objenesis.instantiator.util,ClassUtils,32,0,0,0,8,0,4,0,4,0
-Bets2222,dataAccess,ObjectdbManagerServer,192,0,2,0,43,0,3,0,2,0
-Bets2222,dataAccess,DataAccessEmaitzaIpini,1146,63,14,2,219,11,14,2,6,2
-Bets2222,dataAccess,DataAccessRegister,1054,63,14,2,203,11,13,2,5,2
-Bets2222,dataAccess,ObjectdbManagerServerAWS,75,0,4,0,20,0,4,0,2,0
-Bets2222,dataAccess,DataAccess,2801,63,109,3,588,11,104,3,49,2
-Bets2222,dataAccess,ObjectdbManagerServer.new ActionListener() {...},48,0,0,0,12,0,2,0,2,0
-Bets2222,dataAccess,DataAccessRemoveMezua,1038,63,14,2,207,11,12,2,4,2
+Bets2222,dataAccess,ObjectdbManagerServer,169,0,2,0,43,0,3,0,2,0
+Bets2222,dataAccess,DataAccessEmaitzaIpini,1019,111,13,3,199,31,12,4,4,4
+Bets2222,dataAccess,DataAccessRegister,935,132,9,7,182,32,9,6,3,4
+Bets2222,dataAccess,ObjectdbManagerServerAWS,55,0,4,0,20,0,4,0,2,0
+Bets2222,dataAccess,DataAccess,2359,351,93,19,512,87,91,16,43,8
+Bets2222,dataAccess,ObjectdbManagerServer.new ActionListener() {...},37,0,0,0,12,0,2,0,2,0
+Bets2222,dataAccess,DataAccessRemoveMezua,999,52,14,2,202,16,12,2,4,2
 Bets2222,javax.transaction.xa,XAException,13,0,0,0,7,0,3,0,3,0
 Bets2222,net.bytebuddy.description.method,ParameterList.ForLoadedExecutable.Dispatcher.ForLegacyVm,31,0,0,0,5,0,4,0,4,0
 Bets2222,net.bytebuddy.description.method,MethodDescription.Latent,110,0,2,0,35,0,13,0,12,0
@@ -1264,8 +1264,8 @@ Bets2222,com.objectdb.jpa.type,TypeImpl,20,0,0,0,5,0,3,0,3,0
 Bets2222,com.objectdb.jpa.type,ManagedTypeImpl,629,0,34,0,109,0,52,0,35,0
 Bets2222,com.objectdb.jpa.type,IdentifiableTypeImpl,281,0,34,0,62,0,30,0,13,0
 Bets2222,com.objectdb.jpa.type,EntityTypeImpl,19,0,0,0,7,0,5,0,5,0
-Bets2222,configuration,UtilDate,164,0,0,0,36,0,6,0,6,0
-Bets2222,configuration,ConfigXML,41,179,0,0,12,37,9,7,9,7
+Bets2222,configuration,UtilDate,122,26,0,0,30,6,5,1,5,1
+Bets2222,configuration,ConfigXML,35,161,0,0,12,37,9,7,9,7
 Bets2222,org.objenesis.tck,TCK,230,0,16,0,55,0,16,0,8,0
 Bets2222,org.objenesis.tck,Candidate,72,0,6,0,17,0,11,0,8,0
 Bets2222,org.objenesis.tck,AbstractLoader.LoggingErrorHandler,18,0,0,0,5,0,2,0,2,0
@@ -2205,22 +2205,22 @@ Bets2222,com.objectdb.jpa.criteria,Expressions.CompPredicateImpl,5,0,0,0,2,0,1,0
 Bets2222,com.objectdb.jpa.criteria,Expressions.SimpleCaseImpl,18,0,0,0,5,0,3,0,3,0
 Bets2222,com.objectdb.jpa.criteria,Expressions.LogPredicateImpl,71,0,4,0,13,0,6,0,4,0
 Bets2222,com.objectdb.jpa.criteria,JoinImpl.MapJoinImpl,44,0,0,0,10,0,8,0,8,0
-Bets2222,com.objectdb.jpa.criteria,CriteriaBuilderImpl,1596,0,22,0,173,0,159,0,148,0
+Bets2222,com.objectdb.jpa.criteria,CriteriaBuilderImpl,1590,6,22,0,170,3,158,1,147,1
 Bets2222,com.objectdb.jpa.criteria,JoinImpl.CollectionJoinImpl,24,0,0,0,7,0,5,0,5,0
 Bets2222,com.objectdb.jpa.criteria,CriteriaQueryImpl,160,0,16,0,41,0,24,0,16,0
 Bets2222,com.objectdb.jpa.criteria,Expressions.InPredicateImpl,41,0,0,0,11,0,5,0,5,0
 Bets2222,com.objectdb.jpa.criteria,SubqueryImpl,211,0,4,0,53,0,22,0,20,0
 Bets2222,com.objectdb.spi,Trackable,4,0,0,0,1,0,1,0,1,0
-Bets2222,com.objectdb.spi,DetachedTracker,164,0,18,0,48,0,22,0,13,0
-Bets2222,com.objectdb.spi,TrackableSysType,4,0,0,0,1,0,1,0,1,0
+Bets2222,com.objectdb.spi,DetachedTracker,131,33,16,2,38,10,19,3,10,3
+Bets2222,com.objectdb.spi,TrackableSysType,0,4,0,0,0,1,0,1,0,1
 Bets2222,com.objectdb.spi,TrackableUserType,4,0,0,0,1,0,1,0,1,0
 Bets2222,com.objectdb.spi,SignedType,4,0,0,0,1,0,1,0,1,0
-Bets2222,com.objectdb.spi,OMember,11,0,0,0,4,0,4,0,4,0
-Bets2222,com.objectdb.spi,OReader,3,0,0,0,1,0,1,0,1,0
-Bets2222,com.objectdb.spi,OVisitor,3,0,0,0,1,0,1,0,1,0
-Bets2222,com.objectdb.spi,Tracker,397,0,68,0,130,0,87,0,53,0
-Bets2222,com.objectdb.spi,OWriter,3,0,0,0,1,0,1,0,1,0
-Bets2222,com.objectdb.spi,OType,3,0,0,0,1,0,1,0,1,0
+Bets2222,com.objectdb.spi,OMember,5,6,0,0,2,2,2,2,2,2
+Bets2222,com.objectdb.spi,OReader,0,3,0,0,0,1,0,1,0,1
+Bets2222,com.objectdb.spi,OVisitor,0,3,0,0,0,1,0,1,0,1
+Bets2222,com.objectdb.spi,Tracker,380,17,67,1,123,7,83,4,49,4
+Bets2222,com.objectdb.spi,OWriter,0,3,0,0,0,1,0,1,0,1
+Bets2222,com.objectdb.spi,OType,0,3,0,0,0,1,0,1,0,1
 Bets2222,net.bytebuddy.description.type,TypeList.Generic.ForLoadedTypes.OfTypeVariables,33,0,0,0,9,0,5,0,5,0
 Bets2222,net.bytebuddy.description.type,TypeDescription.Generic.AnnotationReader.Dispatcher.ForJava8CapableVm.Resolved,44,0,8,0,4,0,8,0,4,0
 Bets2222,net.bytebuddy.description.type,TypeDescription.Generic.LazyProjection.WithLazyNavigation.OfAnnotatedElement,7,0,0,0,2,0,2,0,2,0
@@ -2432,7 +2432,7 @@ Bets2222,net.bytebuddy.jar.asm,Symbol,32,0,2,0,11,0,3,0,2,0
 Bets2222,net.bytebuddy.jar.asm,MethodTooLargeException,43,0,0,0,10,0,5,0,5,0
 Bets2222,net.bytebuddy.jar.asm,SymbolTable,2005,0,203,0,384,0,165,0,60,0
 Bets2222,net.bytebuddy.jar.asm,Frame,2151,0,334,0,565,0,232,0,23,0
-Bets2222,com.objectdb.o,QJD,305,0,44,0,80,0,29,0,7,0
+Bets2222,com.objectdb.o,QJD,276,29,40,4,71,9,25,4,4,3
 Bets2222,com.objectdb.o,STN.q,98,0,12,0,23,0,11,0,5,0
 Bets2222,com.objectdb.o,STN.r,28,0,0,0,9,0,3,0,3,0
 Bets2222,com.objectdb.o,STN.o,36,0,0,0,11,0,3,0,3,0
@@ -2444,123 +2444,123 @@ Bets2222,com.objectdb.o,STN.u,28,0,0,0,9,0,3,0,3,0
 Bets2222,com.objectdb.o,STN.v,160,0,28,0,41,0,20,0,5,0
 Bets2222,com.objectdb.o,STN.s,94,0,6,0,21,0,7,0,4,0
 Bets2222,com.objectdb.o,STN.t,28,0,0,0,9,0,3,0,3,0
-Bets2222,com.objectdb.o,HST.f,39,0,0,0,12,0,8,0,8,0
-Bets2222,com.objectdb.o,QNF,1744,0,221,0,433,0,156,0,30,0
-Bets2222,com.objectdb.o,QMR,366,0,136,0,78,0,72,0,4,0
+Bets2222,com.objectdb.o,HST.f,7,32,0,0,2,10,2,6,2,6
+Bets2222,com.objectdb.o,QNF,1433,311,186,35,348,85,142,14,20,10
+Bets2222,com.objectdb.o,QMR,360,6,136,0,75,3,71,1,3,1
 Bets2222,com.objectdb.o,_LockTimeoutException,28,0,0,0,11,0,5,0,5,0
-Bets2222,com.objectdb.o,QKW,671,0,36,0,216,0,35,0,16,0
+Bets2222,com.objectdb.o,QKW,82,589,25,11,15,201,22,13,6,10
 Bets2222,com.objectdb.o,_EntityNotFoundException,25,0,0,0,10,0,5,0,5,0
 Bets2222,com.objectdb.o,HND,325,0,30,0,88,0,27,0,12,0
 Bets2222,com.objectdb.o,LKM.f,248,0,38,0,56,0,33,0,14,0
-Bets2222,com.objectdb.o,HMP,465,0,56,0,94,0,44,0,16,0
-Bets2222,com.objectdb.o,QFT,102,0,6,0,26,0,10,0,7,0
-Bets2222,com.objectdb.o,HTI,47,0,8,0,11,0,6,0,2,0
-Bets2222,com.objectdb.o,HTB,519,0,62,0,136,0,51,0,20,0
-Bets2222,com.objectdb.o,HST,203,0,24,0,47,0,21,0,9,0
-Bets2222,com.objectdb.o,QCP,66,0,4,0,16,0,8,0,6,0
-Bets2222,com.objectdb.o,QCR,51,0,0,0,15,0,7,0,7,0
-Bets2222,com.objectdb.o,QCD,345,0,56,0,83,0,37,0,9,0
+Bets2222,com.objectdb.o,HMP,215,250,27,29,44,50,22,22,6,10
+Bets2222,com.objectdb.o,QFT,45,57,5,1,11,15,7,3,4,3
+Bets2222,com.objectdb.o,HTI,3,44,1,7,1,10,1,5,0,2
+Bets2222,com.objectdb.o,HTB,136,383,19,43,33,103,14,37,2,18
+Bets2222,com.objectdb.o,HST,105,98,15,9,24,23,13,8,4,5
+Bets2222,com.objectdb.o,QCP,31,35,3,1,7,9,5,3,3,3
+Bets2222,com.objectdb.o,QCR,15,36,0,0,4,11,4,3,4,3
+Bets2222,com.objectdb.o,QCD,190,155,38,18,40,43,31,6,3,6
 Bets2222,com.objectdb.o,IIS,31,0,0,0,9,0,4,0,4,0
-Bets2222,com.objectdb.o,IHS,161,0,18,0,40,0,17,0,8,0
+Bets2222,com.objectdb.o,IHS,141,20,16,2,36,4,13,4,5,3
 Bets2222,com.objectdb.o,IHM,147,0,16,0,34,0,14,0,6,0
-Bets2222,com.objectdb.o,INR,227,0,26,0,59,0,25,0,12,0
+Bets2222,com.objectdb.o,INR,207,20,26,0,52,7,23,2,10,2
 Bets2222,com.objectdb.o,INT,112,0,6,0,30,0,19,0,16,0
-Bets2222,com.objectdb.o,INV,303,0,47,0,61,0,54,0,17,0
-Bets2222,com.objectdb.o,INU,112,0,4,0,26,0,12,0,10,0
+Bets2222,com.objectdb.o,INV,226,77,37,10,42,19,42,12,9,8
+Bets2222,com.objectdb.o,INU,85,27,3,1,19,7,8,4,6,4
 Bets2222,com.objectdb.o,IMQ,250,0,26,0,52,0,16,0,3,0
 Bets2222,com.objectdb.o,IMP,111,0,4,0,37,0,19,0,17,0
 Bets2222,com.objectdb.o,IMR,3,0,0,0,1,0,1,0,1,0
 Bets2222,com.objectdb.o,VLV.a,99,0,12,0,26,0,12,0,6,0
 Bets2222,com.objectdb.o,ILP,229,0,14,0,67,0,35,0,28,0
-Bets2222,com.objectdb.o,QRY,476,0,68,0,117,0,49,0,15,0
-Bets2222,com.objectdb.o,QRM,610,0,94,0,150,0,58,0,11,0
-Bets2222,com.objectdb.o,QRR,802,0,90,0,197,0,57,0,12,0
-Bets2222,com.objectdb.o,QRQ,357,0,36,0,94,0,40,0,22,0
-Bets2222,com.objectdb.o,QRS,399,0,46,0,110,0,42,0,19,0
+Bets2222,com.objectdb.o,QRY,285,191,51,17,64,53,37,12,4,11
+Bets2222,com.objectdb.o,QRM,300,310,61,33,67,83,51,7,5,6
+Bets2222,com.objectdb.o,QRR,475,327,55,35,109,88,46,11,4,8
+Bets2222,com.objectdb.o,QRQ,235,122,30,6,57,37,25,15,9,13
+Bets2222,com.objectdb.o,QRS,319,80,40,6,87,23,33,9,10,9
 Bets2222,com.objectdb.o,IXM.a,34,0,0,0,4,0,1,0,1,0
-Bets2222,com.objectdb.o,QRD,417,0,41,0,104,0,36,0,15,0
-Bets2222,com.objectdb.o,QRC,1351,0,168,0,304,0,104,0,20,0
+Bets2222,com.objectdb.o,QRD,327,90,31,10,78,26,28,8,9,6
+Bets2222,com.objectdb.o,QRC,891,460,131,37,195,109,90,14,8,12
 Bets2222,com.objectdb.o,_JdoUserException,28,0,0,0,11,0,5,0,5,0
-Bets2222,com.objectdb.o,IAL,252,0,22,0,51,0,27,0,16,0
-Bets2222,com.objectdb.o,QPN,732,0,102,0,167,0,62,0,11,0
-Bets2222,com.objectdb.o,QPR,1603,0,234,0,441,0,142,0,25,0
+Bets2222,com.objectdb.o,IAL,134,118,12,10,26,25,16,11,8,8
+Bets2222,com.objectdb.o,QPN,434,298,71,31,93,74,47,15,1,10
+Bets2222,com.objectdb.o,QPR,1032,571,160,74,272,169,126,16,9,16
 Bets2222,com.objectdb.o,_PersistenceException,40,0,2,0,13,0,7,0,6,0
-Bets2222,com.objectdb.o,CLC.a,9,0,0,0,4,0,1,0,1,0
+Bets2222,com.objectdb.o,CLC.a,0,9,0,0,0,4,0,1,0,1
 Bets2222,com.objectdb.o,QUO,289,0,20,0,62,0,18,0,8,0
-Bets2222,com.objectdb.o,QUN,402,0,64,0,101,0,77,0,45,0
+Bets2222,com.objectdb.o,QUN,238,164,46,18,58,43,56,21,29,16
 Bets2222,com.objectdb.o,QUE,145,0,16,0,29,0,16,0,8,0
-Bets2222,com.objectdb.o,QUD,252,0,22,0,65,0,28,0,17,0
-Bets2222,com.objectdb.o,QSP,761,0,133,0,248,0,108,0,22,0
-Bets2222,com.objectdb.o,PHL,491,0,90,0,149,0,65,0,20,0
-Bets2222,com.objectdb.o,PGT,297,0,38,0,88,0,27,0,8,0
+Bets2222,com.objectdb.o,QUD,241,11,21,1,61,4,26,2,15,2
+Bets2222,com.objectdb.o,QSP,398,363,77,56,123,125,69,39,6,16
+Bets2222,com.objectdb.o,PHL,483,8,90,0,146,3,63,2,18,2
+Bets2222,com.objectdb.o,PGT,114,183,23,15,37,51,18,9,5,3
 Bets2222,com.objectdb.o,PGV,1618,0,134,0,285,0,85,0,16,0
 Bets2222,com.objectdb.o,PGX,25,0,0,0,8,0,4,0,4,0
-Bets2222,com.objectdb.o,PGW,1190,0,120,0,294,0,81,0,21,0
-Bets2222,com.objectdb.o,PGC,922,0,96,0,224,0,70,0,22,0
+Bets2222,com.objectdb.o,PGW,603,587,59,61,136,158,46,35,8,13
+Bets2222,com.objectdb.o,PGC,402,520,66,30,99,125,49,21,9,13
 Bets2222,com.objectdb.o,PGE,821,0,46,0,162,0,40,0,17,0
-Bets2222,com.objectdb.o,PFT,147,0,18,0,27,0,14,0,5,0
-Bets2222,com.objectdb.o,PLL,263,0,46,0,64,0,34,0,11,0
-Bets2222,com.objectdb.o,PLN,413,0,46,0,119,0,56,0,33,0
-Bets2222,com.objectdb.o,PKN,64,0,8,0,14,0,9,0,5,0
-Bets2222,com.objectdb.o,PKE,74,0,8,0,22,0,11,0,7,0
+Bets2222,com.objectdb.o,PFT,58,89,12,6,9,18,10,4,3,2
+Bets2222,com.objectdb.o,PLL,138,125,29,17,30,34,25,9,5,6
+Bets2222,com.objectdb.o,PLN,322,91,44,2,93,26,47,9,24,9
+Bets2222,com.objectdb.o,PKN,37,27,8,0,6,8,6,3,2,3
+Bets2222,com.objectdb.o,PKE,32,42,5,3,8,14,9,2,5,2
 Bets2222,com.objectdb.o,PIX,12,0,0,0,5,0,4,0,4,0
 Bets2222,com.objectdb.o,_JdoUserCallbackException,26,0,0,0,10,0,5,0,5,0
-Bets2222,com.objectdb.o,GND,236,0,14,0,60,0,22,0,15,0
+Bets2222,com.objectdb.o,GND,225,11,13,1,56,4,20,2,13,2
 Bets2222,com.objectdb.o,IHM.f,56,0,2,0,14,0,8,0,7,0
-Bets2222,com.objectdb.o,GMD,249,0,20,0,51,0,22,0,12,0
-Bets2222,com.objectdb.o,XMN,795,0,96,0,187,0,89,0,40,0
-Bets2222,com.objectdb.o,XMB,772,0,129,0,181,0,78,0,7,0
-Bets2222,com.objectdb.o,XMA,63,0,0,0,17,0,8,0,8,0
-Bets2222,com.objectdb.o,XMD,283,0,14,0,68,0,21,0,14,0
+Bets2222,com.objectdb.o,GMD,110,139,13,7,20,31,14,8,4,8
+Bets2222,com.objectdb.o,XMN,479,316,52,44,114,73,53,36,21,19
+Bets2222,com.objectdb.o,XMB,333,439,68,61,66,115,46,32,1,6
+Bets2222,com.objectdb.o,XMA,41,22,0,0,8,9,3,5,3,5
+Bets2222,com.objectdb.o,XMD,198,85,13,1,44,24,16,5,9,5
 Bets2222,com.objectdb.o,GRP,237,0,20,0,49,0,19,0,9,0
 Bets2222,com.objectdb.o,PCF,174,0,8,0,37,0,13,0,9,0
 Bets2222,com.objectdb.o,GQI,352,0,52,0,87,0,30,0,4,0
-Bets2222,com.objectdb.o,PBI,173,0,14,0,35,0,13,0,6,0
-Bets2222,com.objectdb.o,PAN,56,0,4,0,18,0,8,0,6,0
-Bets2222,com.objectdb.o,PAP,132,0,2,0,32,0,16,0,15,0
-Bets2222,com.objectdb.o,PAR,99,0,12,0,27,0,19,0,13,0
-Bets2222,com.objectdb.o,PAG,1462,0,108,0,309,0,129,0,75,0
-Bets2222,com.objectdb.o,UserException,138,0,14,0,39,0,18,0,11,0
+Bets2222,com.objectdb.o,PBI,127,46,12,2,24,11,10,3,3,3
+Bets2222,com.objectdb.o,PAN,44,12,4,0,13,5,6,2,4,2
+Bets2222,com.objectdb.o,PAP,87,45,1,1,20,12,14,2,13,2
+Bets2222,com.objectdb.o,PAR,62,37,10,2,15,12,13,6,7,6
+Bets2222,com.objectdb.o,PAG,809,653,83,25,139,170,69,60,20,55
+Bets2222,com.objectdb.o,UserException,103,35,11,3,28,11,13,5,7,4
 Bets2222,com.objectdb.o,XQI,28,0,2,0,12,0,5,0,4,0
-Bets2222,com.objectdb.o,HEP,259,0,34,0,63,0,24,0,7,0
+Bets2222,com.objectdb.o,HEP,178,81,28,6,43,20,19,5,3,4
 Bets2222,com.objectdb.o,TYN.n,20,0,0,0,8,0,4,0,4,0
 Bets2222,com.objectdb.o,TYN.q,105,0,15,0,35,0,15,0,3,0
 Bets2222,com.objectdb.o,TYN.o,129,0,16,0,34,0,15,0,7,0
 Bets2222,com.objectdb.o,TYN.p,77,0,2,0,18,0,6,0,5,0
-Bets2222,com.objectdb.o,PPW,458,0,76,0,112,0,47,0,9,0
+Bets2222,com.objectdb.o,PPW,213,245,41,35,50,62,32,15,1,8
 Bets2222,com.objectdb.o,_NoResultException,25,0,0,0,10,0,5,0,5,0
 Bets2222,com.objectdb.o,EXT.a,240,0,22,0,64,0,24,0,13,0
-Bets2222,com.objectdb.o,PTN,686,0,102,0,175,0,87,0,36,0
+Bets2222,com.objectdb.o,PTN,433,253,81,21,119,56,68,19,25,11
 Bets2222,com.objectdb.o,PRV,1118,0,72,0,203,0,51,0,15,0
-Bets2222,com.objectdb.o,PRU,335,0,26,0,74,0,29,0,16,0
-Bets2222,com.objectdb.o,PRG,1663,0,209,0,403,0,150,0,45,0
+Bets2222,com.objectdb.o,PRU,230,105,18,8,49,25,18,11,7,9
+Bets2222,com.objectdb.o,PRG,1113,550,164,45,259,144,120,30,18,27
 Bets2222,com.objectdb.o,PRM,160,0,10,0,32,0,13,0,8,0
 Bets2222,com.objectdb.o,EXR.d,63,0,8,0,16,0,6,0,2,0
-Bets2222,com.objectdb.o,SNP,560,0,64,0,139,0,65,0,33,0
+Bets2222,com.objectdb.o,SNP,352,208,49,15,72,67,38,27,7,26
 Bets2222,com.objectdb.o,EXR.c,34,0,2,0,10,0,3,0,2,0
 Bets2222,com.objectdb.o,EXR.b,132,0,33,0,30,0,21,0,2,0
 Bets2222,com.objectdb.o,EXR.a,13,0,0,0,5,0,2,0,2,0
 Bets2222,com.objectdb.o,EXR.f,53,0,10,0,14,0,7,0,2,0
 Bets2222,com.objectdb.o,SNV,128,0,18,0,38,0,20,0,11,0
 Bets2222,com.objectdb.o,EXR.e,12,0,0,0,5,0,2,0,2,0
-Bets2222,com.objectdb.o,BLV,128,0,28,0,26,0,31,0,17,0
-Bets2222,com.objectdb.o,SNC,59,0,2,0,17,0,8,0,7,0
-Bets2222,com.objectdb.o,BLT,99,0,14,0,24,0,17,0,9,0
+Bets2222,com.objectdb.o,BLV,103,25,26,2,19,7,27,4,14,3
+Bets2222,com.objectdb.o,SNC,14,45,0,2,5,12,1,7,1,6
+Bets2222,com.objectdb.o,BLT,78,21,12,2,18,6,14,3,7,2
 Bets2222,com.objectdb.o,SMR,1016,0,115,0,261,0,80,0,19,0
-Bets2222,com.objectdb.o,SMT,12,0,0,0,4,0,2,0,2,0
-Bets2222,com.objectdb.o,SML,125,0,4,0,28,0,13,0,11,0
-Bets2222,com.objectdb.o,SLV,115,0,14,0,23,0,15,0,8,0
+Bets2222,com.objectdb.o,SMT,0,12,0,0,0,4,0,2,0,2
+Bets2222,com.objectdb.o,SML,63,62,2,2,14,14,5,8,3,8
+Bets2222,com.objectdb.o,SLV,86,29,13,1,16,7,10,5,3,5
 Bets2222,com.objectdb.o,SLP,290,0,42,0,57,0,27,0,6,0
-Bets2222,com.objectdb.o,SLT,277,0,50,0,81,0,47,0,10,0
+Bets2222,com.objectdb.o,SLT,265,12,50,0,78,3,46,1,9,1
 Bets2222,com.objectdb.o,SLS,131,0,18,0,31,0,15,0,6,0
 Bets2222,com.objectdb.o,_JdoException,28,0,0,0,11,0,5,0,5,0
-Bets2222,com.objectdb.o,BIT,536,0,86,0,119,0,63,0,20,0
+Bets2222,com.objectdb.o,BIT,390,146,70,16,82,37,46,17,6,14
 Bets2222,com.objectdb.o,SRT,85,0,16,0,19,0,13,0,5,0
 Bets2222,com.objectdb.o,SRS,229,0,54,0,75,0,37,0,6,0
-Bets2222,com.objectdb.o,BQI,134,0,14,0,40,0,12,0,5,0
-Bets2222,com.objectdb.o,SRN,101,0,12,0,27,0,13,0,7,0
+Bets2222,com.objectdb.o,BQI,25,109,6,8,9,31,7,5,1,4
+Bets2222,com.objectdb.o,SRN,17,84,2,10,6,21,4,9,2,5
 Bets2222,com.objectdb.o,SRP,178,0,8,0,36,0,12,0,8,0
-Bets2222,com.objectdb.o,SRB,129,0,14,0,32,0,13,0,6,0
+Bets2222,com.objectdb.o,SRB,64,65,8,6,15,17,10,3,3,3
 Bets2222,com.objectdb.o,SQI,216,0,28,0,53,0,20,0,6,0
 Bets2222,com.objectdb.o,SPT,109,0,12,0,26,0,9,0,3,0
 Bets2222,com.objectdb.o,SPS,84,0,16,0,14,0,14,0,6,0
@@ -2579,174 +2579,174 @@ Bets2222,com.objectdb.o,BNN.p,116,0,10,0,38,0,13,0,4,0
 Bets2222,com.objectdb.o,BNN.q,139,0,15,0,43,0,16,0,4,0
 Bets2222,com.objectdb.o,BDP,137,0,2,0,28,0,9,0,8,0
 Bets2222,com.objectdb.o,BNN.v,97,0,12,0,29,0,13,0,3,0
-Bets2222,com.objectdb.o,SEV,300,0,18,0,70,0,27,0,18,0
+Bets2222,com.objectdb.o,SEV,224,76,10,8,44,26,16,11,9,9
 Bets2222,com.objectdb.o,JTF,189,0,8,0,33,0,7,0,3,0
 Bets2222,com.objectdb.o,SEM,111,0,6,0,20,0,8,0,5,0
-Bets2222,com.objectdb.o,BCN,217,0,32,0,61,0,28,0,12,0
-Bets2222,com.objectdb.o,JSW,1479,0,82,0,342,0,60,0,19,0
+Bets2222,com.objectdb.o,BCN,162,55,26,6,40,21,23,5,7,5
+Bets2222,com.objectdb.o,JSW,178,1301,12,70,45,297,12,48,0,19
 Bets2222,com.objectdb.o,SEC,174,0,16,0,42,0,19,0,11,0
 Bets2222,com.objectdb.o,JSM,190,0,24,0,57,0,24,0,6,0
 Bets2222,com.objectdb.o,BCL,49,0,6,0,11,0,5,0,2,0
 Bets2222,com.objectdb.o,_JdoDetachedFieldAccessException,26,0,0,0,10,0,5,0,5,0
-Bets2222,com.objectdb.o,JRW,417,0,50,0,93,0,33,0,8,0
+Bets2222,com.objectdb.o,JRW,240,177,31,19,59,34,23,10,4,4
 Bets2222,com.objectdb.o,SCU,160,0,12,0,37,0,17,0,11,0
 Bets2222,com.objectdb.o,SCV,340,0,30,0,71,0,21,0,6,0
-Bets2222,com.objectdb.o,SCM,546,0,90,0,151,0,61,0,16,0
+Bets2222,com.objectdb.o,SCM,255,291,46,44,67,84,45,16,10,6
 Bets2222,com.objectdb.o,SCO,72,0,10,0,11,0,9,0,4,0
 Bets2222,com.objectdb.o,SCS,215,0,16,0,51,0,12,0,4,0
-Bets2222,com.objectdb.o,SCD,59,0,8,0,13,0,9,0,5,0
+Bets2222,com.objectdb.o,SCD,27,32,3,5,5,8,5,4,3,2
 Bets2222,com.objectdb.o,SCG,415,0,36,0,71,0,33,0,15,0
-Bets2222,com.objectdb.o,SBT,103,0,13,0,23,0,15,0,8,0
+Bets2222,com.objectdb.o,SBT,91,12,13,0,20,3,14,1,7,1
 Bets2222,com.objectdb.o,BAC,176,0,20,0,44,0,13,0,3,0
 Bets2222,com.objectdb.o,SBV,52,0,4,0,15,0,10,0,8,0
 Bets2222,com.objectdb.o,RQI.a,110,0,16,0,30,0,13,0,5,0
 Bets2222,com.objectdb.o,SJM,36,0,4,0,13,0,5,0,3,0
-Bets2222,com.objectdb.o,SIT,110,0,16,0,26,0,18,0,8,0
-Bets2222,com.objectdb.o,SIV,96,0,12,0,21,0,14,0,8,0
+Bets2222,com.objectdb.o,SIT,38,72,10,6,10,16,9,9,2,6
+Bets2222,com.objectdb.o,SIV,32,64,6,6,5,16,4,10,0,8
 Bets2222,com.objectdb.o,SIX,21,0,0,0,7,0,3,0,3,0
-Bets2222,com.objectdb.o,BGT,129,0,23,0,36,0,22,0,8,0
-Bets2222,com.objectdb.o,SID,40,0,0,0,10,0,6,0,6,0
+Bets2222,com.objectdb.o,BGT,117,12,23,0,33,3,21,1,7,1
+Bets2222,com.objectdb.o,SID,30,10,0,0,7,3,5,1,5,1
 Bets2222,com.objectdb.o,BGV,255,0,34,0,66,0,42,0,23,0
 Bets2222,com.objectdb.o,SHN,847,0,93,0,258,0,88,0,30,0
-Bets2222,com.objectdb.o,JCP.e,26,0,0,0,11,0,6,0,6,0
-Bets2222,com.objectdb.o,JCP.f,86,0,13,0,20,0,12,0,5,0
-Bets2222,com.objectdb.o,JCP.g,48,0,6,0,11,0,7,0,4,0
+Bets2222,com.objectdb.o,JCP.e,0,26,0,0,0,11,0,6,0,6
+Bets2222,com.objectdb.o,JCP.f,8,78,3,10,2,18,3,9,0,5
+Bets2222,com.objectdb.o,JCP.g,1,47,2,4,0,11,2,5,0,4
 Bets2222,com.objectdb.o,JCP.h,65,0,8,0,13,0,8,0,4,0
-Bets2222,com.objectdb.o,JCP.i,65,0,8,0,13,0,8,0,4,0
-Bets2222,com.objectdb.o,KNV,136,0,16,0,31,0,14,0,6,0
-Bets2222,com.objectdb.o,_RollbackException,26,0,0,0,10,0,5,0,5,0
-Bets2222,com.objectdb.o,TDF,1441,0,172,0,340,0,154,0,68,0
-Bets2222,com.objectdb.o,CBD,182,0,16,0,45,0,23,0,12,0
-Bets2222,com.objectdb.o,TCD,47,0,17,0,19,0,15,0,3,0
+Bets2222,com.objectdb.o,JCP.i,0,65,0,8,0,13,0,8,0,4
+Bets2222,com.objectdb.o,KNV,54,82,9,7,10,21,10,4,2,4
+Bets2222,com.objectdb.o,_RollbackException,5,21,0,0,2,8,1,4,1,4
+Bets2222,com.objectdb.o,TDF,703,738,112,60,144,196,92,62,20,48
+Bets2222,com.objectdb.o,CBD,171,11,15,1,41,4,21,2,10,2
+Bets2222,com.objectdb.o,TCD,42,5,16,1,17,2,14,1,2,1
 Bets2222,com.objectdb.o,FHN.n,35,0,0,0,11,0,5,0,5,0
 Bets2222,com.objectdb.o,TAI,226,0,22,0,70,0,23,0,12,0
-Bets2222,com.objectdb.o,BTP,1122,0,118,0,227,0,83,0,24,0
-Bets2222,com.objectdb.o,BTS,185,0,22,0,45,0,21,0,10,0
-Bets2222,com.objectdb.o,C64,73,0,8,0,15,0,7,0,3,0
-Bets2222,com.objectdb.o,BTR,489,0,14,0,104,0,38,0,31,0
-Bets2222,com.objectdb.o,BTU,75,0,7,0,22,0,13,0,8,0
-Bets2222,com.objectdb.o,STV,539,0,80,0,130,0,60,0,20,0
+Bets2222,com.objectdb.o,BTP,663,459,93,25,137,90,68,15,13,11
+Bets2222,com.objectdb.o,BTS,79,106,12,10,20,25,11,10,3,7
+Bets2222,com.objectdb.o,C64,3,70,0,8,1,14,1,6,1,2
+Bets2222,com.objectdb.o,BTR,285,204,12,2,43,61,17,21,10,21
+Bets2222,com.objectdb.o,BTU,43,32,5,2,11,11,7,6,3,5
+Bets2222,com.objectdb.o,STV,254,285,50,30,63,67,35,25,4,16
 Bets2222,com.objectdb.o,STN,100,0,13,0,24,0,13,0,4,0
-Bets2222,com.objectdb.o,STM,1370,0,24,0,362,0,24,0,12,0
-Bets2222,com.objectdb.o,STR,86,0,12,0,27,0,16,0,10,0
-Bets2222,com.objectdb.o,STT,57,0,14,0,15,0,12,0,5,0
+Bets2222,com.objectdb.o,STM,391,979,18,6,98,264,15,9,4,8
+Bets2222,com.objectdb.o,STR,38,48,9,3,10,17,10,6,4,6
+Bets2222,com.objectdb.o,STT,21,36,10,4,4,11,7,5,1,4
 Bets2222,com.objectdb.o,STS,136,0,14,0,32,0,12,0,5,0
-Bets2222,com.objectdb.o,STH,732,0,92,0,184,0,91,0,45,0
+Bets2222,com.objectdb.o,STH,594,138,84,8,149,35,75,16,30,15
 Bets2222,com.objectdb.o,STI,375,0,24,0,83,0,18,0,6,0
-Bets2222,com.objectdb.o,STL,142,0,10,0,32,0,12,0,7,0
-Bets2222,com.objectdb.o,STA,894,0,140,0,243,0,115,0,45,0
+Bets2222,com.objectdb.o,STL,56,86,7,3,14,18,7,5,3,4
+Bets2222,com.objectdb.o,STA,448,446,83,57,119,124,67,48,16,29
 Bets2222,com.objectdb.o,STD,167,0,12,0,45,0,13,0,6,0
 Bets2222,com.objectdb.o,STC,729,0,45,0,197,0,53,0,22,0
-Bets2222,com.objectdb.o,SST,107,0,14,0,24,0,16,0,8,0
-Bets2222,com.objectdb.o,SLV.c,15,0,0,0,6,0,3,0,3,0
+Bets2222,com.objectdb.o,SST,95,12,14,0,21,3,15,1,7,1
+Bets2222,com.objectdb.o,SLV.c,7,8,0,0,2,4,1,2,1,2
 Bets2222,com.objectdb.o,SSV,67,0,8,0,16,0,12,0,8,0
 Bets2222,com.objectdb.o,_JdoDataStoreException,38,0,0,0,15,0,6,0,6,0
-Bets2222,com.objectdb.o,SSL,291,0,30,0,83,0,27,0,12,0
-Bets2222,com.objectdb.o,BYW,1239,0,134,0,314,0,117,0,50,0
-Bets2222,com.objectdb.o,BYP,47,0,2,0,20,0,10,0,9,0
-Bets2222,com.objectdb.o,BYR,1192,0,119,0,294,0,127,0,67,0
-Bets2222,com.objectdb.o,SYR,695,0,81,0,177,0,58,0,17,0
-Bets2222,com.objectdb.o,SYH,556,0,56,0,155,0,62,0,34,0
+Bets2222,com.objectdb.o,SSL,252,39,25,5,70,13,24,3,9,3
+Bets2222,com.objectdb.o,BYW,663,576,85,49,156,158,70,47,16,34
+Bets2222,com.objectdb.o,BYP,0,47,1,1,0,20,1,9,0,9
+Bets2222,com.objectdb.o,BYR,704,488,78,41,174,120,82,45,30,37
+Bets2222,com.objectdb.o,SYR,413,282,60,21,110,67,43,15,6,11
+Bets2222,com.objectdb.o,SYH,233,323,34,22,68,87,42,20,16,18
 Bets2222,com.objectdb.o,AIS,84,0,6,0,19,0,9,0,6,0
 Bets2222,com.objectdb.o,IXS,152,0,10,0,41,0,11,0,6,0
-Bets2222,com.objectdb.o,IXN,639,0,100,0,133,0,66,0,16,0
-Bets2222,com.objectdb.o,IXM,423,0,49,0,103,0,41,0,16,0
+Bets2222,com.objectdb.o,IXN,400,239,76,24,77,56,57,9,9,7
+Bets2222,com.objectdb.o,IXM,307,116,45,4,72,31,34,7,9,7
 Bets2222,com.objectdb.o,IXR,16,0,0,0,7,0,3,0,3,0
-Bets2222,com.objectdb.o,IXD,515,0,50,0,120,0,53,0,28,0
-Bets2222,com.objectdb.o,IXF,50,0,0,0,9,0,5,0,5,0
-Bets2222,com.objectdb.o,IXA,670,0,66,0,136,0,46,0,13,0
+Bets2222,com.objectdb.o,IXD,504,11,49,1,116,4,51,2,26,2
+Bets2222,com.objectdb.o,IXF,34,16,0,0,3,6,2,3,2,3
+Bets2222,com.objectdb.o,IXA,597,73,59,7,120,16,41,5,9,4
 Bets2222,com.objectdb.o,AGN,169,0,18,0,42,0,24,0,13,0
 Bets2222,com.objectdb.o,RPR,251,0,16,0,76,0,19,0,11,0
 Bets2222,com.objectdb.o,RPT,191,0,18,0,51,0,19,0,10,0
 Bets2222,com.objectdb.o,RPM,524,0,60,0,114,0,44,0,14,0
-Bets2222,com.objectdb.o,ANT,1415,0,190,0,319,0,132,0,37,0
+Bets2222,com.objectdb.o,ANT,725,690,110,80,169,150,89,43,17,20
 Bets2222,com.objectdb.o,ANI,49,0,4,0,19,0,6,0,4,0
 Bets2222,com.objectdb.o,ANN,72,0,14,0,22,0,11,0,4,0
-Bets2222,com.objectdb.o,ANM,864,0,156,0,234,0,127,0,49,0
+Bets2222,com.objectdb.o,ANM,479,385,96,60,122,112,86,41,22,27
 Bets2222,com.objectdb.o,ANP,78,0,0,0,14,0,6,0,6,0
-Bets2222,com.objectdb.o,ANF,168,0,32,0,40,0,25,0,9,0
-Bets2222,com.objectdb.o,ROW,128,0,14,0,34,0,20,0,13,0
+Bets2222,com.objectdb.o,ANF,164,4,31,1,38,2,24,1,8,1
+Bets2222,com.objectdb.o,ROW,66,62,14,0,16,18,12,8,5,8
 Bets2222,com.objectdb.o,ROM,337,0,38,0,79,0,33,0,14,0
-Bets2222,com.objectdb.o,ALS,566,0,50,0,119,0,57,0,32,0
+Bets2222,com.objectdb.o,ALS,316,250,30,20,63,56,32,25,14,18
 Bets2222,com.objectdb.o,RMF,322,0,46,0,84,0,43,0,20,0
-Bets2222,com.objectdb.o,ABT,354,0,42,0,72,0,65,0,44,0
+Bets2222,com.objectdb.o,ABT,148,206,14,28,24,48,24,41,13,31
 Bets2222,com.objectdb.o,RCN,82,0,2,0,23,0,16,0,15,0
 Bets2222,com.objectdb.o,RCO,86,0,2,0,25,0,9,0,8,0
 Bets2222,com.objectdb.o,IRB,31,0,2,0,10,0,5,0,4,0
-Bets2222,com.objectdb.o,RCL,312,0,22,0,76,0,21,0,10,0
-Bets2222,com.objectdb.o,IPW,203,0,24,0,49,0,17,0,5,0
-Bets2222,com.objectdb.o,RAT,108,0,10,0,29,0,9,0,4,0
+Bets2222,com.objectdb.o,RCL,262,50,18,4,59,17,16,5,5,5
+Bets2222,com.objectdb.o,IPW,157,46,20,4,35,14,14,3,2,3
+Bets2222,com.objectdb.o,RAT,20,88,4,6,5,24,3,6,0,4
 Bets2222,com.objectdb.o,IPC,298,0,31,0,54,0,22,0,6,0
 Bets2222,com.objectdb.o,IOR,3,0,0,0,1,0,1,0,1,0
-Bets2222,com.objectdb.o,IOM,240,0,28,0,47,0,23,0,9,0
+Bets2222,com.objectdb.o,IOM,82,158,10,18,18,29,7,16,2,7
 Bets2222,com.objectdb.o,AFT,51,0,6,0,10,0,7,0,4,0
 Bets2222,com.objectdb.o,IVP,99,0,4,0,33,0,14,0,12,0
-Bets2222,com.objectdb.o,RFV,273,0,28,0,69,0,31,0,17,0
+Bets2222,com.objectdb.o,RFV,215,58,23,5,49,20,25,6,12,5
 Bets2222,com.objectdb.o,RFH,426,0,40,0,97,0,27,0,7,0
 Bets2222,com.objectdb.o,RFM,387,0,20,0,106,0,26,0,16,0
-Bets2222,com.objectdb.o,ITW,36,0,2,0,12,0,6,0,5,0
+Bets2222,com.objectdb.o,ITW,13,23,2,0,5,7,2,4,1,4
 Bets2222,com.objectdb.o,ADL,704,0,14,0,163,0,26,0,19,0
 Bets2222,com.objectdb.o,CMN.u,22,0,2,0,7,0,6,0,5,0
 Bets2222,com.objectdb.o,CMN.t,22,0,2,0,7,0,6,0,5,0
-Bets2222,com.objectdb.o,REG,1514,0,214,0,397,0,155,0,48,0
-Bets2222,com.objectdb.o,ACN,54,0,4,0,20,0,15,0,13,0
+Bets2222,com.objectdb.o,REG,1288,226,196,18,328,69,138,17,31,17
+Bets2222,com.objectdb.o,ACN,41,13,4,0,15,5,10,5,8,5
 Bets2222,com.objectdb.o,CMN.o,21,0,4,0,6,0,6,0,4,0
-Bets2222,com.objectdb.o,CMN.n,45,0,10,0,11,0,10,0,5,0
+Bets2222,com.objectdb.o,CMN.n,36,9,10,0,7,4,7,3,2,3
 Bets2222,com.objectdb.o,ISP,134,0,8,0,42,0,22,0,18,0
 Bets2222,com.objectdb.o,CMN.q,23,0,4,0,7,0,7,0,5,0
 Bets2222,com.objectdb.o,CMN.p,48,0,10,0,13,0,11,0,6,0
 Bets2222,com.objectdb.o,CMN.s,22,0,2,0,7,0,6,0,5,0
-Bets2222,com.objectdb.o,ACL,116,0,8,0,32,0,8,0,4,0
+Bets2222,com.objectdb.o,ACL,48,68,4,4,16,16,3,5,0,4
 Bets2222,com.objectdb.o,CMN.r,22,0,2,0,7,0,6,0,5,0
 Bets2222,com.objectdb.o,_IllegalStateException,27,0,0,0,10,0,5,0,5,0
 Bets2222,com.objectdb.o,IXA.new Thread() {...},40,0,0,0,7,0,2,0,2,0
-Bets2222,com.objectdb.o,FTP.b,9,0,0,0,4,0,1,0,1,0
-Bets2222,com.objectdb.o,FTP.a,30,0,0,0,12,0,2,0,2,0
+Bets2222,com.objectdb.o,FTP.b,0,9,0,0,0,4,0,1,0,1
+Bets2222,com.objectdb.o,FTP.a,0,30,0,0,0,12,0,2,0,2
 Bets2222,com.objectdb.o,SBI,92,0,10,0,23,0,10,0,5,0
-Bets2222,com.objectdb.o,JPW,786,0,70,0,194,0,56,0,21,0
+Bets2222,com.objectdb.o,JPW,775,11,70,0,189,5,54,2,19,2
 Bets2222,com.objectdb.o,JPM,1069,0,134,0,240,0,80,0,13,0
-Bets2222,com.objectdb.o,JPE,312,0,66,0,58,0,37,0,4,0
-Bets2222,com.objectdb.o,JPA,804,0,138,0,222,0,81,0,9,0
+Bets2222,com.objectdb.o,JPE,246,66,57,9,42,16,34,3,2,2
+Bets2222,com.objectdb.o,JPA,445,359,86,52,102,120,68,13,3,6
 Bets2222,com.objectdb.o,JOP,281,0,10,0,78,0,9,0,4,0
 Bets2222,com.objectdb.o,JNW,368,0,8,0,76,0,13,0,9,0
 Bets2222,com.objectdb.o,JNN,78,0,12,0,22,0,12,0,6,0
 Bets2222,com.objectdb.o,JMW,181,0,18,0,45,0,14,0,5,0
 Bets2222,com.objectdb.o,JMH,1393,0,189,0,416,0,160,0,41,0
-Bets2222,com.objectdb.o,JML,601,0,68,0,106,0,41,0,7,0
+Bets2222,com.objectdb.o,JML,419,182,55,13,71,35,33,8,3,4
 Bets2222,com.objectdb.o,LFL.a,149,0,10,0,41,0,13,0,8,0
 Bets2222,com.objectdb.o,_JdoOptimisticVerificationException,35,0,0,0,13,0,6,0,6,0
 Bets2222,com.objectdb.o,JDM,1009,0,168,0,212,0,92,0,8,0
-Bets2222,com.objectdb.o,RTT,294,0,24,0,74,0,22,0,10,0
-Bets2222,com.objectdb.o,JDA,989,0,176,0,236,0,99,0,9,0
+Bets2222,com.objectdb.o,RTT,176,118,16,8,38,36,12,10,2,8
+Bets2222,com.objectdb.o,JDA,820,169,153,23,177,59,94,5,4,5
 Bets2222,com.objectdb.o,JDE,284,0,50,0,59,0,30,0,5,0
-Bets2222,com.objectdb.o,RTM,86,0,14,0,27,0,13,0,6,0
-Bets2222,com.objectdb.o,JCW,874,0,112,0,215,0,98,0,39,0
-Bets2222,com.objectdb.o,ART,196,0,22,0,43,0,22,0,11,0
-Bets2222,com.objectdb.o,RSV,142,0,16,0,31,0,20,0,12,0
-Bets2222,com.objectdb.o,JCM,346,0,30,0,73,0,23,0,8,0
-Bets2222,com.objectdb.o,JCP,477,0,28,0,102,0,38,0,21,0
-Bets2222,com.objectdb.o,JCR,197,0,28,0,53,0,22,0,8,0
-Bets2222,com.objectdb.o,JCF,61,0,0,0,14,0,3,0,3,0
-Bets2222,com.objectdb.o,HMP.f,69,0,0,0,16,0,9,0,9,0
-Bets2222,com.objectdb.o,JCE,65,0,4,0,20,0,9,0,7,0
+Bets2222,com.objectdb.o,RTM,24,62,4,10,10,17,4,9,2,4
+Bets2222,com.objectdb.o,JCW,250,624,45,67,57,158,45,53,10,29
+Bets2222,com.objectdb.o,ART,114,82,14,8,21,22,16,6,5,6
+Bets2222,com.objectdb.o,RSV,121,21,16,0,24,7,16,4,8,4
+Bets2222,com.objectdb.o,JCM,253,93,25,5,49,24,22,1,7,1
+Bets2222,com.objectdb.o,JCP,296,181,19,9,60,42,24,14,11,10
+Bets2222,com.objectdb.o,JCR,121,76,23,5,32,21,17,5,5,3
+Bets2222,com.objectdb.o,JCF,5,56,0,0,2,12,1,2,1,2
+Bets2222,com.objectdb.o,HMP.f,26,43,0,0,4,12,2,7,2,7
+Bets2222,com.objectdb.o,JCE,44,21,3,1,12,8,6,3,4,3
 Bets2222,com.objectdb.o,ARB,66,0,6,0,15,0,7,0,4,0
-Bets2222,com.objectdb.o,JCL,595,0,46,0,131,0,44,0,21,0
-Bets2222,com.objectdb.o,RST,295,0,32,0,80,0,23,0,7,0
-Bets2222,com.objectdb.o,JCA,87,0,10,0,23,0,11,0,6,0
+Bets2222,com.objectdb.o,JCL,352,243,35,11,69,62,29,15,9,12
+Bets2222,com.objectdb.o,RST,67,228,9,23,17,63,12,11,4,3
+Bets2222,com.objectdb.o,JCA,59,28,10,0,15,8,9,2,4,2
 Bets2222,com.objectdb.o,RSL,279,0,28,0,66,0,22,0,8,0
 Bets2222,com.objectdb.o,JCC,3,0,0,0,1,0,1,0,1,0
-Bets2222,com.objectdb.o,JBW,236,0,10,0,44,0,17,0,12,0
-Bets2222,com.objectdb.o,AQR,3,0,0,0,1,0,1,0,1,0
-Bets2222,com.objectdb.o,RSC,70,0,0,0,22,0,11,0,11,0
-Bets2222,com.objectdb.o,RRT,348,0,80,0,96,0,45,0,5,0
+Bets2222,com.objectdb.o,JBW,34,202,2,8,6,38,4,13,2,10
+Bets2222,com.objectdb.o,AQR,0,3,0,0,0,1,0,1,0,1
+Bets2222,com.objectdb.o,RSC,66,4,0,0,21,1,10,1,10,1
+Bets2222,com.objectdb.o,RRT,231,117,64,16,62,34,40,5,3,2
 Bets2222,com.objectdb.o,JBR,132,0,0,0,18,0,10,0,10,0
-Bets2222,com.objectdb.o,RRB,317,0,26,0,65,0,25,0,10,0
+Bets2222,com.objectdb.o,RRB,283,34,25,1,55,10,22,3,7,3
 Bets2222,com.objectdb.o,RQW,456,0,10,0,157,0,33,0,28,0
 Bets2222,com.objectdb.o,RQC,176,0,12,0,44,0,13,0,7,0
 Bets2222,com.objectdb.o,RQI,246,0,34,0,59,0,21,0,4,0
-Bets2222,com.objectdb.o,AVS,21,0,0,0,9,0,8,0,8,0
+Bets2222,com.objectdb.o,AVS,8,13,0,0,4,5,4,4,4,4
 Bets2222,com.objectdb.o,JEW,659,0,82,0,165,0,57,0,16,0
-Bets2222,com.objectdb.o,ATR,78,0,8,0,20,0,12,0,8,0
+Bets2222,com.objectdb.o,ATR,29,49,6,2,5,15,6,6,2,6
 Bets2222,com.objectdb.o,B64,428,0,52,0,77,0,35,0,9,0
 Bets2222,com.objectdb.o,JER,212,0,24,0,49,0,19,0,7,0
 Bets2222,com.objectdb.o,TFM.a,26,0,0,0,8,0,3,0,3,0
@@ -2755,222 +2755,222 @@ Bets2222,com.objectdb.o,JEL,898,0,120,0,197,0,88,0,28,0
 Bets2222,com.objectdb.o,JEN,367,0,52,0,80,0,32,0,6,0
 Bets2222,com.objectdb.o,DQI,254,0,46,0,69,0,27,0,4,0
 Bets2222,com.objectdb.o,DQP,46,0,0,0,7,0,4,0,4,0
-Bets2222,com.objectdb.o,MBI,85,0,12,0,24,0,10,0,4,0
-Bets2222,com.objectdb.o,URT,361,0,30,0,94,0,31,0,16,0
+Bets2222,com.objectdb.o,MBI,9,76,2,10,2,22,2,8,0,4
+Bets2222,com.objectdb.o,URT,86,275,12,18,21,73,14,17,5,11
 Bets2222,com.objectdb.o,MBF,142,0,6,0,40,0,18,0,15,0
 Bets2222,com.objectdb.o,DPS,63,0,4,0,16,0,4,0,2,0
 Bets2222,com.objectdb.o,UPR,96,0,12,0,22,0,8,0,2,0
-Bets2222,com.objectdb.o,UPT,360,0,40,0,83,0,31,0,11,0
+Bets2222,com.objectdb.o,UPT,210,150,28,12,48,35,21,10,4,7
 Bets2222,com.objectdb.o,MFP,55,0,0,0,15,0,6,0,6,0
 Bets2222,com.objectdb.o,MFT,114,0,12,0,25,0,11,0,5,0
 Bets2222,com.objectdb.o,DTT,117,0,6,0,29,0,9,0,6,0
 Bets2222,com.objectdb.o,DTD,166,0,25,0,50,0,22,0,3,0
-Bets2222,com.objectdb.o,DSS,1167,0,110,0,284,0,90,0,35,0
+Bets2222,com.objectdb.o,DSS,395,772,56,54,87,197,50,40,8,27
 Bets2222,com.objectdb.o,DSN,19,0,0,0,6,0,4,0,4,0
-Bets2222,com.objectdb.o,UTT,897,0,88,0,196,0,61,0,17,0
-Bets2222,com.objectdb.o,UTV,215,0,18,0,55,0,19,0,10,0
-Bets2222,com.objectdb.o,UTY,2480,0,304,0,553,0,226,0,71,0
-Bets2222,com.objectdb.o,MDF,987,0,154,0,194,0,126,0,49,0
-Bets2222,com.objectdb.o,UTR,66,0,6,0,19,0,11,0,8,0
+Bets2222,com.objectdb.o,UTT,407,490,50,38,77,119,38,23,6,11
+Bets2222,com.objectdb.o,UTV,211,4,18,0,54,1,18,1,9,1
+Bets2222,com.objectdb.o,UTY,1402,1078,198,106,274,279,151,75,19,52
+Bets2222,com.objectdb.o,MDF,682,305,114,40,116,78,91,35,24,25
+Bets2222,com.objectdb.o,UTR,21,45,5,1,4,15,5,6,2,6
 Bets2222,com.objectdb.o,USR,512,0,36,0,95,0,33,0,15,0
 Bets2222,com.objectdb.o,MCN,415,0,36,0,101,0,29,0,11,0
 Bets2222,com.objectdb.o,USV,85,0,10,0,21,0,14,0,9,0
 Bets2222,com.objectdb.o,UMR.k,122,0,6,0,35,0,8,0,5,0
-Bets2222,com.objectdb.o,UMR.j,41,0,0,0,10,0,6,0,6,0
+Bets2222,com.objectdb.o,UMR.j,22,19,0,0,5,5,3,3,3,3
 Bets2222,com.objectdb.o,UMR.i,41,0,0,0,10,0,6,0,6,0
 Bets2222,com.objectdb.o,UMR.h,39,0,0,0,10,0,6,0,6,0
 Bets2222,com.objectdb.o,UMR.g,41,0,0,0,10,0,6,0,6,0
 Bets2222,com.objectdb.o,UMR.f,42,0,0,0,10,0,6,0,6,0
 Bets2222,com.objectdb.o,UMR.e,42,0,0,0,10,0,6,0,6,0
 Bets2222,com.objectdb.o,UMR.d,42,0,0,0,10,0,6,0,6,0
-Bets2222,com.objectdb.o,UMR.c,26,0,0,0,7,0,4,0,4,0
-Bets2222,com.objectdb.o,UMR.b,52,0,4,0,16,0,7,0,5,0
-Bets2222,com.objectdb.o,UMR.a,86,0,4,0,24,0,8,0,6,0
+Bets2222,com.objectdb.o,UMR.c,7,19,0,0,2,5,1,3,1,3
+Bets2222,com.objectdb.o,UMR.b,15,37,3,1,5,11,2,5,0,5
+Bets2222,com.objectdb.o,UMR.a,42,44,2,2,11,13,4,4,2,4
 Bets2222,com.objectdb.o,UIV,109,0,14,0,25,0,16,0,9,0
-Bets2222,com.objectdb.o,UNM.f,161,0,14,0,32,0,15,0,8,0
-Bets2222,com.objectdb.o,DFL,2033,0,158,0,458,0,136,0,57,0
+Bets2222,com.objectdb.o,UNM.f,88,73,9,5,15,17,10,5,4,4
+Bets2222,com.objectdb.o,DFL,1278,755,106,52,271,187,107,29,34,23
 Bets2222,com.objectdb.o,DEX,307,0,18,0,52,0,18,0,9,0
-Bets2222,com.objectdb.o,DMG,6,0,0,0,2,0,1,0,1,0
-Bets2222,com.objectdb.o,UNM,123,0,14,0,25,0,13,0,6,0
-Bets2222,com.objectdb.o,UNH,632,0,76,0,138,0,51,0,13,0
-Bets2222,com.objectdb.o,UNI,396,0,24,0,96,0,37,0,25,0
-Bets2222,com.objectdb.o,UML,840,0,138,0,182,0,98,0,29,0
-Bets2222,com.objectdb.o,UMR,1154,0,141,0,290,0,125,0,44,0
+Bets2222,com.objectdb.o,DMG,0,6,0,0,0,2,0,1,0,1
+Bets2222,com.objectdb.o,UNM,50,73,9,5,7,18,6,7,0,6
+Bets2222,com.objectdb.o,UNH,581,51,73,3,123,15,47,4,9,4
+Bets2222,com.objectdb.o,UNI,316,80,24,0,71,25,29,8,17,8
+Bets2222,com.objectdb.o,UML,437,403,80,58,95,87,60,38,11,18
+Bets2222,com.objectdb.o,UMR,962,192,117,24,230,60,102,23,26,18
 Bets2222,com.objectdb.o,ULV,272,0,44,0,58,0,38,0,16,0
 Bets2222,com.objectdb.o,DIX,52,0,4,0,18,0,6,0,4,0
-Bets2222,com.objectdb.o,MSG,131,0,10,0,24,0,13,0,8,0
-Bets2222,com.objectdb.o,MSF,369,0,38,0,80,0,29,0,10,0
-Bets2222,com.objectdb.o,EBW,145,0,10,0,33,0,11,0,6,0
+Bets2222,com.objectdb.o,MSG,44,87,4,6,9,15,6,7,3,5
+Bets2222,com.objectdb.o,MSF,189,180,26,12,41,39,20,9,3,7
+Bets2222,com.objectdb.o,EBW,84,61,7,3,18,15,7,4,2,4
 Bets2222,com.objectdb.o,MRN,37,0,0,0,9,0,5,0,5,0
 Bets2222,com.objectdb.o,MRP,611,0,63,0,113,0,47,0,15,0
 Bets2222,com.objectdb.o,VCW,33,0,0,0,10,0,5,0,5,0
 Bets2222,com.objectdb.o,MQI,101,0,16,0,36,0,12,0,4,0
 Bets2222,com.objectdb.o,MPT,728,0,100,0,171,0,68,0,18,0
-Bets2222,com.objectdb.o,VAR,1149,0,126,0,274,0,114,0,51,0
-Bets2222,com.objectdb.o,VAL,913,0,94,0,119,0,100,0,39,0
+Bets2222,com.objectdb.o,VAR,816,333,108,18,194,80,91,23,31,20
+Bets2222,com.objectdb.o,VAL,408,505,84,10,100,19,86,14,27,12
 Bets2222,com.objectdb.o,EFT,21,0,0,0,7,0,4,0,4,0
 Bets2222,com.objectdb.o,MVP,967,0,135,0,242,0,91,0,23,0
-Bets2222,com.objectdb.o,VGN,149,0,10,0,32,0,13,0,8,0
-Bets2222,com.objectdb.o,MVL,197,0,24,0,45,0,17,0,5,0
-Bets2222,com.objectdb.o,MUT,1029,0,169,0,259,0,111,0,25,0
-Bets2222,com.objectdb.o,VGD,161,0,30,0,36,0,27,0,10,0
-Bets2222,com.objectdb.o,EEI,31,0,2,0,9,0,7,0,6,0
+Bets2222,com.objectdb.o,VGN,121,28,8,2,23,9,9,4,5,3
+Bets2222,com.objectdb.o,MVL,124,73,22,2,33,12,12,5,1,4
+Bets2222,com.objectdb.o,MUT,624,405,115,54,152,107,86,25,12,13
+Bets2222,com.objectdb.o,VGD,82,79,21,9,16,20,19,8,3,7
+Bets2222,com.objectdb.o,EEI,1,30,1,1,0,9,1,6,0,6
 Bets2222,com.objectdb.o,EDT,72,0,12,0,19,0,8,0,2,0
-Bets2222,com.objectdb.o,EDS,288,0,26,0,70,0,22,0,9,0
+Bets2222,com.objectdb.o,EDS,141,147,18,8,23,47,15,7,3,6
 Bets2222,com.objectdb.o,EDC,381,0,40,0,95,0,35,0,15,0
 Bets2222,com.objectdb.o,MTR,233,0,36,0,59,0,28,0,10,0
-Bets2222,com.objectdb.o,MTH,251,0,26,0,75,0,21,0,8,0
-Bets2222,com.objectdb.o,MSS,1446,0,0,0,207,0,2,0,2,0
-Bets2222,com.objectdb.o,MST,2623,0,274,0,612,0,209,0,72,0
-Bets2222,com.objectdb.o,LOM.f,62,0,2,0,14,0,9,0,8,0
+Bets2222,com.objectdb.o,MTH,114,137,21,5,32,43,15,6,3,5
+Bets2222,com.objectdb.o,MSS,3,1443,0,0,1,206,1,1,1,1
+Bets2222,com.objectdb.o,MST,1616,1007,192,82,356,256,154,55,35,37
+Bets2222,com.objectdb.o,LOM.f,28,34,1,1,4,10,3,6,2,6
 Bets2222,com.objectdb.o,ECI,79,0,4,0,24,0,5,0,3,0
-Bets2222,com.objectdb.o,LGN.a,9,0,0,0,4,0,1,0,1,0
+Bets2222,com.objectdb.o,LGN.a,0,9,0,0,0,4,0,1,0,1
 Bets2222,com.objectdb.o,MIX,150,0,24,0,44,0,16,0,4,0
 Bets2222,com.objectdb.o,RPM.b,92,0,6,0,19,0,5,0,2,0
 Bets2222,com.objectdb.o,MNL,109,0,10,0,29,0,11,0,6,0
-Bets2222,com.objectdb.o,MMM,2004,0,207,0,438,0,148,0,44,0
+Bets2222,com.objectdb.o,MMM,1113,891,134,73,238,200,99,49,11,33
 Bets2222,com.objectdb.o,MMN,123,0,10,0,35,0,10,0,5,0
-Bets2222,com.objectdb.o,IHS.f,39,0,2,0,11,0,8,0,7,0
+Bets2222,com.objectdb.o,IHS.f,4,35,0,2,1,10,1,7,1,6
 Bets2222,com.objectdb.o,PGW.e,37,0,0,0,8,0,1,0,1,0
 Bets2222,com.objectdb.o,TPL,106,0,10,0,23,0,14,0,9,0
 Bets2222,com.objectdb.o,CNP,352,0,32,0,73,0,30,0,14,0
 Bets2222,com.objectdb.o,CNT,3,0,0,0,1,0,1,0,1,0
 Bets2222,com.objectdb.o,TPE,21,0,0,0,8,0,4,0,4,0
 Bets2222,com.objectdb.o,CNV,34,0,2,0,10,0,3,0,2,0
-Bets2222,com.objectdb.o,CNU,452,0,52,0,107,0,45,0,19,0
+Bets2222,com.objectdb.o,CNU,298,154,37,15,66,41,32,13,8,11
 Bets2222,com.objectdb.o,CNN,12,0,0,0,4,0,2,0,2,0
-Bets2222,com.objectdb.o,CNM,690,0,80,0,152,0,53,0,13,0
+Bets2222,com.objectdb.o,CNM,351,339,63,17,77,75,43,10,7,6
 Bets2222,com.objectdb.o,TOT,104,0,6,0,32,0,20,0,17,0
 Bets2222,com.objectdb.o,CMV,507,0,56,0,112,0,45,0,17,0
 Bets2222,com.objectdb.o,TOL,97,0,14,0,39,0,20,0,13,0
-Bets2222,com.objectdb.o,CMN,323,0,71,0,85,0,51,0,8,0
-Bets2222,com.objectdb.o,IOM.f,66,0,4,0,14,0,10,0,8,0
+Bets2222,com.objectdb.o,CMN,256,67,59,12,64,21,49,2,6,2
+Bets2222,com.objectdb.o,IOM.f,18,48,0,4,3,11,1,9,1,7
 Bets2222,com.objectdb.o,CLN,16,0,2,0,6,0,3,0,2,0
-Bets2222,com.objectdb.o,CLT,528,0,80,0,129,0,55,0,15,0
+Bets2222,com.objectdb.o,CLT,227,301,43,37,53,76,36,19,3,12
 Bets2222,com.objectdb.o,CLS,474,0,36,0,114,0,33,0,15,0
-Bets2222,com.objectdb.o,CLC,130,0,8,0,26,0,10,0,6,0
+Bets2222,com.objectdb.o,CLC,20,110,0,8,5,21,2,8,2,4
 Bets2222,com.objectdb.o,CSF,104,0,8,0,22,0,8,0,4,0
-Bets2222,com.objectdb.o,LDR,1584,0,192,0,430,0,135,0,39,0
-Bets2222,com.objectdb.o,TSK,136,0,20,0,50,0,22,0,12,0
-Bets2222,com.objectdb.o,TSM,123,0,14,0,35,0,10,0,3,0
+Bets2222,com.objectdb.o,LDR,838,746,114,78,212,218,90,45,16,23
+Bets2222,com.objectdb.o,TSK,48,88,8,12,15,35,8,14,3,9
+Bets2222,com.objectdb.o,TSM,96,27,12,2,25,10,8,2,1,2
 Bets2222,com.objectdb.o,LBS,130,0,12,0,26,0,16,0,10,0
-Bets2222,com.objectdb.o,TRS,307,0,40,0,81,0,29,0,9,0
+Bets2222,com.objectdb.o,TRS,251,56,34,6,64,17,25,4,5,4
 Bets2222,com.objectdb.o,CQI,50,0,4,0,16,0,6,0,4,0
 Bets2222,com.objectdb.o,TRB,78,0,2,0,16,0,6,0,5,0
-Bets2222,com.objectdb.o,TRF,192,0,36,0,54,0,30,0,10,0
+Bets2222,com.objectdb.o,TRF,86,106,18,18,21,33,17,13,4,6
 Bets2222,com.objectdb.o,LAL,223,0,16,0,45,0,22,0,14,0
 Bets2222,com.objectdb.o,TQI,32,0,4,0,13,0,6,0,4,0
-Bets2222,com.objectdb.o,CFO,30,0,2,0,10,0,7,0,6,0
-Bets2222,com.objectdb.o,CFT,78,0,8,0,16,0,8,0,4,0
-Bets2222,com.objectdb.o,CFG,1264,0,150,0,296,0,109,0,33,0
+Bets2222,com.objectdb.o,CFO,12,18,0,2,5,5,3,4,3,3
+Bets2222,com.objectdb.o,CFT,36,42,5,3,7,9,4,4,1,3
+Bets2222,com.objectdb.o,CFG,280,984,70,80,66,230,64,45,5,28
 Bets2222,com.objectdb.o,UTV.a,32,0,0,0,11,0,4,0,4,0
 Bets2222,com.objectdb.o,_PessimisticLockException,28,0,0,0,11,0,5,0,5,0
 Bets2222,com.objectdb.o,TFM,246,0,30,0,67,0,20,0,5,0
 Bets2222,com.objectdb.o,TEX,17,0,0,0,4,0,2,0,2,0
 Bets2222,com.objectdb.o,STI.new MouseAdapter() {...},12,0,2,0,4,0,3,0,2,0
 Bets2222,com.objectdb.o,KSW,43,0,2,0,11,0,7,0,6,0
-Bets2222,com.objectdb.o,CCH,298,0,42,0,81,0,34,0,13,0
+Bets2222,com.objectdb.o,CCH,196,102,33,9,52,29,26,8,7,6
 Bets2222,com.objectdb.o,RSL.a,18,0,0,0,6,0,4,0,4,0
 Bets2222,com.objectdb.o,_TransactionRequiredException,25,0,0,0,10,0,5,0,5,0
-Bets2222,com.objectdb.o,TKS,28,0,0,0,7,0,4,0,4,0
-Bets2222,com.objectdb.o,TKN,684,0,85,0,164,0,78,0,35,0
-Bets2222,com.objectdb.o,TKR,1860,0,300,0,407,0,184,0,16,0
+Bets2222,com.objectdb.o,TKS,16,12,0,0,2,5,2,2,2,2
+Bets2222,com.objectdb.o,TKN,472,212,63,22,103,61,54,24,18,17
+Bets2222,com.objectdb.o,TKR,1402,458,243,57,307,100,164,20,8,8
 Bets2222,com.objectdb.o,CIX,34,0,4,0,9,0,5,0,3,0
-Bets2222,com.objectdb.o,TKI,291,0,50,0,82,0,44,0,14,0
+Bets2222,com.objectdb.o,TKI,170,121,34,16,53,29,30,14,4,10
 Bets2222,com.objectdb.o,UPR.a,6,0,0,0,3,0,1,0,1,0
 Bets2222,com.objectdb.o,UPR.b,24,0,0,0,7,0,2,0,2,0
 Bets2222,com.objectdb.o,UPR.c,16,0,0,0,6,0,2,0,2,0
-Bets2222,com.objectdb.o,CHT,107,0,14,0,24,0,16,0,8,0
+Bets2222,com.objectdb.o,CHT,95,12,14,0,21,3,15,1,7,1
 Bets2222,com.objectdb.o,CHV,65,0,8,0,18,0,12,0,8,0
-Bets2222,com.objectdb.o,InternalException,192,0,10,0,50,0,17,0,12,0
-Bets2222,com.objectdb.o,CHE,13,0,0,0,5,0,4,0,4,0
+Bets2222,com.objectdb.o,InternalException,189,3,9,1,48,2,16,1,11,1
+Bets2222,com.objectdb.o,CHE,5,8,0,0,2,3,2,2,2,2
 Bets2222,com.objectdb.o,WJM.new InvocationHandler() {...},47,0,8,0,9,0,6,0,2,0
 Bets2222,com.objectdb.o,LPS,133,0,10,0,24,0,8,0,3,0
-Bets2222,com.objectdb.o,LOM,111,0,12,0,28,0,11,0,5,0
-Bets2222,com.objectdb.o,LMT,29,0,4,0,9,0,9,0,7,0
-Bets2222,com.objectdb.o,UFT,594,0,82,0,133,0,47,0,6,0
+Bets2222,com.objectdb.o,LOM,17,94,4,8,5,23,4,7,0,5
+Bets2222,com.objectdb.o,LMT,14,15,1,3,5,4,5,4,4,3
+Bets2222,com.objectdb.o,UFT,470,124,65,17,101,32,41,6,2,4
 Bets2222,com.objectdb.o,LTN,165,0,16,0,40,0,17,0,9,0
-Bets2222,com.objectdb.o,DCT,176,0,29,0,42,0,29,0,8,0
+Bets2222,com.objectdb.o,DCT,164,12,29,0,39,3,28,1,7,1
 Bets2222,com.objectdb.o,DCV,650,0,109,0,154,0,88,0,29,0
-Bets2222,com.objectdb.o,DCK,49,0,8,0,17,0,8,0,4,0
-Bets2222,com.objectdb.o,DCN,97,0,2,0,29,0,11,0,10,0
-Bets2222,com.objectdb.o,DCM,1921,0,170,0,400,0,112,0,27,0
-Bets2222,com.objectdb.o,DCE,1001,0,141,0,259,0,106,0,35,0
-Bets2222,com.objectdb.o,LSD,206,0,22,0,49,0,22,0,11,0
-Bets2222,com.objectdb.o,DBT,174,0,26,0,44,0,26,0,10,0
-Bets2222,com.objectdb.o,DBV,471,0,94,0,109,0,82,0,27,0
-Bets2222,com.objectdb.o,LRS,202,0,30,0,52,0,23,0,8,0
-Bets2222,com.objectdb.o,LRV,84,0,2,0,24,0,14,0,13,0
-Bets2222,com.objectdb.o,LRQ,101,0,10,0,25,0,14,0,9,0
-Bets2222,com.objectdb.o,DAT,465,0,52,0,114,0,50,0,10,0
-Bets2222,com.objectdb.o,DAV,602,0,65,0,136,0,66,0,29,0
+Bets2222,com.objectdb.o,DCK,41,8,5,3,13,4,6,2,3,1
+Bets2222,com.objectdb.o,DCN,41,56,1,1,11,18,4,7,3,7
+Bets2222,com.objectdb.o,DCM,1888,33,169,1,391,9,111,1,26,1
+Bets2222,com.objectdb.o,DCE,954,47,138,3,245,14,100,6,29,6
+Bets2222,com.objectdb.o,LSD,195,11,21,1,45,4,20,2,9,2
+Bets2222,com.objectdb.o,DBT,148,26,23,3,37,7,22,4,8,2
+Bets2222,com.objectdb.o,DBV,399,72,87,7,91,18,75,7,22,5
+Bets2222,com.objectdb.o,LRS,83,119,17,13,18,34,13,10,1,7
+Bets2222,com.objectdb.o,LRV,79,5,1,1,22,2,13,1,12,1
+Bets2222,com.objectdb.o,LRQ,31,70,5,5,7,18,5,9,1,8
+Bets2222,com.objectdb.o,DAT,389,76,45,7,96,18,43,7,5,5
+Bets2222,com.objectdb.o,DAV,540,62,60,5,122,14,62,4,26,3
 Bets2222,com.objectdb.o,UBV,72,0,8,0,20,0,13,0,9,0
 Bets2222,com.objectdb.o,AGN.r,25,0,4,0,7,0,5,0,3,0
 Bets2222,com.objectdb.o,AGN.s,25,0,4,0,7,0,5,0,3,0
 Bets2222,com.objectdb.o,AGN.p,147,0,12,0,34,0,11,0,5,0
-Bets2222,com.objectdb.o,TYD,160,0,6,0,40,0,12,0,9,0
+Bets2222,com.objectdb.o,TYD,106,54,6,0,23,17,7,5,4,5
 Bets2222,com.objectdb.o,AGN.q,151,0,22,0,43,0,16,0,5,0
 Bets2222,com.objectdb.o,AGN.t,9,0,0,0,3,0,1,0,1,0
-Bets2222,com.objectdb.o,TYH,1042,0,224,0,268,0,153,0,41,0
+Bets2222,com.objectdb.o,TYH,642,400,179,45,177,91,119,34,17,24
 Bets2222,com.objectdb.o,AGN.n,94,0,12,0,25,0,11,0,5,0
 Bets2222,com.objectdb.o,AGN.o,128,0,16,0,31,0,12,0,4,0
-Bets2222,com.objectdb.o,LGR,374,0,55,0,112,0,61,0,31,0
-Bets2222,com.objectdb.o,LGN,261,0,22,0,63,0,27,0,16,0
-Bets2222,com.objectdb.o,LGM,571,0,58,0,129,0,41,0,12,0
-Bets2222,com.objectdb.o,LFN,21,0,0,0,7,0,4,0,4,0
-Bets2222,com.objectdb.o,TVS,133,0,14,0,34,0,17,0,10,0
-Bets2222,com.objectdb.o,TVR,123,0,14,0,25,0,12,0,5,0
-Bets2222,com.objectdb.o,LFL,1193,0,114,0,295,0,119,0,62,0
-Bets2222,com.objectdb.o,CTR,145,0,18,0,40,0,18,0,9,0
+Bets2222,com.objectdb.o,LGR,257,117,46,9,74,38,48,13,19,12
+Bets2222,com.objectdb.o,LGN,173,88,15,7,41,22,20,7,11,5
+Bets2222,com.objectdb.o,LGM,161,410,24,34,35,94,25,16,5,7
+Bets2222,com.objectdb.o,LFN,0,21,0,0,0,7,0,4,0,4
+Bets2222,com.objectdb.o,TVS,8,125,5,9,1,33,5,12,1,9
+Bets2222,com.objectdb.o,TVR,35,88,5,9,5,20,6,6,1,4
+Bets2222,com.objectdb.o,LFL,788,405,92,22,181,114,74,45,22,40
+Bets2222,com.objectdb.o,CTR,67,78,13,5,16,24,12,6,3,6
 Bets2222,com.objectdb.o,CTL,285,0,22,0,73,0,19,0,7,0
 Bets2222,com.objectdb.o,CST,705,0,22,0,219,0,54,0,43,0
-Bets2222,com.objectdb.o,LKM,333,0,46,0,87,0,37,0,13,0
+Bets2222,com.objectdb.o,LKM,317,16,44,2,80,7,33,4,9,4
 Bets2222,com.objectdb.o,PLL.new Comparator() {...},14,0,0,0,3,0,2,0,2,0
-Bets2222,com.objectdb.o,WVP.b,53,0,18,0,16,0,11,0,2,0
-Bets2222,com.objectdb.o,WVP.a,44,0,8,0,12,0,6,0,2,0
+Bets2222,com.objectdb.o,WVP.b,50,3,18,0,15,1,10,1,1,1
+Bets2222,com.objectdb.o,WVP.a,41,3,8,0,11,1,5,1,1,1
 Bets2222,com.objectdb.o,LIW,80,0,6,0,26,0,14,0,11,0
-Bets2222,com.objectdb.o,TYR,1262,0,155,0,278,0,166,0,41,0
-Bets2222,com.objectdb.o,TYT,104,0,14,0,29,0,14,0,7,0
-Bets2222,com.objectdb.o,TYS,1576,0,187,0,347,0,112,0,18,0
-Bets2222,com.objectdb.o,LIN,27,0,0,0,7,0,5,0,5,0
+Bets2222,com.objectdb.o,TYR,1092,170,135,20,231,47,142,24,23,18
+Bets2222,com.objectdb.o,TYT,97,7,14,0,26,3,12,2,5,2
+Bets2222,com.objectdb.o,TYS,796,780,99,88,158,189,69,43,6,12
+Bets2222,com.objectdb.o,LIN,3,24,0,0,1,6,1,4,1,4
 Bets2222,com.objectdb.o,TYV,110,0,10,0,27,0,16,0,11,0
-Bets2222,com.objectdb.o,TYW,691,0,107,0,206,0,90,0,33,0
+Bets2222,com.objectdb.o,TYW,405,286,67,40,115,91,63,27,16,17
 Bets2222,com.objectdb.o,TYN,78,0,5,0,15,0,8,0,5,0
-Bets2222,com.objectdb.o,TYM,2169,0,230,0,490,0,175,0,60,0
-Bets2222,com.objectdb.o,WVP,834,0,162,0,193,0,92,0,11,0
-Bets2222,com.objectdb.o,FTP,183,0,34,0,44,0,21,0,4,0
-Bets2222,com.objectdb.o,FTC,5,0,0,0,2,0,2,0,2,0
-Bets2222,com.objectdb.o,FRH,78,0,8,0,25,0,12,0,8,0
-Bets2222,com.objectdb.o,WSP,952,0,146,0,216,0,89,0,14,0
+Bets2222,com.objectdb.o,TYM,883,1286,116,114,188,302,93,82,17,43
+Bets2222,com.objectdb.o,WVP,633,201,141,21,141,52,84,8,3,8
+Bets2222,com.objectdb.o,FTP,44,139,10,24,10,34,8,13,1,3
+Bets2222,com.objectdb.o,FTC,2,3,0,0,1,1,1,1,1,1
+Bets2222,com.objectdb.o,FRH,64,14,8,0,21,4,11,1,7,1
+Bets2222,com.objectdb.o,WSP,657,295,118,28,149,67,81,8,7,7
 Bets2222,com.objectdb.o,WSS,159,0,0,0,49,0,33,0,33,0
 Bets2222,com.objectdb.o,EDC.f,74,0,6,0,17,0,9,0,6,0
-Bets2222,com.objectdb.o,WSM,56,0,0,0,16,0,4,0,4,0
+Bets2222,com.objectdb.o,WSM,20,36,0,0,6,10,1,3,1,3
 Bets2222,com.objectdb.o,WSN,1017,0,74,0,282,0,62,0,25,0
 Bets2222,com.objectdb.o,FQP,94,0,2,0,21,0,7,0,6,0
 Bets2222,com.objectdb.o,OIN,51,0,4,0,18,0,6,0,4,0
 Bets2222,com.objectdb.o,_JdoUnsupportedOptionException,26,0,0,0,10,0,5,0,5,0
-Bets2222,com.objectdb.o,FLT,110,0,16,0,26,0,18,0,8,0
+Bets2222,com.objectdb.o,FLT,98,12,16,0,23,3,17,1,7,1
 Bets2222,com.objectdb.o,FLV,435,0,88,0,101,0,76,0,26,0
 Bets2222,com.objectdb.o,FLM,232,0,14,0,44,0,19,0,12,0
 Bets2222,com.objectdb.o,_OptimisticLockException,28,0,0,0,11,0,5,0,5,0
-Bets2222,com.objectdb.o,FIW,76,0,2,0,20,0,7,0,6,0
-Bets2222,com.objectdb.o,FIP,193,0,14,0,42,0,13,0,6,0
+Bets2222,com.objectdb.o,FIW,18,58,2,0,4,16,2,5,1,5
+Bets2222,com.objectdb.o,FIP,172,21,14,0,37,5,12,1,5,1
 Bets2222,com.objectdb.o,FIR,176,0,16,0,32,0,14,0,6,0
-Bets2222,com.objectdb.o,FIL,3,0,0,0,1,0,1,0,1,0
+Bets2222,com.objectdb.o,FIL,0,3,0,0,0,1,0,1,0,1
 Bets2222,com.objectdb.o,FQI,101,0,12,0,27,0,10,0,4,0
-Bets2222,com.objectdb.o,OBH,503,0,78,0,110,0,53,0,14,0
-Bets2222,com.objectdb.o,OBI,610,0,108,0,149,0,63,0,9,0
-Bets2222,com.objectdb.o,OBM,1691,0,256,0,442,0,162,0,34,0
-Bets2222,com.objectdb.o,OBC,1585,0,234,0,433,0,207,0,89,0
-Bets2222,com.objectdb.o,WRA,208,0,0,0,53,0,36,0,36,0
-Bets2222,com.objectdb.o,FPL,450,0,16,0,121,0,34,0,26,0
-Bets2222,com.objectdb.o,FPD,101,0,2,0,27,0,10,0,9,0
+Bets2222,com.objectdb.o,OBH,288,215,55,23,64,46,37,16,7,7
+Bets2222,com.objectdb.o,OBI,380,230,79,29,89,60,54,9,4,5
+Bets2222,com.objectdb.o,OBM,1138,553,190,66,275,167,139,23,18,16
+Bets2222,com.objectdb.o,OBC,914,671,160,74,238,195,154,53,46,43
+Bets2222,com.objectdb.o,WRA,128,80,0,0,32,21,22,14,22,14
+Bets2222,com.objectdb.o,FPL,291,159,6,10,81,40,23,11,19,7
+Bets2222,com.objectdb.o,FPD,97,4,2,0,26,1,9,1,8,1
 Bets2222,com.objectdb.o,_NonUniqueResultException,25,0,0,0,10,0,5,0,5,0
-Bets2222,com.objectdb.o,INR.a,47,0,4,0,12,0,7,0,5,0
+Bets2222,com.objectdb.o,INR.a,39,8,4,0,9,3,5,2,3,2
 Bets2222,com.objectdb.o,INR.b,50,0,4,0,12,0,7,0,5,0
 Bets2222,com.objectdb.o,BYR.new ObjectInputStream() {...},18,0,0,0,4,0,2,0,2,0
 Bets2222,com.objectdb.o,INR.c,30,0,2,0,9,0,6,0,5,0
-Bets2222,com.objectdb.o,GEN,464,0,10,0,103,0,34,0,29,0
+Bets2222,com.objectdb.o,GEN,373,91,9,1,80,23,30,4,25,4
 Bets2222,com.objectdb.o,CLN.t,50,0,4,0,14,0,5,0,3,0
 Bets2222,com.objectdb.o,CLN.s,24,0,0,0,8,0,3,0,3,0
 Bets2222,com.objectdb.o,CLN.n,34,0,2,0,9,0,4,0,3,0
@@ -2978,13 +2978,13 @@ Bets2222,com.objectdb.o,CLN.p,36,0,2,0,13,0,5,0,4,0
 Bets2222,com.objectdb.o,CLN.o,50,0,4,0,16,0,7,0,5,0
 Bets2222,com.objectdb.o,CLN.r,24,0,0,0,8,0,3,0,3,0
 Bets2222,com.objectdb.o,CLN.q,67,0,8,0,21,0,7,0,3,0
-Bets2222,com.objectdb.o,OST,339,0,8,0,127,0,37,0,33,0
-Bets2222,com.objectdb.o,OSH,262,0,18,0,61,0,28,0,19,0
+Bets2222,com.objectdb.o,OST,211,128,7,1,91,36,32,5,28,5
+Bets2222,com.objectdb.o,OSH,83,179,11,7,30,31,16,12,7,12
 Bets2222,com.objectdb.o,JER.a,298,0,38,0,77,0,23,0,4,0
 Bets2222,com.objectdb.o,JER.b,136,0,20,0,31,0,13,0,3,0
 Bets2222,com.objectdb.o,JER.c,88,0,12,0,15,0,8,0,2,0
-Bets2222,com.objectdb.o,OMF,1441,0,176,0,385,0,129,0,41,0
-Bets2222,com.objectdb.o,_EntityExistsException,39,0,2,0,13,0,7,0,6,0
+Bets2222,com.objectdb.o,OMF,775,666,109,67,202,183,113,16,26,15
+Bets2222,com.objectdb.o,_EntityExistsException,32,7,1,1,11,2,6,1,5,1
 Bets2222,com.objectdb.o,_JdoReadOnlyException,26,0,0,0,10,0,5,0,5,0
 Bets2222,com.objectdb.o,ORN,48,0,8,0,17,0,7,0,3,0
 Bets2222,com.objectdb.o,ORB,258,0,12,0,56,0,12,0,6,0
@@ -2992,55 +2992,55 @@ Bets2222,com.objectdb.o,ORF,184,0,32,0,37,0,25,0,9,0
 Bets2222,com.objectdb.o,_JdoFatalUserException,28,0,0,0,11,0,5,0,5,0
 Bets2222,com.objectdb.o,DCE.k,92,0,12,0,15,0,15,0,9,0
 Bets2222,com.objectdb.o,_QueryTimeoutException,27,0,0,0,10,0,5,0,5,0
-Bets2222,com.objectdb.o,ERR,264,0,22,0,65,0,19,0,8,0
+Bets2222,com.objectdb.o,ERR,108,156,15,7,28,37,14,5,3,5
 Bets2222,com.objectdb.o,_JdoObjectNotFoundException,35,0,0,0,13,0,6,0,6,0
-Bets2222,com.objectdb.o,ERM,81,0,14,0,20,0,9,0,2,0
+Bets2222,com.objectdb.o,ERM,38,43,9,5,7,13,7,2,0,2
 Bets2222,com.objectdb.o,ERB,54,0,2,0,14,0,6,0,5,0
 Bets2222,com.objectdb.o,VST,92,0,6,0,23,0,11,0,8,0
 Bets2222,com.objectdb.o,ERF,101,0,16,0,26,0,10,0,2,0
-Bets2222,com.objectdb.o,VSL,677,0,168,0,156,0,100,0,16,0
-Bets2222,com.objectdb.o,VSP,64,0,10,0,26,0,20,0,15,0
+Bets2222,com.objectdb.o,VSL,436,241,132,36,98,58,90,10,8,8
+Bets2222,com.objectdb.o,VSP,41,23,8,2,16,10,16,4,11,4
 Bets2222,com.objectdb.o,EQP,349,0,38,0,77,0,30,0,11,0
 Bets2222,com.objectdb.o,EQI,12,0,0,0,6,0,5,0,5,0
-Bets2222,com.objectdb.o,VRS,229,0,30,0,64,0,32,0,17,0
-Bets2222,com.objectdb.o,VRN,55,0,2,0,13,0,7,0,6,0
-Bets2222,com.objectdb.o,EPR,134,0,18,0,30,0,12,0,3,0
+Bets2222,com.objectdb.o,VRS,130,99,26,4,34,30,17,15,4,13
+Bets2222,com.objectdb.o,VRN,22,33,2,0,5,8,4,3,3,3
+Bets2222,com.objectdb.o,EPR,51,83,13,5,12,18,8,4,0,3
 Bets2222,com.objectdb.o,EPI,42,0,4,0,12,0,5,0,3,0
-Bets2222,com.objectdb.o,NAV,129,0,2,0,30,0,13,0,12,0
+Bets2222,com.objectdb.o,NAV,60,69,1,1,13,17,8,5,7,5
 Bets2222,com.objectdb.o,VQI,156,0,16,0,39,0,14,0,6,0
 Bets2222,com.objectdb.o,SCV.a,188,0,14,0,27,0,13,0,6,0
 Bets2222,com.objectdb.o,NGP,44,0,2,0,12,0,4,0,3,0
-Bets2222,com.objectdb.o,EVI,7,0,0,0,2,0,2,0,2,0
-Bets2222,com.objectdb.o,EVC,190,0,18,0,48,0,17,0,8,0
-Bets2222,com.objectdb.o,NFL,118,0,20,0,35,0,20,0,10,0
-Bets2222,com.objectdb.o,ETM,121,0,14,0,30,0,14,0,7,0
+Bets2222,com.objectdb.o,EVI,4,3,0,0,1,1,1,1,1,1
+Bets2222,com.objectdb.o,EVC,37,153,6,12,9,39,5,12,1,7
+Bets2222,com.objectdb.o,NFL,95,23,18,2,28,7,18,2,8,2
+Bets2222,com.objectdb.o,ETM,43,78,6,8,9,21,5,9,1,6
 Bets2222,com.objectdb.o,ETR,22,0,2,0,7,0,3,0,2,0
-Bets2222,com.objectdb.o,VUT,1433,0,208,0,332,0,202,0,20,0
-Bets2222,com.objectdb.o,EST,172,0,26,0,47,0,23,0,10,0
+Bets2222,com.objectdb.o,VUT,1168,265,186,22,260,72,182,20,10,10
+Bets2222,com.objectdb.o,EST,68,104,12,14,15,32,10,13,1,9
 Bets2222,com.objectdb.o,ESW,50,0,4,0,14,0,8,0,6,0
 Bets2222,com.objectdb.o,ESV,59,0,0,0,16,0,8,0,8,0
-Bets2222,com.objectdb.o,VLS,85,0,6,0,17,0,9,0,6,0
-Bets2222,com.objectdb.o,VLR,57,0,8,0,19,0,12,0,8,0
-Bets2222,com.objectdb.o,VLT,226,0,20,0,55,0,22,0,12,0
-Bets2222,com.objectdb.o,VLV,473,0,52,0,109,0,38,0,12,0
+Bets2222,com.objectdb.o,VLS,50,35,4,2,9,8,4,5,2,4
+Bets2222,com.objectdb.o,VLR,8,49,4,4,4,15,6,6,2,6
+Bets2222,com.objectdb.o,VLT,166,60,15,5,37,18,12,10,4,8
+Bets2222,com.objectdb.o,VLV,346,127,39,13,73,36,28,10,6,6
 Bets2222,com.objectdb.o,EIX,188,0,20,0,52,0,15,0,5,0
 Bets2222,com.objectdb.o,EIV,77,0,4,0,19,0,10,0,8,0
 Bets2222,com.objectdb.o,VIX,225,0,34,0,63,0,23,0,6,0
 Bets2222,com.objectdb.o,MXV,44,0,4,0,18,0,12,0,10,0
 Bets2222,com.objectdb.o,MXL,109,0,10,0,29,0,11,0,6,0
-Bets2222,com.objectdb.o,ENT,1943,0,331,0,501,0,252,0,85,0
-Bets2222,com.objectdb.o,QRM.b,9,0,0,0,2,0,2,0,2,0
-Bets2222,com.objectdb.o,RTM.f,45,0,2,0,18,0,3,0,2,0
-Bets2222,com.objectdb.o,ENH,424,0,68,0,139,0,44,0,10,0
+Bets2222,com.objectdb.o,ENT,1095,848,214,117,268,233,170,82,29,56
+Bets2222,com.objectdb.o,QRM.b,0,9,0,0,0,2,0,2,0,2
+Bets2222,com.objectdb.o,RTM.f,33,12,2,0,13,5,2,1,1,1
+Bets2222,com.objectdb.o,ENH,143,281,36,32,47,92,29,15,3,7
 Bets2222,com.objectdb.o,RTM.h,12,0,0,0,4,0,2,0,2,0
-Bets2222,com.objectdb.o,VOW,43,0,2,0,15,0,12,0,11,0
+Bets2222,com.objectdb.o,VOW,14,29,1,1,4,11,5,7,4,7
 Bets2222,com.objectdb.o,RTM.i,12,0,0,0,4,0,2,0,2,0
 Bets2222,com.objectdb.o,EMT,96,0,4,0,30,0,14,0,12,0
-Bets2222,com.objectdb.o,VOB,434,0,62,0,92,0,47,0,16,0
+Bets2222,com.objectdb.o,VOB,353,81,56,6,74,18,40,7,10,6
 Bets2222,com.objectdb.o,_IllegalArgumentException,39,0,2,0,13,0,7,0,6,0
 Bets2222,com.objectdb.o,EMP,53,0,0,0,15,0,8,0,8,0
 Bets2222,com.objectdb.o,EMR,417,0,52,0,108,0,32,0,6,0
-Bets2222,com.objectdb.o,EMI,11,0,0,0,4,0,4,0,4,0
+Bets2222,com.objectdb.o,EMI,0,11,0,0,0,4,0,4,0,4
 Bets2222,com.objectdb.o,ELV,57,0,0,0,16,0,8,0,8,0
 Bets2222,com.objectdb.o,_JdoFatalDataStoreException,26,0,0,0,10,0,5,0,5,0
 Bets2222,com.objectdb.o,ELI,114,0,12,0,25,0,9,0,3,0
@@ -3051,25 +3051,25 @@ Bets2222,com.objectdb.o,FCL,312,0,24,0,80,0,18,0,6,0
 Bets2222,com.objectdb.o,FAP,133,0,2,0,29,0,8,0,7,0
 Bets2222,com.objectdb.o,WJM,104,0,2,0,26,0,4,0,3,0
 Bets2222,com.objectdb.o,FHN,1161,0,162,0,273,0,100,0,15,0
-Bets2222,com.objectdb.o,FGR,519,0,36,0,123,0,48,0,30,0
-Bets2222,com.objectdb.o,FGS,211,0,16,0,53,0,17,0,9,0
-Bets2222,com.objectdb.o,WHP,573,0,68,0,127,0,42,0,8,0
-Bets2222,com.objectdb.o,FGD,245,0,14,0,56,0,20,0,13,0
-Bets2222,com.objectdb.o,WHS,316,0,44,0,70,0,38,0,16,0
-Bets2222,com.objectdb.o,NVN,76,0,2,0,19,0,7,0,6,0
-Bets2222,com.objectdb.o,NLT,78,0,8,0,18,0,11,0,7,0
-Bets2222,com.objectdb.o,NLV,32,0,2,0,13,0,11,0,10,0
+Bets2222,com.objectdb.o,FGR,367,152,26,10,83,40,31,17,16,14
+Bets2222,com.objectdb.o,FGS,97,114,7,9,23,30,10,7,4,5
+Bets2222,com.objectdb.o,WHP,398,175,51,17,84,43,37,5,4,4
+Bets2222,com.objectdb.o,FGD,202,43,11,3,44,12,17,3,10,3
+Bets2222,com.objectdb.o,WHS,179,137,35,9,33,37,28,10,6,10
+Bets2222,com.objectdb.o,NVN,23,53,1,1,6,13,3,4,2,4
+Bets2222,com.objectdb.o,NLT,43,35,5,3,8,10,7,4,4,3
+Bets2222,com.objectdb.o,NLV,2,30,0,2,1,12,1,10,1,9
 Bets2222,com.objectdb.o,NLP,45,0,0,0,11,0,7,0,7,0
 Bets2222,com.objectdb.o,NLI,31,0,2,0,13,0,5,0,4,0
-Bets2222,com.objectdb.o,EXP,233,0,38,0,43,0,25,0,6,0
+Bets2222,com.objectdb.o,EXP,34,199,10,28,3,40,11,14,1,5
 Bets2222,com.objectdb.o,EXR,53,0,9,0,11,0,7,0,2,0
 Bets2222,com.objectdb.o,EXT,167,0,6,0,40,0,11,0,8,0
 Bets2222,com.objectdb.o,EXV,96,0,0,0,23,0,12,0,12,0
 Bets2222,com.objectdb.o,EXU,454,0,16,0,55,0,22,0,14,0
-Bets2222,com.objectdb.o,EXH,327,0,22,0,69,0,31,0,20,0
+Bets2222,com.objectdb.o,EXH,316,11,22,0,66,3,29,2,18,2
 Bets2222,com.objectdb.o,EXL,29,0,0,0,7,0,5,0,5,0
 Bets2222,com.objectdb.o,EXN,249,0,28,0,57,0,29,0,15,0
-Bets2222,com.objectdb.o,NNF,22,0,2,0,8,0,8,0,7,0
+Bets2222,com.objectdb.o,NNF,9,13,2,0,2,6,3,5,2,5
 Bets2222,org.objenesis,ObjenesisBase,101,0,14,0,21,0,12,0,5,0
 Bets2222,org.objenesis,ObjenesisHelper,26,0,0,0,6,0,5,0,5,0
 Bets2222,org.objenesis,ObjenesisException,13,0,0,0,6,0,3,0,3,0
@@ -3122,19 +3122,19 @@ Bets2222,com.toedter.calendar.demo,JCalendarDemo.new PropertyChangeListener() {.
 Bets2222,com.toedter.calendar.demo,JCalendarDemo.new ActionListener() {...},28,0,0,0,0,0,2,0,2,0
 Bets2222,com.toedter.calendar.demo,JCalendarDemo.new JPanel() {...},12,0,0,0,0,0,2,0,2,0
 Bets2222,com.toedter.calendar.demo,DemoTable,48,0,2,0,0,0,2,0,1,0
-Bets2222,businessLogic,BLFacadeImplementation,579,63,5,1,159,19,39,4,36,4
+Bets2222,businessLogic,BLFacadeImplementation,562,70,5,1,156,22,39,4,36,4
 Bets2222,businessLogic,BusinessLogicServer.new ActionListener() {...},14,0,0,0,4,0,2,0,2,0
 Bets2222,businessLogic,BusinessLogicServer.new WindowAdapter() {...},9,0,0,0,3,0,2,0,2,0
-Bets2222,businessLogic,BusinessLogicServerAWS,79,0,4,0,14,0,4,0,2,0
-Bets2222,businessLogic,BusinessLogicServer,233,0,4,0,48,0,4,0,2,0
+Bets2222,businessLogic,BusinessLogicServerAWS,50,0,4,0,14,0,4,0,2,0
+Bets2222,businessLogic,BusinessLogicServer,198,0,4,0,48,0,4,0,2,0
 Bets2222,javax.jdo.spi,RegisterClassEvent,34,0,0,0,12,0,6,0,6,0
 Bets2222,javax.jdo.spi,JDOPermission,30,0,0,0,8,0,3,0,3,0
-Bets2222,javax.jdo.spi,JDOImplHelper.new JDOImplHelper.StringConstructor() {...},25,0,0,0,6,0,2,0,2,0
-Bets2222,javax.jdo.spi,JDOImplHelper.new JDOImplHelper.StringConstructor() {...},15,0,0,0,4,0,2,0,2,0
-Bets2222,javax.jdo.spi,JDOImplHelper.new JDOImplHelper.StringConstructor() {...},49,0,2,0,9,0,3,0,2,0
-Bets2222,javax.jdo.spi,JDOImplHelper.new PrivilegedAction() {...},5,0,0,0,2,0,2,0,2,0
+Bets2222,javax.jdo.spi,JDOImplHelper.new JDOImplHelper.StringConstructor() {...},22,3,0,0,5,1,1,1,1,1
+Bets2222,javax.jdo.spi,JDOImplHelper.new JDOImplHelper.StringConstructor() {...},12,3,0,0,3,1,1,1,1,1
+Bets2222,javax.jdo.spi,JDOImplHelper.new JDOImplHelper.StringConstructor() {...},46,3,2,0,8,1,2,1,1,1
+Bets2222,javax.jdo.spi,JDOImplHelper.new PrivilegedAction() {...},0,5,0,0,0,2,0,2,0,2
 Bets2222,javax.jdo.spi,JDOImplHelper.Meta,45,0,0,0,13,0,7,0,7,0
 Bets2222,javax.jdo.spi,I18NHelper.new PrivilegedAction() {...},10,0,0,0,2,0,2,0,2,0
 Bets2222,javax.jdo.spi,I18NHelper.new PrivilegedAction() {...},5,0,0,0,2,0,2,0,2,0
-Bets2222,javax.jdo.spi,JDOImplHelper,775,0,74,0,236,0,77,0,40,0
-Bets2222,javax.jdo.spi,I18NHelper,362,0,16,0,73,0,34,0,26,0
+Bets2222,javax.jdo.spi,JDOImplHelper,660,115,71,3,200,36,69,8,32,8
+Bets2222,javax.jdo.spi,I18NHelper,281,81,12,4,50,23,28,6,21,5

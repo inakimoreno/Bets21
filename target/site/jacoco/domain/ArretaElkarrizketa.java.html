@@ -24,37 +24,37 @@ public class ArretaElkarrizketa implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-<span class="nc" id="L27">	@Id</span>
+<span class="fc" id="L27">	@Id</span>
 	@XmlID
 	@XmlJavaTypeAdapter(IntegerAdapter.class)
 	@GeneratedValue
-<span class="nc" id="L31">	private Integer identifikadorea = 1;</span>
+<span class="fc" id="L31">	private Integer identifikadorea = 1;</span>
 	@OneToOne
 	private Bezeroa bezeroa;
 	@OneToOne
 	@XmlIDREF
 	private Langilea langilea;
-<span class="nc" id="L37">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
+<span class="fc" id="L37">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
 	private Vector&lt;ArretaMezua&gt; langileakBidalitakoak=new Vector&lt;ArretaMezua&gt;();
-<span class="nc" id="L39">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
+<span class="fc" id="L39">	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)</span>
 	private Vector&lt;ArretaMezua&gt; bezeroakBidalitakoak=new Vector&lt;ArretaMezua&gt;();
 	private String gaia;
-<span class="nc" id="L42">	boolean amaituta = false;</span>
+<span class="fc" id="L42">	boolean amaituta = false;</span>
 	boolean azkenaBezeroak;
 	
 	public ArretaElkarrizketa() {
-<span class="nc" id="L46">		super();</span>
-<span class="nc" id="L47">	}</span>
+<span class="fc" id="L46">		super();</span>
+<span class="fc" id="L47">	}</span>
 	
-<span class="nc" id="L49">	public ArretaElkarrizketa(Bezeroa bezeroa, String gaia) {</span>
-<span class="nc" id="L50">		this.bezeroa=bezeroa;</span>
-<span class="nc" id="L51">		this.gaia=gaia;</span>
-<span class="nc" id="L52">		this.langilea=null;</span>
-<span class="nc" id="L53">		amaituta=false;</span>
-<span class="nc" id="L54">	}</span>
+<span class="fc" id="L49">	public ArretaElkarrizketa(Bezeroa bezeroa, String gaia) {</span>
+<span class="fc" id="L50">		this.bezeroa=bezeroa;</span>
+<span class="fc" id="L51">		this.gaia=gaia;</span>
+<span class="fc" id="L52">		this.langilea=null;</span>
+<span class="fc" id="L53">		amaituta=false;</span>
+<span class="fc" id="L54">	}</span>
 
 	public Bezeroa getBezeroa() {
-<span class="nc" id="L57">		return bezeroa;</span>
+<span class="fc" id="L57">		return bezeroa;</span>
 	}
 
 	public Langilea getLangilea() {
@@ -82,7 +82,7 @@ public class ArretaElkarrizketa implements Serializable{
 <span class="nc" id="L82">	}</span>
 
 	public Integer getIdentifikadorea() {
-<span class="nc" id="L85">		return identifikadorea;</span>
+<span class="fc" id="L85">		return identifikadorea;</span>
 	}
 
 	public Vector&lt;ArretaMezua&gt; getLangileakBidalitakoak() {
@@ -98,12 +98,12 @@ public class ArretaElkarrizketa implements Serializable{
 	}
 
 	public boolean isAmaituta() {
-<span class="nc" id="L101">		return amaituta;</span>
+<span class="fc" id="L101">		return amaituta;</span>
 	}
 
 	public void setAmaituta(boolean amaituta) {
-<span class="nc" id="L105">		this.amaituta = amaituta;</span>
-<span class="nc" id="L106">	}</span>
+<span class="fc" id="L105">		this.amaituta = amaituta;</span>
+<span class="fc" id="L106">	}</span>
 	
 	public String toString() {
 <span class="nc" id="L109">		return bezeroa.getErabiltzaileIzena();</span>
@@ -130,15 +130,15 @@ public class ArretaElkarrizketa implements Serializable{
 <span class="nc" id="L130">	}</span>
 	
 	public void removeMezua(ArretaMezua am) {
-<span class="nc bnc" id="L133" title="All 2 branches missed.">		if(am.isAzkena()) {</span>
+<span class="pc bpc" id="L133" title="1 of 2 branches missed.">		if(am.isAzkena()) {</span>
 <span class="nc" id="L134">			langileakBidalitakoak.remove(am);</span>
 		}else {
-<span class="nc" id="L136">			bezeroakBidalitakoak.remove(am);</span>
+<span class="fc" id="L136">			bezeroakBidalitakoak.remove(am);</span>
 		}
-<span class="nc" id="L138">	}</span>
+<span class="fc" id="L138">	}</span>
 	
 	public boolean mezurikEz() {
-<span class="nc bnc" id="L141" title="All 4 branches missed.">		return langileakBidalitakoak.size()==0 &amp;&amp; bezeroakBidalitakoak.size()==0;</span>
+<span class="pc bpc" id="L141" title="2 of 4 branches missed.">		return langileakBidalitakoak.size()==0 &amp;&amp; bezeroakBidalitakoak.size()==0;</span>
 	}
 	
 	public void removeLangilearenMezua(ArretaMezua m) {
@@ -147,7 +147,7 @@ public class ArretaElkarrizketa implements Serializable{
 	
 	public void setId(Integer id) {
 		
-<span class="nc" id="L150">		identifikadorea = id;</span>
-<span class="nc" id="L151">	}</span>
+<span class="fc" id="L150">		identifikadorea = id;</span>
+<span class="fc" id="L151">	}</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
