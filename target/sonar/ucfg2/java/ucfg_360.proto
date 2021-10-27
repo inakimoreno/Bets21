@@ -1,0 +1,104 @@
+
+hbusinessLogic.BLFacadeImplementation#apustuaEgin(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Bezeroa;`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩ Ω("startingBlock*ö
+startingBlock`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩ Ω(]∑
+¥
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaº º(
+%8"
+__annotate*
+javax.jws.WebMethod*%
+#
+pronostikoakjava.util.ArrayList†
+ù
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩ6 Ω(B#
+pronostikoakjava.util.ArrayList"__annotation*
+
+%8¨
+©
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaº º(
+%9"
+__annotate*
+javax.jws.WebMethod*
+
+bezerodomain.Bezeroaï
+í
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaΩV Ω(\
+bezerodomain.Bezeroa"__annotation*
+
+%9*
+1*ÿ
+1`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¡æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)é
+ã
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaø ø(
+%2java.io.PrintStream"__id*
+""˘ˆ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaø ø(
+
+%3void"0java.io.PrintStream#println(Ljava/lang/Object;)V*
+
+%2java.io.PrintStream*
+
+bezerodomain.Bezeroa2println(Ljava/lang/Object;)¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¿ ¿( 
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerıÚ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¿ ¿(C
+%5domain.Bezeroa"YdataAccess.DataAccess#apustuaEgin(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Bezeroa;*
+
+%4dataAccess.DataAccess*%
+#
+pronostikoakjava.util.ArrayList*
+""*
+
+bezerodomain.Bezeroa23apustuaEgin(Ljava/util/ArrayList;DLdomain/Bezeroa;)û
+õ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¿ ¿(D
+bezeroadomain.Bezeroa"__id*
+
+%5domain.Bezeroa¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¡ ¡(
+%6dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerπ∂
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¡ ¡(
+
+%7void"dataAccess.DataAccess#close()V*
+
+%6dataAccess.DataAccess2close()"
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¬ ¬(
+
+bezeroadomain.Bezeroa:#
+pronostikoakjava.util.ArrayList:
+"":
+bezerodomain.BezeroaB(&
+$businessLogic.BLFacadeImplementation

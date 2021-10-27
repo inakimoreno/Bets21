@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PostontziaGUI.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Bets2222</a> &gt; <a href="index.source.html" class="el_package">gui</a> &gt; <span class="el_source">PostontziaGUI.java</span></div><h1>PostontziaGUI.java</h1><pre class="source lang-java linenums">package gui;
+
+
+import java.util.*;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+
+import java.awt.*;
+import java.awt.event.*;
+
+import businessLogic.BLFacade;
+import domain.ArretaElkarrizketa;
+import domain.ArretaMezua;
+import domain.Bezeroa;
+import domain.BezeroaContainer;
+import domain.BezeroartekoMezua;
+import domain.Mezua;
+
+public class PostontziaGUI extends JFrame {
+	BezeroaGUI aurrekoa;
+	private Bezeroa bezeroa; 
+	private Vector&lt;Mezua&gt; mezuak;
+	private int selectedRowInd;
+	
+	private static final long serialVersionUID = 1L;
+	
+	private Mezua selectedMezua;
+	private BezeroartekoMezua selectedBezeroartekoMezua;
+	private ArretaMezua selectedArretaMezua;
+	private JScrollPane scrollPaneMezuak;
+<span class="nc" id="L32">	private JTable tableMezua = new JTable();</span>
+	private DefaultTableModel tableModelMezuak;
+	private JRadioButton bai;
+	private JRadioButton ez;
+	private JLabel labelEmaitza;
+	private JLabel batetik;
+	private JLabel euroko;
+	private JLabel labelKuota;
+	private JLabel labelIrabazia;
+	private JLabel lblNewLabel;
+	private JLabel nork;
+	private JLabel mezua;
+	private JLabel baldintzak;
+	private JLabel hilabetean;
+	private JLabel onartuGaldera;
+	private JTextField emaitza;
+<span class="nc" id="L48">	private final ButtonGroup buttonGroup = new ButtonGroup();</span>
+	private JButton send;
+	private JLabel invalid;
+	private JLabel komisioa;
+	private JButton remove;
+<span class="nc" id="L53">	private String[] columnNamesMezuak = new String[] {</span>
+<span class="nc" id="L54">			ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Date&quot;), </span>
+<span class="nc" id="L55">			ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Who&quot;), </span>
+<span class="nc" id="L56">			ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Subject&quot;),</span>
+<span class="nc" id="L57">			ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;State&quot;),</span>
+	};
+	private JLabel bidalia;
+	private JLabel postontziaHutsik;
+	private JButton Eguneratu;
+	private JTextArea textArea;
+	private JButton erantzun;
+	private JButton itzuliMezura;
+	private JLabel jakinarazpenak;
+	private JRadioButton bat;
+	private JRadioButton bi;
+	private JRadioButton hiru;
+	private JRadioButton lau;
+	private JRadioButton bost;
+<span class="nc" id="L71">	private final ButtonGroup buttonGroup_1 = new ButtonGroup();</span>
+	private JLabel rate;
+<span class="nc" id="L73">	private Vector&lt;ArretaElkarrizketa&gt; elkarrizketak = new Vector&lt;ArretaElkarrizketa&gt;();</span>
+	
+<span class="nc" id="L75">	public PostontziaGUI(BezeroaGUI aurrekoa, Bezeroa bezeroa) {</span>
+		try {
+<span class="nc" id="L77">			this.aurrekoa=aurrekoa;</span>
+<span class="nc" id="L78">			BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L79">			BezeroaContainer x = facade.getBezeroaContainer(bezeroa);</span>
+<span class="nc" id="L80">			this.bezeroa=x.getBezeroa();</span>
+<span class="nc" id="L81">			elkarrizketak=x.getElkarrizketak();</span>
+<span class="nc" id="L82">			jbInit();</span>
+<span class="nc" id="L83">		} catch (Exception e) {</span>
+<span class="nc" id="L84">			e.printStackTrace();</span>
+<span class="nc" id="L85">		}</span>
+<span class="nc" id="L86">	}</span>
+
+	private void jbInit() throws Exception {
+		
+<span class="nc" id="L90">		tableModelMezuak = new DefaultTableModel(null, columnNamesMezuak);</span>
+		
+<span class="nc" id="L92">		scrollPaneMezuak = new JScrollPane();</span>
+<span class="nc" id="L93">		scrollPaneMezuak.setBounds(new Rectangle(138, 273, 406, 116));</span>
+<span class="nc" id="L94">		scrollPaneMezuak.setBounds(19, 45, 585, 116);</span>
+<span class="nc" id="L95">		getContentPane().add(scrollPaneMezuak);</span>
+<span class="nc" id="L96">		scrollPaneMezuak.setVisible(false);</span>
+<span class="nc" id="L97">		scrollPaneMezuak.setViewportView(tableMezua);</span>
+		
+<span class="nc" id="L99">		postontziaHutsik = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;MailBoxEmpty&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L100">		postontziaHutsik.setFont(postontziaHutsik.getFont().deriveFont(postontziaHutsik.getFont().getStyle() | Font.BOLD, postontziaHutsik.getFont().getSize() + 4f));</span>
+<span class="nc" id="L101">		postontziaHutsik.setBounds(193, 185, 377, 30);</span>
+<span class="nc" id="L102">		postontziaHutsik.setVisible(false);</span>
+<span class="nc" id="L103">		getContentPane().add(postontziaHutsik);</span>
+		
+<span class="nc" id="L105">		eguneratuMezuak();</span>
+		
+<span class="nc" id="L107">		this.getContentPane().setLayout(null);</span>
+<span class="nc" id="L108">		this.setSize(new Dimension(630, 455));</span>
+<span class="nc" id="L109">		this.setTitle(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Mailbox&quot;));</span>
+		
+<span class="nc" id="L111">		scrollPaneMezuak = new JScrollPane();</span>
+<span class="nc" id="L112">		scrollPaneMezuak.setBounds(new Rectangle(138, 273, 406, 116));</span>
+<span class="nc" id="L113">		scrollPaneMezuak.setBounds(19, 45, 585, 116);</span>
+<span class="nc" id="L114">		getContentPane().add(scrollPaneMezuak);</span>
+<span class="nc" id="L115">		scrollPaneMezuak.setVisible(false);</span>
+		
+<span class="nc" id="L117">		euroko = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L118">		euroko.setBounds(68, 241, 438, 14);</span>
+<span class="nc" id="L119">		getContentPane().add(euroko);</span>
+		
+<span class="nc" id="L121">		labelKuota = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L122">		labelKuota.setBounds(215, 241, 137, 14);</span>
+<span class="nc" id="L123">		getContentPane().add(labelKuota);</span>
+		
+<span class="nc" id="L125">		labelIrabazia = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L126">		labelIrabazia.setBounds(388, 241, 182, 14);</span>
+<span class="nc" id="L127">		getContentPane().add(labelIrabazia);</span>
+		
+<span class="nc" id="L129">		lblNewLabel = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Mailbox&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L130">		lblNewLabel.setFont(lblNewLabel.getFont().deriveFont(lblNewLabel.getFont().getStyle() | Font.BOLD, lblNewLabel.getFont().getSize() + 2f));</span>
+<span class="nc" id="L131">		lblNewLabel.setBounds(19, 11, 88, 30);</span>
+<span class="nc" id="L132">		getContentPane().add(lblNewLabel);</span>
+		
+<span class="nc" id="L134">		JButton back = new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Back&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L135">		back.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L137">				back();</span>
+<span class="nc" id="L138">			}</span>
+		});
+<span class="nc" id="L140">		back.setBounds(19, 385, 89, 23);</span>
+<span class="nc" id="L141">		getContentPane().add(back);</span>
+		
+<span class="nc" id="L143">		nork = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L144">		nork.setBounds(50, 172, 287, 14);</span>
+<span class="nc" id="L145">		getContentPane().add(nork);</span>
+		
+<span class="nc" id="L147">		mezua = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L148">		mezua.setBounds(50, 197, 520, 14);</span>
+<span class="nc" id="L149">		getContentPane().add(mezua);</span>
+		
+<span class="nc" id="L151">		baldintzak = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L152">		baldintzak.setBounds(50, 222, 237, 14);</span>
+<span class="nc" id="L153">		getContentPane().add(baldintzak);</span>
+		
+<span class="nc" id="L155">		tableMezua.setModel(tableModelMezuak);</span>
+		
+<span class="nc" id="L157">		hilabetean = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L158">		hilabetean.setBounds(68, 266, 438, 14);</span>
+<span class="nc" id="L159">		getContentPane().add(hilabetean);</span>
+		
+<span class="nc" id="L161">		onartuGaldera = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;DoYouAccept&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L162">		onartuGaldera.setBounds(50, 291, 210, 14);</span>
+<span class="nc" id="L163">		getContentPane().add(onartuGaldera);</span>
+<span class="nc" id="L164">		onartuGaldera.setVisible(false);</span>
+		
+<span class="nc" id="L166">		bai = new JRadioButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Yes&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L167">		buttonGroup.add(bai);</span>
+<span class="nc" id="L168">		bai.addActionListener(new ActionListener(){</span>
+		    public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L170">		    	invalid.setText(&quot;&quot;);</span>
+<span class="nc" id="L171">		    	emaitza.setText(&quot;&quot;);</span>
+<span class="nc" id="L172">		    	String mota = selectedBezeroartekoMezua.getMota();</span>
+<span class="nc bnc" id="L173" title="All 2 branches missed.">		    	if(mota.equals(&quot;eskaera&quot;)) {</span>
+<span class="nc" id="L174">		    		emaitza.setBounds(302, 313, 77, 20);</span>
+<span class="nc" id="L175">			    	emaitza.setVisible(true);</span>
+<span class="nc" id="L176">			    	batetik.setText(&quot;/1&quot;);</span>
+<span class="nc" id="L177">			    	labelEmaitza.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;YourBenefit&quot;));</span>
+<span class="nc" id="L178">			    	send.setBounds(235, 353, 89, 23);</span>
+<span class="nc" id="L179">			    	send.setVisible(true);</span>
+<span class="nc" id="L180">			    	send.setEnabled(true);</span>
+<span class="nc bnc" id="L181" title="All 2 branches missed.">		    	}else if (mota.equals(&quot;errepikatuak eskaera onartu&quot;)) {</span>
+<span class="nc" id="L182">		    		send.setBounds(235, 353, 89, 23);</span>
+<span class="nc" id="L183">		    		send.setVisible(true);</span>
+<span class="nc" id="L184">			    	send.setEnabled(true);</span>
+		    	}
+<span class="nc" id="L186">		     }</span>
+		});
+<span class="nc" id="L188">		bai.setBounds(36, 312, 69, 23);</span>
+<span class="nc" id="L189">		getContentPane().add(bai);</span>
+<span class="nc" id="L190">		bai.setVisible(false);</span>
+		
+<span class="nc" id="L192">		ez = new JRadioButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;No&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L193">		buttonGroup.add(ez);</span>
+<span class="nc" id="L194">		ez.addActionListener(new ActionListener(){</span>
+		    public void actionPerformed(ActionEvent e) {
+<span class="nc" id="L196">		    	invalid.setText(&quot;&quot;);</span>
+<span class="nc" id="L197">		    	emaitza.setText(&quot;&quot;);</span>
+<span class="nc" id="L198">		    	String mota = selectedBezeroartekoMezua.getMota();</span>
+<span class="nc bnc" id="L199" title="All 2 branches missed.">		    	if(mota.equals(&quot;eskaera&quot;)) {</span>
+<span class="nc" id="L200">		    		emaitza.setBounds(302, 313, 300, 20);</span>
+<span class="nc" id="L201">			    	emaitza.setVisible(true);</span>
+<span class="nc" id="L202">			    	batetik.setText(&quot;&quot;);</span>
+<span class="nc" id="L203">			    	labelEmaitza.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Reason&quot;));</span>
+<span class="nc" id="L204">			    	send.setBounds(235, 353, 89, 23);</span>
+<span class="nc" id="L205">			    	send.setVisible(true);</span>
+<span class="nc" id="L206">			    	send.setEnabled(true);</span>
+<span class="nc bnc" id="L207" title="All 2 branches missed.">		    	}else if (mota.equals(&quot;errepikatuak eskaera onartu&quot;)) {</span>
+<span class="nc" id="L208">		    		send.setVisible(true);</span>
+<span class="nc" id="L209">			    	send.setEnabled(true);</span>
+		    	}
+<span class="nc" id="L211">		     }</span>
+		});
+<span class="nc" id="L213">		ez.setBounds(107, 312, 69, 23);</span>
+<span class="nc" id="L214">		getContentPane().add(ez);</span>
+<span class="nc" id="L215">		ez.setVisible(false);</span>
+		
+<span class="nc" id="L217">		labelEmaitza = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L218">		labelEmaitza.setBounds(302, 291, 214, 14);</span>
+<span class="nc" id="L219">		getContentPane().add(labelEmaitza);</span>
+		
+<span class="nc" id="L221">		emaitza = new JTextField();</span>
+<span class="nc" id="L222">		emaitza.setText(&quot;&quot;);</span>
+<span class="nc" id="L223">		emaitza.setBounds(302, 313, 77, 20);</span>
+<span class="nc" id="L224">		getContentPane().add(emaitza);</span>
+<span class="nc" id="L225">		emaitza.setColumns(10);</span>
+<span class="nc" id="L226">		emaitza.setVisible(false);</span>
+		
+<span class="nc" id="L228">		batetik = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L229">		batetik.setFont(batetik.getFont().deriveFont(batetik.getFont().getStyle() | Font.BOLD, batetik.getFont().getSize() + 1f));</span>
+<span class="nc" id="L230">		batetik.setBounds(385, 316, 61, 14);</span>
+<span class="nc" id="L231">		getContentPane().add(batetik);</span>
+		
+<span class="nc" id="L233">		send = new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Send&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L234">		send.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L236">				rate.setText(&quot;&quot;);</span>
+<span class="nc" id="L237">				jakinarazpenak.setText(&quot;&quot;);</span>
+<span class="nc" id="L238">				onartuGaldera.setVisible(false);</span>
+<span class="nc" id="L239">				bai.setVisible(false);</span>
+<span class="nc" id="L240">				ez.setVisible(false);</span>
+<span class="nc" id="L241">				getSelectedMezua();</span>
+<span class="nc" id="L242">				bai.setVisible(false);</span>
+<span class="nc" id="L243">				ez.setVisible(false);</span>
+<span class="nc" id="L244">				emaitza.setVisible(false);</span>
+<span class="nc" id="L245">		    	batetik.setText(&quot;&quot;);</span>
+<span class="nc" id="L246">		    	labelEmaitza.setText(&quot;&quot;);</span>
+<span class="nc" id="L247">		    	invalid.setText(&quot;&quot;);</span>
+<span class="nc bnc" id="L248" title="All 2 branches missed.">				if(selectedMezua instanceof BezeroartekoMezua) {</span>
+<span class="nc" id="L249">					send.setEnabled(false);</span>
+<span class="nc" id="L250">					send.setVisible(false);</span>
+<span class="nc" id="L251">					String mota = selectedBezeroartekoMezua.getMota();</span>
+<span class="nc" id="L252">					bidalia.setVisible(true);</span>
+<span class="nc" id="L253">					remove.setBounds(332, 353, 89, 23);</span>
+<span class="nc" id="L254">					remove.setVisible(true);</span>
+<span class="nc" id="L255">					remove.setEnabled(true);</span>
+<span class="nc bnc" id="L256" title="All 2 branches missed.">					if(mota.equals(&quot;eskaera&quot;)) {</span>
+<span class="nc" id="L257">						invalid.setText(&quot;&quot;);</span>
+<span class="nc bnc" id="L258" title="All 2 branches missed.">						if(bai.isSelected()) {</span>
+<span class="nc" id="L259">							double onura=-1;</span>
+							try {
+<span class="nc" id="L261">								onura = Double.valueOf(emaitza.getText());</span>
+<span class="nc" id="L262">							}catch(Exception e) {</span>
+<span class="nc" id="L263">								invalid.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Invalid&quot;));</span>
+<span class="nc" id="L264">							}</span>
+<span class="nc bnc" id="L265" title="All 4 branches missed.">							if(onura&gt;=0 &amp;&amp; onura &lt; 1) {</span>
+<span class="nc" id="L266">								BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L267">								String mezuOsoa = ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;IAccept&quot;)+onura*100+&quot; &quot;+ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;IAccept2&quot;);</span>
+<span class="nc" id="L268">								bezeroa=facade.bidaliMezua(bezeroa, selectedBezeroartekoMezua.getIgorlea(), mezuOsoa, ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Acceptance&quot;), &quot;errepikatuak eskaera onartu&quot;, selectedBezeroartekoMezua.getZenbatApostatu(), selectedBezeroartekoMezua.getHilabeteanZenbat(), onura);</span>
+<span class="nc" id="L269">								bidalia.setVisible(true);</span>
+<span class="nc" id="L270">								send.setVisible(false);</span>
+<span class="nc" id="L271">								send.setEnabled(false);</span>
+<span class="nc" id="L272">								tableModelMezuak.setValueAt(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Answered&quot;), selectedRowInd, 3);</span>
+<span class="nc" id="L273">								selectedBezeroartekoMezua.setIrakurrita(true);</span>
+<span class="nc" id="L274">								facade.mezuaIrakurri(selectedBezeroartekoMezua);</span>
+<span class="nc" id="L275">							}else {</span>
+<span class="nc" id="L276">								invalid.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Invalid&quot;));</span>
+<span class="nc" id="L277">								bidalia.setVisible(false);</span>
+<span class="nc" id="L278">								remove.setVisible(false);</span>
+<span class="nc" id="L279">								remove.setEnabled(false);</span>
+<span class="nc" id="L280">								send.setEnabled(true);</span>
+<span class="nc" id="L281">								send.setVisible(true);</span>
+							}
+<span class="nc" id="L283">						}else {</span>
+<span class="nc" id="L284">							BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L285">							String mezuOsoa = ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;NoAcceptRequest&quot;)+&quot; &quot;+emaitza.getText();</span>
+<span class="nc" id="L286">							bezeroa=facade.bidaliMezua(bezeroa, selectedBezeroartekoMezua.getIgorlea(), mezuOsoa, ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Denial&quot;), &quot;errepikatuak eskaera ukatu&quot;, -1, -1, -1);</span>
+<span class="nc" id="L287">							tableModelMezuak.setValueAt(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Answered&quot;), selectedRowInd, 3);</span>
+<span class="nc" id="L288">							selectedBezeroartekoMezua.setIrakurrita(true);</span>
+<span class="nc" id="L289">							facade.mezuaIrakurri(selectedBezeroartekoMezua);</span>
+<span class="nc" id="L290">						}</span>
+<span class="nc bnc" id="L291" title="All 2 branches missed.">					}else if (mota.equals(&quot;errepikatuak eskaera onartu&quot;)) {</span>
+<span class="nc bnc" id="L292" title="All 2 branches missed.">						if(bai.isSelected()) {</span>
+<span class="nc" id="L293">							BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L294">							bezeroa=facade.bidaliMezua(bezeroa, selectedBezeroartekoMezua.getIgorlea(), ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;StartRepeat&quot;), ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;StartRepeating&quot;), &quot;errepikatzen hasi&quot;, selectedBezeroartekoMezua.getZenbatApostatu(), selectedBezeroartekoMezua.getHilabeteanZenbat(), selectedBezeroartekoMezua.getZenbatErrepikatuarentzat());</span>
+<span class="nc" id="L295">							tableModelMezuak.setValueAt(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Answered&quot;), selectedRowInd, 3);</span>
+<span class="nc" id="L296">							selectedBezeroartekoMezua.setIrakurrita(true);</span>
+<span class="nc" id="L297">							facade.mezuaIrakurri(selectedBezeroartekoMezua);</span>
+<span class="nc" id="L298">							facade.errepikatu(bezeroa, selectedBezeroartekoMezua.getIgorlea(), selectedBezeroartekoMezua.getZenbatApostatu(), selectedBezeroartekoMezua.getHilabeteanZenbat(), selectedBezeroartekoMezua.getZenbatErrepikatuarentzat());</span>
+<span class="nc" id="L299">						}else {</span>
+<span class="nc" id="L300">							BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc bnc" id="L301" title="All 2 branches missed.">							if(selectedBezeroartekoMezua.getIgorlea().getKomisioAutomatikoa()==-1) {</span>
+<span class="nc" id="L302">								facade.bidaliMezua(bezeroa, selectedBezeroartekoMezua.getIgorlea(), ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;IsNoAgreement&quot;), ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;NoAgreement&quot;), &quot;akordiorik ez&quot;, -1, -1, -1);	</span>
+							}
+<span class="nc" id="L304">							tableModelMezuak.setValueAt(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Answered&quot;), selectedRowInd, 3);</span>
+<span class="nc" id="L305">							selectedBezeroartekoMezua.setIrakurrita(true);</span>
+<span class="nc" id="L306">							facade.mezuaIrakurri(selectedBezeroartekoMezua);</span>
+						}
+					}
+<span class="nc" id="L309">				}else {</span>
+<span class="nc bnc" id="L310" title="All 2 branches missed.">					if(!selectedArretaMezua.isAzkena()) {</span>
+<span class="nc" id="L311">						String mezuarenTestua = textArea.getText();</span>
+<span class="nc bnc" id="L312" title="All 2 branches missed.">						if(mezuarenTestua.length()==0) {</span>
+<span class="nc" id="L313">							jakinarazpenak.setForeground(Color.RED);</span>
+<span class="nc" id="L314">							jakinarazpenak.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;MessageEmpty&quot;));</span>
+						}else {
+<span class="nc" id="L316">							jakinarazpenak.setForeground(Color.GREEN);</span>
+<span class="nc" id="L317">							jakinarazpenak.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Sent&quot;));</span>
+<span class="nc" id="L318">							send.setEnabled(false);</span>
+<span class="nc" id="L319">							send.setVisible(false);</span>
+<span class="nc" id="L320">							remove.setBounds(501, 517, 89, 23);</span>
+<span class="nc" id="L321">							remove.setVisible(true);</span>
+<span class="nc" id="L322">							remove.setEnabled(true);</span>
+<span class="nc" id="L323">							itzuliMezura.setVisible(false);</span>
+<span class="nc" id="L324">							itzuliMezura.setEnabled(false);</span>
+<span class="nc" id="L325">							BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L326">							facade.arretaMezuaBidali(getElkarrizketa(selectedArretaMezua), mezuarenTestua, true);</span>
+<span class="nc" id="L327">							facade.mezuaIrakurri(selectedArretaMezua);</span>
+<span class="nc" id="L328">							selectedArretaMezua.setIrakurrita(true);</span>
+<span class="nc" id="L329">							tableModelMezuak.setValueAt(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Answered&quot;), selectedRowInd, 3);</span>
+						}
+<span class="nc" id="L331">					}else {</span>
+<span class="nc" id="L332">						Integer puntuazioa = 0;</span>
+<span class="nc bnc" id="L333" title="All 2 branches missed.">						if(bat.isSelected()) {</span>
+<span class="nc" id="L334">							puntuazioa = 1;</span>
+<span class="nc bnc" id="L335" title="All 2 branches missed.">						}else if(bi.isSelected()) {</span>
+<span class="nc" id="L336">							puntuazioa = 2;</span>
+<span class="nc bnc" id="L337" title="All 2 branches missed.">						}else if(hiru.isSelected()) {</span>
+<span class="nc" id="L338">							puntuazioa = 3;</span>
+<span class="nc bnc" id="L339" title="All 2 branches missed.">						}else if(lau.isSelected()) {</span>
+<span class="nc" id="L340">							puntuazioa = 4;</span>
+<span class="nc bnc" id="L341" title="All 2 branches missed.">						}else if(bost.isSelected()) {</span>
+<span class="nc" id="L342">							puntuazioa = 5;</span>
+						}
+<span class="nc" id="L344">						bat.setVisible(false);</span>
+<span class="nc" id="L345">						bi.setVisible(false);</span>
+<span class="nc" id="L346">						hiru.setVisible(false);</span>
+<span class="nc" id="L347">						lau.setVisible(false);</span>
+<span class="nc" id="L348">						bost.setVisible(false);</span>
+<span class="nc" id="L349">						rate.setText(&quot;&quot;);</span>
+<span class="nc" id="L350">						textArea.setEditable(false);</span>
+<span class="nc" id="L351">						BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L352">						facade.gehituPuntuazioa(getElkarrizketa(selectedArretaMezua),puntuazioa);</span>
+<span class="nc" id="L353">						tableModelMezuak.setValueAt(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Answered&quot;), selectedRowInd, 3);</span>
+<span class="nc" id="L354">						selectedArretaMezua.setIrakurrita(true);</span>
+<span class="nc" id="L355">						facade.mezuaIrakurri(selectedArretaMezua);</span>
+<span class="nc" id="L356">						send.setEnabled(false);</span>
+<span class="nc" id="L357">						send.setVisible(false);</span>
+					}
+				}
+<span class="nc" id="L360">			}</span>
+		});
+<span class="nc" id="L362">		send.setBounds(233, 353, 89, 23);</span>
+<span class="nc" id="L363">		send.setVisible(false);</span>
+<span class="nc" id="L364">		getContentPane().add(send);</span>
+		
+<span class="nc" id="L366">		invalid = new JLabel(&quot;\r\n&quot;);</span>
+<span class="nc" id="L367">		invalid.setBounds(434, 316, 46, 14);</span>
+<span class="nc" id="L368">		getContentPane().add(invalid);</span>
+		
+<span class="nc" id="L370">		bidalia = new JLabel(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Sent&quot;));</span>
+<span class="nc" id="L371">		bidalia.setForeground(Color.GREEN);</span>
+<span class="nc" id="L372">		bidalia.setBounds(252, 357, 100, 14);</span>
+<span class="nc" id="L373">		bidalia.setVisible(false);</span>
+<span class="nc" id="L374">		getContentPane().add(bidalia);</span>
+		
+<span class="nc" id="L376">		komisioa = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L377">		komisioa.setBounds(68, 291, 438, 14);</span>
+<span class="nc" id="L378">		getContentPane().add(komisioa);</span>
+		
+<span class="nc" id="L380">		remove = new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Remove&quot;));</span>
+<span class="nc" id="L381">		remove.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L383">				bat.setVisible(false);</span>
+<span class="nc" id="L384">				bi.setVisible(false);</span>
+<span class="nc" id="L385">				hiru.setVisible(false);</span>
+<span class="nc" id="L386">				lau.setVisible(false);</span>
+<span class="nc" id="L387">				bost.setVisible(false);</span>
+				
+<span class="nc" id="L389">				setRemoved();</span>
+				
+<span class="nc" id="L391">				getSelectedMezua();</span>
+<span class="nc" id="L392">				bai.setVisible(false);</span>
+<span class="nc" id="L393">				ez.setVisible(false);</span>
+<span class="nc" id="L394">				send.setEnabled(false);</span>
+<span class="nc" id="L395">				send.setVisible(false);</span>
+<span class="nc" id="L396">				emaitza.setVisible(false);</span>
+<span class="nc" id="L397">				emaitza.setText(&quot;&quot;);</span>
+<span class="nc" id="L398">		    	batetik.setText(&quot;&quot;);</span>
+<span class="nc" id="L399">		    	labelEmaitza.setText(&quot;&quot;);</span>
+<span class="nc" id="L400">		    	invalid.setText(&quot;&quot;);</span>
+<span class="nc" id="L401">		    	remove.setEnabled(false);</span>
+<span class="nc" id="L402">				remove.setVisible(false);</span>
+<span class="nc" id="L403">				bidalia.setVisible(false);</span>
+<span class="nc" id="L404">				BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L405">				facade.removeMezua(selectedMezua);</span>
+<span class="nc" id="L406">				mezuak.remove(selectedMezua);</span>
+<span class="nc" id="L407">				eguneratuMezuak();</span>
+<span class="nc" id="L408">				tableMezua.getColumnModel().getColumn(0).setPreferredWidth(150);</span>
+<span class="nc" id="L409">				tableMezua.getColumnModel().getColumn(1).setPreferredWidth(25);</span>
+<span class="nc" id="L410">				tableMezua.getColumnModel().getColumn(2).setPreferredWidth(120);</span>
+<span class="nc" id="L411">				tableMezua.getColumnModel().getColumn(3).setPreferredWidth(15);</span>
+<span class="nc" id="L412">			}</span>
+		});
+<span class="nc" id="L414">		remove.setEnabled(false);</span>
+<span class="nc" id="L415">		remove.setVisible(false);</span>
+<span class="nc" id="L416">		remove.setBounds(332, 353, 89, 23);</span>
+<span class="nc" id="L417">		getContentPane().add(remove);</span>
+		
+<span class="nc" id="L419">		Eguneratu = new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Update&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L420">		Eguneratu.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L422">				BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L423">				BezeroaContainer x = facade.getBezeroaContainer(bezeroa);</span>
+<span class="nc" id="L424">				bezeroa=x.getBezeroa();</span>
+<span class="nc" id="L425">				elkarrizketak=x.getElkarrizketak();</span>
+<span class="nc" id="L426">				eguneratuMezuak();</span>
+<span class="nc" id="L427">				tableMezua.getColumnModel().getColumn(0).setPreferredWidth(150);</span>
+<span class="nc" id="L428">				tableMezua.getColumnModel().getColumn(1).setPreferredWidth(25);</span>
+<span class="nc" id="L429">				tableMezua.getColumnModel().getColumn(2).setPreferredWidth(120);</span>
+<span class="nc" id="L430">				tableMezua.getColumnModel().getColumn(3).setPreferredWidth(15);</span>
+<span class="nc" id="L431">			}</span>
+		});
+<span class="nc" id="L433">		Eguneratu.setBounds(467, 16, 137, 23);</span>
+<span class="nc" id="L434">		getContentPane().add(Eguneratu);</span>
+		
+<span class="nc" id="L436">		erantzun = new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Reply&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L437">		erantzun.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L439">				textArea.setText(&quot;&quot;);</span>
+<span class="nc" id="L440">				textArea.setEditable(true);</span>
+<span class="nc" id="L441">				itzuliMezura.setEnabled(true);</span>
+<span class="nc" id="L442">				itzuliMezura.setVisible(true);</span>
+<span class="nc" id="L443">				erantzun.setVisible(false);</span>
+<span class="nc" id="L444">				erantzun.setEnabled(false);</span>
+<span class="nc" id="L445">				send.setBounds(252,517,89, 23);</span>
+<span class="nc" id="L446">				send.setVisible(true);</span>
+<span class="nc" id="L447">				send.setEnabled(true);</span>
+<span class="nc" id="L448">			}</span>
+		});
+<span class="nc" id="L450">		erantzun.setBounds(501, 517, 89, 23);</span>
+<span class="nc" id="L451">		getContentPane().add(erantzun);</span>
+<span class="nc" id="L452">		erantzun.setVisible(false);</span>
+<span class="nc" id="L453">		erantzun.setEnabled(false);</span>
+		
+<span class="nc" id="L455">		itzuliMezura = new JButton(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;BackToMessage&quot;)); //$NON-NLS-1$ //$NON-NLS-2$</span>
+<span class="nc" id="L456">		itzuliMezura.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L458">				textArea.setText(selectedMezua.getMezua());</span>
+<span class="nc" id="L459">				textArea.setEditable(false);</span>
+<span class="nc" id="L460">				erantzun.setVisible(true);</span>
+<span class="nc" id="L461">				erantzun.setEnabled(true);</span>
+<span class="nc" id="L462">				itzuliMezura.setVisible(false);</span>
+<span class="nc" id="L463">				itzuliMezura.setEnabled(false);</span>
+<span class="nc" id="L464">			}</span>
+		});
+<span class="nc" id="L466">		itzuliMezura.setBounds(442, 517, 148, 23);</span>
+<span class="nc" id="L467">		getContentPane().add(itzuliMezura);</span>
+<span class="nc" id="L468">		itzuliMezura.setEnabled(false);</span>
+		
+<span class="nc" id="L470">		jakinarazpenak = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L471">		jakinarazpenak.setBounds(103, 491, 465, 14);</span>
+<span class="nc" id="L472">		getContentPane().add(jakinarazpenak);</span>
+		
+<span class="nc" id="L474">		bat = new JRadioButton(&quot;&quot;);</span>
+<span class="nc" id="L475">		bat.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L477">				send.setEnabled(true);</span>
+<span class="nc" id="L478">				send.setVisible(true);</span>
+<span class="nc" id="L479">			}</span>
+		});
+<span class="nc" id="L481">		bat.setBackground(Color.WHITE);</span>
+<span class="nc" id="L482">		buttonGroup_1.add(bat);</span>
+<span class="nc" id="L483">		bat.setBounds(69, 415, 21, 23);</span>
+<span class="nc" id="L484">		getContentPane().add(bat);</span>
+<span class="nc" id="L485">		bat.setVisible(false);</span>
+		
+<span class="nc" id="L487">		bi = new JRadioButton(&quot;&quot;);</span>
+<span class="nc" id="L488">		bi.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L490">				send.setEnabled(true);</span>
+<span class="nc" id="L491">				send.setVisible(true);</span>
+<span class="nc" id="L492">			}</span>
+		});
+<span class="nc" id="L494">		bi.setBackground(Color.WHITE);</span>
+<span class="nc" id="L495">		buttonGroup_1.add(bi);</span>
+<span class="nc" id="L496">		bi.setBounds(103, 415, 21, 23);</span>
+<span class="nc" id="L497">		getContentPane().add(bi);</span>
+<span class="nc" id="L498">		bi.setVisible(false);</span>
+		
+<span class="nc" id="L500">		hiru = new JRadioButton(&quot;&quot;);</span>
+<span class="nc" id="L501">		hiru.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L503">				send.setEnabled(true);</span>
+<span class="nc" id="L504">				send.setVisible(true);</span>
+<span class="nc" id="L505">			}</span>
+		});
+<span class="nc" id="L507">		hiru.setBackground(Color.WHITE);</span>
+<span class="nc" id="L508">		buttonGroup_1.add(hiru);</span>
+<span class="nc" id="L509">		hiru.setBounds(137, 415, 21, 23);</span>
+<span class="nc" id="L510">		getContentPane().add(hiru);</span>
+<span class="nc" id="L511">		hiru.setVisible(false);</span>
+		
+<span class="nc" id="L513">		lau = new JRadioButton(&quot;&quot;);</span>
+<span class="nc" id="L514">		lau.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L516">				send.setEnabled(true);</span>
+<span class="nc" id="L517">				send.setVisible(true);</span>
+<span class="nc" id="L518">			}</span>
+		});
+<span class="nc" id="L520">		lau.setBackground(Color.WHITE);</span>
+<span class="nc" id="L521">		buttonGroup_1.add(lau);</span>
+<span class="nc" id="L522">		lau.setBounds(171, 415, 21, 23);</span>
+<span class="nc" id="L523">		getContentPane().add(lau);</span>
+<span class="nc" id="L524">		lau.setVisible(false);</span>
+		
+<span class="nc" id="L526">		bost = new JRadioButton(&quot;&quot;);</span>
+<span class="nc" id="L527">		bost.addActionListener(new ActionListener() {</span>
+			public void actionPerformed(ActionEvent arg0) {
+<span class="nc" id="L529">				send.setEnabled(true);</span>
+<span class="nc" id="L530">				send.setVisible(true);</span>
+<span class="nc" id="L531">			}</span>
+		});
+<span class="nc" id="L533">		bost.setBackground(Color.WHITE);</span>
+<span class="nc" id="L534">		buttonGroup_1.add(bost);</span>
+<span class="nc" id="L535">		bost.setBounds(205, 415, 21, 23);</span>
+<span class="nc" id="L536">		getContentPane().add(bost);</span>
+<span class="nc" id="L537">		bost.setVisible(false);</span>
+		
+<span class="nc" id="L539">		rate = new JLabel(&quot;&quot;);</span>
+<span class="nc" id="L540">		rate.setBounds(68, 389, 287, 14);</span>
+<span class="nc" id="L541">		getContentPane().add(rate);</span>
+<span class="nc" id="L542">		itzuliMezura.setVisible(false);</span>
+		
+<span class="nc" id="L544">		textArea = new JTextArea();</span>
+<span class="nc" id="L545">		textArea.setText(&quot;&quot;);</span>
+<span class="nc" id="L546">		textArea.setVisible(false);</span>
+<span class="nc" id="L547">		textArea.setBounds(29, 172, 540, 300);</span>
+<span class="nc" id="L548">		getContentPane().add(textArea);</span>
+		
+<span class="nc" id="L550">		tableMezua.getColumnModel().getColumn(0).setPreferredWidth(150);</span>
+<span class="nc" id="L551">		tableMezua.getColumnModel().getColumn(1).setPreferredWidth(25);</span>
+<span class="nc" id="L552">		tableMezua.getColumnModel().getColumn(2).setPreferredWidth(120);</span>
+<span class="nc" id="L553">		tableMezua.getColumnModel().getColumn(3).setPreferredWidth(15);</span>
+<span class="nc" id="L554">		tableMezua.addMouseListener(new MouseAdapter() {</span>
+			@Override
+			public void mouseClicked(MouseEvent e) {
+<span class="nc" id="L557">				setRemoved();</span>
+<span class="nc" id="L558">				bat.setVisible(false);</span>
+<span class="nc" id="L559">				bi.setVisible(false);</span>
+<span class="nc" id="L560">				hiru.setVisible(false);</span>
+<span class="nc" id="L561">				lau.setVisible(false);</span>
+<span class="nc" id="L562">				bost.setVisible(false);</span>
+<span class="nc" id="L563">				send.setEnabled(false);</span>
+<span class="nc" id="L564">				send.setVisible(false);</span>
+<span class="nc" id="L565">				emaitza.setVisible(false);</span>
+<span class="nc" id="L566">				emaitza.setText(&quot;&quot;);</span>
+<span class="nc" id="L567">		    	batetik.setText(&quot;&quot;);</span>
+<span class="nc" id="L568">		    	labelEmaitza.setText(&quot;&quot;);</span>
+<span class="nc" id="L569">		    	invalid.setText(&quot;&quot;);</span>
+<span class="nc" id="L570">		    	remove.setEnabled(false);</span>
+<span class="nc" id="L571">				remove.setVisible(false);</span>
+<span class="nc" id="L572">				bidalia.setVisible(false);</span>
+<span class="nc" id="L573">				getSelectedMezua();</span>
+<span class="nc bnc" id="L574" title="All 2 branches missed.">				if(selectedMezua instanceof BezeroartekoMezua) {</span>
+<span class="nc" id="L575">					back.setBounds(19, 385, 89, 23);</span>
+<span class="nc" id="L576">					aldatuTamaina(630, 455);</span>
+<span class="nc" id="L577">					String mota = selectedBezeroartekoMezua.getMota();</span>
+<span class="nc bnc" id="L578" title="All 2 branches missed.">					if(mota.equals(&quot;eskaera&quot;)) {</span>
+<span class="nc" id="L579">						eskaeraOnartu();</span>
+<span class="nc bnc" id="L580" title="All 2 branches missed.">						if(!selectedBezeroartekoMezua.isIrakurrita()) {</span>
+<span class="nc" id="L581">							onartuGaldera.setBounds(50, 291, 210, 14);</span>
+<span class="nc" id="L582">							onartuGaldera.setVisible(true);</span>
+<span class="nc" id="L583">							bai.setBounds(36, 312, 69, 23);</span>
+<span class="nc" id="L584">							bai.setVisible(true);</span>
+<span class="nc" id="L585">							ez.setBounds(107, 312, 69, 23);</span>
+<span class="nc" id="L586">							ez.setVisible(true);</span>
+						}else {
+<span class="nc" id="L588">							remove.setBounds(332, 353, 89, 23);</span>
+<span class="nc" id="L589">							remove.setEnabled(true);</span>
+<span class="nc" id="L590">							remove.setVisible(true);</span>
+						}
+<span class="nc bnc" id="L592" title="All 2 branches missed.">					}else if (mota.equals(&quot;errepikatuak eskaera ukatu&quot;)) {</span>
+<span class="nc" id="L593">						nork.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Who&quot;)+&quot;: &quot;+selectedBezeroartekoMezua.getIgorlea());</span>
+<span class="nc" id="L594">						mezua.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Message&quot;)+&quot; &quot;+selectedBezeroartekoMezua.getMezua());</span>
+<span class="nc" id="L595">						tableModelMezuak.setValueAt(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Read&quot;), selectedRowInd, 3);</span>
+<span class="nc bnc" id="L596" title="All 2 branches missed.">						if(!selectedBezeroartekoMezua.isIrakurrita()) {</span>
+<span class="nc" id="L597">							BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L598">							facade.mezuaIrakurri(selectedBezeroartekoMezua);</span>
+<span class="nc" id="L599">							selectedBezeroartekoMezua.setIrakurrita(true);</span>
+						}
+<span class="nc" id="L601">						remove.setBounds(332, 353, 89, 23);</span>
+<span class="nc" id="L602">						remove.setEnabled(true);</span>
+<span class="nc" id="L603">						remove.setVisible(true);</span>
+<span class="nc bnc" id="L604" title="All 2 branches missed.">					}else if (mota.equals(&quot;errepikatuak eskaera onartu&quot;)) {</span>
+<span class="nc" id="L605">						eskaeraOnartu();</span>
+<span class="nc bnc" id="L606" title="All 2 branches missed.">						if(!selectedBezeroartekoMezua.isIrakurrita()) {</span>
+<span class="nc" id="L607">							onartuGaldera.setBounds(225, 301, 210, 14);</span>
+<span class="nc" id="L608">							onartuGaldera.setVisible(true);</span>
+<span class="nc" id="L609">							bai.setBounds(211, 322, 69, 23);</span>
+<span class="nc" id="L610">							bai.setVisible(true);</span>
+<span class="nc" id="L611">							ez.setBounds(282, 322, 69, 23);</span>
+<span class="nc" id="L612">							ez.setVisible(true);</span>
+						}else {
+<span class="nc" id="L614">							remove.setBounds(332, 353, 89, 23);</span>
+<span class="nc" id="L615">							remove.setEnabled(true);</span>
+<span class="nc" id="L616">							remove.setVisible(true);</span>
+						}
+<span class="nc bnc" id="L618" title="All 4 branches missed.">					}else if (mota.equals(&quot;errepikatzen hasi&quot;) || mota.equals(&quot;akordiorik ez&quot;)) {</span>
+<span class="nc" id="L619">						nork.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Who&quot;)+&quot;: &quot;+selectedBezeroartekoMezua.getIgorlea());</span>
+<span class="nc" id="L620">						mezua.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Message&quot;)+&quot; &quot;+selectedBezeroartekoMezua.getMezua());</span>
+<span class="nc" id="L621">						tableModelMezuak.setValueAt(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Read&quot;), selectedRowInd, 3);</span>
+<span class="nc bnc" id="L622" title="All 2 branches missed.">						if(!selectedBezeroartekoMezua.isIrakurrita()) {</span>
+<span class="nc" id="L623">							selectedBezeroartekoMezua.setIrakurrita(true);</span>
+<span class="nc" id="L624">							BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L625">							facade.mezuaIrakurri(selectedBezeroartekoMezua);</span>
+						}
+<span class="nc" id="L627">						remove.setBounds(332, 353, 89, 23);</span>
+<span class="nc" id="L628">						remove.setEnabled(true);</span>
+<span class="nc" id="L629">						remove.setVisible(true);</span>
+					}
+<span class="nc" id="L631">				}else {</span>
+<span class="nc" id="L632">					aldatuTamaina(630, 590);</span>
+<span class="nc" id="L633">					back.setBounds(19, 517, 89, 23);</span>
+<span class="nc" id="L634">					send.setBounds(233, 517, 89, 23);</span>
+<span class="nc bnc" id="L635" title="All 2 branches missed.">					if(!selectedArretaMezua.isIrakurrita()) {</span>
+<span class="nc" id="L636">						erantzun.setVisible(true);</span>
+<span class="nc" id="L637">						erantzun.setEnabled(true);</span>
+					}else {
+<span class="nc" id="L639">						erantzun.setVisible(false);</span>
+<span class="nc" id="L640">						erantzun.setEnabled(false);</span>
+<span class="nc" id="L641">						remove.setBounds(501, 517, 89, 23);</span>
+<span class="nc" id="L642">						remove.setVisible(true);</span>
+<span class="nc" id="L643">						remove.setEnabled(true);</span>
+					}
+<span class="nc" id="L645">					textArea.setVisible(true);</span>
+<span class="nc" id="L646">					textArea.setEditable(false);</span>
+<span class="nc bnc" id="L647" title="All 2 branches missed.">					if(selectedArretaMezua.isAzkena()) {</span>
+<span class="nc" id="L648">						textArea.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;FinalMessage&quot;));</span>
+<span class="nc" id="L649">						send.setEnabled(false);</span>
+<span class="nc" id="L650">						send.setVisible(false);</span>
+<span class="nc" id="L651">						erantzun.setEnabled(false);</span>
+<span class="nc" id="L652">						erantzun.setVisible(false);</span>
+<span class="nc bnc" id="L653" title="All 2 branches missed.">						if(!selectedArretaMezua.isIrakurrita()) {</span>
+<span class="nc" id="L654">							bat.setVisible(true);</span>
+<span class="nc" id="L655">							bi.setVisible(true);</span>
+<span class="nc" id="L656">							hiru.setVisible(true);</span>
+<span class="nc" id="L657">							lau.setVisible(true);</span>
+<span class="nc" id="L658">							bost.setVisible(true);</span>
+<span class="nc" id="L659">							rate.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Rate&quot;));</span>
+						}
+					}else {
+<span class="nc" id="L662">						textArea.setText(selectedArretaMezua.getMezua());</span>
+					}
+					
+				}
+<span class="nc" id="L666">			}</span>
+
+			private void eskaeraOnartu() {
+<span class="nc" id="L669">				nork.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Who&quot;)+&quot;: &quot;+selectedBezeroartekoMezua.getIgorlea());</span>
+<span class="nc" id="L670">				mezua.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Message&quot;)+&quot; &quot;+selectedBezeroartekoMezua.getMezua());</span>
+<span class="nc" id="L671">				baldintzak.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Conditions&quot;));</span>
+<span class="nc" id="L672">				euroko.setText(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;EuroBet&quot;)+&quot; &quot;+selectedBezeroartekoMezua.getZenbatApostatu()+&quot;�&quot;);</span>
+<span class="nc" id="L673">				hilabetean.setText(&quot;-&quot;+ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;MaxMonth&quot;)+&quot; &quot;+selectedBezeroartekoMezua.getHilabeteanZenbat()+&quot;�&quot;);</span>
+<span class="nc" id="L674">				komisioa.setText(&quot;-&quot;+ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Commission&quot;)+&quot; %&quot;+selectedBezeroartekoMezua.getZenbatErrepikatuarentzat()*100);</span>
+<span class="nc" id="L675">			}</span>
+		});
+<span class="nc" id="L677">	}</span>
+	
+	private void back() {
+<span class="nc" id="L680">		this.setVisible(false);</span>
+<span class="nc" id="L681">		aurrekoa.setBezeroa(bezeroa);</span>
+<span class="nc" id="L682">		aurrekoa.setVisible(true);</span>
+<span class="nc" id="L683">	}</span>
+	
+	private void getSelectedMezua() {
+<span class="nc" id="L686">		selectedRowInd = tableMezua.getSelectedRow();</span>
+<span class="nc" id="L687">		selectedMezua=(Mezua)tableModelMezuak.getValueAt(selectedRowInd,0);</span>
+<span class="nc bnc" id="L688" title="All 2 branches missed.">		if(selectedMezua!=null) {</span>
+<span class="nc bnc" id="L689" title="All 2 branches missed.">			if(selectedMezua instanceof ArretaMezua) {</span>
+<span class="nc" id="L690">				selectedArretaMezua = (ArretaMezua) selectedMezua;</span>
+<span class="nc" id="L691">				selectedBezeroartekoMezua = null;</span>
+			}else {
+<span class="nc" id="L693">				selectedBezeroartekoMezua = (BezeroartekoMezua) selectedMezua;</span>
+<span class="nc" id="L694">				selectedArretaMezua = null;</span>
+			}
+		}else {
+<span class="nc" id="L697">			selectedArretaMezua=null;</span>
+<span class="nc" id="L698">			selectedBezeroartekoMezua=null;</span>
+		}
+<span class="nc" id="L700">	}</span>
+	
+	private void eguneratuMezuak() {
+<span class="nc" id="L703">		tableModelMezuak.setDataVector(null, columnNamesMezuak);</span>
+<span class="nc" id="L704">		BLFacade facade = MainGUI.getBusinessLogic();</span>
+<span class="nc" id="L705">		mezuak=facade.getMezuak(bezeroa);</span>
+<span class="nc bnc" id="L706" title="All 2 branches missed.">		if(!mezuak.isEmpty()) {</span>
+<span class="nc" id="L707">			tableMezua.setVisible(true);</span>
+<span class="nc" id="L708">			scrollPaneMezuak.setVisible(true);</span>
+<span class="nc" id="L709">			postontziaHutsik.setVisible(false);</span>
+<span class="nc bnc" id="L710" title="All 2 branches missed.">			for(Mezua m : mezuak) {</span>
+<span class="nc" id="L711">				Vector&lt;Object&gt; row = new Vector&lt;Object&gt;();</span>
+<span class="nc" id="L712">				row.add(m);</span>
+<span class="nc bnc" id="L713" title="All 2 branches missed.">				if(m instanceof BezeroartekoMezua) {</span>
+<span class="nc" id="L714">					row.add(((BezeroartekoMezua)m).getIgorlea());</span>
+<span class="nc" id="L715">					row.add(((BezeroartekoMezua)m).getGaia());</span>
+<span class="nc" id="L716">					String mota = ((BezeroartekoMezua)m).getMota();</span>
+<span class="nc" id="L717">					String egoera = &quot;&quot;;</span>
+<span class="nc bnc" id="L718" title="All 4 branches missed.">					if(mota.equals(&quot;eskaera&quot;) || mota.equals(&quot;errepikatuak eskaera onartu&quot;)) {</span>
+<span class="nc bnc" id="L719" title="All 2 branches missed.">						if(m.isIrakurrita()) {</span>
+<span class="nc" id="L720">							egoera=ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Answered&quot;);</span>
+						}else {
+<span class="nc" id="L722">							egoera=ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Unanswered&quot;);</span>
+						}
+					}else{
+<span class="nc bnc" id="L725" title="All 2 branches missed.">						if(m.isIrakurrita()) {</span>
+<span class="nc" id="L726">							egoera=ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Read&quot;);</span>
+						}else {
+<span class="nc" id="L728">							egoera=ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Unread&quot;);</span>
+						}
+					}
+<span class="nc" id="L731">					row.add(egoera);</span>
+<span class="nc" id="L732">				}else {</span>
+<span class="nc bnc" id="L733" title="All 2 branches missed.">					if(!((ArretaMezua)m).isAzkena()) {</span>
+<span class="nc" id="L734">						row.add(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Worker&quot;));</span>
+					}else {
+<span class="nc" id="L736">						row.add(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Admin&quot;));</span>
+					}
+<span class="nc" id="L738">					ArretaElkarrizketa tmp = getElkarrizketa((ArretaMezua)m);</span>
+<span class="nc bnc" id="L739" title="All 2 branches missed.">					if(tmp != null) {</span>
+<span class="nc" id="L740">						row.add(tmp.getGaia());</span>
+					}
+					String egoera;
+<span class="nc bnc" id="L743" title="All 2 branches missed.">					if(m.isIrakurrita()) {</span>
+<span class="nc" id="L744">						egoera=ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Answered&quot;);</span>
+					}else {
+<span class="nc" id="L746">						egoera=ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;Unanswered&quot;);</span>
+					}
+<span class="nc" id="L748">					System.out.println(egoera);</span>
+<span class="nc" id="L749">					row.add(egoera);</span>
+<span class="nc" id="L750">					System.out.println(row);</span>
+				}
+<span class="nc" id="L752">				tableModelMezuak.addRow(row);</span>
+<span class="nc" id="L753">			}</span>
+		}else {
+<span class="nc" id="L755">			tableMezua.setVisible(false);</span>
+<span class="nc" id="L756">			scrollPaneMezuak.setVisible(false);</span>
+<span class="nc" id="L757">			postontziaHutsik.setVisible(true);</span>
+		}
+<span class="nc" id="L759">	}</span>
+	
+	private void aldatuTamaina(int x, int y) {
+<span class="nc" id="L762">		this.setSize(new Dimension(x, y));</span>
+<span class="nc" id="L763">	}</span>
+	
+	private ArretaElkarrizketa getElkarrizketa(ArretaMezua m) {
+<span class="nc bnc" id="L766" title="All 2 branches missed.">		for(ArretaElkarrizketa ae : elkarrizketak) {</span>
+<span class="nc bnc" id="L767" title="All 2 branches missed.">			for(ArretaMezua am : ae.getLangileakBidalitakoak()) {</span>
+<span class="nc bnc" id="L768" title="All 2 branches missed.">				if(am.getIdentifikadorea().equals(m.getIdentifikadorea())) {</span>
+<span class="nc" id="L769">					return ae;</span>
+				}
+<span class="nc" id="L771">			}</span>
+<span class="nc" id="L772">		}</span>
+<span class="nc" id="L773">		return null;</span>
+	}
+	
+	private void setRemoved() {
+<span class="nc" id="L777">		rate.setText(&quot;&quot;);</span>
+<span class="nc" id="L778">		jakinarazpenak.setText(&quot;&quot;);</span>
+<span class="nc" id="L779">		textArea.setText(&quot;&quot;);</span>
+<span class="nc" id="L780">		textArea.setVisible(false);</span>
+<span class="nc" id="L781">		nork.setText(&quot;&quot;);</span>
+<span class="nc" id="L782">		mezua.setText(&quot;&quot;);</span>
+<span class="nc" id="L783">		baldintzak.setText(&quot;&quot;);</span>
+<span class="nc" id="L784">		euroko.setText(&quot;&quot;);</span>
+<span class="nc" id="L785">		hilabetean.setText(&quot;&quot;);</span>
+<span class="nc" id="L786">		komisioa.setText(&quot;&quot;);</span>
+<span class="nc" id="L787">		onartuGaldera.setVisible(false);</span>
+<span class="nc" id="L788">		bai.setVisible(false);</span>
+<span class="nc" id="L789">		ez.setVisible(false);</span>
+<span class="nc" id="L790">	}</span>
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

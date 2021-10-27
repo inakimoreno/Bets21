@@ -1,0 +1,36 @@
+
+cdataAccess.DataAccess#getArretaElkarrizketa(Ldomain/ArretaElkarrizketa;)Ldomain/ArretaElkarrizketa;Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(0"1*‡
+1Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(!¶
+£
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(!%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÎË
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaúA ú(X
+%1java.lang.Integer"Adomain.ArretaElkarrizketa#getIdentifikadorea()Ljava/lang/Integer;*!
+
+aedomain.ArretaElkarrizketa2getIdentifikadorea()À»
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(Y
+%2domain.ArretaElkarrizketa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)•
+¢
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(Z$
+emaitzadomain.ArretaElkarrizketa"__id*!
+
+%2domain.ArretaElkarrizketa"{
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(&
+$
+emaitzadomain.ArretaElkarrizketa:
+aedomain.ArretaElkarrizketaB
+dataAccess.DataAccess

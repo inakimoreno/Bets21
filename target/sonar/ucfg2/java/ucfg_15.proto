@@ -1,0 +1,131 @@
+
+[dataAccess.DataAccess#emaitzaIpini(Ldomain/Question;Ldomain/Pronostikoa;)Ljava/util/Vector;Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÊ Ê(#"1*ﬁ"
+1Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(¶
+£
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÊ„
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(?
+%1java.lang.Integer":domain.Pronostikoa#getIdentifikadorea()Ljava/lang/Integer;*#
+!
+pronostikoadomain.Pronostikoa2getIdentifikadorea()ƒ¡
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(@
+%2domain.Pronostikoa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)ë
+é
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÁ Ë(A
+pdomain.Pronostikoa"__id*
+
+%2domain.Pronostikoa¶
+£
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÈ È(%
+%3javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db€ÿ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÈ' È(C
+%4java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+questiondomain.Question2getQuestionNumber()¡æ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÈ È(D
+%5domain.Question"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%3javax.persistence.EntityManager*
+""*
+
+%4java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)ã
+à
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÈ È(E
+qdomain.Question"__id*
+
+%5domain.Question¶
+£
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(%
+%6javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbìê
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í()
+%7#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
+%
+%6javax.persistence.EntityManager2getTransaction()∆√
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
+
+%8void",javax.persistence.EntityTransaction#begin()V*+
+)
+%7#javax.persistence.EntityTransaction2begin()‹Ÿ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(*
+%9java.lang.String"5domain.Pronostikoa#getDeskripzioa()Ljava/lang/String;*#
+!
+pronostikoadomain.Pronostikoa2getDeskripzioa()‰·
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(+
+%10void".domain.Question#setResult(Ljava/lang/String;)V*
+
+qdomain.Question*
+
+%9java.lang.String2setResult(Ljava/lang/String;)Õ 
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(,
+%11java.util.Vector"2domain.Pronostikoa#getApustuak()Ljava/util/Vector;*
+
+pdomain.Pronostikoa2getApustuak()ï
+í
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(-
+apustuakjava.util.Vector"__id*
+
+%11java.util.Vector˘
+ˆ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÌ Ì(1
+%12java.util.Vector"MdataAccess.DataAccess#eguneratuApustuak(Ljava/util/Vector;)Ljava/util/Vector;*
+dataAccess.DataAccess*
+
+apustuakjava.util.Vectorè
+å
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÌ Ì(2
+emjava.util.Vector"__id*
+
+%12java.util.Vectorß
+§
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÓ Ó(&
+%13javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbïí
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÓ Ó(*
+%14#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%13javax.persistence.EntityManager2getTransaction() «
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÓ Ó(
+%15void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%14#javax.persistence.EntityTransaction2commit()"m
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaÔ Ô(
+
+emjava.util.Vector:
+questiondomain.Question:!
+pronostikoadomain.PronostikoaB
+dataAccess.DataAccess

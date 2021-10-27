@@ -25,18 +25,19 @@ public class Register2DAB {
 	private Date date = UtilDate.newDate(1990,10,10);
 	private Pertsona usr = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",
 			"666666666 antxon@gmail.com", date);
-	/*
+	private Pertsona temp = new Admin("Aitor Paredes Zatarain", "Admin aaaaaaaa", "666666666 Admindb.@gmail.com", date);
+	
 	@Before
 	public void dbInit() {
 		if (setUpDone == true) {
 			return;
 		}
 		testDA.open();
-		testDA.addUser(new Admin("Aitor Paredes Zatarain", "Admin aaaaaaaa", "666666666 Admindb.@gmail.com", date));
+		testDA.addUser(temp);
 		testDA.close();
 		setUpDone = true;
 	}
-	*/
+	
 	@Test
 	public void test1() {
 		
@@ -55,9 +56,11 @@ public class Register2DAB {
 		} catch (Exception e) {
 			e.printStackTrace();
 			fail();
+
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 		
@@ -77,12 +80,12 @@ public class Register2DAB {
 		testDA.close();
 		assertEquals(newUser.getErabiltzaileIzena(),dbUser.getErabiltzaileIzena());
 		
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (Exception e) {;
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -103,11 +106,11 @@ public class Register2DAB {
 		assertEquals(newUser.getErabiltzaileIzena(),dbUser.getErabiltzaileIzena());
 		
 		} catch (Exception e) {
-			e.printStackTrace();
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -125,11 +128,11 @@ public class Register2DAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}

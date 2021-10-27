@@ -1,0 +1,72 @@
+
+cbusinessLogic.BLFacadeImplementation#getBezeroaContainer(Ldomain/Bezeroa;)Ldomain/BezeroaContainer;`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java» »(,"startingBlock*≥
+startingBlock`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java», »(7ß
+§
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+bdomain.Bezeroaê
+ç
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java»5 »(6
+bdomain.Bezeroa"__annotation*
+
+%6*
+1*ø
+1`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java… …(¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java… …(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¡æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java… …(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (  (1
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager∑¥
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (  (H
+%3domain.BezeroaContainer"TdataAccess.DataAccess#getBezeroaContainer(Ldomain/Bezeroa;)Ldomain/BezeroaContainer;*
+
+%2dataAccess.DataAccess*
+
+bdomain.Bezeroa2%getBezeroaContainer(Ldomain/Bezeroa;)ª
+∏
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java   (I-
+bezeroaEguneratutadomain.BezeroaContainer"__id*
+
+%3domain.BezeroaContainer¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÀ À(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerπ∂
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÀ À(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"ì
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÃ Ã(/
+-
+bezeroaEguneratutadomain.BezeroaContainer:
+bdomain.BezeroaB(&
+$businessLogic.BLFacadeImplementation

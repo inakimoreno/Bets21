@@ -1,0 +1,72 @@
+
+SbusinessLogic.BLFacadeImplementation#getBezeroa(Ljava/lang/String;)Ldomain/Bezeroa;`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÝ Ý("startingBlock*×
+startingBlock`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÝ Ý(7¹
+¶
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÜ Ü(
+%6"
+__annotate*
+javax.jws.WebMethod*'
+%
+ErabiltzaileIzenajava.lang.String¢
+Ÿ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÝ% Ý(6%
+ErabiltzaileIzenajava.lang.String"__annotation*
+
+%6*
+1*ó
+1`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÞ Þ(Á
+¾
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÞ Þ(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÁ¾
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÞ Þ(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)Á
+¾
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaß ß(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager©¦
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaß ß(8
+%3domain.Bezeroa"DdataAccess.DataAccess#getBezeroa(Ljava/lang/String;)Ldomain/Bezeroa;*
+
+%2dataAccess.DataAccess*'
+%
+ErabiltzaileIzenajava.lang.String2getBezeroa(Ljava/lang/String;)˜
+•
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaß ß(9
+bdomain.Bezeroa"__id*
+
+%3domain.BezeroaÁ
+¾
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaà à(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaà à(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"y
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaá á(
+
+bdomain.Bezeroa:%
+ErabiltzaileIzenajava.lang.StringB(&
+$businessLogic.BLFacadeImplementation

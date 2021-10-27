@@ -1,0 +1,91 @@
+
+nbusinessLogic.BLFacadeImplementation#createPronostic(Ldomain/Question;Ljava/lang/String;D)Ldomain/Pronostikoa;`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ(&"startingBlock*ò
+startingBlock`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ& Æ([Ø
+¨
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠ ≠(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+questiondomain.Questionò
+ï
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ0 Æ(8
+questiondomain.Question"__annotation*
+
+%6≥
+∞
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠ ≠(
+%7"
+__annotate*
+javax.jws.WebMethod*!
+
+descriptionjava.lang.Stringú
+ô
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆA Æ(L
+descriptionjava.lang.String"__annotation*
+
+%7*
+1*÷
+1`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¡æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÄ˝
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(F
+%3domain.Pronostikoa"_dataAccess.DataAccess#createPronostic(Ldomain/Question;Ljava/lang/String;D)Ldomain/Pronostikoa;*
+
+%2dataAccess.DataAccess*
+
+questiondomain.Question*!
+
+descriptionjava.lang.String*
+""25createPronostic(Ldomain/Question;Ljava/lang/String;D)†
+ù
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(G
+pdomain.Pronostikoa"__id*
+
+%3domain.Pronostikoa¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerπ∂
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"}
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤(
+
+pdomain.Pronostikoa:
+questiondomain.Question:
+descriptionjava.lang.String:
+""B(&
+$businessLogic.BLFacadeImplementation

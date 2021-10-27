@@ -1,0 +1,81 @@
+
+/domain.Apustua#apustuaEquals(Ldomain/Apustua;)ZJ
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java• •("7*ê
+2J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaš š(u
+s
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaš š(
+pdomain.Pronostikoa"__id*
+""™
+–
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaš š(
+pdomain.Pronostikoa"
+__arrayGet*
+
+%3java.util.ArrayList*
+""*
+4
+1*¥
+3J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaœ œ("T
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaœ œ(
+""*Ë
+4J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java› ›(ñî
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java› ›(
+%4boolean"5domain.Apustua#baduPronostikoa(Ldomain/Pronostikoa;)Z*
+
+apusdomain.Apustua*
+
+pdomain.Pronostikoa2%baduPronostikoa(Ldomain/Pronostikoa;)*
+2
+3*í
+5J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaš š("–
+“
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaš š("
+%3java.util.ArrayList"__id*$*"
+domain.Apustua"
+pronostikoak*
+2*¥
+6J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java˜
+ ˜("T
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java˜ ˜(
+""* 
+7J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java— —(
+•
+’
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java— —(
+%0java.lang.Integer"__id*%*#
+domain.Apustua"
+pronostikoKopÌÉ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java—  —(7
+%1java.lang.Integer"4domain.Apustua#getPronostikoKop()Ljava/lang/Integer;*
+
+apusdomain.Apustua2getPronostikoKop()ßÜ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.java— —(8
+%2boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.Integer*
+
+%1java.lang.Integer2equals(Ljava/lang/Object;)*
+5
+6*¥
+1J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaŸ	 Ÿ("T
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Apustua.javaŸ Ÿ(
+"":
+apusdomain.ApustuaB
+domain.Apustua

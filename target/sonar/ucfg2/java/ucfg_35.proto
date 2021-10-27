@@ -1,0 +1,255 @@
+
+2dataAccess.DataAccess#removeMezua(Ldomain/Mezua;)VQ
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaì ì("5"6*²
+2Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.java (ÔÑ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.java (%
+%29void"/domain.ArretaMezua#setIkusgaiBezeroarentzat(Z)V*
+
+mdomain.ArretaMezua*
+""2setIkusgaiBezeroarentzat(Z)*
+1*›
+3Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(§
+¤
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(&
+%27javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db“
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(
+%28void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
+&
+%27javax.persistence.EntityManager*+
+)
+elkarrizketadomain.ArretaElkarrizketa2remove(Ljava/lang/Object;)*
+1*æ
+4Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaû û(Œ‰
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaû û(
+%23void"<domain.ArretaElkarrizketa#removeMezua(Ldomain/ArretaMezua;)V*+
+)
+elkarrizketadomain.ArretaElkarrizketa*
+
+mdomain.ArretaMezua2!removeMezua(Ldomain/ArretaMezua;)§
+¤
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(&
+%24javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbş
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(
+%25void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
+&
+%24javax.persistence.EntityManager*
+
+mdomain.ArretaMezua2remove(Ljava/lang/Object;)ÈÅ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaı ı(
+%26boolean"&domain.ArretaElkarrizketa#mezurikEz()Z*+
+)
+elkarrizketadomain.ArretaElkarrizketa2mezurikEz()*
+3
+1*±
+5Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(§
+¤
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(&
+%15javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÕÒ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.java÷. ÷(H
+%16java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
+
+mezuadomain.Mezua2getIdentifikadorea()ÇÄ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(I
+%17domain.ArretaMezua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*(
+&
+%15javax.persistence.EntityManager*
+""*
+
+%16java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)’
+
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(J
+mdomain.ArretaMezua"__id*
+
+%17domain.ArretaMezuaçä
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaø% ø(8 
+%18domain.ArretaElkarrizketa"?domain.ArretaMezua#getElkarrizketa()Ldomain/ArretaElkarrizketa;*
+
+mdomain.ArretaMezua2getElkarrizketa()«
+¨
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaø ø(9)
+elkarrizketadomain.ArretaElkarrizketa"__id*"
+ 
+%18domain.ArretaElkarrizketa§
+¤
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(&
+%19javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db•’
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(*
+%20#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%19javax.persistence.EntityManager2getTransaction()ÈÅ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(
+%21void",javax.persistence.EntityTransaction#begin()V*,
+*
+%20#javax.persistence.EntityTransaction2begin()ÊÇ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(
+%22boolean"'domain.ArretaElkarrizketa#isAmaituta()Z*+
+)
+elkarrizketadomain.ArretaElkarrizketa2isAmaituta()*
+2
+4*¥
+6Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaî î(¦
+£
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaî î(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbÔÑ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaî: î(T
+%1java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
+
+mezuadomain.Mezua2getIdentifikadorea()ÊÇ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaî î(U
+%2domain.BezeroartekoMezua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)
+š
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaî î(V
+mdomain.BezeroartekoMezua"__id* 
+
+%2domain.BezeroartekoMezuaÒÏ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaï ï( 
+%3domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*
+
+mdomain.BezeroartekoMezua2getIgorlea()Œ
+‰
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(!
+norkdomain.Bezeroa"__id*
+
+%3domain.BezeroaØÕ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ(#
+%4domain.Bezeroa"8domain.BezeroartekoMezua#getHartzailea()Ldomain/Bezeroa;*
+
+mdomain.BezeroartekoMezua2getHartzailea()Œ
+‰
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ($
+noridomain.Bezeroa"__id*
+
+%4domain.Bezeroa¦
+£
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(%
+%5javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db“
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ()
+%6#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
+%
+%5javax.persistence.EntityManager2getTransaction()ÆÃ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(
+
+%7void",javax.persistence.EntityTransaction#begin()V*+
+)
+%6#javax.persistence.EntityTransaction2begin()¡
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaò ò('
+
+%8void"Hdomain.Bezeroa#ezabatuBidalitakoBezeroMezua(Ldomain/BezeroartekoMezua;)V*
+
+norkdomain.Bezeroa*
+
+mdomain.BezeroartekoMezua28ezabatuBidalitakoBezeroMezua(Ldomain/BezeroartekoMezua;)š
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaó ó(%
+
+%9void"Fdomain.Bezeroa#ezabatuJasotakoBezeroMezua(Ldomain/BezeroartekoMezua;)V*
+
+noridomain.Bezeroa*
+
+mdomain.BezeroartekoMezua26ezabatuJasotakoBezeroMezua(Ldomain/BezeroartekoMezua;)§
+¤
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaô ô(&
+%10javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db‡„
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaô ô(
+%11void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
+&
+%10javax.persistence.EntityManager*
+
+mdomain.BezeroartekoMezua2remove(Ljava/lang/Object;)§
+¤
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(&
+%12javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db•’
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(*
+%13#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%12javax.persistence.EntityManager2getTransaction()ÊÇ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(
+%14void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%13#javax.persistence.EntityTransaction2commit()*
+0*o
+0 "h
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.java… …(
+implicit return*ê
+1Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(§
+¤
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(&
+%30javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db•’
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(*
+%31#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%30javax.persistence.EntityManager2getTransaction()ÊÇ
+Q
+E/users/958101/Desktop/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(
+%32void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%31#javax.persistence.EntityTransaction2commit()*
+0:
+mezuadomain.MezuaB
+dataAccess.DataAccess

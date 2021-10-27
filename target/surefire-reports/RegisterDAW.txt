@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: RegisterDAW
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in RegisterDAW
+test1(RegisterDAW)  Time elapsed: 0 sec  <<< ERROR!
+javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp
+	at RegisterDAW.<init>(RegisterDAW.java:19)
+
+test2(RegisterDAW)  Time elapsed: 0 sec  <<< ERROR!
+javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp
+	at RegisterDAW.<init>(RegisterDAW.java:19)
+
+test3(RegisterDAW)  Time elapsed: 0 sec  <<< ERROR!
+javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp
+	at RegisterDAW.<init>(RegisterDAW.java:19)
+
+test4(RegisterDAW)  Time elapsed: 0 sec  <<< ERROR!
+javax.persistence.PersistenceException: No Persistence provider for EntityManager named objectdb:src/main/resources/bets.temp
+	at RegisterDAW.<init>(RegisterDAW.java:19)
+

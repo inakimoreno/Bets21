@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DataAccess.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Bets2222</a> &gt; <a href="index.source.html" class="el_package">dataAccess</a> &gt; <span class="el_source">DataAccess.java</span></div><h1>DataAccess.java</h1><pre class="source lang-java linenums">package dataAccess;
+
+import java.util.ArrayList;
+//hello
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.ResourceBundle;
+import java.util.Vector;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
+
+import configuration.ConfigXML;
+import configuration.UtilDate;
+import domain.Admin;
+import domain.Apustua;
+import domain.ArretaElkarrizketa;
+import domain.ArretaMezua;
+import domain.Bezeroa;
+import domain.BezeroaContainer;
+import domain.BezeroartekoMezua;
+import domain.Errepikapena;
+import domain.ErrepikatuakContainer;
+import domain.Event;
+import domain.Langilea;
+import domain.Mezua;
+import domain.Mugimendua;
+import domain.Pertsona;
+import domain.Pronostikoa;
+import domain.PronostikoaContainer;
+import domain.Question;
+import exceptions.EventAlreadyExist;
+import exceptions.EventFinished;
+import exceptions.PronosticAlreadyExist;
+import exceptions.QuestionAlreadyExist;
+import exceptions.UserAlreadyExist;
+
+/**
+ * It implements the data access to the objectDb database
+ */
+public class DataAccess {
+	protected static EntityManager db;
+	protected static EntityManagerFactory emf;
+
+<span class="fc" id="L51">	ConfigXML c = ConfigXML.getInstance();</span>
+
+<span class="fc" id="L53">	public DataAccess(boolean initializeMode) {</span>
+
+<span class="fc" id="L55">		System.out.println(&quot;Creating DataAccess instance =&gt; isDatabaseLocal: &quot; + c.isDatabaseLocal()</span>
+<span class="fc" id="L56">				+ &quot; getDatabBaseOpenMode: &quot; + c.getDataBaseOpenMode());</span>
+<span class="nc" id="L57">		open(initializeMode);</span>
+
+<span class="nc" id="L59">	}</span>
+
+	public DataAccess() {
+<span class="nc" id="L62">		this(false);</span>
+<span class="nc" id="L63">	}</span>
+
+	/**
+	 * This is the data access method that initializes the database with some events
+	 * and questions. This method is invoked by the business logic (constructor of
+	 * BLFacadeImplementation) when the option &quot;initialize&quot; is declared in the tag
+	 * dataBaseOpenMode of resources/config.xml file
+	 */
+	public void initializeDB() {
+
+<span class="nc" id="L73">		db.getTransaction().begin();</span>
+		try {
+
+<span class="nc" id="L76">			Calendar today = Calendar.getInstance();</span>
+
+<span class="nc" id="L78">			int month = today.get(Calendar.MONTH);</span>
+<span class="nc" id="L79">			month += 1;</span>
+<span class="nc" id="L80">			int year = today.get(Calendar.YEAR);</span>
+<span class="nc bnc" id="L81" title="All 2 branches missed.">			if (month == 12) {</span>
+<span class="nc" id="L82">				month = 0;</span>
+<span class="nc" id="L83">				year += 1;</span>
+			}
+
+<span class="nc" id="L86">			Event ev1 = new Event(1,&quot;Atl�tico-Athletic&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L87">			Event ev2 = new Event(2, &quot;Eibar-Barcelona&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L88">			Event ev3 = new Event(3, &quot;Getafe-Celta&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L89">			Event ev4 = new Event(4, &quot;Alav�s-Deportivo&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L90">			Event ev5 = new Event(5, &quot;Espa�ol-Villareal&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L91">			Event ev6 = new Event(6, &quot;Las Palmas-Sevilla&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L92">			Event ev7 = new Event(7, &quot;Malaga-Valencia&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L93">			Event ev8 = new Event(8, &quot;Girona-Legan�s&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L94">			Event ev9 = new Event(9, &quot;Real Sociedad-Levante&quot;, UtilDate.newDate(year, month, 17));</span>
+<span class="nc" id="L95">			Event ev10 = new Event(10, &quot;Betis-Real Madrid&quot;, UtilDate.newDate(year, month, 17));</span>
+
+<span class="nc" id="L97">			Event ev11 = new Event(11, &quot;Atletico-Athletic&quot;, UtilDate.newDate(year, month, 1));</span>
+<span class="nc" id="L98">			Event ev12 = new Event(12, &quot;Eibar-Barcelona&quot;, UtilDate.newDate(year, month, 1));</span>
+<span class="nc" id="L99">			Event ev13 = new Event(13, &quot;Getafe-Celta&quot;, UtilDate.newDate(year, month, 1));</span>
+<span class="nc" id="L100">			Event ev14 = new Event(14, &quot;Alav�s-Deportivo&quot;, UtilDate.newDate(year, month, 1));</span>
+<span class="nc" id="L101">			Event ev15 = new Event(15, &quot;Espa�ol-Villareal&quot;, UtilDate.newDate(year, month, 1));</span>
+<span class="nc" id="L102">			Event ev16 = new Event(16, &quot;Las Palmas-Sevilla&quot;, UtilDate.newDate(year, month, 1));</span>
+
+<span class="nc" id="L104">			Event ev17 = new Event(17, &quot;M�laga-Valencia&quot;, UtilDate.newDate(year, month + 1, 28));</span>
+<span class="nc" id="L105">			Event ev18 = new Event(18, &quot;Girona-Legan�s&quot;, UtilDate.newDate(year, month + 1, 28));</span>
+<span class="nc" id="L106">			Event ev19 = new Event(19, &quot;Real Sociedad-Levante&quot;, UtilDate.newDate(year, month + 1, 28));</span>
+<span class="nc" id="L107">			Event ev20 = new Event(20, &quot;Betis-Real Madrid&quot;, UtilDate.newDate(year, month + 1, 28));</span>
+
+			Question q1;
+			Question q2;
+			Question q3;
+			Question q4;
+			Question q5;
+			Question q6;
+
+<span class="nc bnc" id="L116" title="All 2 branches missed.">			if (Locale.getDefault().equals(new Locale(&quot;es&quot;))) {</span>
+<span class="nc" id="L117">				q1 = ev1.addQuestion(&quot;¿Quién ganará el partido?&quot;, 1);</span>
+<span class="nc" id="L118">				q2 = ev1.addQuestion(&quot;¿Quién meterá el primer gol?&quot;, 2);</span>
+<span class="nc" id="L119">				q3 = ev11.addQuestion(&quot;¿Quién ganará el partido?&quot;, 1);</span>
+<span class="nc" id="L120">				q4 = ev11.addQuestion(&quot;¿Cuántos goles se marcarán?&quot;, 2);</span>
+<span class="nc" id="L121">				q5 = ev17.addQuestion(&quot;¿Quién ganará el partido?&quot;, 1);</span>
+<span class="nc" id="L122">				q6 = ev17.addQuestion(&quot;¿Habrá goles en la primera parte?&quot;, 2);</span>
+<span class="nc bnc" id="L123" title="All 2 branches missed.">			} else if (Locale.getDefault().equals(new Locale(&quot;en&quot;))) {</span>
+<span class="nc" id="L124">				q1 = ev1.addQuestion(&quot;Who will win the match?&quot;, 1);</span>
+<span class="nc" id="L125">				q2 = ev1.addQuestion(&quot;Who will score first?&quot;, 2);</span>
+<span class="nc" id="L126">				q3 = ev11.addQuestion(&quot;Who will win the match?&quot;, 1);</span>
+<span class="nc" id="L127">				q4 = ev11.addQuestion(&quot;How many goals will be scored in the match?&quot;, 2);</span>
+<span class="nc" id="L128">				q5 = ev17.addQuestion(&quot;Who will win the match?&quot;, 1);</span>
+<span class="nc" id="L129">				q6 = ev17.addQuestion(&quot;Will there be goals in the first half?&quot;, 2);</span>
+			} else {
+<span class="nc" id="L131">				q1 = ev1.addQuestion(&quot;Zeinek irabaziko du partidua?&quot;, 1);</span>
+<span class="nc" id="L132">				q2 = ev1.addQuestion(&quot;Zeinek sartuko du lehenengo gola?&quot;, 2);</span>
+<span class="nc" id="L133">				q3 = ev11.addQuestion(&quot;Zeinek irabaziko du partidua?&quot;, 1);</span>
+<span class="nc" id="L134">				q4 = ev11.addQuestion(&quot;Zenbat gol sartuko dira?&quot;, 2);</span>
+<span class="nc" id="L135">				q5 = ev17.addQuestion(&quot;Zeinek irabaziko du partidua?&quot;, 1);</span>
+<span class="nc" id="L136">				q6 = ev17.addQuestion(&quot;Golak sartuko dira lehenengo zatian?&quot;, 2);</span>
+			}
+
+<span class="nc" id="L139">			Admin a1 = new Admin(&quot;Aitor Paredes Zatarain&quot;, &quot;Admin aaaaaaaa&quot;, &quot;666666666 Admindb.@gmail.com&quot;, UtilDate.newDate(2001,2,12));</span>
+			
+<span class="nc" id="L141">			Langilea l1 = new Langilea(&quot;Zdravko Todorov Petkov&quot;, &quot;zdra aaaaaaaa&quot;, &quot;987654321 zdra@gmail.com&quot;, UtilDate.newDate(2001,7,23));</span>
+<span class="nc" id="L142">			Langilea l2 = new Langilea(&quot;I�aki Moreno Artabe&quot;, &quot;inakimoreno aaaaaaaa&quot;, &quot;384625395 inakimoreno@gmail.com&quot;, UtilDate.newDate(2001,7,23));</span>
+			
+<span class="nc" id="L144">			Bezeroa b1 = new Bezeroa(&quot;pepe popo pupu&quot;, &quot;pepopu12301 aaaaaaaa&quot;, &quot;123456789 pepopu12301@gmail.com&quot;,UtilDate.newDate(2001,8,9));</span>
+<span class="nc" id="L145">			Bezeroa b2 = new Bezeroa(&quot;Koldo Beitialarrangoitia Munez&quot;, &quot;kobemu aaaaaaaa&quot;, &quot;123456789 kobemu@gmail.com&quot;,UtilDate.newDate(2001,8,9));</span>
+<span class="nc" id="L146">			b2.setPublikoa(false);</span>
+<span class="nc" id="L147">			Bezeroa b3 = new Bezeroa(&quot;Jose Miguel Perez&quot;, &quot;JoseMi aaaaaaaa&quot;, &quot;123456789 JoseMiguel@gmail.com&quot;,UtilDate.newDate(2001,8,9));</span>
+<span class="nc" id="L148">			Bezeroa b4 = new Bezeroa(&quot;Antxon Urrutia Garcia&quot;, &quot;antxon aaaaaaaa&quot;, &quot;123456789 antxon@gmail.com&quot;,UtilDate.newDate(2001,8,9));</span>
+<span class="nc" id="L149">			Bezeroa b5 = new Bezeroa(&quot;Saioa Goikoetxea Ugarte&quot;, &quot;Saioo99 b&quot;, &quot;123456789 Saioo99@gmail.com&quot;,UtilDate.newDate(2001,8,9));</span>
+			
+			
+<span class="nc" id="L152">			Event event1 = new Event(21,&quot;Eibar-Celta&quot;, UtilDate.newDate(2021, 2, 17));</span>
+<span class="nc" id="L153">			Event event2 = new Event(22,&quot;Granada-Athletic&quot;, UtilDate.newDate(2021, 2, 17));</span>
+			
+<span class="nc" id="L155">			Question ques1 = event1.addQuestion(&quot;Zeinek irabaziko du partidua?&quot;, 1);</span>
+<span class="nc" id="L156">			Question ques2 = event1.addQuestion(&quot;Zeinek sartuko du lehenengo gola?&quot;, 1);</span>
+<span class="nc" id="L157">			Question ques3 = event2.addQuestion(&quot;Zeinek irabaziko du partidua?&quot;, 1);</span>
+<span class="nc" id="L158">			Question ques4 = event2.addQuestion(&quot;Golik sartuko al da lehen zatian?&quot;, 1);</span>
+			
+			Pronostikoa pronos1, pronos2, pronos3, pronos4, pronos5, pronos6, pronos7, pronos8, pronos9, pronos10, pronos11, pronos12, pronos13, pronos14, pronos15, pronos16, pronos17;
+<span class="nc" id="L161">			pronos1 = ques1.addPronostic(&quot;1&quot;, 1.2);</span>
+<span class="nc" id="L162">			pronos2 = ques1.addPronostic(&quot;X&quot;, 1.5);//</span>
+<span class="nc" id="L163">			pronos3 = ques1.addPronostic(&quot;2&quot;, 1.8);</span>
+<span class="nc" id="L164">			pronos4 = ques2.addPronostic(&quot;1&quot;, 1.2);//</span>
+<span class="nc" id="L165">			pronos5 = ques2.addPronostic(&quot;2&quot;, 1.6);</span>
+<span class="nc" id="L166">			pronos6 = ques2.addPronostic(&quot;Golik ez&quot;, 1.8);</span>
+<span class="nc" id="L167">			pronos7 = ques3.addPronostic(&quot;1&quot;, 2.2);//</span>
+<span class="nc" id="L168">			pronos8 = ques3.addPronostic(&quot;X&quot;, 1.4);</span>
+<span class="nc" id="L169">			pronos9 = ques3.addPronostic(&quot;2&quot;, 1.2);</span>
+<span class="nc" id="L170">			pronos10 = ques4.addPronostic(&quot;Bai&quot;, 1.3);</span>
+<span class="nc" id="L171">			pronos11 = ques4.addPronostic(&quot;Ez&quot;, 2.5);//</span>
+		
+<span class="nc" id="L173">			q1.addPronostic(&quot;1&quot;, 1.2);</span>
+<span class="nc" id="L174">			q1.addPronostic(&quot;X&quot;, 1.5);//</span>
+<span class="nc" id="L175">			q1.addPronostic(&quot;2&quot;, 1.8);</span>
+<span class="nc" id="L176">			q2.addPronostic(&quot;1&quot;, 1.2);//</span>
+<span class="nc" id="L177">			q2.addPronostic(&quot;2&quot;, 1.6);</span>
+<span class="nc" id="L178">			 q2.addPronostic(&quot;Golik ez&quot;, 1.8);</span>
+			 
+<span class="nc" id="L180">			pronos12 = q3.addPronostic(&quot;1&quot;, 1.2);</span>
+<span class="nc" id="L181">			pronos13 = q3.addPronostic(&quot;X&quot;, 1.5);//</span>
+<span class="nc" id="L182">			pronos14 = q3.addPronostic(&quot;2&quot;, 1.8);</span>
+<span class="nc" id="L183">			pronos15 = q4.addPronostic(&quot;&lt;2&quot;,1.2);//</span>
+<span class="nc" id="L184">			pronos16 = q4.addPronostic(&quot;3&quot;, 1.6);</span>
+<span class="nc" id="L185">			pronos17 = q4.addPronostic(&quot;&gt;3&quot;,1.8);</span>
+			
+			
+<span class="nc" id="L188">			Errepikapena errepikapenBerria = b2.addErrepikatzailea(b5, 2, 10, 0.2);</span>
+<span class="nc" id="L189">			b5.addErrepikatua(errepikapenBerria);</span>
+			
+<span class="nc" id="L191">			ArrayList&lt;Pronostikoa&gt; p = new ArrayList&lt;Pronostikoa&gt;();</span>
+<span class="nc" id="L192">			p.add(pronos2);</span>
+<span class="nc" id="L193">			p.add(pronos4);</span>
+<span class="nc" id="L194">			Apustua apustua1 = b2.addApustua(p, 2, null);</span>
+<span class="nc" id="L195">			Apustua apustu2=b5.addApustua(p, 4, b2);</span>
+			
+<span class="nc" id="L197">			pronos2.addApustua(apustua1);</span>
+<span class="nc" id="L198">			pronos2.addApustua(apustu2);</span>
+<span class="nc" id="L199">			pronos4.addApustua(apustu2);</span>
+<span class="nc" id="L200">			pronos4.addApustua(apustua1);</span>
+			
+<span class="nc" id="L202">			db.persist(apustua1);</span>
+<span class="nc" id="L203">			db.persist(apustu2);</span>
+			
+			Mugimendua m1,m2,m3,m4;
+<span class="nc" id="L206">			m1 = b2.addMugimendua(&quot;Bankuko diru-sarrera&quot;, 52, &quot;bankua&quot;, UtilDate.newDate(2021, 2, 15));</span>
+<span class="nc" id="L207">			m2 = b2.addMugimendua(&quot;Apustua egin&quot;, -2, &quot;jokatu&quot;, UtilDate.newDate(2021, 2, 16));</span>
+<span class="nc" id="L208">			m3 = b2.addMugimendua(&quot;Bankuko diru-sarrera&quot;, 30, &quot;bankua&quot;, UtilDate.newDate(2021, 2, 15));</span>
+<span class="nc" id="L209">			m4 = b5.addMugimendua(&quot;Apustu errepikatua egin (&quot;+b2+&quot;)&quot;, -4, &quot;jokatu&quot;, UtilDate.newDate(2021, 2, 16));</span>
+			
+<span class="nc" id="L211">			db.persist(event1);</span>
+<span class="nc" id="L212">			db.persist(event2);</span>
+			
+<span class="nc" id="L214">			db.persist(ques1);</span>
+<span class="nc" id="L215">			db.persist(ques2);</span>
+<span class="nc" id="L216">			db.persist(ques3);</span>
+<span class="nc" id="L217">			db.persist(ques4);</span>
+			
+<span class="nc" id="L219">			db.persist(pronos1);</span>
+<span class="nc" id="L220">			db.persist(pronos2);</span>
+<span class="nc" id="L221">			db.persist(pronos3);</span>
+<span class="nc" id="L222">			db.persist(pronos4);</span>
+<span class="nc" id="L223">			db.persist(pronos5);</span>
+<span class="nc" id="L224">			db.persist(pronos6);</span>
+<span class="nc" id="L225">			db.persist(pronos7);</span>
+<span class="nc" id="L226">			db.persist(pronos8);</span>
+<span class="nc" id="L227">			db.persist(pronos9);</span>
+<span class="nc" id="L228">			db.persist(pronos10);</span>
+<span class="nc" id="L229">			db.persist(pronos11);</span>
+			
+<span class="nc" id="L231">			db.persist(m1);</span>
+<span class="nc" id="L232">			db.persist(m2);</span>
+<span class="nc" id="L233">			db.persist(m3);</span>
+<span class="nc" id="L234">			db.persist(m4);			</span>
+<span class="nc" id="L235">			db.persist(a1);</span>
+<span class="nc" id="L236">			db.persist(l2);</span>
+<span class="nc" id="L237">			db.persist(l1);</span>
+<span class="nc" id="L238">			db.persist(b1);</span>
+<span class="nc" id="L239">			db.persist(b2);</span>
+<span class="nc" id="L240">			db.persist(b3);</span>
+<span class="nc" id="L241">			db.persist(b4);</span>
+<span class="nc" id="L242">			db.persist(b5);</span>
+
+
+<span class="nc" id="L245">			db.persist(q1);</span>
+<span class="nc" id="L246">			db.persist(q2);</span>
+<span class="nc" id="L247">			db.persist(q3);</span>
+<span class="nc" id="L248">			db.persist(q4);</span>
+<span class="nc" id="L249">			db.persist(q5);</span>
+<span class="nc" id="L250">			db.persist(q6);</span>
+
+<span class="nc" id="L252">			db.persist(ev1);</span>
+<span class="nc" id="L253">			db.persist(ev2);</span>
+<span class="nc" id="L254">			db.persist(ev3);</span>
+<span class="nc" id="L255">			db.persist(ev4);</span>
+<span class="nc" id="L256">			db.persist(ev5);</span>
+<span class="nc" id="L257">			db.persist(ev6);</span>
+<span class="nc" id="L258">			db.persist(ev7);</span>
+<span class="nc" id="L259">			db.persist(ev8);</span>
+<span class="nc" id="L260">			db.persist(ev9);</span>
+<span class="nc" id="L261">			db.persist(ev10);</span>
+<span class="nc" id="L262">			db.persist(ev11);</span>
+<span class="nc" id="L263">			db.persist(ev12);</span>
+<span class="nc" id="L264">			db.persist(ev13);</span>
+<span class="nc" id="L265">			db.persist(ev14);</span>
+<span class="nc" id="L266">			db.persist(ev15);</span>
+<span class="nc" id="L267">			db.persist(ev16);</span>
+<span class="nc" id="L268">			db.persist(ev17);</span>
+<span class="nc" id="L269">			db.persist(ev18);</span>
+<span class="nc" id="L270">			db.persist(ev19);</span>
+<span class="nc" id="L271">			db.persist(ev20);</span>
+			
+<span class="nc" id="L273">			db.persist(pronos12);</span>
+<span class="nc" id="L274">			db.persist(pronos13);</span>
+<span class="nc" id="L275">			db.persist(pronos14);</span>
+<span class="nc" id="L276">			db.persist(pronos15);</span>
+<span class="nc" id="L277">			db.persist(pronos16);</span>
+<span class="nc" id="L278">			db.persist(pronos17);</span>
+
+<span class="nc" id="L280">			db.getTransaction().commit();</span>
+<span class="nc" id="L281">			arretaElkarrizketaSortu(b3, &quot;Proba&quot;, &quot;Proba elakrrizketa&quot;);</span>
+<span class="nc" id="L282">			System.out.println(&quot;Db initialized&quot;);</span>
+<span class="nc" id="L283">		} catch (Exception e) {</span>
+<span class="nc" id="L284">			e.printStackTrace();</span>
+<span class="nc" id="L285">		}</span>
+<span class="nc" id="L286">	}</span>
+
+	/**
+	 * This method creates a question for an event, with a question text and the
+	 * minimum bet
+	 * 
+	 * @param event      to which question is added
+	 * @param question   text of the question
+	 * @param betMinimum minimum quantity of the bet
+	 * @return the created question, or null, or an exception
+	 * @throws QuestionAlreadyExist if the same question already exists for the
+	 *                              event
+	 */
+	public Question createQuestion(Event event, String question, double betMinimum) throws QuestionAlreadyExist {
+<span class="nc" id="L300">		System.out.println(&quot;&gt;&gt; DataAccess: createQuestion=&gt; event= &quot; + event + &quot; question= &quot; + question + &quot; betMinimum=&quot;</span>
+				+ betMinimum);
+
+<span class="nc" id="L303">		Event ev = db.find(Event.class, event.getEventNumber());</span>
+
+<span class="nc bnc" id="L305" title="All 2 branches missed.">		if (ev.DoesQuestionExists(question))</span>
+<span class="nc" id="L306">			throw new QuestionAlreadyExist(ResourceBundle.getBundle(&quot;Etiquetas&quot;).getString(&quot;ErrorQueryAlreadyExist&quot;));</span>
+
+<span class="nc" id="L308">		db.getTransaction().begin();</span>
+<span class="nc" id="L309">		Question q = ev.addQuestion(question, betMinimum);</span>
+		// db.persist(q);
+<span class="nc" id="L311">		db.persist(ev); // db.persist(q) not required when CascadeType.PERSIST is added in questions</span>
+						// property of Event class
+						// @OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
+<span class="nc" id="L314">		db.getTransaction().commit();</span>
+<span class="nc" id="L315">		return q;</span>
+
+	}
+
+	/**
+	 * This method retrieves from the database the events of a given date
+	 * 
+	 * @param date in which events are retrieved
+	 * @return collection of events
+	 */
+	public Vector&lt;Event&gt; getEvents(Date date) {
+<span class="nc" id="L326">		System.out.println(&quot;&gt;&gt; DataAccess: getEvents&quot;);</span>
+<span class="nc" id="L327">		Vector&lt;Event&gt; res = new Vector&lt;Event&gt;();</span>
+<span class="nc" id="L328">		TypedQuery&lt;Event&gt; query = db.createQuery(&quot;SELECT ev FROM Event ev WHERE ev.eventDate=?1&quot;, Event.class);</span>
+<span class="nc" id="L329">		query.setParameter(1, date);</span>
+<span class="nc" id="L330">		List&lt;Event&gt; events = query.getResultList();</span>
+<span class="nc bnc" id="L331" title="All 2 branches missed.">		for (Event ev : events) {</span>
+<span class="nc" id="L332">			System.out.println(ev.toString());</span>
+<span class="nc" id="L333">			res.add(ev);</span>
+<span class="nc" id="L334">		}</span>
+<span class="nc" id="L335">		return res;</span>
+	}
+
+	/**
+	 * This method retrieves from the database the dates a month for which there are
+	 * events
+	 * 
+	 * @param date of the month for which days with events want to be retrieved
+	 * @return collection of dates
+	 */
+	public Vector&lt;Date&gt; getEventsMonth(Date date) {
+<span class="nc" id="L346">		System.out.println(&quot;&gt;&gt; DataAccess: getEventsMonth&quot;);</span>
+<span class="nc" id="L347">		Vector&lt;Date&gt; res = new Vector&lt;Date&gt;();</span>
+
+<span class="nc" id="L349">		Date firstDayMonthDate = UtilDate.firstDayMonth(date);</span>
+<span class="nc" id="L350">		Date lastDayMonthDate = UtilDate.lastDayMonth(date);</span>
+
+<span class="nc" id="L352">		TypedQuery&lt;Date&gt; query = db.createQuery(</span>
+				&quot;SELECT DISTINCT ev.eventDate FROM Event ev WHERE ev.eventDate BETWEEN ?1 and ?2&quot;, Date.class);
+<span class="nc" id="L354">		query.setParameter(1, firstDayMonthDate);</span>
+<span class="nc" id="L355">		query.setParameter(2, lastDayMonthDate);</span>
+<span class="nc" id="L356">		List&lt;Date&gt; dates = query.getResultList();</span>
+<span class="nc bnc" id="L357" title="All 2 branches missed.">		for (Date d : dates) {</span>
+<span class="nc" id="L358">			System.out.println(d.toString());</span>
+<span class="nc" id="L359">			res.add(d);</span>
+<span class="nc" id="L360">		}</span>
+<span class="nc" id="L361">		return res;</span>
+	}
+
+	public void open(boolean initializeMode) {
+
+<span class="fc" id="L366">		System.out.println(&quot;Opening DataAccess instance =&gt; isDatabaseLocal: &quot; + c.isDatabaseLocal()</span>
+<span class="fc" id="L367">				+ &quot; getDatabBaseOpenMode: &quot; + c.getDataBaseOpenMode());</span>
+
+<span class="fc" id="L369">		String fileName = c.getDbFilename();</span>
+<span class="fc bfc" id="L370" title="All 2 branches covered.">		if (initializeMode) {</span>
+<span class="fc" id="L371">			fileName = fileName + &quot;;drop&quot;;</span>
+<span class="fc" id="L372">			System.out.println(&quot;Deleting the DataBase&quot;);</span>
+		}
+
+<span class="pc bpc" id="L375" title="1 of 2 branches missed.">		if (c.isDatabaseLocal()) {</span>
+<span class="nc" id="L376">			emf = Persistence.createEntityManagerFactory(&quot;objectdb:&quot; + fileName);</span>
+<span class="nc" id="L377">			db = emf.createEntityManager();</span>
+		} else {
+<span class="nc" id="L379">			Map&lt;String, String&gt; properties = new HashMap&lt;String, String&gt;();</span>
+<span class="nc" id="L380">			properties.put(&quot;javax.persistence.jdbc.user&quot;, c.getUser());</span>
+<span class="nc" id="L381">			properties.put(&quot;javax.persistence.jdbc.password&quot;, c.getPassword());</span>
+
+<span class="nc" id="L383">			emf = Persistence.createEntityManagerFactory(</span>
+<span class="nc" id="L384">					&quot;objectdb://&quot; + c.getDatabaseNode() + &quot;:&quot; + c.getDatabasePort() + &quot;/&quot; + fileName, properties);</span>
+
+<span class="nc" id="L386">			db = emf.createEntityManager();</span>
+		}
+
+<span class="nc" id="L389">	}</span>
+
+	public boolean existQuestion(Event event, String question) {
+<span class="nc" id="L392">		System.out.println(&quot;&gt;&gt; DataAccess: existQuestion=&gt; event= &quot; + event + &quot; question= &quot; + question);</span>
+<span class="nc" id="L393">		Event ev = db.find(Event.class, event.getEventNumber());</span>
+<span class="nc" id="L394">		return ev.DoesQuestionExists(question);</span>
+
+	}
+	
+	public Pertsona isLogin(String erabiltzaileIzena, String pasahitza) {
+<span class="nc" id="L399">		TypedQuery&lt;Pertsona&gt; query = db.createQuery(&quot;SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1 AND p.pasahitza=?2&quot;, Pertsona.class);</span>
+<span class="nc" id="L400">		query.setParameter(1, erabiltzaileIzena);</span>
+<span class="nc" id="L401">		query.setParameter(2, pasahitza);</span>
+<span class="nc" id="L402">		List&lt;Pertsona&gt; pertsona = query.getResultList();</span>
+<span class="nc bnc" id="L403" title="All 2 branches missed.">		if(pertsona.isEmpty()) {</span>
+<span class="nc" id="L404">			return null;</span>
+		}else {
+<span class="nc" id="L406">			return pertsona.get(0);</span>
+		}
+	}
+	
+	public Pertsona register(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) throws UserAlreadyExist {
+<span class="nc" id="L411">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
+<span class="nc" id="L412">		TypedQuery&lt;Pertsona&gt; query = db.createQuery(&quot;SELECT p FROM Pertsona p WHERE p.erabiltzaileIzena=?1&quot;, Pertsona.class);</span>
+<span class="nc" id="L413">		query.setParameter(1, erabiltzaileaParts[0]);</span>
+<span class="nc" id="L414">		List&lt;Pertsona&gt; pertsona = query.getResultList();</span>
+<span class="nc bnc" id="L415" title="All 2 branches missed.">		if (!pertsona.isEmpty()) {</span>
+<span class="nc" id="L416">			throw new UserAlreadyExist();</span>
+		} else {
+<span class="nc" id="L418">			Pertsona berria = pertsonaSortu(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="nc" id="L419">			db.getTransaction().begin();</span>
+<span class="nc" id="L420">			db.persist(berria);</span>
+<span class="nc" id="L421">			db.getTransaction().commit();</span>
+<span class="nc" id="L422">			return berria;</span>
+		}
+	}
+	
+	public Pertsona pertsonaSortu(String pertsonaDatuak, String erabiltzailea, String kontaktua, Date jaiotzeData) {
+<span class="nc" id="L427">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
+<span class="nc bnc" id="L428" title="All 2 branches missed.">		if (erabiltzaileaParts[2].equals(&quot;admin&quot;)) {</span>
+<span class="nc" id="L429">			return new Admin(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+<span class="nc bnc" id="L430" title="All 2 branches missed.">		} else if (erabiltzaileaParts[2].equals(&quot;langilea&quot;)) {</span>
+<span class="nc" id="L431">			return new Langilea(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+		} else {
+<span class="nc" id="L433">			return new Bezeroa(pertsonaDatuak, erabiltzailea, kontaktua, jaiotzeData);</span>
+		}
+	}
+	
+	public void createEvent(String description, Date eventDate) throws EventAlreadyExist{
+<span class="nc" id="L438">		TypedQuery&lt;Event&gt; query = db.createQuery(&quot;SELECT e FROM Event e WHERE e.description=?1 AND e.eventDate=?2&quot;, Event.class);</span>
+<span class="nc" id="L439">		query.setParameter(1, description);</span>
+<span class="nc" id="L440">		query.setParameter(2, eventDate);</span>
+<span class="nc" id="L441">		List&lt;Event&gt; gertaera = query.getResultList();</span>
+<span class="nc bnc" id="L442" title="All 2 branches missed.">		if(!gertaera.isEmpty()) {</span>
+<span class="nc" id="L443">			throw new EventAlreadyExist();</span>
+		}else {
+<span class="nc" id="L445">			Event berria = new Event(description, eventDate);</span>
+<span class="nc" id="L446">			db.getTransaction().begin();</span>
+<span class="nc" id="L447">			db.persist(berria);</span>
+<span class="nc" id="L448">			db.getTransaction().commit();</span>
+		}
+
+<span class="nc" id="L451">	}</span>
+
+	public void close() {
+<span class="nc" id="L454">		db.close();</span>
+<span class="nc" id="L455">		System.out.println(&quot;DataBase closed&quot;);</span>
+<span class="nc" id="L456">	}</span>
+	
+	public Vector&lt;Question&gt; getQuestions(Event event) {
+<span class="nc" id="L459">		System.out.println(&quot;&gt;&gt; DataAccess: getQuestions&quot;);</span>
+<span class="nc" id="L460">		Vector&lt;Question&gt; res = new Vector&lt;Question&gt;();</span>
+<span class="nc" id="L461">		TypedQuery&lt;Question&gt; query = db.createQuery(&quot;SELECT q FROM Question q WHERE q.event=?1&quot;, Question.class);</span>
+<span class="nc" id="L462">		query.setParameter(1, event);</span>
+<span class="nc" id="L463">		List&lt;Question&gt; events = query.getResultList();</span>
+<span class="nc bnc" id="L464" title="All 2 branches missed.">		for (Question q : events) {</span>
+<span class="nc" id="L465">			System.out.println(q.toString());</span>
+<span class="nc" id="L466">			res.add(q);</span>
+<span class="nc" id="L467">		}</span>
+<span class="nc" id="L468">		return res;</span>
+	}
+
+	public Pronostikoa createPronostic(Question question, String description, double kuota) throws PronosticAlreadyExist {
+
+<span class="nc" id="L473">		Question q = db.find(Question.class, question.getQuestionNumber());</span>
+		
+<span class="nc bnc" id="L475" title="All 2 branches missed.">		if(q.doesPronosticExists(description))</span>
+<span class="nc" id="L476">			throw new PronosticAlreadyExist();</span>
+
+<span class="nc" id="L478">		db.getTransaction().begin();</span>
+<span class="nc" id="L479">		Pronostikoa p = q.addPronostic(description, kuota);</span>
+<span class="nc" id="L480">		db.persist(q);</span>
+<span class="nc" id="L481">		db.getTransaction().commit();</span>
+<span class="nc" id="L482">		return p;</span>
+
+	}
+	
+	public Vector&lt;Double&gt; emaitzaIpini(Question question, Pronostikoa pronostikoa){
+<span class="nc" id="L487">		Pronostikoa p = </span>
+<span class="nc" id="L488">				db.find(Pronostikoa.class, pronostikoa.getIdentifikadorea());</span>
+<span class="nc" id="L489">		Question q = db.find(Question.class, question.getQuestionNumber());</span>
+<span class="nc" id="L490">		db.getTransaction().begin();</span>
+<span class="nc" id="L491">		q.setResult(pronostikoa.getDeskripzioa());</span>
+<span class="nc" id="L492">		Vector&lt;Apustua&gt; apustuak = p.getApustuak();</span>
+<span class="nc" id="L493">		Vector&lt;Double&gt; em = eguneratuApustuak(apustuak);</span>
+<span class="nc" id="L494">		db.getTransaction().commit();</span>
+<span class="nc" id="L495">		return em;</span>
+	}
+
+	private Vector&lt;Double&gt; eguneratuApustuak(Vector&lt;Apustua&gt; apustuak) {
+		Bezeroa bezeroa;
+<span class="nc" id="L500">		double komisioa,apustuKop=0,irabazia=0;</span>
+		boolean irabazi;
+<span class="nc bnc" id="L502" title="All 2 branches missed.">		for(Apustua a : apustuak) {</span>
+<span class="nc" id="L503">			apustuKop++;</span>
+<span class="nc" id="L504">			irabazi=a.eguneratuAsmatutakoKop();</span>
+<span class="nc" id="L505">			komisioa=0;</span>
+<span class="nc bnc" id="L506" title="All 2 branches missed.">			if(irabazi) {</span>
+<span class="nc" id="L507">				irabazia = apustuaIrabazi(komisioa, a);</span>
+			}
+<span class="nc" id="L509">		}</span>
+<span class="nc" id="L510">		Vector&lt;Double&gt; em = new Vector&lt;Double&gt;();</span>
+<span class="nc" id="L511">		em.add(apustuKop);</span>
+<span class="nc" id="L512">		em.add(irabazia);</span>
+<span class="nc" id="L513">		return em;</span>
+	}
+
+	private double apustuaIrabazi(double komisioa, Apustua a) {
+		Bezeroa bezeroa;
+		double irabazia;
+<span class="nc bnc" id="L519" title="All 2 branches missed.">		if (a.getErrepikatua()!=null) {</span>
+<span class="nc" id="L520">			Bezeroa bez = a.getErrepikatua();</span>
+<span class="nc" id="L521">			bezeroa = a.getBezeroa();</span>
+<span class="nc" id="L522">			Errepikapena errepikapen=bezeroa.getErrepikapena(bez);</span>
+<span class="nc" id="L523">			System.out.println(a.getKopurua()+&quot; &quot;+a.getKuotaTotala()+&quot; &quot;+a.getKopurua()+&quot; &quot;+errepikapen.getKomisioa());</span>
+<span class="nc" id="L524">			komisioa=(a.getKopurua()*a.getKuotaTotala()-a.getKopurua())*errepikapen.getKomisioa();</span>
+<span class="nc" id="L525">			System.out.println(komisioa);</span>
+<span class="nc" id="L526">			bez.addMugimendua(&quot;Apustu errepikatuaren komisioa (&quot;+bezeroa+&quot;)&quot;, komisioa,&quot;irabazi&quot;);</span>
+		}
+<span class="nc" id="L528">		bezeroa=a.getBezeroa();</span>
+<span class="nc" id="L529">		irabazia=a.getKopurua()*a.getKuotaTotala()-komisioa;</span>
+<span class="nc" id="L530">		bezeroa.addMugimendua(&quot;Apustua irabazi (&quot;+a.getIdentifikadorea()+&quot;)&quot;, irabazia, &quot;irabazi&quot;);</span>
+<span class="nc" id="L531">		return irabazia;</span>
+	}
+	
+	public Bezeroa apustuaEgin(ArrayList&lt;Pronostikoa&gt; pronostikoak, double a, Bezeroa bezero) {
+<span class="nc" id="L535">		Bezeroa erabiltzaile = db.find(Bezeroa.class, bezero.getErabiltzaileIzena());</span>
+		Pronostikoa pronos;
+<span class="nc" id="L537">		ArrayList&lt;Pronostikoa&gt; pronostikoSorta = new ArrayList&lt;Pronostikoa&gt;();</span>
+<span class="nc bnc" id="L538" title="All 2 branches missed.">		for(Pronostikoa p : pronostikoak) {</span>
+<span class="nc" id="L539">			pronos = db.find(Pronostikoa.class, p.getIdentifikadorea());</span>
+<span class="nc" id="L540">			pronostikoSorta.add(pronos);</span>
+<span class="nc" id="L541">		}</span>
+<span class="nc" id="L542">		db.getTransaction().begin();</span>
+<span class="nc" id="L543">		Apustua apus = erabiltzaile.addApustua(pronostikoSorta, a, null);</span>
+<span class="nc bnc" id="L544" title="All 2 branches missed.">		for(Pronostikoa p : pronostikoSorta) {</span>
+<span class="nc" id="L545">			p.addApustua(apus);</span>
+<span class="nc" id="L546">		}</span>
+<span class="nc" id="L547">		db.persist(apus);</span>
+		
+<span class="nc" id="L549">		errepApostuaEgin(pronostikoSorta, erabiltzaile, a, apus);</span>
+<span class="nc" id="L550">		erabiltzaile.addMugimendua(&quot;Apustua egin &quot;, -a, &quot;jokatu&quot;);</span>
+<span class="nc" id="L551">		db.getTransaction().commit();</span>
+<span class="nc" id="L552">		return erabiltzaile;</span>
+	}
+	
+	public void errepApostuaEgin(ArrayList&lt;Pronostikoa&gt; pronostikoSorta, Bezeroa erabiltzaile, double a, Apustua apus) {
+<span class="nc" id="L556">		Vector&lt;Errepikapena&gt; jarraitzaile=erabiltzaile.getErrepikatzaileak();</span>
+<span class="nc bnc" id="L557" title="All 2 branches missed.">		for(Errepikapena er: jarraitzaile) {</span>
+<span class="nc" id="L558">			double apustudiru=0;</span>
+<span class="nc bnc" id="L559" title="All 2 branches missed.">			if (er.getHilabeteHonetanGeratzenDena()&gt;0) {</span>
+<span class="nc" id="L560">				apustudiru = Math.min(er.getHilabeteHonetanGeratzenDena(), er.getApustatukoDena()*a);</span>
+<span class="nc bnc" id="L561" title="All 2 branches missed.">				if (er.getNork().getDirua() &gt;= apustudiru) {</span>
+<span class="nc" id="L562">					Apustua apustu = er.getNork().addApustua(pronostikoSorta, apustudiru, erabiltzaile);</span>
+<span class="nc bnc" id="L563" title="All 2 branches missed.">					for (Pronostikoa p : pronostikoSorta) {</span>
+<span class="nc" id="L564">						p.addApustua(apustu);</span>
+<span class="nc" id="L565">					}</span>
+<span class="nc" id="L566">					er.getNork().addMugimendua(&quot;Apustu errepikatua egin (&quot;+erabiltzaile+&quot;)&quot;, -apustudiru, &quot;jokatu&quot;);</span>
+<span class="nc" id="L567">					er.eguneratuHilHonetanGeratzenDena(-apustudiru);</span>
+<span class="nc" id="L568">					db.persist(apus);</span>
+				}
+			}
+<span class="nc" id="L571">		}</span>
+<span class="nc" id="L572">	}</span>
+
+	public Bezeroa deleteApustua(Apustua apustua) throws EventFinished {
+<span class="nc" id="L575">		db.getTransaction().begin();</span>
+<span class="nc" id="L576">		Apustua a = db.find(Apustua.class, apustua.getIdentifikadorea());</span>
+<span class="nc" id="L577">		ArrayList&lt;Pronostikoa&gt; pronostikoak = a.getPronostikoak();</span>
+<span class="nc" id="L578">		Date today = new Date();</span>
+<span class="nc bnc" id="L579" title="All 2 branches missed.">		for (Pronostikoa p : pronostikoak) {</span>
+<span class="nc" id="L580">			Date eventDate = p.getQuestion().getEvent().getEventDate();</span>
+<span class="nc bnc" id="L581" title="All 2 branches missed.">			if (!eventDate.after(today)) {</span>
+<span class="nc" id="L582">				throw new EventFinished();</span>
+			}
+<span class="nc" id="L584">		}</span>
+<span class="nc" id="L585">		Bezeroa bezeroa = a.getBezeroa();</span>
+<span class="nc" id="L586">		bezeroa.removeApustua(a);</span>
+<span class="nc" id="L587">		ezabatuApustua(a, pronostikoak, bezeroa);</span>
+<span class="nc" id="L588">		ezabatuErrepikatuak(a, bezeroa);</span>
+<span class="nc" id="L589">		db.remove(a);</span>
+<span class="nc" id="L590">		db.getTransaction().commit();</span>
+<span class="nc" id="L591">		return bezeroa;</span>
+	}
+
+	private void ezabatuErrepikatuak(Apustua a, Bezeroa bezeroa) {
+<span class="nc" id="L595">		Vector&lt;Errepikapena&gt; errepikatzaileak = bezeroa.getErrepikatzaileak();</span>
+<span class="nc bnc" id="L596" title="All 2 branches missed.">		for (Errepikapena er : errepikatzaileak) {</span>
+<span class="nc" id="L597">			Bezeroa bez = er.getNork();</span>
+<span class="nc" id="L598">			Apustua apusErr = bez.baduApustua(a);</span>
+<span class="nc bnc" id="L599" title="All 2 branches missed.">			if (apusErr != null) {</span>
+<span class="nc" id="L600">				bez.removeApustua(apusErr);</span>
+<span class="nc" id="L601">				bez.addMugimendua(&quot;Apustu errepikatua ezabatu (&quot; + bezeroa + &quot;)&quot;, apusErr.getKopurua(), &quot;bueltatu&quot;);</span>
+<span class="nc bnc" id="L602" title="All 2 branches missed.">				for (Pronostikoa p : apusErr.getPronostikoak()) {</span>
+<span class="nc" id="L603">					p.removeApustua(apusErr);</span>
+<span class="nc" id="L604">				}</span>
+<span class="nc" id="L605">				er.eguneratuHilHonetanGeratzenDena(apusErr.getKopurua());</span>
+<span class="nc" id="L606">				db.remove(apusErr);</span>
+			}
+<span class="nc" id="L608">		}</span>
+<span class="nc" id="L609">	}</span>
+
+	private void ezabatuApustua(Apustua a, ArrayList&lt;Pronostikoa&gt; pronostikoak, Bezeroa bezeroa) {
+<span class="nc bnc" id="L612" title="All 2 branches missed.">		if (a.getErrepikatua() != null) {</span>
+<span class="nc" id="L613">			Errepikapena errepikapen = bezeroa.getErrepikapena(a.getErrepikatua());</span>
+<span class="nc" id="L614">			errepikapen.eguneratuHilHonetanGeratzenDena(a.getKopurua());</span>
+		}
+<span class="nc" id="L616">		bezeroa.addMugimendua(&quot;Apustua ezabatu (&quot; + a.getIdentifikadorea() + &quot;)&quot;, a.getKopurua(), &quot;bueltatu&quot;);</span>
+<span class="nc bnc" id="L617" title="All 2 branches missed.">		for (Pronostikoa p : pronostikoak) {</span>
+<span class="nc" id="L618">			p.removeApustua(a);</span>
+<span class="nc" id="L619">		}</span>
+<span class="nc" id="L620">	}</span>
+	
+	public Bezeroa diruaSartu(double u, Bezeroa bezeroa) {
+<span class="nc" id="L623">		db.getTransaction().begin();</span>
+<span class="nc" id="L624">		Bezeroa erabiltzaile = db.find(Bezeroa.class, bezeroa.getErabiltzaileIzena());</span>
+<span class="nc" id="L625">		erabiltzaile.addMugimendua(&quot;Bankuko diru-sarrera&quot;, u, &quot;bankua&quot;);</span>
+<span class="nc" id="L626">		db.persist(erabiltzaile);</span>
+<span class="nc" id="L627">		db.getTransaction().commit();</span>
+<span class="nc" id="L628">		return erabiltzaile;</span>
+	}
+	
+	public void ezabatuGertaera(Event event) {
+		Bezeroa bezeroa;
+		int x;
+<span class="nc" id="L634">		Event e = db.find(Event.class, event.getEventNumber());</span>
+<span class="nc" id="L635">		db.getTransaction().begin();</span>
+<span class="nc bnc" id="L636" title="All 2 branches missed.">		for (Question question : e.getQuestions()) {</span>
+<span class="nc bnc" id="L637" title="All 2 branches missed.">			for (Pronostikoa pronostic : question.getPronostics()) {</span>
+<span class="nc bnc" id="L638" title="All 2 branches missed.">				for (Apustua bet : pronostic.getApustuak()) {</span>
+<span class="nc" id="L639">					ezabatuPronostikoa(pronostic, bet);</span>
+<span class="nc" id="L640">				}</span>
+<span class="nc" id="L641">			}</span>
+<span class="nc" id="L642">		}</span>
+<span class="nc" id="L643">		db.remove(e);</span>
+<span class="nc" id="L644">		db.getTransaction().commit();</span>
+<span class="nc" id="L645">		Apustua a = db.find(Apustua.class, 53);</span>
+<span class="nc" id="L646">		System.out.println(a);</span>
+<span class="nc" id="L647">	}</span>
+
+	private void ezabatuPronostikoa(Pronostikoa pronostic, Apustua bet) {
+		int x;
+<span class="nc" id="L651">		x = bet.removePronostikoa(pronostic);</span>
+<span class="nc bnc" id="L652" title="All 2 branches missed.">		if (x == 0) {</span>
+<span class="nc" id="L653">			itzuliMugimendua(bet);</span>
+<span class="nc bnc" id="L654" title="All 2 branches missed.">		} else if (bet.getAsmatutakoKop().equals(bet.getPronostikoKop())) {</span>
+<span class="nc" id="L655">			irabaziMugimendua(bet);</span>
+		}
+<span class="nc" id="L657">		System.out.println(bet.getPronostikoak() + &quot;  berrize&quot;);</span>
+<span class="nc" id="L658">	}</span>
+
+	private void irabaziMugimendua(Apustua bet) {
+		Bezeroa bezeroa;
+<span class="nc" id="L662">		double komisioa = 0;</span>
+<span class="nc bnc" id="L663" title="All 2 branches missed.">		if (bet.getErrepikatua() != null) {</span>
+<span class="nc" id="L664">			Bezeroa bez = bet.getErrepikatua();</span>
+<span class="nc" id="L665">			bezeroa = bet.getBezeroa();</span>
+<span class="nc" id="L666">			Errepikapena errepikapen = bezeroa.getErrepikapena(bez);</span>
+<span class="nc" id="L667">			komisioa = (bet.getKopurua() * bet.getKuotaTotala() - bet.getKopurua()) * errepikapen.getKomisioa();</span>
+<span class="nc" id="L668">			bez.addMugimendua(&quot;Apustu errepikatuaren komisioa (&quot; + bezeroa + &quot;)&quot;, komisioa, &quot;irabazi&quot;);</span>
+		}
+<span class="nc" id="L670">		bezeroa = bet.getBezeroa();</span>
+<span class="nc" id="L671">		double irabazia = bet.getKopurua() * bet.getKuotaTotala() - komisioa;</span>
+<span class="nc" id="L672">		bezeroa.addMugimendua(&quot;Apustua irabazi (&quot; + bet.getIdentifikadorea() + &quot;)&quot;, irabazia, &quot;irabazi&quot;);</span>
+<span class="nc" id="L673">	}</span>
+
+	private void itzuliMugimendua(Apustua bet) {
+		Bezeroa bezeroa;
+<span class="nc" id="L677">		bezeroa = bet.getBezeroa();</span>
+<span class="nc bnc" id="L678" title="All 2 branches missed.">		if (bet.getErrepikatua() != null) {</span>
+<span class="nc" id="L679">			Bezeroa erre = bet.getErrepikatua();</span>
+<span class="nc" id="L680">			Errepikapena er = bezeroa.getErrepikapena(erre);</span>
+<span class="nc" id="L681">			er.eguneratuHilHonetanGeratzenDena(bet.getKopurua());</span>
+		}
+<span class="nc" id="L683">		bezeroa.addMugimendua(&quot;Apustuaren dirua itzuli (&quot; + bet.getIdentifikadorea() + &quot;)&quot;, bet.getKopurua(),</span>
+				&quot;bueltatu&quot;);
+<span class="nc" id="L685">		bezeroa.removeApustua(bet);</span>
+<span class="nc" id="L686">		db.remove(bet);</span>
+<span class="nc" id="L687">	}</span>
+	
+	public Bezeroa getBezeroa(String ErabiltzaileIzena) {
+<span class="nc" id="L690">		Bezeroa erabiltzaile = db.find(Bezeroa.class, ErabiltzaileIzena);</span>
+<span class="nc" id="L691">		return erabiltzaile;</span>
+	}
+	
+	public Langilea getLangilea(String ErabiltzaileIzena) {
+<span class="nc" id="L695">		Langilea erabiltzaile = db.find(Langilea.class, ErabiltzaileIzena);</span>
+<span class="nc" id="L696">		return erabiltzaile;</span>
+	}
+	
+	public Vector&lt;Bezeroa&gt; getBezeroak(String username, Bezeroa bezeroa){
+<span class="nc" id="L700">		Bezeroa erabiltzaile = db.find(Bezeroa.class, bezeroa.getErabiltzaileIzena());</span>
+<span class="nc" id="L701">		Vector&lt;Bezeroa&gt; res = new Vector&lt;Bezeroa&gt;();</span>
+<span class="nc" id="L702">		TypedQuery&lt;Bezeroa&gt; query = db.createQuery(&quot;SELECT b FROM Bezeroa b&quot;, Bezeroa.class);</span>
+<span class="nc" id="L703">		List&lt;Bezeroa&gt; bezeroak = query.getResultList();</span>
+<span class="nc bnc" id="L704" title="All 2 branches missed.">		for (Bezeroa b : bezeroak) {</span>
+<span class="nc bnc" id="L705" title="All 10 branches missed.">			if(b.isPublikoa() &amp;&amp; !b.getErabiltzaileIzena().equals(erabiltzaile.getErabiltzaileIzena()) &amp;&amp; b.getErabiltzaileIzena().contains(username) &amp;&amp; !erabiltzaile.baduMezua(b) &amp;&amp; !erabiltzaile.errepikapenErlazioaDu(b)) {</span>
+<span class="nc" id="L706">				res.add(b);</span>
+			}
+<span class="nc" id="L708">		}</span>
+<span class="nc" id="L709">		return res;</span>
+	}
+	
+	public Bezeroa bidaliMezua(Bezeroa nork, Bezeroa nori, String mezua, List&lt;Double&gt; zenbakiParametroak) {
+		
+<span class="nc" id="L714">		String[] mezuaParts = mezua.split(&quot; &quot;);</span>
+		
+<span class="nc" id="L716">		Bezeroa igorlea = db.find(Bezeroa.class, nork.getErabiltzaileIzena());</span>
+<span class="nc" id="L717">		Bezeroa hartzailea = db.find(Bezeroa.class, nori.getErabiltzaileIzena());</span>
+<span class="nc" id="L718">		db.getTransaction().begin();</span>
+<span class="nc" id="L719">		BezeroartekoMezua mezuBerria = igorlea.addBidalitakoBezeroMezua(nori, mezuaParts[0], mezuaParts[1], mezuaParts[2], zenbakiParametroak.get(0), zenbakiParametroak.get(1), zenbakiParametroak.get(2));</span>
+<span class="nc" id="L720">		hartzailea.addJasotakoBezeroMezua(mezuBerria);</span>
+<span class="nc" id="L721">		db.persist(mezuBerria);</span>
+<span class="nc" id="L722">		db.getTransaction().commit();</span>
+<span class="nc" id="L723">		return igorlea;</span>
+    }
+	
+	public void errepikatu(Bezeroa nork, Bezeroa nori, double apustatukoDena, double hilabetekoMax, double komisioa){
+<span class="nc" id="L727">		Bezeroa errepikatzailea = db.find(Bezeroa.class, nork.getErabiltzaileIzena());</span>
+<span class="nc" id="L728">		Bezeroa errepikatua = db.find(Bezeroa.class, nori.getErabiltzaileIzena());</span>
+<span class="nc" id="L729">		db.getTransaction().begin();</span>
+<span class="nc" id="L730">		Errepikapena errepikapenBerria = errepikatua.addErrepikatzailea(nork, apustatukoDena, hilabetekoMax, komisioa);</span>
+<span class="nc" id="L731">		errepikatzailea.addErrepikatua(errepikapenBerria);</span>
+<span class="nc" id="L732">		db.persist(errepikapenBerria);</span>
+<span class="nc" id="L733">		db.getTransaction().commit();</span>
+<span class="nc" id="L734">	}</span>
+	
+	public Vector&lt;Mezua&gt; getMezuak(Bezeroa bezeroa){
+<span class="nc" id="L737">		Bezeroa erabiltzailea = db.find(Bezeroa.class, bezeroa.getErabiltzaileIzena());</span>
+<span class="nc" id="L738">		return erabiltzailea.getMezuak();</span>
+	}
+	
+	public void mezuaIrakurri(Mezua mezua) {
+<span class="nc" id="L742">		Mezua m = db.find(Mezua.class, mezua.getIdentifikadorea());</span>
+<span class="nc" id="L743">		db.getTransaction().begin();</span>
+<span class="nc" id="L744">		m.setIrakurrita(true);</span>
+<span class="nc" id="L745">		db.getTransaction().commit();</span>
+<span class="nc" id="L746">	}</span>
+	
+	public void removeMezua(Mezua mezua) {
+<span class="nc bnc" id="L749" title="All 2 branches missed.">		if(mezua instanceof BezeroartekoMezua) {</span>
+<span class="nc" id="L750">			BezeroartekoMezua m = db.find(BezeroartekoMezua.class, mezua.getIdentifikadorea());</span>
+<span class="nc" id="L751">			Bezeroa nork = m.getIgorlea();</span>
+<span class="nc" id="L752">			Bezeroa nori = m.getHartzailea();</span>
+<span class="nc" id="L753">			db.getTransaction().begin();</span>
+<span class="nc" id="L754">			nork.ezabatuBidalitakoBezeroMezua(m);</span>
+<span class="nc" id="L755">			nori.ezabatuJasotakoBezeroMezua(m);</span>
+<span class="nc" id="L756">			db.remove(m);</span>
+<span class="nc" id="L757">			db.getTransaction().commit();</span>
+<span class="nc" id="L758">		}else {</span>
+<span class="nc" id="L759">			ArretaMezua m = db.find(ArretaMezua.class, mezua.getIdentifikadorea());</span>
+<span class="nc" id="L760">			ArretaElkarrizketa elkarrizketa = m.getElkarrizketa();</span>
+<span class="nc" id="L761">			db.getTransaction().begin();</span>
+<span class="nc bnc" id="L762" title="All 2 branches missed.">			if(elkarrizketa.isAmaituta()) {</span>
+<span class="nc" id="L763">				elkarrizketa.removeMezua(m);</span>
+<span class="nc" id="L764">				db.remove(m);</span>
+<span class="nc bnc" id="L765" title="All 2 branches missed.">				if(elkarrizketa.mezurikEz()) {</span>
+<span class="nc" id="L766">					db.remove(elkarrizketa);</span>
+				}
+			}else {
+<span class="nc" id="L769">				m.setIkusgaiBezeroarentzat(false);</span>
+			}
+<span class="nc" id="L771">			db.getTransaction().commit();</span>
+		}
+<span class="nc" id="L773">    }</span>
+	
+	public Bezeroa eguneratuEzarpenak(Bezeroa b, double komisioa, boolean publikoa) {
+<span class="nc" id="L776">		Bezeroa erabiltzailea = db.find(Bezeroa.class, b.getErabiltzaileIzena());</span>
+<span class="nc" id="L777">		db.getTransaction().begin();</span>
+<span class="nc" id="L778">		erabiltzailea.eguneratuEzarpenak(publikoa, komisioa);</span>
+<span class="nc" id="L779">		db.getTransaction().commit();</span>
+<span class="nc" id="L780">		return erabiltzailea;</span>
+	}
+	
+	public Vector&lt;PronostikoaContainer&gt; getPronostikoak(Apustua a){
+<span class="nc" id="L784">		Apustua ap = db.find(Apustua.class, a.getIdentifikadorea());</span>
+<span class="nc" id="L785">		ArrayList&lt;Pronostikoa&gt; pronostikoak = ap.getPronostikoak();</span>
+<span class="nc" id="L786">		Vector&lt;PronostikoaContainer&gt; emaitza = new Vector&lt;PronostikoaContainer&gt;();</span>
+<span class="nc bnc" id="L787" title="All 2 branches missed.">		for(Pronostikoa p : pronostikoak) {</span>
+<span class="nc" id="L788">			emaitza.add(new PronostikoaContainer(p));</span>
+<span class="nc" id="L789">		}</span>
+<span class="nc" id="L790">		return emaitza;</span>
+	}
+	
+	public ArretaElkarrizketa arretaElkarrizketaSortu(Bezeroa bezeroa, String gaia, String mezua) {
+<span class="nc" id="L794">		Bezeroa erabiltzailea = db.find(Bezeroa.class, bezeroa.getErabiltzaileIzena());</span>
+<span class="nc" id="L795">		db.getTransaction().begin();</span>
+<span class="nc" id="L796">		ArretaElkarrizketa elkarrizketa = erabiltzailea.addElkarrizketa(gaia);</span>
+<span class="nc" id="L797">		elkarrizketa.addMezua(mezua, true);</span>
+<span class="nc" id="L798">		db.persist(elkarrizketa);</span>
+<span class="nc" id="L799">		db.getTransaction().commit();</span>
+<span class="nc" id="L800">		return elkarrizketa;</span>
+	}
+	
+	public ArretaElkarrizketa arretaMezuaBidali(ArretaElkarrizketa elkarrizketa, String mezua, boolean langileari) {
+<span class="nc" id="L804">		ArretaElkarrizketa elkar = db.find(ArretaElkarrizketa.class, elkarrizketa.getIdentifikadorea());</span>
+<span class="nc" id="L805">		db.getTransaction().begin();</span>
+<span class="nc" id="L806">		elkar.addMezua(mezua, langileari);</span>
+<span class="nc" id="L807">		db.getTransaction().commit();</span>
+<span class="nc" id="L808">		return elkar;</span>
+	}
+	
+	public ArretaElkarrizketa bezeroaEsleitu(Langilea langilea) {
+<span class="nc" id="L812">		TypedQuery&lt;ArretaElkarrizketa&gt; query = db.createQuery(&quot;SELECT ae FROM ArretaElkarrizketa ae WHERE ae.langilea IS NULL AND ae.amaituta=false&quot;, ArretaElkarrizketa.class);</span>
+<span class="nc" id="L813">		List&lt;ArretaElkarrizketa&gt; elkarrizketak = query.getResultList();</span>
+<span class="nc bnc" id="L814" title="All 2 branches missed.">		if(elkarrizketak.isEmpty()) {</span>
+<span class="nc" id="L815">			return null;</span>
+		}
+<span class="nc" id="L817">		Langilea l = db.find(Langilea.class, langilea.getErabiltzaileIzena());</span>
+<span class="nc" id="L818">		db.getTransaction().begin();</span>
+<span class="nc" id="L819">	    ArretaElkarrizketa elkarrizketa = elkarrizketak.get(0);</span>
+<span class="nc" id="L820">	    elkarrizketa.setLangilea(l);</span>
+<span class="nc" id="L821">		l.addElkarrizketa(elkarrizketa);</span>
+<span class="nc" id="L822">		db.getTransaction().commit();</span>
+<span class="nc" id="L823">		return elkarrizketa;</span>
+	}
+	
+	public BezeroaContainer getBezeroaContainer(Bezeroa b){
+<span class="nc" id="L827">		Bezeroa bezeroa = db.find(Bezeroa.class, b.getErabiltzaileIzena());</span>
+<span class="nc" id="L828">		return new BezeroaContainer(bezeroa);</span>
+	}
+	
+	public void geldituElkarrizketa(ArretaElkarrizketa ae) {
+<span class="nc" id="L832">		ArretaElkarrizketa elkar = db.find(ArretaElkarrizketa.class, ae.getIdentifikadorea());</span>
+<span class="nc" id="L833">		db.getTransaction().begin();</span>
+<span class="nc" id="L834">		elkar.gelditu();</span>
+<span class="nc" id="L835">		db.getTransaction().commit();</span>
+<span class="nc" id="L836">	}</span>
+	
+	public void amaituElkarrizketa(ArretaElkarrizketa ae) {
+<span class="nc" id="L839">		ArretaElkarrizketa elkar = db.find(ArretaElkarrizketa.class, ae.getIdentifikadorea());</span>
+<span class="nc" id="L840">		db.getTransaction().begin();</span>
+<span class="nc bnc" id="L841" title="All 2 branches missed.">		for(ArretaMezua am : elkar.getBezeroakBidalitakoak()) {</span>
+<span class="nc" id="L842">			db.remove(am);</span>
+<span class="nc" id="L843">		}</span>
+<span class="nc" id="L844">		elkar.getLangilea().removeElkarrizketa(elkar);</span>
+<span class="nc bnc" id="L845" title="All 2 branches missed.">		for(ArretaMezua am : elkar.getLangileakBidalitakoak()) {</span>
+<span class="nc bnc" id="L846" title="All 2 branches missed.">			if(!am.isIkusgaiBezeroarentzat()) {</span>
+<span class="nc" id="L847">				db.remove(am);</span>
+			}else {
+<span class="nc" id="L849">				am.setIrakurrita(true);</span>
+			}
+<span class="nc" id="L851">		}</span>
+<span class="nc" id="L852">		ArretaMezua m = elkar.addMezua(&quot;&quot;, false);</span>
+<span class="nc" id="L853">		m.setAzkena(true);</span>
+<span class="nc" id="L854">		elkar.setAmaituta(true);</span>
+<span class="nc" id="L855">		db.getTransaction().commit();</span>
+<span class="nc" id="L856">	}</span>
+	
+	public void gehituPuntuazioa(ArretaElkarrizketa l, Integer x) {
+<span class="nc" id="L859">		ArretaElkarrizketa arretaElkarrizketa = db.find(ArretaElkarrizketa.class, l.getIdentifikadorea());</span>
+<span class="nc" id="L860">		Langilea langilea = arretaElkarrizketa.getLangilea();</span>
+<span class="nc" id="L861">		db.getTransaction().begin();</span>
+<span class="nc" id="L862">		langilea.addBalorazioa(x);</span>
+<span class="nc" id="L863">		db.getTransaction().commit();</span>
+<span class="nc" id="L864">	}</span>
+	
+	public void eguneratuErrepikapenak() {
+<span class="nc" id="L867">		TypedQuery&lt;Errepikapena&gt; query = db.createQuery(&quot;SELECT e FROM Errepikapena e&quot;, Errepikapena.class);</span>
+<span class="nc" id="L868">		List&lt;Errepikapena&gt; lista=query.getResultList();</span>
+<span class="nc" id="L869">		db.getTransaction().begin();</span>
+<span class="nc bnc" id="L870" title="All 2 branches missed.">		for (Errepikapena i: lista) {</span>
+<span class="nc" id="L871">				i.setHilHonetanGeratzenDena(i.getHilabetekoMax());</span>
+<span class="nc" id="L872">		}</span>
+<span class="nc" id="L873">		db.getTransaction().commit();</span>
+<span class="nc" id="L874">	}</span>
+	
+	public Vector&lt;Langilea&gt; getLangileak() {
+<span class="nc" id="L877">		Vector&lt;Langilea&gt; langileak = new Vector&lt;Langilea&gt;();</span>
+<span class="nc" id="L878">		TypedQuery&lt;Langilea&gt; query = db.createQuery(&quot;SELECT l FROM Langilea l&quot;, Langilea.class);</span>
+<span class="nc" id="L879">		List&lt;Langilea&gt; list = query.getResultList();</span>
+<span class="nc bnc" id="L880" title="All 2 branches missed.">		for (Langilea l : list) {</span>
+<span class="nc" id="L881">			langileak.add(l);</span>
+<span class="nc" id="L882">		}</span>
+<span class="nc" id="L883">		return langileak;</span>
+	}
+	
+	public ArrayList&lt;ErrepikatuakContainer&gt; getErrepikatzaileak(Bezeroa bezeroa) {
+<span class="nc" id="L887">		ArrayList&lt;ErrepikatuakContainer&gt; emaitza = new ArrayList&lt;ErrepikatuakContainer&gt;();</span>
+<span class="nc" id="L888">		Bezeroa erabiltzailea = db.find(Bezeroa.class, bezeroa.getErabiltzaileIzena());</span>
+<span class="nc" id="L889">		Vector&lt;Errepikapena&gt; mezuak = erabiltzailea.getErrepikatzaileak();</span>
+		ErrepikatuakContainer x;
+
+<span class="nc bnc" id="L892" title="All 2 branches missed.">		for (Errepikapena m : mezuak) {</span>
+<span class="nc" id="L893">			x = new ErrepikatuakContainer(m);</span>
+<span class="nc" id="L894">			emaitza.add(x);</span>
+<span class="nc" id="L895">		}</span>
+<span class="nc" id="L896">		return emaitza;</span>
+	}
+
+	public ArrayList&lt;ErrepikatuakContainer&gt; getErrepikapenak(Bezeroa bezeroa) {
+<span class="nc" id="L900">		ArrayList&lt;ErrepikatuakContainer&gt; emaitza = new ArrayList&lt;ErrepikatuakContainer&gt;();</span>
+<span class="nc" id="L901">		Bezeroa erabiltzailea = db.find(Bezeroa.class, bezeroa.getErabiltzaileIzena());</span>
+<span class="nc" id="L902">		Vector&lt;Errepikapena&gt; mezuak = erabiltzailea.getErrepikatuak();</span>
+		ErrepikatuakContainer x;
+
+<span class="nc bnc" id="L905" title="All 2 branches missed.">		for (Errepikapena m : mezuak) {</span>
+<span class="nc" id="L906">			x = new ErrepikatuakContainer(m);</span>
+<span class="nc" id="L907">			emaitza.add(x);</span>
+<span class="nc" id="L908">		}</span>
+<span class="nc" id="L909">		return emaitza;</span>
+	}
+
+	public void jarraitzeariUtzi(Errepikapena errepikapena) {
+<span class="nc" id="L913">		Errepikapena e = db.find(Errepikapena.class, errepikapena.getIdentifikadorea());</span>
+<span class="nc" id="L914">		Bezeroa nork = e.getNork();</span>
+<span class="nc" id="L915">		Bezeroa nori = e.getNori();</span>
+<span class="nc" id="L916">		db.getTransaction().begin();</span>
+<span class="nc" id="L917">		nork.ezabatuErrepikatua(e);</span>
+<span class="nc" id="L918">		nori.ezabatuErrepikatzailea(e);</span>
+<span class="nc" id="L919">		db.remove(e);</span>
+<span class="nc" id="L920">		db.getTransaction().commit();</span>
+<span class="nc" id="L921">	}</span>
+	
+	public ArretaElkarrizketa getArretaElkarrizketa(ArretaElkarrizketa ae) {
+<span class="nc" id="L924">		ArretaElkarrizketa emaitza = db.find(ArretaElkarrizketa.class, ae.getIdentifikadorea());</span>
+<span class="nc" id="L925">		return emaitza;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

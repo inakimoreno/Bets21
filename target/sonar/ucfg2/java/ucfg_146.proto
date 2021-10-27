@@ -1,0 +1,88 @@
+
+Rgui.PostontziaGUI#getElkarrizketa(Ldomain/ArretaMezua;)Ldomain/ArretaElkarrizketa;M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaı ı(+"7*
+2M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaş ş(€
+~
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaş ş(
+aedomain.ArretaElkarrizketa"__id*
+""¡
+
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaş ş(
+aedomain.ArretaElkarrizketa"
+__arrayGet*
+
+%0java.util.Vector*
+""*
+6
+1*ò
+3M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(y
+w
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
+amdomain.ArretaMezua"__id*
+""š
+—
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
+amdomain.ArretaMezua"
+__arrayGet*
+
+%1java.util.Vector*
+""*
+2
+5*Æ
+4M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.java ("r
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.java (!
+
+aedomain.ArretaElkarrizketa*ê
+5M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.java€ €(	ÓĞ
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.java€ €(
+%2java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
+
+amdomain.ArretaMezua2getIdentifikadorea()ÒÏ
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.java€& €(<
+%3java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
+
+mdomain.ArretaMezua2getIdentifikadorea()âß
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.java€ €(=
+%4boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.Integer*
+
+%3java.lang.Integer2equals(Ljava/lang/Object;)*
+3
+4*Ë
+6M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(ñî
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(5
+%1java.util.Vector"Fdomain.ArretaElkarrizketa#getLangileakBidalitakoak()Ljava/util/Vector;*!
+
+aedomain.ArretaElkarrizketa2getLangileakBidalitakoak()*
+3*ô
+7M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaş ş(+š
+—
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.javaş ş(+
+%0java.util.Vector"__id*(*&
+gui.PostontziaGUI"
+elkarrizketak*
+2*«
+1M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.java…	 …("W
+M
+A/users/958101/Desktop/Bets21/src/main/java/gui/PostontziaGUI.java… …(
+"":
+mdomain.ArretaMezuaB
+gui.PostontziaGUI

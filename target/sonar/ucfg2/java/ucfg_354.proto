@@ -1,0 +1,89 @@
+
+cbusinessLogic.BLFacadeImplementation#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Pertsona;`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè è("startingBlock*®
+startingBlock`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè è(Gπ
+∂
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaé é(
+%6"
+__annotate*
+javax.jws.WebMethod*'
+%
+erabiltzaileIzenajava.lang.String¢
+ü
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè# è(4%
+erabiltzaileIzenajava.lang.String"__annotation*
+
+%6±
+Æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaé é(
+%7"
+__annotate*
+javax.jws.WebMethod*
+
+	pasahitzajava.lang.Stringö
+ó
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè= è(F
+	pasahitzajava.lang.String"__annotation*
+
+%7*
+1*ƒ
+1`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¡æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÍÁ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(D
+%3domain.Pertsona"TdataAccess.DataAccess#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Pertsona;*
+
+%2dataAccess.DataAccess*'
+%
+erabiltzaileIzenajava.lang.String*
+
+	pasahitzajava.lang.String2-isLogin(Ljava/lang/String;Ljava/lang/String;)†
+ù
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(E
+emaitzadomain.Pertsona"__id*
+
+%3domain.Pertsona¡
+æ
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí í(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerπ∂
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí í(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"Ä
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaì ì(
+
+emaitzadomain.Pertsona:%
+erabiltzaileIzenajava.lang.String:
+	pasahitzajava.lang.StringB(&
+$businessLogic.BLFacadeImplementation

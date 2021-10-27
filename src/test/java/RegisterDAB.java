@@ -17,25 +17,27 @@ public class RegisterDAB {
 
 	private static boolean setUpDone = false;
 	
-	static DataAccess sut = new DataAccess(true);
+	DataAccess sut = new DataAccess(true);
 	
-	static TestDataAccess testDA = new TestDataAccess();
+	TestDataAccess testDA = new TestDataAccess();
 	
 	private Date date = UtilDate.newDate(1990,10,10);
 	private Pertsona usr = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",
 			"666666666 antxon@gmail.com", date);
+	private Pertsona temp = new Admin("Aitor Paredes Zatarain", "Admin aaaaaaaa", "666666666 Admindb.@gmail.com", date);
 	
-	/*@Before
+	@Before
 	public void dbInit() {
 		if (setUpDone == true) {
 			return;
 		}
 		testDA.open();
-		testDA.addUser(new Admin("Aitor Paredes Zatarain", "Admin aaaaaaaa", "666666666 Admindb.@gmail.com", date));
+		testDA.removeUser(temp);
+		testDA.addUser(temp);
 		testDA.close();
 		setUpDone = true;
 	}
-	*/
+	
 	@Test
 	public void test1() {
 		
@@ -52,11 +54,11 @@ public class RegisterDAB {
 		assertEquals(newUser.getErabiltzaileIzena(),dbUser.getErabiltzaileIzena());
 		
 		} catch (Exception e) {
-			e.printStackTrace();
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 		
@@ -77,11 +79,12 @@ public class RegisterDAB {
 		assertEquals(newUser.getErabiltzaileIzena(),dbUser.getErabiltzaileIzena());
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -102,11 +105,12 @@ public class RegisterDAB {
 		assertEquals(newUser.getErabiltzaileIzena(),dbUser.getErabiltzaileIzena());
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -124,11 +128,12 @@ public class RegisterDAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -146,11 +151,12 @@ public class RegisterDAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -168,11 +174,12 @@ public class RegisterDAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -190,8 +197,13 @@ public class RegisterDAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
+		} finally {
+			testDA.open();
+			testDA.removeUser(temp);
+			testDA.close();
+			
 		}
 	}
 	
@@ -208,11 +220,12 @@ public class RegisterDAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -229,11 +242,12 @@ public class RegisterDAB {
 				"null antxon@gmail.com", date);
 		assertNull(newUser);
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -251,11 +265,12 @@ public class RegisterDAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -273,11 +288,12 @@ public class RegisterDAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -295,11 +311,12 @@ public class RegisterDAB {
 		assertNull(newUser);
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -318,11 +335,12 @@ public class RegisterDAB {
 		assertNull(newUser);	
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(newUser);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}
@@ -341,11 +359,12 @@ public class RegisterDAB {
 		} catch (UserAlreadyExist e) {
 			assertTrue(true);
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			fail();
 		} finally {
 			testDA.open();
 			testDA.removeUser(usr);
+			testDA.removeUser(temp);
 			testDA.close();
 		}
 	}

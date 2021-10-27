@@ -1,0 +1,67 @@
+
+2gui.ApustuaEginGUI#hartutaDago(Ldomain/Question;)ZN
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.java‰ ‰("5*ˆ
+2N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÂ Â(y
+w
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÂ Â(
+pdomain.Pronostikoa"__id*
+""ù
+ö
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÂ Â(
+pdomain.Pronostikoa"
+__arrayGet*
+
+%0java.util.ArrayList*
+""*
+4
+1*≠
+3N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÁ Á("X
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÁ Á(
+""*ª
+4N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÊ Ê(«ƒ
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÊ Ê(
+%1domain.Question"1domain.Pronostikoa#getQuestion()Ldomain/Question;*
+
+pdomain.Pronostikoa2getQuestion()“œ
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÊ Ê()
+%2java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+%1domain.Question2getQuestionNumber()ÿ’
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÊ1 Ê(M
+%3java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+questiondomain.Question2getQuestionNumber()„‡
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÊ Ê(N
+%4boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.Integer*
+
+%3java.lang.Integer2equals(Ljava/lang/Object;)*
+2
+3*˘
+5N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÂ Â("û
+õ
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÂ Â("
+%0java.util.ArrayList"__id*(*&
+gui.ApustuaEginGUI"
+pronostikoak*
+2*≠
+1N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÍ	 Í("X
+N
+B/users/958101/Desktop/Bets21/src/main/java/gui/ApustuaEginGUI.javaÍ Í(
+"":
+questiondomain.QuestionB
+gui.ApustuaEginGUI

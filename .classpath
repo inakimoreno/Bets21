@@ -18,7 +18,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
@@ -30,6 +30,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="src/main/resources/jcalendar-1.4.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="/home/estrapro/Desktop/EHU/2.urtea/2.lauhilekoa/SE/objectdb-2.8.4_backup/bin/objectdb.jar"/>
+	<classpathentry exported="true" kind="lib" path="objectdb-2.8.6/bin/objectdb.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

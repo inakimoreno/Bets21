@@ -1,0 +1,133 @@
+
+<domain.Bezeroa#baduApustua(Ldomain/Apustua;)Ldomain/Apustua;J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java ("7*é
+2J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaŽ Ž(v
+t
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaŽ Ž(
+apustudomain.Apustua"__id*
+""—
+”
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaŽ Ž(
+apustudomain.Apustua"
+__arrayGet*
+
+%0java.util.Vector*
+""*
+6
+1*¹
+3J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java‘ ‘("h
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java‘ ‘(
+
+apustudomain.Apustua*ì
+4J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java? (EÄÁ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java? (V
+%9domain.Bezeroa"/domain.Apustua#getErrepikatua()Ldomain/Bezeroa;*
+
+apustudomain.Apustua2getErrepikatua()ÒÏ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java? (m
+%10java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
+
+%9domain.Bezeroa2getErabiltzaileIzena()¼¹
+K
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javau (†
+%11domain.Bezeroa"+domain.Apustua#getBezeroa()Ldomain/Bezeroa;*
+
+apusdomain.Apustua2getBezeroa()ÔÑ
+K
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javau (
+%12java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
+
+%11domain.Bezeroa2getErabiltzaileIzena()àÝ
+K
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java? (ž
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%10java.lang.String*
+
+%12java.lang.String2equals(Ljava/lang/Object;)*
+2
+3*ž
+5J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java ($ÄÁ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java (5
+%8domain.Bezeroa"/domain.Apustua#getErrepikatua()Ldomain/Bezeroa;*
+
+apustudomain.Apustua2getErrepikatua()*
+2
+4*Ò
+
+6J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java (	w
+u
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java (
+%1java.io.PrintStream"__id*
+""ÄÁ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java (-
+%2domain.Bezeroa"/domain.Apustua#getErrepikatua()Ldomain/Bezeroa;*
+
+apustudomain.Apustua2getErrepikatua()
+
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java (1
+%3java.lang.String"__concat*
+
+%2domain.Bezeroa*
+ º·
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java2 (C
+%4domain.Bezeroa"+domain.Apustua#getBezeroa()Ldomain/Bezeroa;*
+
+apusdomain.Apustua2getBezeroa()£
+ 
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java (C
+%5java.lang.String"__concat*
+
+%3java.lang.String*
+
+%4domain.BezeroaáÞ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java (D
+
+%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%1java.io.PrintStream*
+
+%5java.lang.String2println(Ljava/lang/String;)ÞÛ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java (
+%7boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
+
+apustudomain.Apustua*
+
+apusdomain.Apustua2equals(Ljava/lang/Object;)*
+2
+5*æ
+7J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaŽ Ž( 
+Œ
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.javaŽ Ž( 
+%0java.util.Vector"__id* *
+domain.Bezeroa"
+
+apustuak*
+2*¥
+1J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java”	 ”("T
+J
+>/users/958101/Desktop/Bets21/src/main/java/domain/Bezeroa.java” ”(
+"":
+apusdomain.ApustuaB
+domain.Bezeroa

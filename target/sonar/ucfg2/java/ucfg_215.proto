@@ -1,0 +1,70 @@
+
+;domain.Pronostikoa#pronostikoaEquals(Ldomain/Pronostikoa;)ZL
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javal l(!"3*‘
+2L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam3 m(4—
+”
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam3 m(=
+%3domain.Question"__id*'*%
+
+pdomain.Pronostikoa"
+
+questionÐÍ
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam3 m(Q
+%4java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+%3domain.Question2getQuestionNumber()”
+‘
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javamY m(a
+%5domain.Question"__id*$*"
+domain.Pronostikoa"
+
+questionÐÍ
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javamY m(u
+%6java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+%5domain.Question2getQuestionNumber()áÞ
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam3 m(v
+%7boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%4java.lang.Integer*
+
+%6java.lang.Integer2equals(Ljava/lang/Object;)*
+1*ó
+3L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam	 m(
+›
+˜
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam	 m(
+%0java.lang.String"__id***(
+
+pdomain.Pronostikoa"
+deskripzioa˜
+•
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam m(.
+%1java.lang.String"__id*'*%
+domain.Pronostikoa"
+deskripzioaÞÛ
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam	 m(/
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.String*
+
+%1java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*©
+1L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam m(w"V
+L
+B/users/958101/Desktop/Bets21/src/main/java/domain/Pronostikoa.javam m(w
+"":
+pdomain.PronostikoaB
+domain.Pronostikoa

@@ -18,10 +18,10 @@ import test.dataAccess.TestDataAccess;
 public class EmaitzaIpiniDAW {
 
 	//sut:system under test
-	static DataAccess sut=new DataAccess(true);
+	DataAccess sut=new DataAccess(true);
 	 
 	//additional operations needed to execute the test 
-	static TestDataAccess testDA=new TestDataAccess();
+	TestDataAccess testDA=new TestDataAccess();
 	
 	
 	private Event ev;

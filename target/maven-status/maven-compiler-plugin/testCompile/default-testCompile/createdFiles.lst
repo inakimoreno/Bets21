@@ -1,0 +1,14 @@
+test/dataAccess/TestDataAccess.class
+RemoveMezuaDAB.class
+EmaitzaIpiniMockInt.class
+EmaitzaIpiniDAW.class
+RegisterMockInt.class
+RemoveMezuaMockInt.class
+Register2DAB.class
+EmaitzaIpiniDAB.class
+EmaitzaIpini2DAB.class
+RegisterDAB.class
+test/businessLogic/TestFacadeImplementation.class
+RegisterDAW.class
+RemoveMezuaDAW.class
+RemoveMezua2DAB.class

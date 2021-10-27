@@ -1,0 +1,89 @@
+
+fbusinessLogic.BLFacadeImplementation#getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)Ljava/util/Vector;`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí í(&"startingBlock*Ž
+startingBlock`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí& í(H°
+­
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaì ì(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+usernamejava.lang.String™
+–
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí. í(6
+usernamejava.lang.String"__annotation*
+
+%6­
+ª
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaì ì(
+%7"
+__annotate*
+javax.jws.WebMethod*
+
+bezeroadomain.Bezeroa–
+“
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí@ í(G
+bezeroadomain.Bezeroa"__annotation*
+
+%7*
+1*Â
+1`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaî î(Á
+¾
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaî î(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÁ¾
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaî î(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)Á
+¾
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaï  ï()
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerãà
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaï  ï(H
+%3java.util.Vector"WdataAccess.DataAccess#getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)Ljava/util/Vector;*
+
+%2dataAccess.DataAccess*
+
+usernamejava.lang.String*
+
+bezeroadomain.Bezeroa2/getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)£
+ 
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaï ï(I
+bezeroakjava.util.Vector"__id*
+
+%3java.util.VectorÁ
+¾
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javað ð(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javað ð(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"‚
+`
+T/users/958101/Desktop/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javañ ñ(
+
+bezeroakjava.util.Vector:
+usernamejava.lang.String:
+bezeroadomain.BezeroaB(&
+$businessLogic.BLFacadeImplementation

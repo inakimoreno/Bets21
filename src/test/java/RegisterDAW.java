@@ -14,11 +14,11 @@ import domain.Admin;
 
 public class RegisterDAW {
 	
-	private static boolean setUpDone = false;
+	private boolean setUpDone = false;
 	
-	static DataAccess sut = new DataAccess(true);
+	DataAccess sut = new DataAccess(false);
 	
-	static TestDataAccess testDA = new TestDataAccess();
+	TestDataAccess testDA = new TestDataAccess();
 	
 	private Date date = UtilDate.newDate(1990,10,10);
 	private Pertsona usr = new Admin("Antxon Urrutia Garcia", "antxon18 12345678",

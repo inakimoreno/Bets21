@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Pertsona.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Bets2222</a> &gt; <a href="index.source.html" class="el_package">domain</a> &gt; <span class="el_source">Pertsona.java</span></div><h1>Pertsona.java</h1><pre class="source lang-java linenums">package domain;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlID;
+import javax.xml.bind.annotation.XmlSeeAlso;
+
+@Entity
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlSeeAlso ({Bezeroa.class, Admin.class, Langilea.class})
+public abstract class Pertsona implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public String izena;
+	public String abizena1;
+	public String abizena2;
+	@Id
+	@XmlID
+	public String erabiltzaileIzena;
+	public String pasahitza;
+	public String telefonoZbkia;
+	public String email;
+	public Date jaiotzeData;
+	
+	public Pertsona(){
+<span class="nc" id="L33">		super();</span>
+<span class="nc" id="L34">	}</span>
+	
+<span class="fc" id="L36">	public Pertsona (String pertsonaDatuak, Date jaiotzeData, String erabiltzailea,String kontaktua) {</span>
+<span class="fc" id="L37">		String[] izenaParts = pertsonaDatuak.split(&quot; &quot;);</span>
+<span class="fc" id="L38">		String[] erabiltzaileaParts = erabiltzailea.split(&quot; &quot;);</span>
+<span class="fc" id="L39">		String[] kontaktuaParts = kontaktua.split(&quot; &quot;);</span>
+<span class="fc" id="L40">		this.izena = izenaParts[0];</span>
+<span class="fc" id="L41">		this.abizena1 = izenaParts[1];</span>
+<span class="fc" id="L42">		this.abizena2 = izenaParts[2];</span>
+<span class="fc" id="L43">		this.erabiltzaileIzena = erabiltzaileaParts[0];</span>
+<span class="fc" id="L44">		this.pasahitza = erabiltzaileaParts[1];</span>
+<span class="fc" id="L45">		this.telefonoZbkia = kontaktuaParts[0];</span>
+<span class="fc" id="L46">		this.email=kontaktuaParts[1];</span>
+<span class="fc" id="L47">		this.jaiotzeData= jaiotzeData;</span>
+<span class="fc" id="L48">	}</span>
+	
+	public String getErabiltzaileIzena() {
+<span class="fc" id="L51">		return erabiltzaileIzena;</span>
+	}
+
+	public String getIzena() {
+<span class="fc" id="L55">		return izena;</span>
+	}
+
+	public void setIzena(String izena) {
+<span class="nc" id="L59">		this.izena = izena;</span>
+<span class="nc" id="L60">	}</span>
+
+	public String getAbizena1() {
+<span class="fc" id="L63">		return abizena1;</span>
+	}
+
+	public void setAbizena1(String abizena1) {
+<span class="nc" id="L67">		this.abizena1 = abizena1;</span>
+<span class="nc" id="L68">	}</span>
+
+	public String getAbizena2() {
+<span class="fc" id="L71">		return abizena2;</span>
+	}
+
+	public void setAbizena2(String abizena2) {
+<span class="nc" id="L75">		this.abizena2 = abizena2;</span>
+<span class="nc" id="L76">	}</span>
+
+	public String getPasahitza() {
+<span class="fc" id="L79">		return pasahitza;</span>
+	}
+
+	public void setPasahitza(String pasahitza) {
+<span class="nc" id="L83">		this.pasahitza = pasahitza;</span>
+<span class="nc" id="L84">	}</span>
+
+	public String getTelefonoZbkia() {
+<span class="fc" id="L87">		return telefonoZbkia;</span>
+	}
+
+	public void setTelefonoZbkia(String telefonoZbkia) {
+<span class="nc" id="L91">		this.telefonoZbkia = telefonoZbkia;</span>
+<span class="nc" id="L92">	}</span>
+
+	public String getEmail() {
+<span class="fc" id="L95">		return email;</span>
+	}
+
+	public void setEmail(String email) {
+<span class="nc" id="L99">		this.email = email;</span>
+<span class="nc" id="L100">	}</span>
+
+	public Date getJaiotzeData() {
+<span class="fc" id="L103">		return jaiotzeData;</span>
+	}
+
+	public void setJaiotzeData(Date jaiotzeData) {
+<span class="nc" id="L107">		this.jaiotzeData = jaiotzeData;</span>
+<span class="nc" id="L108">	}</span>
+
+	public void setErabiltzaileIzena(String erabiltzaileIzena) {
+<span class="nc" id="L111">		this.erabiltzaileIzena = erabiltzaileIzena;</span>
+<span class="nc" id="L112">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
