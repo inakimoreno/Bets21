@@ -1,35 +1,35 @@
 
 ;domain.Pronostikoa#pronostikoaEquals(Ldomain/Pronostikoa;)ZI
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javal l(!"3*ÿ
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javal l(!"3*ÿ
 2I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam3 m(4”
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam3 m(4”
 ‘
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam3 m(=
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam3 m(=
 %3domain.Question"__id*'*%
 
 pdomain.Pronostikoa"
 
 questionÍÊ
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam3 m(Q
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam3 m(Q
 %4java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
 
 %3domain.Question2getQuestionNumber()‘
 Ž
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javamY m(a
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javamY m(a
 %5domain.Question"__id*$*"
 domain.Pronostikoa"
 
 questionÍÊ
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javamY m(u
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javamY m(u
 %6java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
 
 %5domain.Question2getQuestionNumber()ÞÛ
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam3 m(v
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam3 m(v
 %7boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
 
 %4java.lang.Integer*
@@ -37,23 +37,23 @@ I
 %6java.lang.Integer2equals(Ljava/lang/Object;)*
 1*ç
 3I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam	 m(
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam	 m(
 ˜
 •
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam	 m(
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam	 m(
 %0java.lang.String"__id***(
 
 pdomain.Pronostikoa"
 deskripzioa•
 ’
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam m(.
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam m(.
 %1java.lang.String"__id*'*%
 domain.Pronostikoa"
 deskripzioaÛØ
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam	 m(/
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam	 m(/
 %2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %0java.lang.String*
@@ -62,9 +62,9 @@ I
 2
 1*£
 1I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam m(w"S
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam m(w"S
 I
-?/home/estrapro/git/Bets21/src/main/java/domain/Pronostikoa.javam m(w
+?/home/aitor/Coding/Bets21/src/main/java/domain/Pronostikoa.javam m(w
 "":
 pdomain.PronostikoaB
 domain.Pronostikoa

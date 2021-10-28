@@ -1,22 +1,22 @@
 
 7gui.MugimenduakIkusiGUI#mugimenduakIkusiGUIExekuzioa()VN
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java8 8(*"14*‹
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java8 8(*"14*‹
 13N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(Û
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(Û
 
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(9
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(9
 %33java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	EtiquetasÖÇ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(N
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(N
 %34java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %33java.util.ResourceBundle*	
 NoMoves2getString(Ljava/lang/String;)Çˇ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(O
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(O
 %35void"<javax.swing.DefaultListModel#addElement(Ljava/lang/Object;)V*'
 %
 listajavax.swing.DefaultListModel*
@@ -24,31 +24,31 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaO O(O
 %34java.lang.String2addElement(Ljava/lang/Object;)*
 3*›<
 14N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java: :(∫
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java: :(∫
 ∑
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java: :(.
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java: :(.
 %0businessLogic.BLFacade"6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
 gui.MainGUIõ
 ò
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java: :(/ 
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java: :(/ 
 facadebusinessLogic.BLFacade"__id*
 
 %0businessLogic.BLFacadeô
 ñ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java; ;(#
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java; ;(#
 %1domain.Bezeroa"__id*(*&
 gui.MugimenduakIkusiGUI"	
 bezeroa’“
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java; ;(:
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java; ;(:
 %2java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
 %1domain.Bezeroa2getErabiltzaileIzena()éã
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java;
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java;
  ;(;
 %3domain.Bezeroa"EbusinessLogic.BLFacade#getBezeroa(Ljava/lang/String;)Ldomain/Bezeroa;*"
  
@@ -57,68 +57,68 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java;
 %2java.lang.String2getBezeroa(Ljava/lang/String;)ô
 ñ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java; ;(;&
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java; ;(;&
 gui.MugimenduakIkusiGUI"	
 bezeroa"__id*
 
 %3domain.BezeroaÚ
 Ô
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java= =(5
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java= =(5
 %4java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	EtiquetasáÑ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java= =(N
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java= =(N
 %5java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
 
 %4java.util.ResourceBundle*
 SeeMovesGUI2getString(Ljava/lang/String;)‚ﬂ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java= =(O
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java= =(O
 
 %6void",java.awt.Frame#setTitle(Ljava/lang/String;)V*
 gui.MugimenduakIkusiGUI*
 
 %5java.lang.String2setTitle(Ljava/lang/String;)…∆
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java> >(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java> >(
 
 %7void" java.awt.Window#setBounds(IIII)V*
 gui.MugimenduakIkusiGUI*2d*2d*2“*2™2setBounds(IIII)Ä~
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java? ?(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java? ?(
 %8javax.swing.JPanel"javax.swing.JPanelì
 ê
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java? ?(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java? ?(
 %9"javax.swing.JPanel#<init>()V*
 
 %8javax.swing.JPanel°
 û
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java? ?(*
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java? ?(*
 gui.MugimenduakIkusiGUI"
 contentPane"__id*
 
 %8javax.swing.JPanel¢
 ü
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @(
 %10javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPaneöó
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @('%
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @('%
 %11javax.swing.border.EmptyBorder"javax.swing.border.EmptyBorder…
 ∆
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @(3
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @(3
 %12",javax.swing.border.EmptyBorder#<init>(IIII)V*'
 %
 %11javax.swing.border.EmptyBorder*2*2*2*2éã
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @(4
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @(4
 %13void">javax.swing.JComponent#setBorder(Ljavax/swing/border/Border;)V*
 
 %10javax.swing.JPanel*'
@@ -126,131 +126,131 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java@ @(4
 %11javax.swing.border.EmptyBorder2&setBorder(Ljavax/swing/border/Border;)¢
 ü
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaA A(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaA A(
 %14javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPane„‡
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaA A(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaA A(
 %15void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*
 
 %14javax.swing.JPanel*
 ""2#setLayout(Ljava/awt/LayoutManager;)¢
 ü
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaB B(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaB B(
 %16javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPane˙˜
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaB B(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaB B(
 %17void"8javax.swing.JFrame#setContentPane(Ljava/awt/Container;)V*
 gui.MugimenduakIkusiGUI*
 
 %16javax.swing.JPanel2$setContentPane(Ljava/awt/Container;)Å
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaD D($
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaD D($
 %18javax.swing.JLabel"javax.swing.JLabelï
 í
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaD D(&
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaD D(&
 %19"javax.swing.JLabel#<init>()V*
 
 %18javax.swing.JLabelú
 ô
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaD D('$
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaD D('$
 lblMugimenduakjavax.swing.JLabel"__id*
 
 %18javax.swing.JLabelÛ
 
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaE E(>
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaE E(>
 %20java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasåâ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaE E(Z
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaE E(Z
 %21java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %20java.util.ResourceBundle*
 lblMugimenduak2getString(Ljava/lang/String;)ÒÓ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaE E([
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaE E([
 %22void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*&
 $
 lblMugimenduakjavax.swing.JLabel*
 
 %21java.lang.String2setText(Ljava/lang/String;)◊‘
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaF F(+
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaF F(+
 %23void"#java.awt.Component#setBounds(IIII)V*&
 $
 lblMugimenduakjavax.swing.JLabel*2
 *2*2˙*22setBounds(IIII)¢
 ü
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaG G(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaG G(
 %24javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPaneêç
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaG G(!
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaG G(!
 %25java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
 
 %24javax.swing.JPanel*&
 $
 lblMugimenduakjavax.swing.JLabel2add(Ljava/awt/Component;)åâ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaI I(*
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaI I(*
 %26javax.swing.JScrollPane"javax.swing.JScrollPaneü
 ú
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaI I(,
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaI I(,
 %27"!javax.swing.JScrollPane#<init>()V* 
 
 %26javax.swing.JScrollPane¢
 ü
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaI I(-%
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaI I(-%
 
 scrollPanejavax.swing.JScrollPane"__id* 
 
 %26javax.swing.JScrollPaneñì
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaK' K(?#
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaK' K(?#
 %28javax.swing.DefaultListModel"javax.swing.DefaultListModel©
 ¶
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaK# K(A
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaK# K(A
 %29"&javax.swing.DefaultListModel#<init>()V*%
 #
 %28javax.swing.DefaultListModelß
 §
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaK K(B%
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaK K(B%
 listajavax.swing.DefaultListModel"__id*%
 #
 %28javax.swing.DefaultListModelö
 ó
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaM) M(0
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaM) M(0
 %30domain.Bezeroa"__id*(*&
 gui.MugimenduakIkusiGUI"	
 bezeroa «
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaM) M(A
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaM) M(A
 %31java.util.Vector"1domain.Bezeroa#getMugimenduak()Ljava/util/Vector;*
 
 %30domain.Bezeroa2getMugimenduak()õ
 ò
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaM M(B%
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaM M(B%
 bezeroMugimenduakjava.util.Vector"__id*
 
 %31java.util.Vector¥±
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaN N(!
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaN N(!
 %32boolean"java.util.Vector#isEmpty()Z*'
 %
 bezeroMugimenduakjava.util.Vector2	isEmpty()*
@@ -258,28 +258,28 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaN N(!
 12*n
 0 "g
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaï ï(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaï ï(
 implicit return*ëR
 1N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai% i(3Û
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai% i(3Û
 
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai% i(J
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai% i(J
 %60java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	EtiquetasÉÄ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai% i(]
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai% i(]
 %61java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %60java.util.ResourceBundle*	
 Close2getString(Ljava/lang/String;)ÑÅ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai i($
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai i($
 %62javax.swing.JButton"javax.swing.JButtonƒ
 ¡
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai i(^
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai i(^
 %63"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
 
 %62javax.swing.JButton*
@@ -287,39 +287,39 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai i(^
 %61java.lang.Stringú
 ô
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai i(_#
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javai i(_#
 JButtonClosejavax.swing.JButton"__id*
 
 %62javax.swing.JButtonêç
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaj% j(3 
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaj% j(3 
 %64gui.MugimenduakIkusiGUI$1"gui.MugimenduakIkusiGUI$1ö
 ó
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaj! n(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaj! n(
 %65"java.lang.Object#<init>()V*"
  
 %64gui.MugimenduakIkusiGUI$1Ø¨
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaj n(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaj n(
 %66void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*%
 #
 JButtonClosejavax.swing.JButton*"
  
 %64gui.MugimenduakIkusiGUI$122addActionListener(Ljava/awt/event/ActionListener;)◊‘
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javao o(*
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javao o(*
 %67void"#java.awt.Component#setBounds(IIII)V*%
 #
 JButtonClosejavax.swing.JButton*2é*2·*2Y*22setBounds(IIII)¢
 ü
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javap p(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javap p(
 %68javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPaneèå
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javap p(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javap p(
 %69java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
 
 %68javax.swing.JPanel*%
@@ -327,23 +327,23 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javap p(
 JButtonClosejavax.swing.JButton2add(Ljava/awt/Component;)Û
 
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar# r(H
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar# r(H
 %70java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	EtiquetasàÖ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar# r(`
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar# r(`
 %71java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %70java.util.ResourceBundle*
 
 bntEtekina2getString(Ljava/lang/String;)ÑÅ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar r("
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar r("
 %72javax.swing.JButton"javax.swing.JButtonƒ
 ¡
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar r(a
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar r(a
 %73"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
 
 %72javax.swing.JButton*
@@ -351,22 +351,22 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar r(a
 %71java.lang.Stringö
 ó
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar r(b!
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javar r(b!
 
 bntEtekinajavax.swing.JButton"__id*
 
 %72javax.swing.JButtonêç
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javas# s(1 
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javas# s(1 
 %74gui.MugimenduakIkusiGUI$2"gui.MugimenduakIkusiGUI$2ö
 ó
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javas (
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javas (
 %75"java.lang.Object#<init>()V*"
  
 %74gui.MugimenduakIkusiGUI$2≠™
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javas (
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javas (
 %76void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*#
 !
 
@@ -374,19 +374,19 @@ bntEtekinajavax.swing.JButton*"
  
 %74gui.MugimenduakIkusiGUI$222addActionListener(Ljava/awt/event/ActionListener;)ÿ’
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÄ Ä()
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÄ Ä()
 %77void"#java.awt.Component#setBounds(IIII)V*#
 !
 
 bntEtekinajavax.swing.JButton*2æ*2â*2≥*22setBounds(IIII)§
 °
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÅ Å(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÅ Å(
 %78javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPaneèå
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÅ Å(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÅ Å(
 %79java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
 
 %78javax.swing.JPanel*#
@@ -394,188 +394,188 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÅ Å(
 
 bntEtekinajavax.swing.JButton2add(Ljava/awt/Component;)ÑÅ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÉ É(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÉ É(
 %80javax.swing.JLabel"javax.swing.JLabel≥
 ∞
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÉ É($
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÉ É($
 %81".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
 
 %80javax.swing.JLabel*
 \r\n¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÉ É($,
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÉ É($,
 gui.MugimenduakIkusiGUI"
 jLabelJokatua"__id*
 
 %80javax.swing.JLabel¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÑ Ñ(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÑ Ñ(
 %82javax.swing.JLabel"__id*.*,
 gui.MugimenduakIkusiGUI"
 jLabelJokatua–Õ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÑ Ñ(,
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÑ Ñ(,
 %83void"#java.awt.Component#setBounds(IIII)V*
 
 %82javax.swing.JLabel*2≠*2ß*2µ*22setBounds(IIII)§
 °
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÖ Ö(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÖ Ö(
 %84javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPane¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÖ Ö(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÖ Ö(
 %85javax.swing.JLabel"__id*.*,
 gui.MugimenduakIkusiGUI"
 jLabelJokatuaáÑ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÖ Ö( 
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaÖ Ö( 
 %86java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
 
 %84javax.swing.JPanel*
 
 %85javax.swing.JLabel2add(Ljava/awt/Component;)ÑÅ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaá á(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaá á(
 %87javax.swing.JLabel"javax.swing.JLabel≥
 ∞
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaá á(%
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaá á(%
 %88".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
 
 %87javax.swing.JLabel*
 \r\nß
 §
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaá á(%-
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaá á(%-
 gui.MugimenduakIkusiGUI"
 jLabelIrabazia"__id*
 
 %87javax.swing.JLabelß
 §
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaà à(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaà à(
 %89javax.swing.JLabel"__id*/*-
 gui.MugimenduakIkusiGUI"
 jLabelIrabazia–Õ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaà à(-
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaà à(-
 %90void"#java.awt.Component#setBounds(IIII)V*
 
 %89javax.swing.JLabel*2Å*2ß*2≥*22setBounds(IIII)§
 °
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaâ â(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaâ â(
 %91javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPaneß
 §
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaâ â( 
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaâ â( 
 %92javax.swing.JLabel"__id*/*-
 gui.MugimenduakIkusiGUI"
 jLabelIrabaziaáÑ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaâ â(!
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaâ â(!
 %93java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
 
 %91javax.swing.JPanel*
 
 %92javax.swing.JLabel2add(Ljava/awt/Component;)ÑÅ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaã ã(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaã ã(
 %94javax.swing.JLabel"javax.swing.JLabel≥
 ∞
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaã ã($
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaã ã($
 %95".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
 
 %94javax.swing.JLabel*
 \r\n¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaã ã($,
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaã ã($,
 gui.MugimenduakIkusiGUI"
 jLabelEtekina"__id*
 
 %94javax.swing.JLabel¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaå å(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaå å(
 %96javax.swing.JLabel"__id*.*,
 gui.MugimenduakIkusiGUI"
 jLabelEtekina–Õ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaå å(,
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaå å(,
 %97void"#java.awt.Component#setBounds(IIII)V*
 
 %96javax.swing.JLabel*2”*2¡*2≥*22setBounds(IIII)§
 °
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaç ç(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaç ç(
 %98javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPane¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaç ç(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaç ç(
 %99javax.swing.JLabel"__id*.*,
 gui.MugimenduakIkusiGUI"
 jLabelEtekinaàÖ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaç ç( 
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaç ç( 
 %100java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
 
 %98javax.swing.JPanel*
 
 %99javax.swing.JLabel2add(Ljava/awt/Component;)ÖÇ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaè è(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaè è(
 %101javax.swing.JLabel"javax.swing.JLabelµ
 ≤
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaè è(#
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaè è(#
 %102".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
 
 %101javax.swing.JLabel*
 \r\n¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaè è(#+
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaè è(#+
 gui.MugimenduakIkusiGUI"
 jLabelSaldoa"__id*
 
 %101javax.swing.JLabel¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaê ê(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaê ê(
 %103javax.swing.JLabel"__id*-*+
 gui.MugimenduakIkusiGUI"
 jLabelSaldoa“œ
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaê ê(+
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaê ê(+
 %104void"#java.awt.Component#setBounds(IIII)V*
 
 %103javax.swing.JLabel*2ﬁ*2·*2≥*22setBounds(IIII)•
 ¢
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaë ë(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaë ë(
 %105javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPane¶
 £
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaë ë(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaë ë(
 %106javax.swing.JLabel"__id*-*+
 gui.MugimenduakIkusiGUI"
 jLabelSaldoaäá
 P
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaë ë(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaë ë(
 %107java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
 
 %105javax.swing.JPanel*
@@ -583,18 +583,18 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaë ë(
 %106javax.swing.JLabel2add(Ljava/awt/Component;)*
 0*
 2N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(¨©
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(¨©
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(,.
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(,.
 %57'gui.MugimenduakIkusiGUI$listaBackground"'gui.MugimenduakIkusiGUI$listaBackgroundø
 º
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(.
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(.
 %58"1gui.MugimenduakIkusiGUI$listaBackground#<init>()V*0
 .
 %57'gui.MugimenduakIkusiGUI$listaBackground§°
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(0
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(0
 %59void"Bjavax.swing.JList#setCellRenderer(Ljavax/swing/ListCellRenderer;)V*
 
 listjavax.swing.JList*0
@@ -602,9 +602,9 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaf f(0
 %57'gui.MugimenduakIkusiGUI$listaBackground2/setCellRenderer(Ljavax/swing/ListCellRenderer;)*
 1*„
 3N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java^ ^(Ÿ÷
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java^ ^(Ÿ÷
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java^ ^((
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java^ ^((
 %49void"#java.awt.Component#setBounds(IIII)V*'
 %
 
@@ -612,12 +612,12 @@ scrollPanejavax.swing.JScrollPane*2
 *2>*2Æ*2¿2setBounds(IIII)¢
 ü
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java_ _(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java_ _(
 %50javax.swing.JPanel"__id*,**
 gui.MugimenduakIkusiGUI"
 contentPaneëé
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java_ _(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java_ _(
 %51java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
 
 %50javax.swing.JPanel*'
@@ -625,22 +625,22 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.java_ _(
 
 scrollPanejavax.swing.JScrollPane2add(Ljava/awt/Component;)}
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaa a((
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaa a((
 %52javax.swing.JList"javax.swing.JListì
 ê
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaa a(*
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaa a(*
 %53"javax.swing.JList#<init>()V*
 
 %52javax.swing.JListê
 ç
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaa a(+
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaa a(+
 listjavax.swing.JList"__id*
 
 %52javax.swing.JListçä
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javab b("
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javab b("
 %54void">javax.swing.JScrollPane#setViewportView(Ljava/awt/Component;)V*'
 %
 
@@ -648,30 +648,30 @@ scrollPanejavax.swing.JScrollPane*
 
 listjavax.swing.JList2%setViewportView(Ljava/awt/Component;)ˇ¸
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javac c(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javac c(
 %55void"4javax.swing.JList#setModel(Ljavax/swing/ListModel;)V*
 
 listjavax.swing.JList*'
 %
 listajavax.swing.DefaultListModel2!setModel(Ljavax/swing/ListModel;)¥±
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javae e(!
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javae e(!
 %56boolean"java.util.Vector#isEmpty()Z*'
 %
 bezeroMugimenduakjava.util.Vector2	isEmpty()*
 2
 1*Ü
 5N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(Å
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(Å
 
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(
 
 mugimenduadomain.Mugimendua"__id*
 ""£
 †
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(
 
 mugimenduadomain.Mugimendua"
 __arrayGet*
@@ -681,24 +681,24 @@ __arrayGet*
 3
 11*ë
 6N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaX X(∂≥
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaX X(∂≥
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaX X(&
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaX X(&
 %48double" domain.Mugimendua#getAldaketa()D*!
 
 
 mugimenduadomain.Mugimendua2getAldaketa()*
 5*˛
 7N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaW W(…∆
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaW W(…∆
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaW W(!
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaW W(!
 %46java.lang.String"-domain.Mugimendua#getMota()Ljava/lang/String;*!
 
 
 mugimenduadomain.Mugimendua2	getMota()‘—
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaW W(2
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaW W(2
 %47boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %46java.lang.String*
@@ -707,24 +707,24 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaW W(2
 5
 6*ë
 8N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaV V(∂≥
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaV V(∂≥
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaV V(&
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaV V(&
 %45double" domain.Mugimendua#getAldaketa()D*!
 
 
 mugimenduadomain.Mugimendua2getAldaketa()*
 5*Ä
 9N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaU U(…∆
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaU U(…∆
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaU U(!
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaU U(!
 %43java.lang.String"-domain.Mugimendua#getMota()Ljava/lang/String;*!
 
 
 mugimenduadomain.Mugimendua2	getMota()÷”
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaU U(4
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaU U(4
 %44boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %43java.lang.String*
@@ -733,38 +733,38 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaU U(4
 7
 8*í
 10N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaT T(∂≥
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaT T(∂≥
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaT T('
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaT T('
 %42double" domain.Mugimendua#getAldaketa()D*!
 
 
 mugimenduadomain.Mugimendua2getAldaketa()*
 5*‘
 11N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaR R(	À»
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaR R(	À»
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaR R(*
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaR R(*
 %38java.lang.String".domain.Mugimendua#toString()Ljava/lang/String;*!
 
 
 mugimenduadomain.Mugimendua2
 toString()Çˇ
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaR R(+
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaR R(+
 %39void"<javax.swing.DefaultListModel#addElement(Ljava/lang/Object;)V*'
 %
 listajavax.swing.DefaultListModel*
 
 %38java.lang.String2addElement(Ljava/lang/Object;)…∆
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaS S(
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaS S(
 %40java.lang.String"-domain.Mugimendua#getMota()Ljava/lang/String;*!
 
 
 mugimenduadomain.Mugimendua2	getMota()’“
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaS S(-
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaS S(-
 %41boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %40java.lang.String*	
@@ -772,15 +772,15 @@ D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaS S(-
 9
 10*√
 12N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(&ö
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(&ö
 ó
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(&
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(&
 %36domain.Bezeroa"__id*(*&
 gui.MugimenduakIkusiGUI"	
 bezeroa «
 N
-D/home/estrapro/git/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(7
+D/home/aitor/Coding/Bets21/src/main/java/gui/MugimenduakIkusiGUI.javaQ Q(7
 %37java.util.Vector"1domain.Bezeroa#getMugimenduak()Ljava/util/Vector;*
 
 %36domain.Bezeroa2getMugimenduak()*

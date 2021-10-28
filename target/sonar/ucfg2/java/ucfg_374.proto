@@ -1,11 +1,11 @@
 
 ÅbusinessLogic.BLFacadeImplementation#arretaMezuaBidali(Ldomain/ArretaElkarrizketa;Ljava/lang/String;Z)Ldomain/ArretaElkarrizketa;]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(,"startingBlock*ô
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(,"startingBlock*ô
 startingBlock]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞, ∞(o∫
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞, ∞(o∫
 ∑
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
 %6"
 __annotate*
 javax.jws.WebMethod*+
@@ -13,13 +13,13 @@ __annotate*
 elkarrizketadomain.ArretaElkarrizketa£
 †
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞@ ∞(L)
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞@ ∞(L)
 elkarrizketadomain.ArretaElkarrizketa"__annotation*
 
 %6™
 ß
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
 %7"
 __annotate*
 javax.jws.WebMethod*
@@ -27,21 +27,21 @@ __annotate*
 mezuajava.lang.Stringì
 ê
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞U ∞(Z
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞U ∞(Z
 mezuajava.lang.String"__annotation*
 
 %7*
 1*ã
 1]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(æ
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(æ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
 %0dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManageræª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
 
 %1void"dataAccess.DataAccess#open(Z)V*
 
@@ -49,12 +49,12 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 ""2open(Z)æ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤((
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤((
 %2dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager´®
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤([
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤([
 %3domain.ArretaElkarrizketa"rdataAccess.DataAccess#arretaMezuaBidali(Ldomain/ArretaElkarrizketa;Ljava/lang/String;Z)Ldomain/ArretaElkarrizketa;*
 
 %2dataAccess.DataAccess*+
@@ -65,24 +65,24 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 ""2AarretaMezuaBidali(Ldomain/ArretaElkarrizketa;Ljava/lang/String;Z)±
 Æ
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤(\$
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤(\$
 emaitzadomain.ArretaElkarrizketa"__id*!
 
 %3domain.ArretaElkarrizketaæ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≥ ≥(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≥ ≥(
 %4dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager∂≥
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≥ ≥(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≥ ≥(
 
 %5void"dataAccess.DataAccess#close()V*
 
 %4dataAccess.DataAccess2close()"á
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¥ ¥(&
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¥ ¥(&
 $
 emaitzadomain.ArretaElkarrizketa:)
 elkarrizketadomain.ArretaElkarrizketa:

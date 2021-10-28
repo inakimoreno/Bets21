@@ -1,44 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: RegisterDAB
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.72 sec <<< FAILURE! - in RegisterDAB
-test5(RegisterDAB)  Time elapsed: 0.043 sec  <<< FAILURE!
+Tests run: 14, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.651 sec <<< FAILURE! - in RegisterDAB
+test5(RegisterDAB)  Time elapsed: 0.17 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at RegisterDAB.test5(RegisterDAB.java:151)
 
-test4(RegisterDAB)  Time elapsed: 0.035 sec  <<< FAILURE!
-java.lang.AssertionError: 
-	at RegisterDAB.test4(RegisterDAB.java:128)
-
-test6(RegisterDAB)  Time elapsed: 0.049 sec  <<< FAILURE!
-java.lang.AssertionError: 
-	at RegisterDAB.test6(RegisterDAB.java:174)
-
-test7(RegisterDAB)  Time elapsed: 0.04 sec  <<< FAILURE!
+test7(RegisterDAB)  Time elapsed: 0.042 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at RegisterDAB.test7(RegisterDAB.java:201)
 
-test8(RegisterDAB)  Time elapsed: 0.039 sec  <<< FAILURE!
+test8(RegisterDAB)  Time elapsed: 0.035 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at RegisterDAB.test8(RegisterDAB.java:220)
 
-test9(RegisterDAB)  Time elapsed: 0.042 sec  <<< FAILURE!
+test9(RegisterDAB)  Time elapsed: 0.045 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at RegisterDAB.test9(RegisterDAB.java:243)
 
-test10(RegisterDAB)  Time elapsed: 0.045 sec  <<< FAILURE!
+test10(RegisterDAB)  Time elapsed: 0.03 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at RegisterDAB.test10(RegisterDAB.java:265)
 
-test11(RegisterDAB)  Time elapsed: 0.078 sec  <<< FAILURE!
+test11(RegisterDAB)  Time elapsed: 0.028 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at RegisterDAB.test11(RegisterDAB.java:288)
 
-test12(RegisterDAB)  Time elapsed: 0.049 sec  <<< FAILURE!
+test12(RegisterDAB)  Time elapsed: 0.034 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at RegisterDAB.test12(RegisterDAB.java:311)
 
-test13(RegisterDAB)  Time elapsed: 0.065 sec  <<< FAILURE!
+test13(RegisterDAB)  Time elapsed: 0.031 sec  <<< FAILURE!
 java.lang.AssertionError: 
 	at RegisterDAB.test13(RegisterDAB.java:335)
+
+test6(RegisterDAB)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test6(RegisterDAB.java:174)
+
+test4(RegisterDAB)  Time elapsed: 0.026 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at RegisterDAB.test4(RegisterDAB.java:128)
 

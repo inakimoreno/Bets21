@@ -1,32 +1,32 @@
 
 8dataAccess.DataAccess#apustuaIrabazi(DLdomain/Apustua;)DN
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ("3*Ö&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ("3*Ö&
 2N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à(√¿
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaà à(√¿
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à(#
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaà à(#
 %1domain.Bezeroa"/domain.Apustua#getErrepikatua()Ldomain/Bezeroa;*
 
 adomain.Apustua2getErrepikatua()à
 Ö
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à($
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaà à($
 bezdomain.Bezeroa"__id*
 
 %1domain.Bezeroaª∏
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaâ â(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaâ â(
 %2domain.Bezeroa"+domain.Apustua#getBezeroa()Ldomain/Bezeroa;*
 
 adomain.Apustua2getBezeroa()å
 â
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaâ â(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaâ â(
 bezeroadomain.Bezeroa"__id*
 
 %2domain.Bezeroaéã
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä(8
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaä ä(8
 %3domain.Errepikapena"Edomain.Bezeroa#getErrepikapena(Ldomain/Bezeroa;)Ldomain/Errepikapena;*
 
 bezeroadomain.Bezeroa*
@@ -34,35 +34,35 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä(8
 bezdomain.Bezeroa2!getErrepikapena(Ldomain/Bezeroa;)ö
 ó
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä(9"
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaä ä(9"
 errepikapendomain.Errepikapena"__id*
 
 %3domain.Errepikapena{
 y
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(
 %4java.io.PrintStream"__id*
 ""§°
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã($
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã($
 %5double"domain.Apustua#getKopurua()D*
 
 adomain.Apustua2getKopurua()å
 â
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã((
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã((
 %6java.lang.String"__concat*
 
 %5double*
  ¨©
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã) ã(;
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã) ã(;
 %7double" domain.Apustua#getKuotaTotala()D*
 
 adomain.Apustua2getKuotaTotala()ü
 ú
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(;
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(;
 %8java.lang.String"__concat*
 
 %6java.lang.String*
@@ -70,19 +70,19 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(;
 %7doubleñ
 ì
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(?
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(?
 %9java.lang.String"__concat*
 
 %8java.lang.String*
  •¢
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã@ ã(N
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã@ ã(N
 %10double"domain.Apustua#getKopurua()D*
 
 adomain.Apustua2getKopurua()°
 û
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(N
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(N
 %11java.lang.String"__concat*
 
 %9java.lang.String*
@@ -90,58 +90,58 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(N
 %10doubleò
 ï
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(R
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(R
 %12java.lang.String"__concat*
 
 %11java.lang.String*
  ª∏
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaãS ã(l
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaãS ã(l
 %13double""domain.Errepikapena#getKomisioa()D*$
 "
 errepikapendomain.Errepikapena2getKomisioa()¢
 ü
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(l
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(l
 %14java.lang.String"__concat*
 
 %12java.lang.String*
 
 %13doubleÁ‰
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(m
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(m
 %15void"0java.io.PrintStream#println(Ljava/lang/String;)V*
 
 %4java.io.PrintStream*
 
 %14java.lang.String2println(Ljava/lang/String;)•¢
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaå å(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaå å(
 %16double"domain.Apustua#getKopurua()D*
 
 adomain.Apustua2getKopurua()≠™
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaå å(.
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaå å(.
 %17double" domain.Apustua#getKuotaTotala()D*
 
 adomain.Apustua2getKuotaTotala()•¢
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaå/ å(=
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaå/ å(=
 %18double"domain.Apustua#getKopurua()D*
 
 adomain.Apustua2getKopurua()ª∏
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaå? å(X
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaå? å(X
 %19double""domain.Errepikapena#getKomisioa()D*$
 "
 errepikapendomain.Errepikapena2getKomisioa()|
 z
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaç ç(
 %20java.io.PrintStream"__id*
 ""≥∞
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaç ç(
 %21void"java.io.PrintStream#println(D)V*
 
 %20java.io.PrintStream*
@@ -149,20 +149,20 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç(
 println(D)π
 ∂
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(?
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaé é(?
 %22java.lang.String"__concat*$"
  Apustu errepikatuaren komisioa (*
 
 bezeroadomain.Bezeroaò
 ï
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(C
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaé é(C
 %23java.lang.String"__concat*
 
 %22java.lang.String*
 )ƒ¡
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(X
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaé é(X
 %24domain.Mugimendua"Vdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;)Ldomain/Mugimendua;*
 
 bezdomain.Bezeroa*
@@ -172,65 +172,65 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(X
 irabazi24addMugimendua(Ljava/lang/String;DLjava/lang/String;)*
 1*û
 3N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö({
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö({
 y
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö(
 bezeroadomain.Bezeroa"__id*
 ""√¿
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaá á(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaá á(
 %0domain.Bezeroa"/domain.Apustua#getErrepikatua()Ldomain/Bezeroa;*
 
 adomain.Apustua2getErrepikatua()*
 2
 1*ª
 1N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaê
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaê
  ê(ºπ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaê
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaê
  ê(
 %25domain.Bezeroa"+domain.Apustua#getBezeroa()Ldomain/Bezeroa;*
 
 adomain.Apustua2getBezeroa()ç
 ä
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(
 bezeroadomain.Bezeroa"__id*
 
 %25domain.Bezeroa•¢
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(
 %26double"domain.Apustua#getKopurua()D*
 
 adomain.Apustua2getKopurua()≠™
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(,
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(,
 %27double" domain.Apustua#getKuotaTotala()D*
 
 adomain.Apustua2getKuotaTotala()“œ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaí, í(B
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaí, í(B
 %28java.lang.Integer"6domain.Apustua#getIdentifikadorea()Ljava/lang/Integer;*
 
 adomain.Apustua2getIdentifikadorea()©
 ¶
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(B
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaí í(B
 %29java.lang.String"__concat*
 Apustua irabazi (*
 
 %28java.lang.Integerò
 ï
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(F
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaí í(F
 %30java.lang.String"__concat*
 
 %29java.lang.String*
 )»≈
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(\
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaí í(\
 %31domain.Mugimendua"Vdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;)Ldomain/Mugimendua;*
 
 bezeroadomain.Bezeroa*
@@ -239,7 +239,7 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(\
 ""*	
 irabazi24addMugimendua(Ljava/lang/String;DLjava/lang/String;)"X
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaì ì(
 "":
 "":
 adomain.ApustuaB

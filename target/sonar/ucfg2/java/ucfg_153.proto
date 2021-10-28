@@ -1,53 +1,53 @@
 
 Bgui.PostontziaGUI$4#actionPerformed(Ljava/awt/event/ActionEvent;)VJ
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaë ë("36*È9
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaë ë("36*È9
 24J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŠ Š(!·
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŠ Š(!·
 ´
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŠ Š(4
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŠ Š(4
 %50businessLogic.BLFacade"6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
 gui.MainGUI˜
 •
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŠ Š(5 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŠ Š(5 
 facadebusinessLogic.BLFacade"__id*
 
 %50businessLogic.BLFacadeï
 ì
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(?
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(?
 %51java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasþ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(T
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(T
 %52java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %51java.util.ResourceBundle*	
 IAccept2getString(Ljava/lang/String;)•
 ’
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(^
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(^
 %53java.lang.String"__concat*
 
 %52java.lang.String*
 ""”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(b
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(b
 %54java.lang.String"__concat*
 
 %53java.lang.String*
  ð
 í
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‹c ‹(ˆ
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‹c ‹(ˆ
 %55java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasƒ€
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‹c ‹(ž
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‹c ‹(ž
 %56java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %55java.util.ResourceBundle*
@@ -55,7 +55,7 @@ K
 IAccept22getString(Ljava/lang/String;)©
 ¦
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(ž
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(ž
 %57java.lang.String"__concat*
 
 %54java.lang.String*
@@ -63,35 +63,35 @@ K
 %56java.lang.String
 Œ
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(Ÿ
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‹ ‹(Ÿ
 mezuOsoajava.lang.String"__id*
 
 %57java.lang.String’
 
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ# Œ(*
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ# Œ(*
 %58domain.Bezeroa"__id*$*"
 gui.PostontziaGUI$4"	
 bezeroa®
 «
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ, Œ(E
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ, Œ(E
 %59domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÎË
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ, Œ(R
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ, Œ(R
 %60domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*!
 
 %59domain.BezeroartekoMezua2getIgorlea()ð
 í
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ^ Œ(ƒ
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ^ Œ(ƒ
 %61java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas…‚
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ^ Œ(›
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ^ Œ(›
 %62java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %61java.util.ResourceBundle*
@@ -99,28 +99,28 @@ K
 Acceptance2getString(Ljava/lang/String;)°
 ­
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ¼ Œ(Õ
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ¼ Œ(Õ
 %63domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÇÄ
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ¼ Œ(é
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ¼ Œ(é
 %64double"-domain.BezeroartekoMezua#getZenbatApostatu()D*!
 
 %63domain.BezeroartekoMezua2getZenbatApostatu()°
 ­
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒë Œ(„
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒë Œ(„
 %65domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaËÈ
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒë Œ(š
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒë Œ(š
 %66double"/domain.BezeroartekoMezua#getHilabeteanZenbat()D*!
 
 %65domain.BezeroartekoMezua2getHilabeteanZenbat()»¸
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ Œ(¢
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ Œ(¢
 %67domain.Bezeroa"businessLogic.BLFacade#bidaliMezua(Ldomain/Bezeroa;Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)Ldomain/Bezeroa;*"
  
 facadebusinessLogic.BLFacade*
@@ -140,68 +140,68 @@ K
 ""2fbidaliMezua(Ldomain/Bezeroa;Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)“
 
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŒ Œ(¢"
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŒ Œ(¢"
 gui.PostontziaGUI$4"	
 bezeroa"__id*
 
 %67domain.Bezeroa–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (
 %68javax.swing.JLabel"__id*$*"
 gui.PostontziaGUI$4"	
 bidalia·´
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java ( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java ( 
 %69void"%javax.swing.JComponent#setVisible(Z)V*
 
 %68javax.swing.JLabel*
 ""2setVisible(Z)”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŽ Ž(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŽ Ž(
 %70javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 send¸µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŽ Ž(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŽ Ž(
 %71void"%javax.swing.JComponent#setVisible(Z)V*
 
 %70javax.swing.JButton*
 ""2setVisible(Z)”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (
 %72javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 send¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (
 %73void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %72javax.swing.JButton*
 ""2setEnabled(Z)°
 ­
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (*
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (*
 %74#javax.swing.table.DefaultTableModel"__id*-*+
 gui.PostontziaGUI$4"
 tableModelMezuakï
 ì
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java$ (I
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java$ (I
 %75java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas‚ÿ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java$ (_
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java$ (_
 %76java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %75java.util.ResourceBundle*
 
 Answered2getString(Ljava/lang/String;)œ™
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (s
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (s
 %77void"Ejavax.swing.table.DefaultTableModel#setValueAt(Ljava/lang/Object;II)V*,
 *
 %74#javax.swing.table.DefaultTableModel*
@@ -210,24 +210,24 @@ J
 ""*22 setValueAt(Ljava/lang/Object;II)®
 «
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‘ ‘(!
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‘ ‘(!
 %78domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezua¹¶
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‘ ‘(5
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‘ ‘(5
 %79void"domain.Mezua#setIrakurrita(Z)V*!
 
 %78domain.BezeroartekoMezua*
 ""2setIrakurrita(Z)®
 «
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java’ ’(6
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java’ ’(6
 %80domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaùö
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java’ ’(7
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java’ ’(7
 %81void"5businessLogic.BLFacade#mezuaIrakurri(Ldomain/Mezua;)V*"
  
 facadebusinessLogic.BLFacade*!
@@ -235,10 +235,10 @@ J
 %80domain.BezeroartekoMezua2mezuaIrakurri(Ldomain/Mezua;)*
 0*¶
 31J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java… …(1Ù
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java… …(1Ù
 Ö
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java… …(1
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java… …(1
 %45java.lang.Double">java.lang.Double#valueOf(Ljava/lang/String;)Ljava/lang/Double;*"
 java.lang.Double*
 
@@ -246,88 +246,88 @@ J
 24
 23*Ò
 10J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÎ Î({
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÎ Î({
 y
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÎ Î(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÎ Î(
 
 puntuazioajava.lang.Integer"__id*2*
 1*Ç
 32J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java… …(š
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java… …(š
 —
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java… …(&
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java… …(&
 %43javax.swing.JTextField"__id*$*"
 gui.PostontziaGUI$4"	
 emaitzaÑÎ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java… …(0
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java… …(0
 %44java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
 
 %43javax.swing.JTextField2	getText()*
 31*¯
 11J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÌ Ì(y
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÌ Ì(y
 w
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÌ Ì(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÌ Ì(
 
 puntuazioajava.lang.Integer"__id*2 ™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÍ	 Í( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÍ	 Í( 
 %218javax.swing.JRadioButton"__id* *
 gui.PostontziaGUI$4"
 bat¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÍ	 Í(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÍ	 Í(
 %219boolean"(javax.swing.AbstractButton#isSelected()Z*"
  
 %218javax.swing.JRadioButton2isSelected()*
 9
 10*™
 34J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (–
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (
 %39javax.swing.JLabel"__id*$*"
 gui.PostontziaGUI$4"	
 invalidËÈ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (
 %40void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %39javax.swing.JLabel* 2setText(Ljava/lang/String;)˜
 •
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‚	 ‚(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‚	 ‚(
 %41javax.swing.JRadioButton"__id* *
 gui.PostontziaGUI$4"
 baiº·
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java‚	 ‚(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java‚	 ‚(
 %42boolean"(javax.swing.AbstractButton#isSelected()Z*!
 
 %41javax.swing.JRadioButton2isSelected()*
 32
 22*Ñ5
 12J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¼ ¼(ž
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¼ ¼(ž
 ›
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¼ ¼(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¼ ¼(
 %185javax.swing.JLabel"__id*+*)
 gui.PostontziaGUI$4"
 jakinarazpenakt
 r
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¼$ ¼(/
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¼$ ¼(/
 %186java.awt.Color"__id*
 ""ïì
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¼ ¼(0
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¼ ¼(0
 %187void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
 
 %185javax.swing.JLabel*
@@ -335,24 +335,24 @@ J
 %186java.awt.Color2setForeground(Ljava/awt/Color;)ž
 ›
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java½ ½(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java½ ½(
 %188javax.swing.JLabel"__id*+*)
 gui.PostontziaGUI$4"
 jakinarazpenakð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java½ ½(C 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java½ ½(C 
 %189java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas€ý
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java½ ½(U
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java½ ½(U
 %190java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %189java.util.ResourceBundle*
 Sent2getString(Ljava/lang/String;)åâ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java½ ½(V
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java½ ½(V
 %191void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %188javax.swing.JLabel*
@@ -360,113 +360,113 @@ J
 %190java.lang.String2setText(Ljava/lang/String;)•
 ’
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¾ ¾(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¾ ¾(
 %192javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 send¾»
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¾ ¾(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¾ ¾(
 %193void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %192javax.swing.JButton*
 ""2setEnabled(Z)•
 ’
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¿ ¿(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¿ ¿(
 %194javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 sendº·
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¿ ¿(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¿ ¿(
 %195void"%javax.swing.JComponent#setVisible(Z)V*
 
 %194javax.swing.JButton*
 ""2setVisible(Z)—
 ”
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÀ À(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÀ À(
 %196javax.swing.JButton"__id*#*!
 gui.PostontziaGUI$4"
 removeÌÉ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÀ À()
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÀ À()
 %197void"#java.awt.Component#setBounds(IIII)V*
 
 %196javax.swing.JButton*2õ*2…*2Y*22setBounds(IIII)—
 ”
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÁ Á(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÁ Á(
 %198javax.swing.JButton"__id*#*!
 gui.PostontziaGUI$4"
 removeº·
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÁ Á(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÁ Á(
 %199void"%javax.swing.JComponent#setVisible(Z)V*
 
 %198javax.swing.JButton*
 ""2setVisible(Z)—
 ”
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÂ Â(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÂ Â(
 %200javax.swing.JButton"__id*#*!
 gui.PostontziaGUI$4"
 remove¾»
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÂ Â(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÂ Â(
 %201void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %200javax.swing.JButton*
 ""2setEnabled(Z)
 š
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÃ Ã(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÃ Ã(
 %202javax.swing.JButton"__id*)*'
 gui.PostontziaGUI$4"
 itzuliMezuraº·
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÃ Ã(%
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÃ Ã(%
 %203void"%javax.swing.JComponent#setVisible(Z)V*
 
 %202javax.swing.JButton*
 ""2setVisible(Z)
 š
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÄ Ä(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÄ Ä(
 %204javax.swing.JButton"__id*)*'
 gui.PostontziaGUI$4"
 itzuliMezura¾»
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÄ Ä(%
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÄ Ä(%
 %205void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %204javax.swing.JButton*
 ""2setEnabled(Z)¸
 µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÅ Å(3
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÅ Å(3
 %206businessLogic.BLFacade"6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
 gui.MainGUI™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÅ Å(4 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÅ Å(4 
 facadebusinessLogic.BLFacade"__id* 
 
 %206businessLogic.BLFacade£
  
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÆ0 Æ(C
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÆ0 Æ(C
 %207domain.ArretaMezua"__id*0*.
 gui.PostontziaGUI$4"
 selectedArretaMezuaý
 ú
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÆ  Æ(D!
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÆ  Æ(D!
 %208domain.ArretaElkarrizketa"Rgui.PostontziaGUI#getElkarrizketa(Ldomain/ArretaMezua;)Ldomain/ArretaElkarrizketa;*
 gui.PostontziaGUI$4*
 
 %207domain.ArretaMezua¡ž
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÆ Æ([!
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÆ Æ([!
 %209domain.ArretaElkarrizketa"sbusinessLogic.BLFacade#arretaMezuaBidali(Ldomain/ArretaElkarrizketa;Ljava/lang/String;Z)Ldomain/ArretaElkarrizketa;*"
  
 facadebusinessLogic.BLFacade*#
@@ -477,12 +477,12 @@ J
 ""2AarretaMezuaBidali(Ldomain/ArretaElkarrizketa;Ljava/lang/String;Z)£
  
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÇ Ç(/
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÇ Ç(/
 %210domain.ArretaMezua"__id*0*.
 gui.PostontziaGUI$4"
 selectedArretaMezuaõò
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÇ Ç(0
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÇ Ç(0
 %211void"5businessLogic.BLFacade#mezuaIrakurri(Ldomain/Mezua;)V*"
  
 facadebusinessLogic.BLFacade*
@@ -490,37 +490,37 @@ J
 %210domain.ArretaMezua2mezuaIrakurri(Ldomain/Mezua;)£
  
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÈ È(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÈ È(
 %212domain.ArretaMezua"__id*0*.
 gui.PostontziaGUI$4"
 selectedArretaMezuaµ²
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÈ È(.
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÈ È(.
 %213void"domain.Mezua#setIrakurrita(Z)V*
 
 %212domain.ArretaMezua*
 ""2setIrakurrita(Z)±
 ®
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÉ É(+
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÉ É(+
 %214#javax.swing.table.DefaultTableModel"__id*-*+
 gui.PostontziaGUI$4"
 tableModelMezuakð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÉ# É(H 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÉ# É(H 
 %215java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas„
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÉ# É(^
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÉ# É(^
 %216java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %215java.util.ResourceBundle*
 
 Answered2getString(Ljava/lang/String;)Ÿœ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÉ É(r
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÉ É(r
 %217void"Ejavax.swing.table.DefaultTableModel#setValueAt(Ljava/lang/Object;II)V*-
 +
 %214#javax.swing.table.DefaultTableModel*
@@ -529,97 +529,97 @@ J
 ""*22 setValueAt(Ljava/lang/Object;II)*
 0*É
 35J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaù ù(	”
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaù ù(	”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaù ù(	
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaù ù(	
 %24javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 send¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaù ù(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaù ù(
 %25void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %24javax.swing.JButton*
 ""2setEnabled(Z)”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaú ú(	
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaú ú(	
 %26javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 send¸µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaú ú(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaú ú(
 %27void"%javax.swing.JComponent#setVisible(Z)V*
 
 %26javax.swing.JButton*
 ""2setVisible(Z)®
 «
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaû û(,
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaû û(,
 %28domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÌÉ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaû û(6
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaû û(6
 %29java.lang.String"4domain.BezeroartekoMezua#getMota()Ljava/lang/String;*!
 
 %28domain.BezeroartekoMezua2	getMota()Š
 ‡
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaû û(7
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaû û(7
 motajava.lang.String"__id*
 
 %29java.lang.String–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaü ü(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaü ü(
 %30javax.swing.JLabel"__id*$*"
 gui.PostontziaGUI$4"	
 bidalia·´
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaü ü(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaü ü(
 %31void"%javax.swing.JComponent#setVisible(Z)V*
 
 %30javax.swing.JLabel*
 ""2setVisible(Z)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaý ý(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaý ý(
 %32javax.swing.JButton"__id*#*!
 gui.PostontziaGUI$4"
 removeÊÇ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaý ý('
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaý ý('
 %33void"#java.awt.Component#setBounds(IIII)V*
 
 %32javax.swing.JButton*2Ì*2á*2Y*22setBounds(IIII)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(
 %34javax.swing.JButton"__id*#*!
 gui.PostontziaGUI$4"
 remove¸µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(
 %35void"%javax.swing.JComponent#setVisible(Z)V*
 
 %34javax.swing.JButton*
 ""2setVisible(Z)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
 %36javax.swing.JButton"__id*#*!
 gui.PostontziaGUI$4"
 remove¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
 %37void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %36javax.swing.JButton*
 ""2setEnabled(Z)ÒÏ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java€ €(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java€ €(
 %38boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 motajava.lang.String*	
@@ -627,20 +627,20 @@ J
 21
 34*å
 13J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¹ ¹(ž
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¹ ¹(ž
 ›
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¹ ¹(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¹ ¹(
 %178javax.swing.JLabel"__id*+*)
 gui.PostontziaGUI$4"
 jakinarazpenakt
 r
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¹$ ¹(-
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¹$ ¹(-
 %179java.awt.Color"__id*
 ""ïì
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¹ ¹(.
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¹ ¹(.
 %180void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
 
 %178javax.swing.JLabel*
@@ -648,24 +648,24 @@ J
 %179java.awt.Color2setForeground(Ljava/awt/Color;)ž
 ›
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaº º(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaº º(
 %181javax.swing.JLabel"__id*+*)
 gui.PostontziaGUI$4"
 jakinarazpenakð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaº º(C 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaº º(C 
 %182java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasˆ…
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaº º(]
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaº º(]
 %183java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %182java.util.ResourceBundle*
 MessageEmpty2getString(Ljava/lang/String;)åâ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaº º(^
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaº º(^
 %184void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %181javax.swing.JLabel*
@@ -673,39 +673,39 @@ J
 %183java.lang.String2setText(Ljava/lang/String;)*
 0*­!
 36J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaì ì(’
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaì ì(’
 
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaì ì(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaì ì(
 %0javax.swing.JLabel"__id*!*
 gui.PostontziaGUI$4"
 rateÉÆ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaì ì(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaì ì(
 
 %1void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %0javax.swing.JLabel* 2setText(Ljava/lang/String;)œ
 ™
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaí í(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaí í(
 %2javax.swing.JLabel"__id*+*)
 gui.PostontziaGUI$4"
 jakinarazpenakÉÆ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaí í(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaí í(
 
 %3void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %2javax.swing.JLabel* 2setText(Ljava/lang/String;)›
 ˜
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaî î(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaî î(
 %4javax.swing.JLabel"__id***(
 gui.PostontziaGUI$4"
 onartuGalderaµ²
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaî î(#
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaî î(#
 
 %5void"%javax.swing.JComponent#setVisible(Z)V*
 
@@ -713,12 +713,12 @@ J
 ""2setVisible(Z)—
 ”
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaï ï(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaï ï(
 %6javax.swing.JRadioButton"__id* *
 gui.PostontziaGUI$4"
 bai»¸
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaï ï(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaï ï(
 
 %7void"%javax.swing.JComponent#setVisible(Z)V* 
 
@@ -726,12 +726,12 @@ J
 ""2setVisible(Z)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javað ð(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javað ð(
 %8javax.swing.JRadioButton"__id**
 gui.PostontziaGUI$4"
 ez»¸
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javað ð(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javað ð(
 
 %9void"%javax.swing.JComponent#setVisible(Z)V* 
 
@@ -739,123 +739,123 @@ J
 ""2setVisible(Z)œ
 ™
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javañ ñ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javañ ñ(
 %10void"%gui.PostontziaGUI#getSelectedMezua()V*
 gui.PostontziaGUI$4˜
 •
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaò ò(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaò ò(
 %11javax.swing.JRadioButton"__id* *
 gui.PostontziaGUI$4"
 bai½º
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaò ò(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaò ò(
 %12void"%javax.swing.JComponent#setVisible(Z)V*!
 
 %11javax.swing.JRadioButton*
 ""2setVisible(Z)—
 ”
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaó ó(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaó ó(
 %13javax.swing.JRadioButton"__id**
 gui.PostontziaGUI$4"
 ez½º
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaó ó(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaó ó(
 %14void"%javax.swing.JComponent#setVisible(Z)V*!
 
 %13javax.swing.JRadioButton*
 ""2setVisible(Z)š
 —
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaô ô(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaô ô(
 %15javax.swing.JTextField"__id*$*"
 gui.PostontziaGUI$4"	
 emaitza»¸
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaô ô(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaô ô(
 %16void"%javax.swing.JComponent#setVisible(Z)V*
 
 %15javax.swing.JTextField*
 ""2setVisible(Z)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaõ õ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaõ õ(
 %17javax.swing.JLabel"__id*$*"
 gui.PostontziaGUI$4"	
 batetikËÈ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaõ õ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaõ õ(
 %18void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %17javax.swing.JLabel* 2setText(Ljava/lang/String;)›
 ˜
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaö ö(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaö ö(
 %19javax.swing.JLabel"__id*)*'
 gui.PostontziaGUI$4"
 labelEmaitzaËÈ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaö ö(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaö ö(
 %20void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %19javax.swing.JLabel* 2setText(Ljava/lang/String;)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java÷ ÷(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java÷ ÷(
 %21javax.swing.JLabel"__id*$*"
 gui.PostontziaGUI$4"	
 invalidËÈ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java÷ ÷(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java÷ ÷(
 %22void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %21javax.swing.JLabel* 2setText(Ljava/lang/String;)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaø ø(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaø ø(
 %23domain.Mezua"__id***(
 gui.PostontziaGUI$4"
 selectedMezua*
 35
 15*
 14J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java· ·(&›
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java· ·(&›
 ˜
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java· ·(&
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java· ·(&
 %175javax.swing.JTextArea"__id*%*#
 gui.PostontziaGUI$4"
 
 textAreaÒÏ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java· ·(0
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java· ·(0
 %176java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
 
 %175javax.swing.JTextArea2	getText()•
 ’
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java· ·(1"
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java· ·(1"
 mezuarenTestuajava.lang.String"__id*
 
 %176java.lang.String¨¥
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¸	 ¸( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¸	 ¸( 
 %177int"java.lang.String#length()I*$
 "
 mezuarenTestuajava.lang.String2length()*
 13
 12*­
 15J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¶	 ¶(£
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¶	 ¶(£
  
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¶	 ¶(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¶	 ¶(
 %173domain.ArretaMezua"__id*0*.
 gui.PostontziaGUI$4"
 selectedArretaMezuaª§
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¶	 ¶('
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¶	 ¶('
 %174boolean"domain.ArretaMezua#isAzkena()Z*
 
 %173domain.ArretaMezua2
@@ -863,28 +863,28 @@ isAzkena()*
 14
 11*Å
 16J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java° °(±
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java° °(±
 ®
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java° °(+
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java° °(+
 %165#javax.swing.table.DefaultTableModel"__id*-*+
 gui.PostontziaGUI$4"
 tableModelMezuakð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java°# °(H 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java°# °(H 
 %166java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas„
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java°# °(^
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java°# °(^
 %167java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %166java.util.ResourceBundle*
 
 Answered2getString(Ljava/lang/String;)Ÿœ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java° °(r
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java° °(r
 %168void"Ejavax.swing.table.DefaultTableModel#setValueAt(Ljava/lang/Object;II)V*-
 +
 %165#javax.swing.table.DefaultTableModel*
@@ -893,24 +893,24 @@ J
 ""*22 setValueAt(Ljava/lang/Object;II)¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java± ±(  
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java± ±(  
 %169domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezua»¸
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java± ±(4
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java± ±(4
 %170void"domain.Mezua#setIrakurrita(Z)V*"
  
 %169domain.BezeroartekoMezua*
 ""2setIrakurrita(Z)¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java² ²(5 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java² ²(5 
 %171domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaûø
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java² ²(6
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java² ²(6
 %172void"5businessLogic.BLFacade#mezuaIrakurri(Ldomain/Mezua;)V*"
  
 facadebusinessLogic.BLFacade*"
@@ -918,50 +918,50 @@ J
 %171domain.BezeroartekoMezua2mezuaIrakurri(Ldomain/Mezua;)*
 0*
 17J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java® ®(“
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java® ®(“
 
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java® ®("
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java® ®("
 %157domain.Bezeroa"__id*$*"
 gui.PostontziaGUI$4"	
 bezeroa¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java®$ ®(= 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java®$ ®(= 
 %158domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÐÍ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java®$ ®(J
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java®$ ®(J
 %159domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*"
  
 %158domain.BezeroartekoMezua2getIgorlea()ð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java®L ®(q 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java®L ®(q 
 %160java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	EtiquetasŠ‡
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java®L ®(Œ
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java®L ®(Œ
 %161java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %160java.util.ResourceBundle*
 IsNoAgreement2getString(Ljava/lang/String;)ò
 ï
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java®Ž ®(³ 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java®Ž ®(³ 
 %162java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas‰†
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java®Ž ®(Ì
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java®Ž ®(Ì
 %163java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %162java.util.ResourceBundle*
 NoAgreement2getString(Ljava/lang/String;)›˜
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java® ®(ê
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java® ®(ê
 %164domain.Bezeroa"businessLogic.BLFacade#bidaliMezua(Ldomain/Bezeroa;Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)Ldomain/Bezeroa;*"
  
 facadebusinessLogic.BLFacade*
@@ -979,33 +979,33 @@ K
 ""2fbidaliMezua(Ldomain/Bezeroa;Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)*
 16*ô
 18J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¬ ¬( ¸
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¬ ¬( ¸
 µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¬ ¬(3
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¬ ¬(3
 %153businessLogic.BLFacade"6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
 gui.MainGUI™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¬ ¬(4 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¬ ¬(4 
 facadebusinessLogic.BLFacade"__id* 
 
 %153businessLogic.BLFacade¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java­
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java­
  ­(# 
 %154domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÐÍ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java­
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java­
  ­(0
 %155domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*"
  
 %154domain.BezeroartekoMezua2getIgorlea()»¸
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java­
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java­
  ­(H
 %156double"'domain.Bezeroa#getKomisioAutomatikoa()D*
 
@@ -1013,94 +1013,94 @@ J
 16
 17*¾<
 19J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¥ ¥( ¸
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¥ ¥( ¸
 µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¥ ¥(3
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¥ ¥(3
 %120businessLogic.BLFacade"6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
 gui.MainGUI™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¥ ¥(4 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¥ ¥(4 
 facadebusinessLogic.BLFacade"__id* 
 
 %120businessLogic.BLFacade“
 
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦" ¦()
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦" ¦()
 %121domain.Bezeroa"__id*$*"
 gui.PostontziaGUI$4"	
 bezeroa¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦+ ¦(D 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦+ ¦(D 
 %122domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÐÍ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦+ ¦(Q
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦+ ¦(Q
 %123domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*"
  
 %122domain.BezeroartekoMezua2getIgorlea()ð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦S ¦(x 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦S ¦(x 
 %124java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasˆ…
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦S ¦(‘
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦S ¦(‘
 %125java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %124java.util.ResourceBundle*
 StartRepeat2getString(Ljava/lang/String;)ò
 ï
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦“ ¦(¸ 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦“ ¦(¸ 
 %126java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	EtiquetasŒ‰
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦“ ¦(Ô
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦“ ¦(Ô
 %127java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %126java.util.ResourceBundle*
 StartRepeating2getString(Ljava/lang/String;)±
 ®
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦ë ¦(„ 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦ë ¦(„ 
 %128domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÉÆ
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦ë ¦(˜
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦ë ¦(˜
 %129double"-domain.BezeroartekoMezua#getZenbatApostatu()D*"
  
 %128domain.BezeroartekoMezua2getZenbatApostatu()±
 ®
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦š ¦(³ 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦š ¦(³ 
 %130domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÍÊ
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦š ¦(É
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦š ¦(É
 %131double"/domain.BezeroartekoMezua#getHilabeteanZenbat()D*"
  
 %130domain.BezeroartekoMezua2getHilabeteanZenbat()±
 ®
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦Ë ¦(ä 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦Ë ¦(ä 
 %132domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÝÚ
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦Ë ¦(‚
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦Ë ¦(‚
 %133double"7domain.BezeroartekoMezua#getZenbatErrepikatuarentzat()D*"
  
 %132domain.BezeroartekoMezua2getZenbatErrepikatuarentzat()½º
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦ ¦(ƒ
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦ ¦(ƒ
 %134domain.Bezeroa"businessLogic.BLFacade#bidaliMezua(Ldomain/Bezeroa;Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)Ldomain/Bezeroa;*"
  
 facadebusinessLogic.BLFacade*
@@ -1121,32 +1121,32 @@ K
 %133double2fbidaliMezua(Ldomain/Bezeroa;Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)”
 ‘
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¦ ¦(ƒ"
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¦ ¦(ƒ"
 gui.PostontziaGUI$4"	
 bezeroa"__id*
 
 %134domain.Bezeroa±
 ®
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java§ §(+
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java§ §(+
 %135#javax.swing.table.DefaultTableModel"__id*-*+
 gui.PostontziaGUI$4"
 tableModelMezuakð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java§# §(H 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java§# §(H 
 %136java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas„
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java§# §(^
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java§# §(^
 %137java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %136java.util.ResourceBundle*
 
 Answered2getString(Ljava/lang/String;)Ÿœ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java§ §(r
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java§ §(r
 %138void"Ejavax.swing.table.DefaultTableModel#setValueAt(Ljava/lang/Object;II)V*-
 +
 %135#javax.swing.table.DefaultTableModel*
@@ -1155,24 +1155,24 @@ J
 ""*22 setValueAt(Ljava/lang/Object;II)¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¨ ¨(  
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¨ ¨(  
 %139domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezua»¸
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¨ ¨(4
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¨ ¨(4
 %140void"domain.Mezua#setIrakurrita(Z)V*"
  
 %139domain.BezeroartekoMezua*
 ""2setIrakurrita(Z)¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java© ©(5 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java© ©(5 
 %141domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaûø
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java© ©(6
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java© ©(6
 %142void"5businessLogic.BLFacade#mezuaIrakurri(Ldomain/Mezua;)V*"
  
 facadebusinessLogic.BLFacade*"
@@ -1180,56 +1180,56 @@ J
 %141domain.BezeroartekoMezua2mezuaIrakurri(Ldomain/Mezua;)“
 
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaª ª( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaª ª( 
 %143domain.Bezeroa"__id*$*"
 gui.PostontziaGUI$4"	
 bezeroa¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaª" ª(; 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaª" ª(; 
 %144domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÐÍ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaª" ª(H
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaª" ª(H
 %145domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*"
  
 %144domain.BezeroartekoMezua2getIgorlea()¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaªJ ª(c 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaªJ ª(c 
 %146domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÇÄ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaªJ ª(w
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaªJ ª(w
 %147double"-domain.BezeroartekoMezua#getZenbatApostatu()D*"
  
 %146domain.BezeroartekoMezua2getZenbatApostatu()°
 ­
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaªy ª(’ 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaªy ª(’ 
 %148domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÌÉ
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaªy ª(¨
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaªy ª(¨
 %149double"/domain.BezeroartekoMezua#getHilabeteanZenbat()D*"
  
 %148domain.BezeroartekoMezua2getHilabeteanZenbat()±
 ®
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaªª ª(Ã 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaªª ª(Ã 
 %150domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÝÚ
 L
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaªª ª(á
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaªª ª(á
 %151double"7domain.BezeroartekoMezua#getZenbatErrepikatuarentzat()D*"
  
 %150domain.BezeroartekoMezua2getZenbatErrepikatuarentzat()æã
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaª ª(â
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaª ª(â
 %152void"GbusinessLogic.BLFacade#errepikatu(Ldomain/Bezeroa;Ldomain/Bezeroa;DDD)V*"
  
 facadebusinessLogic.BLFacade*
@@ -1246,123 +1246,123 @@ K
 0*h
 0 "a
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaè è(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaè è(
 implicit return*Ù/
 1J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaØ Ø(	™
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaØ Ø(	™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaØ Ø(	 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaØ Ø(	 
 %228javax.swing.JRadioButton"__id* *
 gui.PostontziaGUI$4"
 bat¿¼
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaØ Ø(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaØ Ø(
 %229void"%javax.swing.JComponent#setVisible(Z)V*"
  
 %228javax.swing.JRadioButton*
 ""2setVisible(Z)˜
 •
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÙ Ù( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÙ Ù( 
 %230javax.swing.JRadioButton"__id**
 gui.PostontziaGUI$4"
 bi¿¼
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÙ Ù(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÙ Ù(
 %231void"%javax.swing.JComponent#setVisible(Z)V*"
  
 %230javax.swing.JRadioButton*
 ""2setVisible(Z)š
 —
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÚ Ú(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÚ Ú(
  
 %232javax.swing.JRadioButton"__id*!*
 gui.PostontziaGUI$4"
 hiru¿¼
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÚ Ú(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÚ Ú(
 %233void"%javax.swing.JComponent#setVisible(Z)V*"
  
 %232javax.swing.JRadioButton*
 ""2setVisible(Z)™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÛ Û(	 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÛ Û(	 
 %234javax.swing.JRadioButton"__id* *
 gui.PostontziaGUI$4"
 lau¿¼
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÛ Û(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÛ Û(
 %235void"%javax.swing.JComponent#setVisible(Z)V*"
  
 %234javax.swing.JRadioButton*
 ""2setVisible(Z)š
 —
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÜ Ü(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÜ Ü(
  
 %236javax.swing.JRadioButton"__id*!*
 gui.PostontziaGUI$4"
 bost¿¼
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÜ Ü(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÜ Ü(
 %237void"%javax.swing.JComponent#setVisible(Z)V*"
  
 %236javax.swing.JRadioButton*
 ""2setVisible(Z)”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÝ Ý(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÝ Ý(
 
 %238javax.swing.JLabel"__id*!*
 gui.PostontziaGUI$4"
 rateÍÊ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÝ Ý(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÝ Ý(
 %239void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %238javax.swing.JLabel* 2setText(Ljava/lang/String;)›
 ˜
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÞ Þ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÞ Þ(
 %240javax.swing.JTextArea"__id*%*#
 gui.PostontziaGUI$4"
 
 textAreaÇÄ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÞ Þ(!
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÞ Þ(!
 %241void"/javax.swing.text.JTextComponent#setEditable(Z)V*
 
 %240javax.swing.JTextArea*
 ""2setEditable(Z)¸
 µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaß ß(2
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaß ß(2
 %242businessLogic.BLFacade"6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
 gui.MainGUI™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaß ß(3 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaß ß(3 
 facadebusinessLogic.BLFacade"__id* 
 
 %242businessLogic.BLFacade£
  
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaà. à(A
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaà. à(A
 %243domain.ArretaMezua"__id*0*.
 gui.PostontziaGUI$4"
 selectedArretaMezuaý
 ú
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaà à(B!
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaà à(B!
 %244domain.ArretaElkarrizketa"Rgui.PostontziaGUI#getElkarrizketa(Ldomain/ArretaMezua;)Ldomain/ArretaElkarrizketa;*
 gui.PostontziaGUI$4*
 
 %243domain.ArretaMezuaåâ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaà à(N
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaà à(N
 %245void"XbusinessLogic.BLFacade#gehituPuntuazioa(Ldomain/ArretaElkarrizketa;Ljava/lang/Integer;)V*"
  
 facadebusinessLogic.BLFacade*#
@@ -1373,25 +1373,25 @@ J
 puntuazioajava.lang.Integer2@gehituPuntuazioa(Ldomain/ArretaElkarrizketa;Ljava/lang/Integer;)±
 ®
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaá á(+
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaá á(+
 %246#javax.swing.table.DefaultTableModel"__id*-*+
 gui.PostontziaGUI$4"
 tableModelMezuakð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaá" á(G 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaá" á(G 
 %247java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas„
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaá" á(]
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaá" á(]
 %248java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %247java.util.ResourceBundle*
 
 Answered2getString(Ljava/lang/String;)Ÿœ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaá á(q
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaá á(q
 %249void"Ejavax.swing.table.DefaultTableModel#setValueAt(Ljava/lang/Object;II)V*-
 +
 %246#javax.swing.table.DefaultTableModel*
@@ -1400,24 +1400,24 @@ J
 ""*22 setValueAt(Ljava/lang/Object;II)£
  
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaâ â(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaâ â(
 %250domain.ArretaMezua"__id*0*.
 gui.PostontziaGUI$4"
 selectedArretaMezuaµ²
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaâ â(-
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaâ â(-
 %251void"domain.Mezua#setIrakurrita(Z)V*
 
 %250domain.ArretaMezua*
 ""2setIrakurrita(Z)£
  
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaã ã(.
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaã ã(.
 %252domain.ArretaMezua"__id*0*.
 gui.PostontziaGUI$4"
 selectedArretaMezuaõò
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaã ã(/
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaã ã(/
 %253void"5businessLogic.BLFacade#mezuaIrakurri(Ldomain/Mezua;)V*"
  
 facadebusinessLogic.BLFacade*
@@ -1425,142 +1425,142 @@ J
 %252domain.ArretaMezua2mezuaIrakurri(Ldomain/Mezua;)•
 ’
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaä ä(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaä ä(
 
 %254javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 send¾»
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaä ä(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaä ä(
 %255void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %254javax.swing.JButton*
 ""2setEnabled(Z)•
 ’
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaå å(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaå å(
 
 %256javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 sendº·
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaå å(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaå å(
 %257void"%javax.swing.JComponent#setVisible(Z)V*
 
 %256javax.swing.JButton*
 ""2setVisible(Z)*
 0*Ñ
 2J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÖ Ö({
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÖ Ö({
 y
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÖ Ö(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÖ Ö(
 
 puntuazioajava.lang.Integer"__id*2*
 1*³
 3J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÕ Õ(š
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÕ Õ(š
 —
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÕ Õ( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÕ Õ( 
 %226javax.swing.JRadioButton"__id*!*
 gui.PostontziaGUI$4"
 bost¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÕ Õ( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÕ Õ( 
 %227boolean"(javax.swing.AbstractButton#isSelected()Z*"
  
 %226javax.swing.JRadioButton2isSelected()*
 2
 1*Ñ
 4J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÔ Ô({
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÔ Ô({
 y
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÔ Ô(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÔ Ô(
 
 puntuazioajava.lang.Integer"__id*2*
 1*²
 5J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÓ Ó(™
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÓ Ó(™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÓ Ó( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÓ Ó( 
 %224javax.swing.JRadioButton"__id* *
 gui.PostontziaGUI$4"
 lau¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÓ Ó(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÓ Ó(
 %225boolean"(javax.swing.AbstractButton#isSelected()Z*"
  
 %224javax.swing.JRadioButton2isSelected()*
 3
 4*Ñ
 6J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÒ Ò({
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÒ Ò({
 y
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÒ Ò(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÒ Ò(
 
 puntuazioajava.lang.Integer"__id*2*
 1*³
 7J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÑ Ñ(š
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÑ Ñ(š
 —
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÑ Ñ( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÑ Ñ( 
 %222javax.swing.JRadioButton"__id*!*
 gui.PostontziaGUI$4"
 hiru¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÑ Ñ( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÑ Ñ( 
 %223boolean"(javax.swing.AbstractButton#isSelected()Z*"
  
 %222javax.swing.JRadioButton2isSelected()*
 5
 6*Ñ
 8J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÐ Ð({
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÐ Ð({
 y
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÐ Ð(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÐ Ð(
 
 puntuazioajava.lang.Integer"__id*2*
 1*±
 9J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÏ Ï(˜
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÏ Ï(˜
 •
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÏ Ï( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÏ Ï( 
 %220javax.swing.JRadioButton"__id**
 gui.PostontziaGUI$4"
 bi¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÏ Ï(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÏ Ï(
 %221boolean"(javax.swing.AbstractButton#isSelected()Z*"
  
 %220javax.swing.JRadioButton2isSelected()*
 7
 8*µ
 20J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¤	 ¤(™
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¤	 ¤(™
 –
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¤	 ¤( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¤	 ¤( 
 %118javax.swing.JRadioButton"__id* *
 gui.PostontziaGUI$4"
 bai¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¤	 ¤(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¤	 ¤(
 %119boolean"(javax.swing.AbstractButton#isSelected()Z*"
  
 %118javax.swing.JRadioButton2isSelected()*
 18
 19*Ã
 21J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java£ £(çä
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java£ £(çä
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java£ £(9
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java£ £(9
 %117boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 motajava.lang.String*
@@ -1568,51 +1568,51 @@ J
 20
 0*½)
 22J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaœ œ( ·
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaœ œ( ·
 ´
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaœ œ(3
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaœ œ(3
 %96businessLogic.BLFacade"6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
 gui.MainGUI˜
 •
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaœ œ(4 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaœ œ(4 
 facadebusinessLogic.BLFacade"__id*
 
 %96businessLogic.BLFacadeï
 ì
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (>
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (>
 %97java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas‰†
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java ([
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java ([
 %98java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %97java.util.ResourceBundle*
 NoAcceptRequest2getString(Ljava/lang/String;)”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (_
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (_
 %99java.lang.String"__concat*
 
 %98java.lang.String*
  ›
 ˜
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java` (g
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java` (g
 %100javax.swing.JTextField"__id*$*"
 gui.PostontziaGUI$4"	
 emaitzaÓÐ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java` (q
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java` (q
 %101java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;* 
 
 %100javax.swing.JTextField2	getText()ª
 §
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (q
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (q
 %102java.lang.String"__concat*
 
 %99java.lang.String*
@@ -1620,42 +1620,42 @@ J
 %101java.lang.String
 Œ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (r
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (r
 mezuOsoajava.lang.String"__id*
 
 %102java.lang.String“
 
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaž" ž()
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaž" ž()
 %103domain.Bezeroa"__id*$*"
 gui.PostontziaGUI$4"	
 bezeroa¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaž+ ž(D 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaž+ ž(D 
 %104domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaÐÍ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaž+ ž(Q
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaž+ ž(Q
 %105domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*"
  
 %104domain.BezeroartekoMezua2getIgorlea()ñ
 î
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaž] ž(‚ 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaž] ž(‚ 
 %106java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasƒ€
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaž] ž(–
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaž] ž(–
 %107java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %106java.util.ResourceBundle*
 
 Denial2getString(Ljava/lang/String;)¬©
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaž ž(Á
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaž ž(Á
 %108domain.Bezeroa"businessLogic.BLFacade#bidaliMezua(Ldomain/Bezeroa;Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)Ldomain/Bezeroa;*"
  
 facadebusinessLogic.BLFacade*
@@ -1673,32 +1673,32 @@ K
 ""2fbidaliMezua(Ldomain/Bezeroa;Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)”
 ‘
 K
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaž ž(Á"
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaž ž(Á"
 gui.PostontziaGUI$4"	
 bezeroa"__id*
 
 %108domain.Bezeroa±
 ®
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŸ Ÿ(+
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŸ Ÿ(+
 %109#javax.swing.table.DefaultTableModel"__id*-*+
 gui.PostontziaGUI$4"
 tableModelMezuakð
 í
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŸ# Ÿ(H 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŸ# Ÿ(H 
 %110java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetas„
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŸ# Ÿ(^
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŸ# Ÿ(^
 %111java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
  
 %110java.util.ResourceBundle*
 
 Answered2getString(Ljava/lang/String;)Ÿœ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaŸ Ÿ(r
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaŸ Ÿ(r
 %112void"Ejavax.swing.table.DefaultTableModel#setValueAt(Ljava/lang/Object;II)V*-
 +
 %109#javax.swing.table.DefaultTableModel*
@@ -1707,24 +1707,24 @@ J
 ""*22 setValueAt(Ljava/lang/Object;II)¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java   (  
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java   (  
 %113domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezua»¸
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java   (4
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java   (4
 %114void"domain.Mezua#setIrakurrita(Z)V*"
  
 %113domain.BezeroartekoMezua*
 ""2setIrakurrita(Z)¯
 ¬
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¡ ¡(5 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¡ ¡(5 
 %115domain.BezeroartekoMezua"__id*6*4
 gui.PostontziaGUI$4"
 selectedBezeroartekoMezuaûø
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java¡ ¡(6
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java¡ ¡(6
 %116void"5businessLogic.BLFacade#mezuaIrakurri(Ldomain/Mezua;)V*"
  
 facadebusinessLogic.BLFacade*"
@@ -1732,27 +1732,27 @@ J
 %115domain.BezeroartekoMezua2mezuaIrakurri(Ldomain/Mezua;)*
 0*ð
 23J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java” ”(–
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java” ”(–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java” ”(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java” ”(
 %82javax.swing.JLabel"__id*$*"
 gui.PostontziaGUI$4"	
 invalidï
 ì
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java” ”(=
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java” ”(=
 %83java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasþ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java” ”(R
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java” ”(R
 %84java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %83java.util.ResourceBundle*	
 Invalid2getString(Ljava/lang/String;)âß
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java” ”(S
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java” ”(S
 %85void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %82javax.swing.JLabel*
@@ -1760,60 +1760,60 @@ J
 %84java.lang.String2setText(Ljava/lang/String;)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java• •(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java• •(
 %86javax.swing.JLabel"__id*$*"
 gui.PostontziaGUI$4"	
 bidalia·´
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java• •(!
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java• •(!
 %87void"%javax.swing.JComponent#setVisible(Z)V*
 
 %86javax.swing.JLabel*
 ""2setVisible(Z)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java– –(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java– –(
 %88javax.swing.JButton"__id*#*!
 gui.PostontziaGUI$4"
 remove¸µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java– –( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java– –( 
 %89void"%javax.swing.JComponent#setVisible(Z)V*
 
 %88javax.swing.JButton*
 ""2setVisible(Z)–
 “
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java— —(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java— —(
 %90javax.swing.JButton"__id*#*!
 gui.PostontziaGUI$4"
 remove¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java— —( 
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java— —( 
 %91void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %90javax.swing.JButton*
 ""2setEnabled(Z)”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java˜ ˜(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java˜ ˜(
 %92javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 send¼¹
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java˜ ˜(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java˜ ˜(
 %93void")javax.swing.AbstractButton#setEnabled(Z)V*
 
 %92javax.swing.JButton*
 ""2setEnabled(Z)”
 ‘
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java™ ™(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java™ ™(
 %94javax.swing.JButton"__id*!*
 gui.PostontziaGUI$4"
 send¸µ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java™ ™(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java™ ™(
 %95void"%javax.swing.JComponent#setVisible(Z)V*
 
 %94javax.swing.JButton*

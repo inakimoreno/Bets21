@@ -1,11 +1,11 @@
 
 cbusinessLogic.BLFacadeImplementation#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Pertsona;]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè è("startingBlock*ô
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè è("startingBlock*ô
 startingBlock]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè è(G∂
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè è(G∂
 ≥
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaé é(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaé é(
 %6"
 __annotate*
 javax.jws.WebMethod*'
@@ -13,13 +13,13 @@ __annotate*
 erabiltzaileIzenajava.lang.Stringü
 ú
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè# è(4%
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè# è(4%
 erabiltzaileIzenajava.lang.String"__annotation*
 
 %6Æ
 ´
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaé é(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaé é(
 %7"
 __annotate*
 javax.jws.WebMethod*
@@ -27,21 +27,21 @@ __annotate*
 	pasahitzajava.lang.Stringó
 î
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè= è(F
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaè= è(F
 	pasahitzajava.lang.String"__annotation*
 
 %7*
 1*®
 1]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(æ
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(æ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(
 %0dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManageræª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaê ê(
 
 %1void"dataAccess.DataAccess#open(Z)V*
 
@@ -49,12 +49,12 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 ""2open(Z)æ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(
 %2dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManagerÁ‰
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(D
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(D
 %3domain.Pertsona"TdataAccess.DataAccess#isLogin(Ljava/lang/String;Ljava/lang/String;)Ldomain/Pertsona;*
 
 %2dataAccess.DataAccess*'
@@ -64,24 +64,24 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 	pasahitzajava.lang.String2-isLogin(Ljava/lang/String;Ljava/lang/String;)ù
 ö
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(E
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(E
 emaitzadomain.Pertsona"__id*
 
 %3domain.Pertsonaæ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí í(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí í(
 %4dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager∂≥
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí í(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaí í(
 
 %5void"dataAccess.DataAccess#close()V*
 
 %4dataAccess.DataAccess2close()"}
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaì ì(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaì ì(
 
 emaitzadomain.Pertsona:%
 erabiltzaileIzenajava.lang.String:

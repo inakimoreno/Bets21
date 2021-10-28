@@ -1,16 +1,16 @@
 
 FdataAccess.DataAccess#getLangilea(Ljava/lang/String;)Ldomain/Langilea;N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java∂ ∂("1*”
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java∂ ∂("1*”
 1N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(£
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(£
 †
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(%
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(%
 %0javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbÃ…
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(D
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(D
 %1domain.Langilea"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
 %
 %0javax.persistence.EntityManager*
@@ -19,12 +19,12 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(D
 ErabiltzaileIzenajava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)ì
 ê
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(E
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java∑ ∑(E
 erabiltzailedomain.Langilea"__id*
 
 %1domain.Langilea"s
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java∏ ∏(!
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java∏ ∏(!
 
 erabiltzailedomain.Langilea:%
 ErabiltzaileIzenajava.lang.StringB

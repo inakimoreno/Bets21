@@ -1,16 +1,16 @@
 
 Rgui.PostontziaGUI#getElkarrizketa(Ldomain/ArretaMezua;)Ldomain/ArretaElkarrizketa;J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaý ý(+"7*÷
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaý ý(+"7*÷
 2J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(}
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(}
 {
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(
 aedomain.ArretaElkarrizketa"__id*
 ""ž
 ›
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(
 aedomain.ArretaElkarrizketa"
 __arrayGet*
 
@@ -19,15 +19,15 @@ __arrayGet*
 6
 1*é
 3J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(v
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(v
 t
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
 amdomain.ArretaMezua"__id*
 ""—
 ”
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(
 amdomain.ArretaMezua"
 __arrayGet*
 
@@ -36,25 +36,25 @@ __arrayGet*
 2
 5*À
 4J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java ("o
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java ("o
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java (!
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java (!
 
 aedomain.ArretaElkarrizketa*Þ
 5J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java€ €(	ÐÍ
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java€ €(	ÐÍ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java€ €(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java€ €(
 %2java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
 
 amdomain.ArretaMezua2getIdentifikadorea()ÏÌ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java€& €(<
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java€& €(<
 %3java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
 
 mdomain.ArretaMezua2getIdentifikadorea()ßÜ
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java€ €(=
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java€ €(=
 %4boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
 
 %2java.lang.Integer*
@@ -63,26 +63,26 @@ J
 3
 4*Å
 6J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(îë
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(îë
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(5
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaÿ ÿ(5
 %1java.util.Vector"Fdomain.ArretaElkarrizketa#getLangileakBidalitakoak()Ljava/util/Vector;*!
 
 aedomain.ArretaElkarrizketa2getLangileakBidalitakoak()*
 3*î
 7J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(+—
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(+—
 ”
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(+
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.javaþ þ(+
 %0java.util.Vector"__id*(*&
 gui.PostontziaGUI"
 elkarrizketak*
 2*¥
 1J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java…	 …("T
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java…	 …("T
 J
->/home/estrapro/git/Bets21/src/main/java/gui/PostontziaGUI.java… …(
+>/home/aitor/Coding/Bets21/src/main/java/gui/PostontziaGUI.java… …(
 "":
 mdomain.ArretaMezuaB
 gui.PostontziaGUI

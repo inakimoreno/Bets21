@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: EmaitzaIpini2DAB
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.087 sec <<< FAILURE! - in EmaitzaIpini2DAB
-test1(EmaitzaIpini2DAB)  Time elapsed: 0.057 sec  <<< ERROR!
-java.lang.IllegalArgumentException: Unexpected null argument
-	at EmaitzaIpini2DAB.test1(EmaitzaIpini2DAB.java:46)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in EmaitzaIpini2DAB

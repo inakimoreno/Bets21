@@ -1,11 +1,11 @@
 
 XbusinessLogic.BLFacadeImplementation#getPronostikoak(Ldomain/Apustua;)Ljava/util/Vector;]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¨% ¨(4"startingBlock*ª
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¨% ¨(4"startingBlock*ª
 startingBlock]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¨4 ¨(?¤
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¨4 ¨(?¤
 ¡
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java§ §(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java§ §(
 %6"
 __annotate*
 javax.jws.WebMethod*
@@ -13,21 +13,21 @@ __annotate*
 adomain.Apustua
 Š
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¨= ¨(>
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¨= ¨(>
 adomain.Apustua"__annotation*
 
 %6*
 1*â
 1]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(¾
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(¾
 »
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(
 %0dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager¾»
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java© ©(
 
 %1void"dataAccess.DataAccess#open(Z)V*
 
@@ -35,12 +35,12 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 ""2open(Z)¾
 »
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª, ª(5
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª, ª(5
 %2dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManagerž›
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª, ª(H
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª, ª(H
 %3java.util.Vector"IdataAccess.DataAccess#getPronostikoak(Ldomain/Apustua;)Ljava/util/Vector;*
 
 %2dataAccess.DataAccess*
@@ -48,24 +48,24 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 adomain.Apustua2!getPronostikoak(Ldomain/Apustua;)Ÿ
 œ
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª ª(I
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaª ª(I
 emaitzajava.util.Vector"__id*
 
 %3java.util.Vector¾
 »
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(
 %4dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager¶³
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java« «(
 
 %5void"dataAccess.DataAccess#close()V*
 
 %4dataAccess.DataAccess2close()"~
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¬ ¬(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java¬ ¬(
 
 emaitzajava.util.Vector:
 adomain.ApustuaB(&

@@ -1,16 +1,16 @@
 
 3configuration.ConfigXML#getUser()Ljava/lang/String;N
-D/home/estrapro/git/Bets21/src/main/java/configuration/ConfigXML.java9 9("1*Ú
+D/home/aitor/Coding/Bets21/src/main/java/configuration/ConfigXML.java9 9("1*Ú
 1N
-D/home/estrapro/git/Bets21/src/main/java/configuration/ConfigXML.java:	 :(˜
+D/home/aitor/Coding/Bets21/src/main/java/configuration/ConfigXML.java:	 :(˜
 •
 N
-D/home/estrapro/git/Bets21/src/main/java/configuration/ConfigXML.java:	 :(
+D/home/aitor/Coding/Bets21/src/main/java/configuration/ConfigXML.java:	 :(
 %0java.lang.String"__id*%*#
 configuration.ConfigXML"
 user"j
 N
-D/home/estrapro/git/Bets21/src/main/java/configuration/ConfigXML.java: :(
+D/home/aitor/Coding/Bets21/src/main/java/configuration/ConfigXML.java: :(
 
 %0java.lang.StringB
 configuration.ConfigXML

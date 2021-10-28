@@ -1,11 +1,11 @@
 
 _businessLogic.BLFacadeImplementation#getErrepikatzaileak(Ldomain/Bezeroa;)Ljava/util/ArrayList;]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaü) ü(<"startingBlock*¶
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaü) ü(<"startingBlock*¶
 startingBlock]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaü< ü(Mª
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaü< ü(Mª
 §
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaû û(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaû û(
 %6"
 __annotate*
 javax.jws.WebMethod*
@@ -13,21 +13,21 @@ __annotate*
 bezeroadomain.Bezeroa“
 
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaüE ü(L
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaüE ü(L
 bezeroadomain.Bezeroa"__annotation*
 
 %6*
 1*Œ
 1]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaý ý(¾
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaý ý(¾
 »
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaý ý(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaý ý(
 %0dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager¾»
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaý ý(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaý ý(
 
 %1void"dataAccess.DataAccess#open(Z)V*
 
@@ -35,12 +35,12 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 ""2open(Z)¾
 »
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþ3 þ(<
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþ3 þ(<
 %2dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager²¯
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþ3 þ(Y
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþ3 þ(Y
 %3java.util.ArrayList"PdataAccess.DataAccess#getErrepikatzaileak(Ldomain/Bezeroa;)Ljava/util/ArrayList;*
 
 %2dataAccess.DataAccess*
@@ -48,24 +48,24 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 bezeroadomain.Bezeroa2%getErrepikatzaileak(Ldomain/Bezeroa;)«
 ¨
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþ þ(Z$
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaþ þ(Z$
 errepikapenakjava.util.ArrayList"__id*
 
 %3java.util.ArrayList¾
 »
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÿ ÿ(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÿ ÿ(
 %4dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager¶³
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÿ ÿ(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÿ ÿ(
 
 %5void"dataAccess.DataAccess#close()V*
 
 %4dataAccess.DataAccess2close()"‡
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java€ €(&
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java€ €(&
 $
 errepikapenakjava.util.ArrayList:
 bezeroadomain.BezeroaB(&

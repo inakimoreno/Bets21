@@ -1,25 +1,25 @@
 
 2dataAccess.DataAccess#removeMezua(Ldomain/Mezua;)VN
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì("5"6*¬
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaì ì("5"6*¬
 2N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (ÑÎ
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java (ÑÎ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (%
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java (%
 %29void"/domain.ArretaMezua#setIkusgaiBezeroarentzat(Z)V*
 
 mdomain.ArretaMezua*
 ""2setIkusgaiBezeroarentzat(Z)*
 1*’
 3N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(¤
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(¤
 ¡
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(&
 %27javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(
 %28void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
 &
 %27javax.persistence.EntityManager*+
@@ -27,9 +27,9 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(
 elkarrizketadomain.ArretaElkarrizketa2remove(Ljava/lang/Object;)*
 1*×
 4N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaû û(‰†
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaû û(‰†
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaû û(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaû û(
 %23void"<domain.ArretaElkarrizketa#removeMezua(Ldomain/ArretaMezua;)V*+
 )
 elkarrizketadomain.ArretaElkarrizketa*
@@ -37,39 +37,39 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaû û(
 mdomain.ArretaMezua2!removeMezua(Ldomain/ArretaMezua;)¤
 ¡
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(&
 %24javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbşû
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(
 %25void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
 &
 %24javax.persistence.EntityManager*
 
 mdomain.ArretaMezua2remove(Ljava/lang/Object;)ÅÂ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaı ı(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaı ı(
 %26boolean"&domain.ArretaElkarrizketa#mezurikEz()Z*+
 )
 elkarrizketadomain.ArretaElkarrizketa2mezurikEz()*
 3
 1*
 5N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(¤
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(¤
 ¡
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(&
 %15javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbÒÏ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷. ÷(H
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java÷. ÷(H
 %16java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
 
 mezuadomain.Mezua2getIdentifikadorea()ÄÁ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(I
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(I
 %17domain.ArretaMezua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*(
 &
 %15javax.persistence.EntityManager*
@@ -78,59 +78,59 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(I
 %16java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)
 Œ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(J
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(J
 mdomain.ArretaMezua"__id*
 
 %17domain.ArretaMezuaäá
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaø% ø(8 
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaø% ø(8 
 %18domain.ArretaElkarrizketa"?domain.ArretaMezua#getElkarrizketa()Ldomain/ArretaElkarrizketa;*
 
 mdomain.ArretaMezua2getElkarrizketa()¨
 ¥
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaø ø(9)
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaø ø(9)
 elkarrizketadomain.ArretaElkarrizketa"__id*"
  
 %18domain.ArretaElkarrizketa¤
 ¡
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(&
 %19javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db’
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(*
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(*
 %20#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
 %19javax.persistence.EntityManager2getTransaction()ÅÂ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(
 %21void",javax.persistence.EntityTransaction#begin()V*,
 *
 %20#javax.persistence.EntityTransaction2begin()ÇÄ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(
 %22boolean"'domain.ArretaElkarrizketa#isAmaituta()Z*+
 )
 elkarrizketadomain.ArretaElkarrizketa2isAmaituta()*
 2
 4*ì
 6N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î(£
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaî î(£
  
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î(%
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaî î(%
 %0javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbÑÎ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî: î(T
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaî: î(T
 %1java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
 
 mezuadomain.Mezua2getIdentifikadorea()ÇÄ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î(U
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaî î(U
 %2domain.BezeroartekoMezua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
 %
 %0javax.persistence.EntityManager*
@@ -139,51 +139,51 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î(U
 %1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)š
 —
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î(V
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaî î(V
 mdomain.BezeroartekoMezua"__id* 
 
 %2domain.BezeroartekoMezuaÏÌ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï( 
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaï ï( 
 %3domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*
 
 mdomain.BezeroartekoMezua2getIgorlea()‰
 †
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(!
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(!
 norkdomain.Bezeroa"__id*
 
 %3domain.BezeroaÕÒ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ(#
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ(#
 %4domain.Bezeroa"8domain.BezeroartekoMezua#getHartzailea()Ldomain/Bezeroa;*
 
 mdomain.BezeroartekoMezua2getHartzailea()‰
 †
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ($
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ($
 noridomain.Bezeroa"__id*
 
 %4domain.Bezeroa£
  
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(%
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(%
 %5javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ()
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ()
 %6#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
 %
 %5javax.persistence.EntityManager2getTransaction()ÃÀ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(
 
 %7void",javax.persistence.EntityTransaction#begin()V*+
 )
 %6#javax.persistence.EntityTransaction2begin()›
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò('
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaò ò('
 
 %8void"Hdomain.Bezeroa#ezabatuBidalitakoBezeroMezua(Ldomain/BezeroartekoMezua;)V*
 
@@ -191,7 +191,7 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò('
 
 mdomain.BezeroartekoMezua28ezabatuBidalitakoBezeroMezua(Ldomain/BezeroartekoMezua;)š—
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaó ó(%
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaó ó(%
 
 %9void"Fdomain.Bezeroa#ezabatuJasotakoBezeroMezua(Ldomain/BezeroartekoMezua;)V*
 
@@ -200,12 +200,12 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaó ó(%
 mdomain.BezeroartekoMezua26ezabatuJasotakoBezeroMezua(Ldomain/BezeroartekoMezua;)¤
 ¡
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaô ô(&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaô ô(&
 %10javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db„
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaô ô(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaô ô(
 %11void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
 &
 %10javax.persistence.EntityManager*
@@ -213,40 +213,40 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaô ô(
 mdomain.BezeroartekoMezua2remove(Ljava/lang/Object;)¤
 ¡
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(&
 %12javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db’
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(*
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(*
 %13#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
 %12javax.persistence.EntityManager2getTransaction()ÇÄ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(
 %14void"-javax.persistence.EntityTransaction#commit()V*,
 *
 %13#javax.persistence.EntityTransaction2commit()*
 0*l
 0 "e
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java… …(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.java… …(
 implicit return*Ş
 1N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(¤
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(¤
 ¡
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(&
 %30javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 db’
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(*
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(*
 %31#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
 &
 %30javax.persistence.EntityManager2getTransaction()ÇÄ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(
 %32void"-javax.persistence.EntityTransaction#commit()V*,
 *
 %31#javax.persistence.EntityTransaction2commit()*

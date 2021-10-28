@@ -1,21 +1,21 @@
 
 cdataAccess.DataAccess#getArretaElkarrizketa(Ldomain/ArretaElkarrizketa;)Ldomain/ArretaElkarrizketa;N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(0"1*Œ
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(0"1*Œ
 1N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(!£
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(!£
 †
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(!%
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(!%
 %0javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
 dbËÂ
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaúA ú(X
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaúA ú(X
 %1java.lang.Integer"Adomain.ArretaElkarrizketa#getIdentifikadorea()Ljava/lang/Integer;*!
 
 aedomain.ArretaElkarrizketa2getIdentifikadorea()»≈
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(Y
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(Y
 %2domain.ArretaElkarrizketa"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
 %
 %0javax.persistence.EntityManager*
@@ -24,12 +24,12 @@ B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(Y
 %1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)¢
 ü
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(Z$
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(Z$
 emaitzadomain.ArretaElkarrizketa"__id*!
 
 %2domain.ArretaElkarrizketa"x
 N
-B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(&
+B/home/aitor/Coding/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(&
 $
 emaitzadomain.ArretaElkarrizketa:
 aedomain.ArretaElkarrizketaB

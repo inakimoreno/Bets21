@@ -1,16 +1,16 @@
 
 7domain.Bezeroa#errepikapenErlazioaDu(Ldomain/Bezeroa;)ZG
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaÃ Ã(%"9*‡
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaÃ Ã(%"9*‡
 2G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java“ “(s
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java“ “(s
 q
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java“ “(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java“ “(
 edomain.Errepikapena"__id*
 ""î
 ë
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java“ “(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java“ “(
 edomain.Errepikapena"
 __arrayGet*
 
@@ -19,29 +19,29 @@ __arrayGet*
 4
 1*ü
 3G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java‘ ‘("Q
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java‘ ‘("Q
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java‘ ‘(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java‘ ‘(
 ""*ë
 4G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java” ”(∏µ
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java” ”(∏µ
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java” ”(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java” ”(
 %6domain.Bezeroa"-domain.Errepikapena#getNork()Ldomain/Bezeroa;*
 
 edomain.Errepikapena2	getNork()ŒÀ
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java” ”((
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java” ”((
 %7java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
 %6domain.Bezeroa2getErabiltzaileIzena()“œ
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java”0 ”(M
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java”0 ”(M
 %8java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
 besteadomain.Bezeroa2getErabiltzaileIzena()Ÿ÷
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java” ”(N
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java” ”(N
 %9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %7java.lang.String*
@@ -50,24 +50,24 @@ G
 2
 3*Ë
 5G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java“ “('î
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java“ “('î
 ë
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java“ “('
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java“ “('
 %5java.util.Vector"__id*(*&
 domain.Bezeroa"
 errepikatzaileak*
 2*‡
 6G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(s
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(s
 q
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(
 edomain.Errepikapena"__id*
 ""î
 ë
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(
 edomain.Errepikapena"
 __arrayGet*
 
@@ -76,29 +76,29 @@ __arrayGet*
 5
 8*ü
 7G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaœ œ("Q
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaœ œ("Q
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaœ œ(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaœ œ(
 ""*ë
 8G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaŒ Œ(∏µ
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaŒ Œ(∏µ
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaŒ Œ(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaŒ Œ(
 %1domain.Bezeroa"-domain.Errepikapena#getNori()Ldomain/Bezeroa;*
 
 edomain.Errepikapena2	getNori()ŒÀ
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaŒ Œ((
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaŒ Œ((
 %2java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
 %1domain.Bezeroa2getErabiltzaileIzena()“œ
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaŒ0 Œ(M
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaŒ0 Œ(M
 %3java.lang.String"8domain.Pertsona#getErabiltzaileIzena()Ljava/lang/String;*
 
 besteadomain.Bezeroa2getErabiltzaileIzena()Ÿ÷
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaŒ Œ(N
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaŒ Œ(N
 %4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
 %2java.lang.String*
@@ -107,18 +107,18 @@ G
 6
 7*‰
 9G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(#ê
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(#ê
 ç
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(#
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.javaÕ Õ(#
 %0java.util.Vector"__id*$*"
 domain.Bezeroa"
 errepikatuak*
 6*ü
 1G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java◊	 ◊("Q
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java◊	 ◊("Q
 G
-;/home/estrapro/git/Bets21/src/main/java/domain/Bezeroa.java◊ ◊(
+;/home/aitor/Coding/Bets21/src/main/java/domain/Bezeroa.java◊ ◊(
 "":
 besteadomain.BezeroaB
 domain.Bezeroa

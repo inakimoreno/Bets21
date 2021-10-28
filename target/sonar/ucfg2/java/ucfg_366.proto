@@ -1,11 +1,11 @@
 
 fbusinessLogic.BLFacadeImplementation#getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)Ljava/util/Vector;]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ Ì(&"startingBlock*ˇ
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ Ì(&"startingBlock*ˇ
 startingBlock]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ& Ì(H≠
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ& Ì(H≠
 ™
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÏ Ï(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÏ Ï(
 %6"
 __annotate*
 javax.jws.WebMethod*
@@ -13,13 +13,13 @@ __annotate*
 usernamejava.lang.Stringñ
 ì
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ. Ì(6
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ. Ì(6
 usernamejava.lang.String"__annotation*
 
 %6™
 ß
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÏ Ï(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÏ Ï(
 %7"
 __annotate*
 javax.jws.WebMethod*
@@ -27,21 +27,21 @@ __annotate*
 bezeroadomain.Bezeroaì
 ê
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ@ Ì(G
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÌ@ Ì(G
 bezeroadomain.Bezeroa"__annotation*
 
 %7*
 1*¶
 1]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ Ó(æ
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ Ó(æ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ Ó(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ Ó(
 %0dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManageræª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ Ó(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÓ Ó(
 
 %1void"dataAccess.DataAccess#open(Z)V*
 
@@ -49,12 +49,12 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 ""2open(Z)æ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÔ  Ô()
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÔ  Ô()
 %2dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager‡›
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÔ  Ô(H
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÔ  Ô(H
 %3java.util.Vector"WdataAccess.DataAccess#getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)Ljava/util/Vector;*
 
 %2dataAccess.DataAccess*
@@ -64,24 +64,24 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 bezeroadomain.Bezeroa2/getBezeroak(Ljava/lang/String;Ldomain/Bezeroa;)†
 ù
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÔ Ô(I
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÔ Ô(I
 bezeroakjava.util.Vector"__id*
 
 %3java.util.Vectoræ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (
 %4dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager∂≥
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java (
 
 %5void"dataAccess.DataAccess#close()V*
 
 %4dataAccess.DataAccess2close()"
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÒ Ò(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÒ Ò(
 
 bezeroakjava.util.Vector:
 usernamejava.lang.String:

@@ -1,32 +1,32 @@
 
 Ggui.GertaeraEzabatuGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)VM
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaz z("10*µ
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaz z("10*µ
 2O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaï ï(´
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaï ï(´
 ®
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaï ï(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaï ï(
 %51javax.swing.JComboBox"__id*1*/
 gui.GertaeraEzabatuGUI$3"
 jComboBoxEvents´®
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaï ï(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaï ï(
 %52void"java.awt.Component#repaint()V*
 
 %51javax.swing.JComboBox2	repaint()*
 0*
 3O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaì
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaì
  ì(u
 s
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaì
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaì
  ì(
 evdomain.Event"__id*
 ""ö
 ó
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaì
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaì
  ì(
 evdomain.Event"
 __arrayGet*
@@ -36,15 +36,15 @@ __arrayGet*
 2
 4*ï
 4O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaî î(≤
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaî î(≤
 Ø
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaî î('
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaî î('
 %49 javax.swing.DefaultComboBoxModel"__id*-*+
 gui.GertaeraEzabatuGUI$3"
 modelEventsÑÅ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaî î( 
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaî î( 
 %50void"@javax.swing.DefaultComboBoxModel#addElement(Ljava/lang/Object;)V*)
 '
 %49 javax.swing.DefaultComboBoxModel*
@@ -52,32 +52,32 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaî î( 
 evdomain.Event2addElement(Ljava/lang/Object;)*
 3*÷
 6O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaê ê(´
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaê ê(´
 ®
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaê ê(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaê ê(
 %44javax.swing.JComboBox"__id*1*/
 gui.GertaeraEzabatuGUI$3"
 jComboBoxEventsºπ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaê ê(%
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaê ê(%
 %45void"'javax.swing.JComboBox#removeAllItems()V*
 
 %44javax.swing.JComboBox2removeAllItems()}
 {
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaë ë(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaë ë(
 %46java.io.PrintStream"__id*
 ""¢
 ü
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaë ë(*
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaë ë(*
 %47java.lang.String"__concat*	
 Events *
 
 eventsjava.util.VectorÈÊ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaë ë(+
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaë ë(+
 %48void"0java.io.PrintStream#println(Ljava/lang/String;)V*
 
 %46java.io.PrintStream*
@@ -85,21 +85,21 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaë ë(+
 %47java.lang.String2println(Ljava/lang/String;)*
 3*≥
 7O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé é(´
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé é(´
 ®
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé é(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé é(
 %35javax.swing.JLabel"__id*4*2
 gui.GertaeraEzabatuGUI$3"
 jLabelListOfEventsÙ
 Ò
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! é(F
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! é(F
 %36java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	EtiquetasÖÇ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! é(Z
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! é(Z
 %37java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %36java.util.ResourceBundle*
@@ -107,24 +107,24 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! é(Z
 Events2getString(Ljava/lang/String;)ö
 ó
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! é(a
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! é(a
 %38java.lang.String"__concat*
 
 %37java.lang.String*
 : §
 °
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaè è((
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaè è((
 %39java.util.Calendar"__id*-*+
 gui.GertaeraEzabatuGUI$3"
 calendarAct¡æ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaè è(2
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaè è(2
 %40java.util.Date",java.util.Calendar#getTime()Ljava/util/Date;*
 
 %39java.util.Calendar2	getTime()àÖ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaè
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaè
  è(3
 %41java.lang.String"?java.text.DateFormat#format(Ljava/util/Date;)Ljava/lang/String;*%
 #
@@ -133,14 +133,14 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaè
 %40java.util.Date2format(Ljava/util/Date;)≠
 ™
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! è(3
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé! è(3
 %42java.lang.String"__concat*
 
 %38java.lang.String*
 
 %41java.lang.StringÁ‰
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé è(4
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé è(4
 %43void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %35javax.swing.JLabel*
@@ -148,21 +148,21 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaé è(4
 %42java.lang.String2setText(Ljava/lang/String;)*
 6*µ
 8O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã ã(´
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã ã(´
 ®
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã ã(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã ã(
 %26javax.swing.JLabel"__id*4*2
 gui.GertaeraEzabatuGUI$3"
 jLabelListOfEventsÙ
 Ò
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! ã(F
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! ã(F
 %27java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	EtiquetasáÑ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! ã(\
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! ã(\
 %28java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %27java.util.ResourceBundle*
@@ -170,24 +170,24 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! ã(\
 NoEvents2getString(Ljava/lang/String;)ö
 ó
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! å(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! å(
 %29java.lang.String"__concat*
 
 %28java.lang.String*
 : §
 °
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaå$ å(/
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaå$ å(/
 %30java.util.Calendar"__id*-*+
 gui.GertaeraEzabatuGUI$3"
 calendarAct¡æ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaå$ å(9
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaå$ å(9
 %31java.util.Date",java.util.Calendar#getTime()Ljava/util/Date;*
 
 %30java.util.Calendar2	getTime()àÖ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaå å(:
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaå å(:
 %32java.lang.String"?java.text.DateFormat#format(Ljava/util/Date;)Ljava/lang/String;*%
 #
 dateformat1java.text.DateFormat*
@@ -195,14 +195,14 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaå å(:
 %31java.util.Date2format(Ljava/util/Date;)≠
 ™
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! å(:
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã! å(:
 %33java.lang.String"__concat*
 
 %29java.lang.String*
 
 %32java.lang.StringÁ‰
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã å(;
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã å(;
 %34void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %26javax.swing.JLabel*
@@ -210,26 +210,26 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaã å(;
 %33java.lang.String2setText(Ljava/lang/String;)*
 6*•
 9O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÅ Å(º
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÅ Å(º
 π
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÅ Å(1
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÅ Å(1
 %10businessLogic.BLFacade"6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
 gui.MainGUIù
 ö
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÅ Å(2 
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÅ Å(2 
 facadebusinessLogic.BLFacade"__id*
 
 %10businessLogic.BLFacade†
 ù
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÇ Ç()
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÇ Ç()
 %11domain.Event"__id*/*-
 gui.GertaeraEzabatuGUI$3"
 selectedEventˆÛ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÇ Ç(*
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÇ Ç(*
 %12void"7businessLogic.BLFacade#ezabatuGertaera(Ldomain/Event;)V*"
  
 facadebusinessLogic.BLFacade*
@@ -237,17 +237,17 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÇ Ç(*
 %11domain.Event2ezabatuGertaera(Ldomain/Event;)¢
 ü
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÉ É(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÉ É(
 %13javax.swing.JLabel"__id*+*)
 gui.GertaeraEzabatuGUI$3"
 	jLabelMsgx
 v
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÉ É((
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÉ É((
 %14java.awt.Color"__id*
 ""ÒÓ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÉ É()
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÉ É()
 %15void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
 
 %13javax.swing.JLabel*
@@ -255,24 +255,24 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÉ É()
 %14java.awt.Color2setForeground(Ljava/awt/Color;)¢
 ü
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(
 %16javax.swing.JLabel"__id*+*)
 gui.GertaeraEzabatuGUI$3"
 	jLabelMsgÙ
 Ò
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(<
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(<
 %17java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasãà
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(V
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(V
 %18java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %17java.util.ResourceBundle*
 SuccessEvent2getString(Ljava/lang/String;)Á‰
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(W
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(W
 %19void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %16javax.swing.JLabel*
@@ -280,37 +280,37 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÑ Ñ(W
 %18java.lang.String2setText(Ljava/lang/String;)Æ
 ´
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÜ< Ü(E%
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÜ< Ü(E%
 %20com.toedter.calendar.JCalendar"__id*+*)
 gui.GertaeraEzabatuGUI$3"
 	jCalendar·ﬁ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÜ< Ü(Q
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÜ< Ü(Q
 %21java.util.Locale"<com.toedter.calendar.JCalendar#getLocale()Ljava/util/Locale;*'
 %
 %20com.toedter.calendar.JCalendar2getLocale()˝
 ˙
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÜ Ü(R
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÜ Ü(R
 %22java.text.DateFormat"Ojava.text.DateFormat#getDateInstance(ILjava/util/Locale;)Ljava/text/DateFormat;*"
 java.text.DateFormat*2*
 
 %21java.util.Localeû
 õ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÜ Ü(S#
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÜ Ü(S#
 dateformat1java.text.DateFormat"__id*
 
 %22java.text.DateFormatù
 ö
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaà4 à(<
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaà4 à(<
 %23java.util.Date"__id***(
 gui.GertaeraEzabatuGUI$3"
 
 firstDayçä
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaà# à(=
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaà# à(=
 %24java.util.Vector"DbusinessLogic.BLFacade#getEvents(Ljava/util/Date;)Ljava/util/Vector;*"
  
 facadebusinessLogic.BLFacade*
@@ -318,90 +318,90 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaà# à(=
 %23java.util.Date2getEvents(Ljava/util/Date;)ë
 é
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaà à(>
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaà à(>
 eventsjava.util.Vector"__id*
 
 %24java.util.Vector™ß
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaä	 ä(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaä	 ä(
 %25boolean"java.util.Vector#isEmpty()Z*
 
 eventsjava.util.Vector2	isEmpty()*
 7
 8*ƒ
 10M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java{ {(°
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java{ {(°
 û
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java{ {(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java{ {(
 %0javax.swing.JLabel"__id*-*+
 gui.GertaeraEzabatuGUI$3"
 jLabelErrorÃ…
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java{ {(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java{ {(
 
 %1void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %0javax.swing.JLabel* 2setText(Ljava/lang/String;)•
 ¢
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java| |(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java| |(
 %2javax.swing.JLabel"__id*1*/
 gui.GertaeraEzabatuGUI$3"
 jLabelErrorDateÃ…
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java| |(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java| |(
 
 %3void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %2javax.swing.JLabel* 2setText(Ljava/lang/String;)´
 ®
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java} }($
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java} }($
 %4com.toedter.calendar.JCalendar"__id*+*)
 gui.GertaeraEzabatuGUI$3"
 	jCalendar’“
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java} }((
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java} }((
 %5java.util.Date"8com.toedter.calendar.JCalendar#getDate()Ljava/util/Date;*&
 $
 %4com.toedter.calendar.JCalendar2	getDate()ç
 ä
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java} }()
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java} }()
 	eventDatejava.util.Date"__id*
 
 %5java.util.Date‚
 ﬂ
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java~ ~((
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java~ ~((
 %6java.util.Date"=configuration.UtilDate#trim(Ljava/util/Date;)Ljava/util/Date;*"
 configuration.UtilDate*
 
 	eventDatejava.util.Dateç
 ä
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java~ ~((
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java~ ~((
 	eventDatejava.util.Date"__id*
 
 %6java.util.Datewu
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java (
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java (
 %7java.util.Date"java.util.Dateä
 á
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java (
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java (
 %8"java.util.Date#<init>()V*
 
 %7java.util.Dateâ
 Ü
 M
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java (
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.java (
 todayjava.util.Date"__id*
 
 %7java.util.Dateﬂ‹
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÄ Ä(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÄ Ä(
 %9boolean"'java.util.Date#after(Ljava/util/Date;)Z*
 
 	eventDatejava.util.Date*
@@ -411,23 +411,23 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaÄ Ä(
 1*m
 0 "f
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaö ö(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaö ö(
 implicit return*Å
 1O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó(¢
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó(¢
 ü
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó(
 %53javax.swing.JLabel"__id*+*)
 gui.GertaeraEzabatuGUI$3"
 	jLabelMsgx
 v
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó(&
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó(&
 %54java.awt.Color"__id*
 ""ÒÓ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó('
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó('
 %55void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
 
 %53javax.swing.JLabel*
@@ -435,24 +435,24 @@ C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaó ó('
 %54java.awt.Color2setForeground(Ljava/awt/Color;)¢
 ü
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaò ò(
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaò ò(
 %56javax.swing.JLabel"__id*+*)
 gui.GertaeraEzabatuGUI$3"
 	jLabelMsgÙ
 Ò
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaò ò(<
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaò ò(<
 %57java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
 java.util.ResourceBundle*
 	Etiquetasåâ
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaò ò(W
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaò ò(W
 %58java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
 
 %57java.util.ResourceBundle*
 EventFinished2getString(Ljava/lang/String;)Á‰
 O
-C/home/estrapro/git/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaò ò(X
+C/home/aitor/Coding/Bets21/src/main/java/gui/GertaeraEzabatuGUI.javaò ò(X
 %59void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
 
 %56javax.swing.JLabel*

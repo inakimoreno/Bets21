@@ -1,11 +1,11 @@
 
 nbusinessLogic.BLFacadeImplementation#createPronostic(Ldomain/Question;Ljava/lang/String;D)Ldomain/Pronostikoa;]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ(&"startingBlock*â
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ(&"startingBlock*â
 startingBlock]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ& Æ([¨
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ& Æ([¨
 ©
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠ ≠(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠ ≠(
 %6"
 __annotate*
 javax.jws.WebMethod*
@@ -13,13 +13,13 @@ __annotate*
 questiondomain.Questionï
 í
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ0 Æ(8
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆ0 Æ(8
 questiondomain.Question"__annotation*
 
 %6∞
 ≠
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠ ≠(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≠ ≠(
 %7"
 __annotate*
 javax.jws.WebMethod*!
@@ -27,21 +27,21 @@ __annotate*
 descriptionjava.lang.Stringô
 ñ
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆA Æ(L
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaÆA Æ(L
 descriptionjava.lang.String"__annotation*
 
 %7*
 1*ª
 1]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(æ
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(æ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
 %0dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManageræª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(
 
 %1void"dataAccess.DataAccess#open(Z)V*
 
@@ -49,12 +49,12 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 ""2open(Z)æ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(
 %2dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager˝˙
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(F
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(F
 %3domain.Pronostikoa"_dataAccess.DataAccess#createPronostic(Ldomain/Question;Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 %2dataAccess.DataAccess*
@@ -65,24 +65,24 @@ Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.ja
 ""25createPronostic(Ldomain/Question;Ljava/lang/String;D)ù
 ö
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(G
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java∞ ∞(G
 pdomain.Pronostikoa"__id*
 
 %3domain.Pronostikoaæ
 ª
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
 %4dataAccess.DataAccess"__id*7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager∂≥
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java± ±(
 
 %5void"dataAccess.DataAccess#close()V*
 
 %4dataAccess.DataAccess2close()"z
 ]
-Q/home/estrapro/git/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤(
+Q/home/aitor/Coding/Bets21/src/main/java/businessLogic/BLFacadeImplementation.java≤ ≤(
 
 pdomain.Pronostikoa:
 questiondomain.Question:
