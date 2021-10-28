@@ -17,7 +17,7 @@ public class RemoveMezua2DAB {
 	DataAccessRemoveMezua sut = new DataAccessRemoveMezua(true);
 		 
 	TestDataAccess testDA = new TestDataAccess();
-	/*
+	
 	@Test
 	public void test1() {
 		try {
@@ -38,7 +38,7 @@ public class RemoveMezua2DAB {
 			fail();
 		}
 	}
-
+/*
 	@Test
 	public void test2() {
 		try {
