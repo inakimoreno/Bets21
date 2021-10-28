@@ -1,0 +1,194 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-28 11:13:05 #1 store] 
+Database '/home/estrapro/git/Bets21/src/main/resources/bets.temp' is opened by 9261@estrapro-pc
+
+[2021-10-28 11:13:05 #2 store] 
+Configuration path: /home/estrapro/git/Bets21/objectdb-2.8.6/objectdb.conf
+
+[2021-10-28 11:13:05 #3 type] 
+Type domain.Mezua is not enhanced.
+
+[2021-10-28 11:13:05 #4 type] 
+Type domain.BezeroartekoMezua is not enhanced.
+
+[2021-10-28 11:13:06 #5 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-10-28 11:13:06 #6 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-10-28 11:13:06 #7 type] 
+Type domain.ArretaElkarrizketa is not enhanced.
+
+[2021-10-28 11:13:06 #8 type] 
+Type domain.Errepikapena is not enhanced.
+
+[2021-10-28 11:13:06 #9 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-10-28 11:13:06 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2021-10-28 11:13:06 #11 type] 
+Type domain.ArretaMezua is not enhanced.
+
+[2021-10-28 11:13:06 #12 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-10-28 11:13:06 #13 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-10-28 11:13:06 #14 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-28 11:13:06 #15 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-28 11:13:41 #1 store] 
+Database '/home/estrapro/git/Bets21/src/main/resources/bets.temp' is opened by 9303@estrapro-pc
+
+[2021-10-28 11:13:41 #2 store] 
+Configuration path: /home/estrapro/git/Bets21/objectdb-2.8.6/objectdb.conf
+
+[2021-10-28 11:13:42 #3 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-10-28 11:13:42 #4 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-10-28 11:13:42 #5 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-10-28 11:13:42 #6 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-10-28 11:13:42 #7 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-28 11:13:42 #8 type] 
+Type domain.ArretaElkarrizketa is not enhanced.
+
+[2021-10-28 11:13:42 #9 type] 
+Type domain.Errepikapena is not enhanced.
+
+[2021-10-28 11:13:42 #10 type] 
+Type domain.Mezua is not enhanced.
+
+[2021-10-28 11:13:42 #11 type] 
+Type domain.BezeroartekoMezua is not enhanced.
+
+[2021-10-28 11:13:42 #12 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2021-10-28 11:13:42 #13 type] 
+Type domain.Event is not enhanced.
+
+[2021-10-28 11:13:42 #14 type] 
+Type domain.ArretaMezua is not enhanced.
+
+[2021-10-28 11:13:42 #15 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-10-28 11:13:42 #16 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-28 11:15:38 #1 store] 
+Database '/home/estrapro/git/Bets21/src/main/resources/bets.temp' is opened by 9385@estrapro-pc
+
+[2021-10-28 11:15:38 #2 store] 
+Configuration path: /home/estrapro/git/Bets21/objectdb-2.8.6/objectdb.conf
+
+[2021-10-28 11:15:38 #3 type] 
+Type domain.Mezua is not enhanced.
+
+[2021-10-28 11:15:38 #4 type] 
+Type domain.BezeroartekoMezua is not enhanced.
+
+[2021-10-28 11:15:38 #5 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-10-28 11:15:38 #6 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-10-28 11:15:38 #7 type] 
+Type domain.ArretaElkarrizketa is not enhanced.
+
+[2021-10-28 11:15:38 #8 type] 
+Type domain.Errepikapena is not enhanced.
+
+[2021-10-28 11:15:38 #9 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-10-28 11:15:38 #10 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2021-10-28 11:15:38 #11 type] 
+Type domain.ArretaMezua is not enhanced.
+
+[2021-10-28 11:15:38 #12 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-10-28 11:15:38 #13 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-10-28 11:15:38 #14 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-28 11:15:38 #15 type] 
+Type domain.Event is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-10-28 11:18:15 #1 store] 
+Database '/home/estrapro/git/Bets21/src/main/resources/bets.temp' is opened by 9579@estrapro-pc
+
+[2021-10-28 11:18:15 #2 store] 
+Configuration path: /home/estrapro/git/Bets21/objectdb-2.8.6/objectdb.conf
+
+[2021-10-28 11:18:15 #3 type] 
+Type domain.Pertsona is not enhanced.
+
+[2021-10-28 11:18:15 #4 type] 
+Type domain.Admin is not enhanced.
+
+[2021-10-28 11:18:16 #5 type] 
+Type domain.Langilea is not enhanced.
+
+[2021-10-28 11:18:16 #6 type] 
+Type domain.ArretaElkarrizketa is not enhanced.
+
+[2021-10-28 11:18:16 #7 type] 
+Type domain.Mezua is not enhanced.
+
+[2021-10-28 11:18:16 #8 type] 
+Type domain.ArretaMezua is not enhanced.
+
+[2021-10-28 11:18:16 #9 type] 
+Type domain.Bezeroa is not enhanced.
+
+[2021-10-28 11:18:16 #10 type] 
+Type domain.Errepikapena is not enhanced.
+
+[2021-10-28 11:18:16 #11 type] 
+Type domain.BezeroartekoMezua is not enhanced.
+
+[2021-10-28 11:18:16 #12 type] 
+Type domain.Apustua is not enhanced.
+
+[2021-10-28 11:18:16 #13 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2021-10-28 11:18:16 #14 type] 
+Type domain.Pronostikoa is not enhanced.
+
+[2021-10-28 11:18:16 #15 type] 
+Type domain.Question is not enhanced.
+
+[2021-10-28 11:18:16 #16 type] 
+Type domain.Event is not enhanced.
+

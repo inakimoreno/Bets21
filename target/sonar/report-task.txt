@@ -1,7 +1,7 @@
 organization=inakimoreno-1
 projectKey=Bets2222:Bets2222
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.24335
+serverVersion=8.0.0.24399
 dashboardUrl=https://sonarcloud.io/dashboard?id=Bets2222%3ABets2222
-ceTaskId=AXzB0jZ1v8OaYBwJnDAy
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXzB0jZ1v8OaYBwJnDAy
+ceTaskId=AXzGMmRvoWhz4AQzAP5b
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXzGMmRvoWhz4AQzAP5b

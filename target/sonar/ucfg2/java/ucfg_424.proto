@@ -1,168 +1,168 @@
 
-DdataAccess.DataAccessEmaitzaIpini#apustuaIrabazi(DLdomain/Apustua;)DU
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java‚ ‚("3*Õ'
-2U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÊ Ê( «
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÊ Ê(#
+DdataAccess.DataAccessEmaitzaIpini#apustuaIrabazi(DLdomain/Apustua;)DZ
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java‚ ‚("3*Ÿ(
+2Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÊ Ê(œÃ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÊ Ê(#
 %1domain.Bezeroa"/domain.Apustua#getErrepikatua()Ldomain/Bezeroa;*
 
-adomain.Apustua2getErrepikatua()è
-å
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÊ Ê($
+adomain.Apustua2getErrepikatua()î
+ë
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÊ Ê($
 bezdomain.Bezeroa"__id*
 
-%1domain.Bezeroa¬ø
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÁ Á(
+%1domain.Bezeroa«ƒ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÁ Á(
 %2domain.Bezeroa"+domain.Apustua#getBezeroa()Ldomain/Bezeroa;*
 
-adomain.Apustua2getBezeroa()ì
-ê
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÁ Á(
+adomain.Apustua2getBezeroa()ò
+ï
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÁ Á(
 bezeroadomain.Bezeroa"__id*
 
-%2domain.Bezeroaïí
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaË Ë(8
+%2domain.Bezeroaöó
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaË Ë(8
 %3domain.Errepikapena"Edomain.Bezeroa#getErrepikapena(Ldomain/Bezeroa;)Ldomain/Errepikapena;*
 
 bezeroadomain.Bezeroa*
 
-bezdomain.Bezeroa2!getErrepikapena(Ldomain/Bezeroa;)°
-û
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaË Ë(9"
+bezdomain.Bezeroa2!getErrepikapena(Ldomain/Bezeroa;)¶
+£
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaË Ë(9"
 errepikapendomain.Errepikapena"__id*
 
-%3domain.ErrepikapenaÉ
-Ä
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(
+%3domain.Errepikapenaà
+Ö
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(
 %4java.io.PrintStream"__id*
-""´®
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È($
+""∞≠
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È($
 %5double"domain.Apustua#getKopurua()D*
 
-adomain.Apustua2getKopurua()ì
-ê
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È((
+adomain.Apustua2getKopurua()ò
+ï
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È((
 %6java.lang.String"__concat*
 
 %5double*
- ≥∞
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ) È(;
+ ∏µ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ) È(;
 %7double" domain.Apustua#getKuotaTotala()D*
 
-adomain.Apustua2getKuotaTotala()¶
-£
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(;
+adomain.Apustua2getKuotaTotala()´
+®
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(;
 %8java.lang.String"__concat*
 
 %6java.lang.String*
 
-%7doubleù
-ö
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(?
+%7double¢
+ü
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(?
 %9java.lang.String"__concat*
 
 %8java.lang.String*
- ¨©
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ@ È(N
+ ±Æ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ@ È(N
 %10double"domain.Apustua#getKopurua()D*
 
-adomain.Apustua2getKopurua()®
-•
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(N
+adomain.Apustua2getKopurua()≠
+™
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(N
 %11java.lang.String"__concat*
 
 %9java.lang.String*
 
-%10doubleü
-ú
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(R
+%10double§
+°
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(R
 %12java.lang.String"__concat*
 
 %11java.lang.String*
- ¬ø
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈS È(l
+ «ƒ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈS È(l
 %13double""domain.Errepikapena#getKomisioa()D*$
 "
-errepikapendomain.Errepikapena2getKomisioa()©
-¶
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(l
+errepikapendomain.Errepikapena2getKomisioa()Æ
+´
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(l
 %14java.lang.String"__concat*
 
 %12java.lang.String*
 
-%13doubleÓÎ
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(m
+%13doubleÛ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÈ È(m
 %15void"0java.io.PrintStream#println(Ljava/lang/String;)V*
 
 %4java.io.PrintStream*
 
-%14java.lang.String2println(Ljava/lang/String;)¨©
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÍ Í(
+%14java.lang.String2println(Ljava/lang/String;)±Æ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÍ Í(
 %16double"domain.Apustua#getKopurua()D*
 
-adomain.Apustua2getKopurua()¥±
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÍ Í(.
+adomain.Apustua2getKopurua()π∂
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÍ Í(.
 %17double" domain.Apustua#getKuotaTotala()D*
 
-adomain.Apustua2getKuotaTotala()¨©
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÍ/ Í(=
+adomain.Apustua2getKuotaTotala()±Æ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÍ/ Í(=
 %18double"domain.Apustua#getKopurua()D*
 
-adomain.Apustua2getKopurua()¬ø
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÍ? Í(X
+adomain.Apustua2getKopurua()«ƒ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÍ? Í(X
 %19double""domain.Errepikapena#getKomisioa()D*$
 "
-errepikapendomain.Errepikapena2getKomisioa()Ñ
-Å
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÎ Î(
+errepikapendomain.Errepikapena2getKomisioa()â
+Ü
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÎ Î(
 %20java.io.PrintStream"__id*
-""∫∑
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÎ Î(
+""øº
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÎ Î(
 %21void"java.io.PrintStream#println(D)V*
 
 %20java.io.PrintStream*
 ""2
-println(D)¿
-Ω
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÏ Ï(?
+println(D)≈
+¬
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÏ Ï(?
 %22java.lang.String"__concat*$"
  Apustu errepikatuaren komisioa (*
 
-bezeroadomain.Bezeroaü
-ú
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÏ Ï(C
+bezeroadomain.Bezeroa§
+°
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÏ Ï(C
 %23java.lang.String"__concat*
 
 %22java.lang.String*
-)À»
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÏ Ï(X
+)–Õ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÏ Ï(X
 %24domain.Mugimendua"Vdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;)Ldomain/Mugimendua;*
 
 bezdomain.Bezeroa*
@@ -170,76 +170,76 @@ ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÏ 
 %23java.lang.String*
 ""*	
 irabazi24addMugimendua(Ljava/lang/String;DLjava/lang/String;)*
-1*µ
-3U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java„ „(É
-Ä
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java„ „(
+1*ƒ
+3Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java„ „(à
+Ö
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java„ „(
 bezeroadomain.Bezeroa"__id*
-"" «
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÂ Â(
+""œÃ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÂ Â(
 %0domain.Bezeroa"/domain.Apustua#getErrepikatua()Ldomain/Bezeroa;*
 
 adomain.Apustua2getErrepikatua()*
 2
-1*Å
-1U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÓ
- Ó(√¿
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÓ
+1*≥
+1Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÓ
+ Ó(»≈
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÓ
  Ó(
 %25domain.Bezeroa"+domain.Apustua#getBezeroa()Ldomain/Bezeroa;*
 
-adomain.Apustua2getBezeroa()î
-ë
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÓ Ó(
+adomain.Apustua2getBezeroa()ô
+ñ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÓ Ó(
 bezeroadomain.Bezeroa"__id*
 
-%25domain.Bezeroa¨©
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÔ Ô(
+%25domain.Bezeroa±Æ
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÔ Ô(
 %26double"domain.Apustua#getKopurua()D*
 
-adomain.Apustua2getKopurua()¥±
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÔ Ô(,
+adomain.Apustua2getKopurua()π∂
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÔ Ô(,
 %27double" domain.Apustua#getKuotaTotala()D*
 
-adomain.Apustua2getKuotaTotala()Ÿ÷
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java, (B
+adomain.Apustua2getKuotaTotala()ﬁ€
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java, (B
 %28java.lang.Integer"6domain.Apustua#getIdentifikadorea()Ljava/lang/Integer;*
 
-adomain.Apustua2getIdentifikadorea()∞
-≠
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java (B
+adomain.Apustua2getIdentifikadorea()µ
+≤
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java (B
 %29java.lang.String"__concat*
 Apustua irabazi (*
 
-%28java.lang.Integerü
-ú
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java (F
+%28java.lang.Integer§
+°
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java (F
 %30java.lang.String"__concat*
 
 %29java.lang.String*
-)œÃ
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java (\
+)‘—
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.java (\
 %31domain.Mugimendua"Vdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;)Ldomain/Mugimendua;*
 
 bezeroadomain.Bezeroa*
 
 %30java.lang.String*
 ""*	
-irabazi24addMugimendua(Ljava/lang/String;DLjava/lang/String;)"_
-U
-ID:/Coding/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÒ Ò(
+irabazi24addMugimendua(Ljava/lang/String;DLjava/lang/String;)"d
+Z
+N/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessEmaitzaIpini.javaÒ Ò(
 "":
 "":
 adomain.ApustuaB%#

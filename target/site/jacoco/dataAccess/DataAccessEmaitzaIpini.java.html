@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DataAccessEmaitzaIpini.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Bets2222</a> &gt; <a href="index.source.html" class="el_package">dataAccess</a> &gt; <span class="el_source">DataAccessEmaitzaIpini.java</span></div><h1>DataAccessEmaitzaIpini.java</h1><pre class="source lang-java linenums">package dataAccess;
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DataAccessEmaitzaIpini.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Bets2222</a> &gt; <a href="index.source.html" class="el_package">dataAccess</a> &gt; <span class="el_source">DataAccessEmaitzaIpini.java</span></div><h1>DataAccessEmaitzaIpini.java</h1><pre class="source lang-java linenums">package dataAccess;
 
 import java.util.ArrayList;
 //hello
@@ -323,21 +323,21 @@ public class DataAccessEmaitzaIpini {
 	
 	public Vector&lt;Double&gt; emaitzaIpini(Question question, Pronostikoa pronostikoa){
 <span class="fc" id="L325">		Pronostikoa p = </span>
-<span class="fc" id="L326">				db.find(Pronostikoa.class, pronostikoa.getIdentifikadorea());</span>
-<span class="fc" id="L327">		Question q = db.find(Question.class, question.getQuestionNumber());</span>
-<span class="fc" id="L328">		db.getTransaction().begin();</span>
-<span class="fc" id="L329">		q.setResult(pronostikoa.getDeskripzioa());</span>
-<span class="fc" id="L330">		Vector&lt;Apustua&gt; apustuak = p.getApustuak();</span>
-<span class="fc" id="L331">		Vector&lt;Double&gt; em = eguneratuApustuak(apustuak);</span>
-<span class="fc" id="L332">		db.getTransaction().commit();</span>
-<span class="fc" id="L333">		return em;</span>
+<span class="nc" id="L326">				db.find(Pronostikoa.class, pronostikoa.getIdentifikadorea());</span>
+<span class="nc" id="L327">		Question q = db.find(Question.class, question.getQuestionNumber());</span>
+<span class="nc" id="L328">		db.getTransaction().begin();</span>
+<span class="nc" id="L329">		q.setResult(pronostikoa.getDeskripzioa());</span>
+<span class="nc" id="L330">		Vector&lt;Apustua&gt; apustuak = p.getApustuak();</span>
+<span class="nc" id="L331">		Vector&lt;Double&gt; em = eguneratuApustuak(apustuak);</span>
+<span class="nc" id="L332">		db.getTransaction().commit();</span>
+<span class="nc" id="L333">		return em;</span>
 	}
 
 	private Vector&lt;Double&gt; eguneratuApustuak(Vector&lt;Apustua&gt; apustuak) {
 		Bezeroa bezeroa;
-<span class="fc" id="L338">		double komisioa,apustuKop=0,irabazia=0;</span>
+<span class="nc" id="L338">		double komisioa,apustuKop=0,irabazia=0;</span>
 		boolean irabazi;
-<span class="pc bpc" id="L340" title="1 of 2 branches missed.">		for(Apustua a : apustuak) {</span>
+<span class="nc bnc" id="L340" title="All 2 branches missed.">		for(Apustua a : apustuak) {</span>
 <span class="nc" id="L341">			apustuKop++;</span>
 <span class="nc" id="L342">			irabazi=a.eguneratuAsmatutakoKop();</span>
 <span class="nc" id="L343">			komisioa=0;</span>
@@ -345,10 +345,10 @@ public class DataAccessEmaitzaIpini {
 <span class="nc" id="L345">				irabazia = apustuaIrabazi(komisioa, a);</span>
 			}
 <span class="nc" id="L347">		}</span>
-<span class="fc" id="L348">		Vector&lt;Double&gt; em = new Vector&lt;Double&gt;();</span>
-<span class="fc" id="L349">		em.add(apustuKop);</span>
-<span class="fc" id="L350">		em.add(irabazia);</span>
-<span class="fc" id="L351">		return em;</span>
+<span class="nc" id="L348">		Vector&lt;Double&gt; em = new Vector&lt;Double&gt;();</span>
+<span class="nc" id="L349">		em.add(apustuKop);</span>
+<span class="nc" id="L350">		em.add(irabazia);</span>
+<span class="nc" id="L351">		return em;</span>
 	}
 
 	private double apustuaIrabazi(double komisioa, Apustua a) {

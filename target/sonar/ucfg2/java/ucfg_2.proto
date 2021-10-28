@@ -1,414 +1,414 @@
 
-%dataAccess.DataAccess#initializeDB()VG
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaG G("210*¿
-210G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaI I(œ
-™
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaI I(%
+%dataAccess.DataAccess#initializeDB()VL
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaG G("210*Ó
+210L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaI I(¡
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaI I(%
 %0javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db‰†
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaI I()
+db‹
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaI I()
 %1#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
 %
-%0javax.persistence.EntityManager2getTransaction()¼¹
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaI I(
+%0javax.persistence.EntityManager2getTransaction()Á¾
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaI I(
 
 %2void",javax.persistence.EntityTransaction#begin()V*+
 )
 %1#javax.persistence.EntityTransaction2begin()*
-209*î
-100I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaª ª(,’
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaª ª(,
+209*ı
+100N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaª ª(,—
+”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaª ª(,
 pronos10domain.Pronostikoa"__id*
 
-%138domain.Pronostikoa€ı
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java« «(+
+%138domain.Pronostikoa…‚
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java« «(+
 %139domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques4domain.Question*
 Ez*
 ""2!addPronostic(Ljava/lang/String;D)*
-99*ï
-101I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©()‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©()
+99*ş
+101N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©()–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©()
 pronos9domain.Pronostikoa"__id*
 
-%137domain.Pronostikoaş
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaª ª(,
+%137domain.Pronostikoa†ƒ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaª ª(,
 %138domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques4domain.Question*
 Bai*
 ""2!addPronostic(Ljava/lang/String;D)*
-100*í
-102I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¨ ¨()‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¨ ¨()
+100*ü
+102N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¨ ¨()–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¨ ¨()
 pronos8domain.Pronostikoa"__id*
 
-%136domain.Pronostikoaÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©()
+%136domain.Pronostikoa„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java© ©()
 %137domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques3domain.Question*
 2*
 ""2!addPronostic(Ljava/lang/String;D)*
-101*í
-103I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §()‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §()
+101*ü
+103N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §()–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §()
 pronos7domain.Pronostikoa"__id*
 
-%135domain.Pronostikoaÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¨ ¨()
+%135domain.Pronostikoa„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¨ ¨()
 %136domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques3domain.Question*
 X*
 ""2!addPronostic(Ljava/lang/String;D)*
-102*í
-104I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¦ ¦(0‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¦ ¦(0
+102*ü
+104N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¦ ¦(0–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¦ ¦(0
 pronos6domain.Pronostikoa"__id*
 
-%134domain.Pronostikoaÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §()
+%134domain.Pronostikoa„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java§ §()
 %135domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques3domain.Question*
 1*
 ""2!addPronostic(Ljava/lang/String;D)*
-103*ô
-105I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¥ ¥()‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¥ ¥()
+103*ƒ
+105N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¥ ¥()–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¥ ¥()
 pronos5domain.Pronostikoa"__id*
 
-%133domain.Pronostikoa†ƒ
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¦ ¦(0
+%133domain.Pronostikoa‹ˆ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¦ ¦(0
 %134domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques2domain.Question*
 
 Golik ez*
 ""2!addPronostic(Ljava/lang/String;D)*
-104*í
-106I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¤ ¤()‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¤ ¤()
+104*ü
+106N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¤ ¤()–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¤ ¤()
 pronos4domain.Pronostikoa"__id*
 
-%132domain.Pronostikoaÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¥ ¥()
+%132domain.Pronostikoa„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¥ ¥()
 %133domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques2domain.Question*
 2*
 ""2!addPronostic(Ljava/lang/String;D)*
-105*í
-107I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java£ £()‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java£ £()
+105*ü
+107N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java£ £()–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java£ £()
 pronos3domain.Pronostikoa"__id*
 
-%131domain.Pronostikoaÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¤ ¤()
+%131domain.Pronostikoa„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¤ ¤()
 %132domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques2domain.Question*
 1*
 ""2!addPronostic(Ljava/lang/String;D)*
-106*í
-108I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¢ ¢()‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¢ ¢()
+106*ü
+108N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¢ ¢()–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¢ ¢()
 pronos2domain.Pronostikoa"__id*
 
-%130domain.Pronostikoaÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java£ £()
+%130domain.Pronostikoa„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java£ £()
 %131domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques1domain.Question*
 2*
 ""2!addPronostic(Ljava/lang/String;D)*
-107*í
-109I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¡ ¡()‘
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¡ ¡()
+107*ü
+109N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¡ ¡()–
+“
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¡ ¡()
 pronos1domain.Pronostikoa"__id*
 
-%129domain.Pronostikoaÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¢ ¢()
+%129domain.Pronostikoa„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¢ ¢()
 %130domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques1domain.Question*
 X*
 ""2!addPronostic(Ljava/lang/String;D)*
-108*®
-110I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (O‰
-†
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (O
+108*š
+110N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (O
+‹
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (O
 ques4domain.Question"__id*
 
-%128domain.Questionz
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (
+%128domain.Question
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (
 pronos1domain.Pronostikoa"__id*
-""z
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   ( 
+""
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   ( 
 pronos2domain.Pronostikoa"__id*
-""z
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   ()
+""
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   ()
 pronos3domain.Pronostikoa"__id*
-""z
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (2
+""
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (2
 pronos4domain.Pronostikoa"__id*
-""z
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (;
+""
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (;
 pronos5domain.Pronostikoa"__id*
-""z
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (D
+""
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (D
 pronos6domain.Pronostikoa"__id*
-""z
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (M
+""
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (M
 pronos7domain.Pronostikoa"__id*
-""z
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (V
+""
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (V
 pronos8domain.Pronostikoa"__id*
-""z
-x
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (_
+""
+}
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (_
 pronos9domain.Pronostikoa"__id*
-""{
-y
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (i
+""€
+~
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (i
 pronos10domain.Pronostikoa"__id*
-""{
-y
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (s
+""€
+~
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (s
 pronos11domain.Pronostikoa"__id*
-""{
-y
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (}
+""€
+~
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (}
 pronos12domain.Pronostikoa"__id*
-""|
-z
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (‡
+""
+
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (‡
 pronos13domain.Pronostikoa"__id*
-""|
-z
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (‘
+""
+
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (‘
 pronos14domain.Pronostikoa"__id*
-""|
-z
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (›
+""
+
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (›
 pronos15domain.Pronostikoa"__id*
-""|
-z
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (¥
+""
+
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (¥
 pronos16domain.Pronostikoa"__id*
-""|
-z
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java   (¯
+""
+
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java   (¯
 pronos17domain.Pronostikoa"__id*
-""ÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¡ ¡()
+""„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¡ ¡()
 %129domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 ques1domain.Question*
 1*
 ""2!addPronostic(Ljava/lang/String;D)*
-109*ö
-111I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (K‰
-†
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (K
+109*…
+111N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (K
+‹
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (K
 ques3domain.Question"__id*
 
-%127domain.Question
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (N
+%127domain.Question•’
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (N
 %128domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 event2domain.Event*%#
 !Golik sartuko al da lehen zatian?*22 addQuestion(Ljava/lang/String;D)*
-110*ò
-112I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaœ œ(O‰
-†
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaœ œ(O
+110*
+112N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaœ œ(O
+‹
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaœ œ(O
 ques2domain.Question"__id*
 
-%126domain.QuestionŒ‰
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (J
+%126domain.Question‘
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (J
 %127domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 event2domain.Event*!
 Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;D)*
-111*ö
-113I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java› ›(K‰
-†
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java› ›(K
+111*…
+113N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java› ›(K
+‹
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java› ›(K
 ques1domain.Question"__id*
 
-%125domain.Question
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaœ œ(N
+%125domain.Question•’
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaœ œ(N
 %126domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 event1domain.Event*%#
 !Zeinek sartuko du lehenengo gola?*22 addQuestion(Ljava/lang/String;D)*
-112*í
-114I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(R„
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(R
+112*ü
+114N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(R‰
+†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(R
 event2domain.Event"__id*
 
-%123domain.EventŒ‰
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java› ›(J
+%123domain.Event‘
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java› ›(J
 %125domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 event1domain.Event*!
 Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;D)*
-113*¾
-115I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(Qqo
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(
-%123domain.Event"domain.Eventñ
-î
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(Q
+113*Í
+115N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(Qvt
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(
+%123domain.Event"domain.Eventö
+ó
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(Q
 %124"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %123domain.Event*2*
 Granada-Athletic*
 
 %122java.util.Date*
-114*«
-116I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(M„
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(M
+114*º
+116N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(M‰
+†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(M
 event1domain.Event"__id*
 
-%120domain.EventÊ
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java™3 ™(P
+%120domain.EventÏ
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java™3 ™(P
 %122java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2å*2*2*
-115*¹
-117I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(Lqo
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(
-%120domain.Event"domain.Eventì
-é
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(L
+115*È
+117N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(Lvt
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(
+%120domain.Event"domain.Eventñ
+î
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(L
 %121"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %120domain.Event*2*
 Eibar-Celta*
 
 %119java.util.Date*
-116*«
-118I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(~„
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(~
+116*º
+118N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(~‰
+†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(~
 b5domain.Bezeroa"__id*
 
-%117domain.BezeroaÊ
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜. ˜(K
+%117domain.BezeroaÏ
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜. ˜(K
 %119java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2å*2*2*
-117*ˆ
-119I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(}us
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(
-%117domain.Bezeroa"domain.Bezeroa·
-´
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(}
+117*—
+119N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(}zx
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(
+%117domain.Bezeroa"domain.Bezeroa¼
+¹
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(}
 %118"^domain.Bezeroa#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V*
 
 %117domain.Bezeroa*
@@ -417,189 +417,189 @@ I
 123456789 Saioo99@gmail.com*
 
 %116java.util.Date*
-118*ş
-10I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java’ ’( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java’ ’('
+118*
+10N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java’ ’(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java’ ’('
 %290javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java’ ’(
+db‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java’ ’(
 %291void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %290javax.persistence.EntityManager* 
 
 pronos13domain.Pronostikoa2persist(Ljava/lang/Object;)*
-9*ÿ
-11I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘('
+9*
+11N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘('
 %288javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(
+db‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(
 %289void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %288javax.persistence.EntityManager* 
 
 pronos12domain.Pronostikoa2persist(Ljava/lang/Object;)*
-10*õ
-12I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java ('
+10*„
+12N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java ('
 %286javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
 %287void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %286javax.persistence.EntityManager*
 
 ev20domain.Event2persist(Ljava/lang/Object;)*
-11*õ
-13I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java ('
+11*„
+13N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java ('
 %284javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
 %285void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %284javax.persistence.EntityManager*
 
 ev19domain.Event2persist(Ljava/lang/Object;)*
-12*õ
-14I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java ('
+12*„
+14N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java ('
 %282javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
 %283void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %282javax.persistence.EntityManager*
 
 ev18domain.Event2persist(Ljava/lang/Object;)*
-13*õ
-15I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŒ Œ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŒ Œ('
+13*„
+15N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŒ Œ(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŒ Œ('
 %280javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŒ Œ(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŒ Œ(
 %281void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %280javax.persistence.EntityManager*
 
 ev17domain.Event2persist(Ljava/lang/Object;)*
-14*õ
-16I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹('
+14*„
+16N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹('
 %278javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(
 %279void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %278javax.persistence.EntityManager*
 
 ev16domain.Event2persist(Ljava/lang/Object;)*
-15*õ
-17I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŠ Š( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŠ Š('
+15*„
+17N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŠ Š(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŠ Š('
 %276javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŠ Š(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŠ Š(
 %277void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %276javax.persistence.EntityManager*
 
 ev15domain.Event2persist(Ljava/lang/Object;)*
-16*õ
-18I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‰ ‰( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‰ ‰('
+16*„
+18N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‰ ‰(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‰ ‰('
 %274javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‰ ‰(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‰ ‰(
 %275void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %274javax.persistence.EntityManager*
 
 ev14domain.Event2persist(Ljava/lang/Object;)*
-17*õ
-19I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ('
+17*„
+19N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ('
 %272javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ(
 %273void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %272javax.persistence.EntityManager*
 
 ev13domain.Event2persist(Ljava/lang/Object;)*
-18*­
-120J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(…
-‚
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(
+18*¼
+120O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(Š
+‡
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(
 b4domain.Bezeroa"__id*
 
-%114domain.BezeroaÊ
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java•b •(|
+%114domain.BezeroaÏ
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java•b •(|
 %116java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2Ñ*2*2	*
-119*
-121J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(€us
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(
-%114domain.Bezeroa"domain.Bezeroa»
-¸
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(€
+119*œ
+121O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(€zx
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(
+%114domain.Bezeroa"domain.BezeroaÀ
+½
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(€
 %115"^domain.Bezeroa#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V*
 
 %114domain.Bezeroa*
@@ -608,33 +608,33 @@ J
 123456789 antxon@gmail.com*
 
 %113java.util.Date*
-120*g
-0 "`
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
-implicit return*­
-122J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(…
-‚
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(
+120*l
+0 "e
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+implicit return*¼
+122O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(Š
+‡
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(
 b3domain.Bezeroa"__id*
 
-%111domain.BezeroaÊ
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java”e ”(
+%111domain.BezeroaÏ
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java”e ”(
 %113java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2Ñ*2*2	*
-121*
-123J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(€us
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(
-%111domain.Bezeroa"domain.Bezeroa»
-¸
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(€
+121*œ
+123O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(€zx
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(
+%111domain.Bezeroa"domain.BezeroaÀ
+½
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(€
 %112"^domain.Bezeroa#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V*
 
 %111domain.Bezeroa*
@@ -643,71 +643,71 @@ J
 123456789 JoseMiguel@gmail.com*
 
 %110java.util.Date*
-122*®
-2I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaš š(	x
-v
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaš š(
+122*½
+2N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaš š(	}
+{
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaš š(
 %304java.io.PrintStream"__id*
-""ŞÛ
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaš š('
+""ãà
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaš š('
 %305void"0java.io.PrintStream#println(Ljava/lang/String;)V*
 
 %304java.io.PrintStream*
 Db initialized2println(Ljava/lang/String;)*
-0*¤
-124I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(/Ê
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“e “(
+0*®
+124N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(/Ï
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“e “(
 %110java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2Ñ*2*2	*
-123*ì
-3I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(–“
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(=!
+123*ö
+3N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(›˜
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java™ ™(=!
 %303domain.ArretaElkarrizketa"~dataAccess.DataAccess#arretaElkarrizketaSortu(Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;)Ldomain/ArretaElkarrizketa;*
 dataAccess.DataAccess*
 
 b3domain.Bezeroa*	
 Proba*
 Proba elakrrizketa2MarretaElkarrizketaSortu(Ldomain/Bezeroa;Ljava/lang/String;Ljava/lang/String;)*
-2*
-125J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(Š…
-‚
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(Š
+2*
+125O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(ŠŠ
+‡
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(Š
 b2domain.Bezeroa"__id*
 
-%107domain.Bezeroa¬©
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java’ ’(
+%107domain.Bezeroa±®
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java’ ’(
 %109void"domain.Bezeroa#setPublikoa(Z)V*
 
 b2domain.Bezeroa*
 ""2setPublikoa(Z)*
-124*š
-4I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(ÄÁ
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(
+124*¤
+4N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(ÉÆ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(
 %302void"-javax.persistence.EntityTransaction#commit()V*-
 +
 %301#javax.persistence.EntityTransaction2commit()*
-3*–
-126J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(‰us
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(
-%107domain.Bezeroa"domain.BezeroaÄ
-Á
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(‰
+3*¥
+126O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(‰zx
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(
+%107domain.Bezeroa"domain.BezeroaÉ
+Æ
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘ ‘(‰
 %108"^domain.Bezeroa#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V*
 
 %107domain.Bezeroa*" 
@@ -716,59 +716,59 @@ J
 123456789 kobemu@gmail.com*
 
 %106java.util.Date*
-125*ˆ
-5I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜('
+125*—
+5N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜('
 %300javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbŒ
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(+
+db”‘
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java˜ ˜(+
 %301#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*)
 '
 %300javax.persistence.EntityManager2getTransaction()*
-4*®
-127J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java („…
-‚
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java („
+4*½
+127O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java („Š
+‡
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java („
 b1domain.Bezeroa"__id*
 
-%104domain.BezeroaË
-È
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‘n ‘(ˆ
+%104domain.BezeroaĞ
+Í
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‘n ‘(ˆ
 %106java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2Ñ*2*2	*
-126*ı
-6I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java– –( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java– –('
+126*Œ
+6N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java– –(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java– –('
 %298javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java– –(
+db‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java– –(
 %299void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %298javax.persistence.EntityManager* 
 
 pronos17domain.Pronostikoa2persist(Ljava/lang/Object;)*
-5*
-128J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (ƒus
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
-%104domain.Bezeroa"domain.Bezeroa¾
-»
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (ƒ
+5*Ÿ
+128O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (ƒzx
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+%104domain.Bezeroa"domain.BezeroaÃ
+À
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (ƒ
 %105"^domain.Bezeroa#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V*
 
 %104domain.Bezeroa*
@@ -777,237 +777,237 @@ J
 123456789 pepopu12301@gmail.com*
 
 %103java.util.Date*
-127*ı
-7I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java• •( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java• •('
+127*Œ
+7N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java• •('
 %296javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(
+db‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java• •(
 %297void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %296javax.persistence.EntityManager* 
 
 pronos16domain.Pronostikoa2persist(Ljava/lang/Object;)*
-6*°
-129J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (‡
-„
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+6*¿
+129O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (Œ
+‰
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
 l2domain.Langilea"__id*
 
-%101domain.LangileaË
-È
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javah (‚
+%101domain.LangileaĞ
+Í
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javah (‚
 %103java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2Ñ*2*2	*
-128*ı
-8I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”('
+128*Œ
+8N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”('
 %294javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(
+db‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java” ”(
 %295void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %294javax.persistence.EntityManager* 
 
 pronos15domain.Pronostikoa2persist(Ljava/lang/Object;)*
-7*ı
-9I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “('
+7*Œ
+9N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “('
 %292javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(
+db‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java“ “(
 %293void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %292javax.persistence.EntityManager* 
 
 pronos14domain.Pronostikoa2persist(Ljava/lang/Object;)*
-8*õ
-20I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡('
+8*„
+20N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡('
 %270javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡(
 %271void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %270javax.persistence.EntityManager*
 
 ev12domain.Event2persist(Ljava/lang/Object;)*
-19*õ
-21I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java† †( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java† †('
+19*„
+21N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java† †('
 %268javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(
 %269void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %268javax.persistence.EntityManager*
 
 ev11domain.Event2persist(Ljava/lang/Object;)*
-20*õ
-22I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java… …( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java… …('
+20*„
+22N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java… …(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java… …('
 %266javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java… …(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java… …(
 %267void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %266javax.persistence.EntityManager*
 
 ev10domain.Event2persist(Ljava/lang/Object;)*
-21*ô
-23I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „('
+21*ƒ
+23N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „('
 %264javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „(
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „(
 %265void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %264javax.persistence.EntityManager*
 
 ev9domain.Event2persist(Ljava/lang/Object;)*
-22*ô
-24I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ('
+22*ƒ
+24N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ('
 %262javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(
 %263void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %262javax.persistence.EntityManager*
 
 ev8domain.Event2persist(Ljava/lang/Object;)*
-23*ô
-25I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‚ ‚( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‚ ‚('
+23*ƒ
+25N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‚ ‚(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‚ ‚('
 %260javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‚ ‚(
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‚ ‚(
 %261void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %260javax.persistence.EntityManager*
 
 ev7domain.Event2persist(Ljava/lang/Object;)*
-24*ô
-26I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java ('
+24*ƒ
+26N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java ('
 %258javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
 %259void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %258javax.persistence.EntityManager*
 
 ev6domain.Event2persist(Ljava/lang/Object;)*
-25*ô
-27I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €('
+25*ƒ
+27N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €('
 %256javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €(
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €(
 %257void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %256javax.persistence.EntityManager*
 
 ev5domain.Event2persist(Ljava/lang/Object;)*
-26*ô
-28I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÿ ÿ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÿ ÿ('
+26*ƒ
+28N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÿ ÿ(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÿ ÿ('
 %254javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÿ ÿ(
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÿ ÿ(
 %255void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %254javax.persistence.EntityManager*
 
 ev4domain.Event2persist(Ljava/lang/Object;)*
-27*ô
-29I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş('
+27*ƒ
+29N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş('
 %252javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaş ş(
 %253void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %252javax.persistence.EntityManager*
 
 ev3domain.Event2persist(Ljava/lang/Object;)*
-28*›
-130J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (Œwu
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
-%101domain.Langilea"domain.LangileaÇ
-Ä
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (Œ
+28*ª
+130O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (Œ|z
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+%101domain.Langilea"domain.LangileaÌ
+É
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (Œ
 %102"_domain.Langilea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V*
 
 %101domain.Langilea*
@@ -1016,29 +1016,29 @@ J
 384625395 inakimoreno@gmail.com*
 
 %100java.util.Date*
-129*¯
-131J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (‚†
-ƒ
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (‚
+129*¾
+131O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (‚‹
+ˆ
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (‚
 l1domain.Langilea"__id*
 
-%98domain.LangileaË
-È
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javap (‹
+%98domain.LangileaĞ
+Í
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javap (‹
 %100java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2Ñ*2*2*
-130*Š
-132J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (vt
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
-%98domain.Langilea"domain.Langilea·
-´
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+130*™
+132O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java ({y
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
+%98domain.Langilea"domain.Langilea¼
+¹
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (
 %99"_domain.Langilea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V*
 
 %98domain.Langilea*
@@ -1047,29 +1047,29 @@ J
 987654321 zdra@gmail.com*
 
 %97java.util.Date*
-131*¦
-133J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(
-}
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(
+131*·
+133O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(…
+‚
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(
 a1domain.Admin"__id*
 
-%95domain.AdminÊ
-Ç
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javae (€
+%95domain.AdminÏ
+Ì
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javae (€
 %97java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2Ñ*2*2*
-132*ƒ
-134J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(€pn
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(
-%95domain.Admin"domain.Admin¶
-³
-J
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(€
+132*’
+134O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(€us
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(
+%95domain.Admin"domain.Admin»
+¸
+O
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(€
 %96"\domain.Admin#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V*
 
 %95domain.Admin*
@@ -1078,525 +1078,525 @@ J
 666666666 Admindb.@gmail.com*
 
 %94java.util.Date*
-133*£
-135I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(0É
-Æ
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‹d ‹(
+133*­
+135N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹ ‹(0Î
+Ë
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‹d ‹(
 %94java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2Ñ*2*2*
-134*ß
-136I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ(D…
-‚
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ(D
+134*é
+136N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ(DŠ
+‡
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ ˆ(D
 q6domain.Question"__id*
 
 %93domain.Question*
-135*ò
-137I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡(=…
-‚
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡(=
+135*
+137N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡(=Š
+‡
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‡ ‡(=
 q5domain.Question"__id*
 
-%92domain.Question
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ	 ˆ(D
+%92domain.Question•’
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaˆ	 ˆ(D
 %93domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev17domain.Event*(&
 $Golak sartuko dira lehenengo zatian?*22 addQuestion(Ljava/lang/String;D)*
-136*ë
-138I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(8…
-‚
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(8
+136*ú
+138N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(8Š
+‡
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java† †(8
 q4domain.Question"__id*
 
-%91domain.Question‰†
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java‡	 ‡(=
+%91domain.Question‹
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java‡	 ‡(=
 %92domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev17domain.Event*!
 Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;D)*
-137*æ
-139I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java… …(=…
-‚
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java… …(=
+137*õ
+139N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java… …(=Š
+‡
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java… …(=
 q3domain.Question"__id*
 
-%90domain.Question„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java†	 †(8
+%90domain.Question‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java†	 †(8
 %91domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev11domain.Event*
 Zenbat gol sartuko dira?*22 addQuestion(Ljava/lang/String;D)*
-138*ô
-30I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaı ı( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaı ı('
+138*ƒ
+30N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaı ı(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaı ı('
 %250javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaı ı(
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaı ı(
 %251void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %250javax.persistence.EntityManager*
 
 ev2domain.Event2persist(Ljava/lang/Object;)*
-29*ô
-31I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü('
+29*ƒ
+31N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü('
 %248javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(
+dbşû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaü ü(
 %249void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %248javax.persistence.EntityManager*
 
 ev1domain.Event2persist(Ljava/lang/Object;)*
-30*ö
-32I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú('
+30*…
+32N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú('
 %246javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbûø
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(
+db€ı
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaú ú(
 %247void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %246javax.persistence.EntityManager*
 
 q6domain.Question2persist(Ljava/lang/Object;)*
-31*ö
-33I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù('
+31*…
+33N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù('
 %244javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbûø
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(
+db€ı
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaù ù(
 %245void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %244javax.persistence.EntityManager*
 
 q5domain.Question2persist(Ljava/lang/Object;)*
-32*ö
-34I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaø ø( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaø ø('
+32*…
+34N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaø ø(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaø ø('
 %242javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbûø
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaø ø(
+db€ı
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaø ø(
 %243void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %242javax.persistence.EntityManager*
 
 q4domain.Question2persist(Ljava/lang/Object;)*
-33*ö
-35I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷('
+33*…
+35N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷('
 %240javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbûø
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(
+db€ı
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(
 %241void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %240javax.persistence.EntityManager*
 
 q3domain.Question2persist(Ljava/lang/Object;)*
-34*ö
-36I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö('
+34*…
+36N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö('
 %238javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbûø
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö(
+db€ı
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaö ö(
 %239void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %238javax.persistence.EntityManager*
 
 q2domain.Question2persist(Ljava/lang/Object;)*
-35*ö
-37I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ('
+35*…
+37N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ('
 %236javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbûø
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(
+db€ı
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(
 %237void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %236javax.persistence.EntityManager*
 
 q1domain.Question2persist(Ljava/lang/Object;)*
-36*õ
-38I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò('
+36*„
+38N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò('
 %234javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaò ò(
 %235void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %234javax.persistence.EntityManager*
 
 b5domain.Bezeroa2persist(Ljava/lang/Object;)*
-37*õ
-39I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ('
+37*„
+39N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ('
 %232javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(
 %233void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %232javax.persistence.EntityManager*
 
 b4domain.Bezeroa2persist(Ljava/lang/Object;)*
-38*ë
-140I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „(@…
-‚
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „(@
+38*ú
+140N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „(@Š
+‡
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java„ „(@
 q2domain.Question"__id*
 
-%89domain.Question‰†
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java…	 …(=
+%89domain.Question‹
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java…	 …(=
 %90domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev11domain.Event*!
 Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;D)*
-139*î
-141I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(<…
-‚
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(<
+139*ı
+141N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(<Š
+‡
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ ƒ(<
 q1domain.Question"__id*
 
-%88domain.QuestionŒ‰
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java„	 „(@
+%88domain.Question‘
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java„	 „(@
 %89domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev1domain.Event*%#
 !Zeinek sartuko du lehenengo gola?*22 addQuestion(Ljava/lang/String;D)*
-140*â
-142I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ	 ƒ(ˆ…
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ	 ƒ(<
+140*ì
+142N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ	 ƒ(Š
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaƒ	 ƒ(<
 %88domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev1domain.Event*!
 Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;D)*
-141*ß
-143I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (F…
-‚
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (F
+141*é
+143N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (FŠ
+‡
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (F
 q6domain.Question"__id*
 
 %87domain.Question*
-135*ô
-144I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €(7…
-‚
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €(7
+135*ƒ
+144N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €(7Š
+‡
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java€ €(7
 q5domain.Question"__id*
 
-%86domain.Question’
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java	 (F
+%86domain.Question—”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java	 (F
 %87domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev17domain.Event**(
 &Will there be goals in the first half?*22 addQuestion(Ljava/lang/String;D)*
-143*á
-145G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (Kƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java (K
+143*ğ
+145L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (Kˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java (K
 q4domain.Question"__id*
 
-%85domain.Questionƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java€	 €(7
+%85domain.Questionˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java€	 €(7
 %86domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev17domain.Event*
 Who will win the match?*22 addQuestion(Ljava/lang/String;D)*
-144*ó
-146G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java~ ~(7ƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java~ ~(7
+144*‚
+146L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java~ ~(7ˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java~ ~(7
 q3domain.Question"__id*
 
-%84domain.Question•’
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java	 (K
+%84domain.Questionš—
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java	 (K
 %85domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev11domain.Event*/-
 +How many goals will be scored in the match?*22 addQuestion(Ljava/lang/String;D)*
-145*ß
-147G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java} }(4ƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java} }(4
+145*î
+147L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java} }(4ˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java} }(4
 q2domain.Question"__id*
 
-%83domain.Questionş
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java~	 ~(7
+%83domain.Question†ƒ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java~	 ~(7
 %84domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev11domain.Event*
 Who will win the match?*22 addQuestion(Ljava/lang/String;D)*
-146*Ü
-148G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java| |(6ƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java| |(6
+146*ë
+148L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java| |(6ˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java| |(6
 q1domain.Question"__id*
 
-%82domain.Questionşû
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java}	 }(4
+%82domain.Questionƒ€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java}	 }(4
 %83domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev1domain.Event*
 Who will score first?*22 addQuestion(Ljava/lang/String;D)*
-147*Ø
-149G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java|	 |(€ı
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java|	 |(6
+147*â
+149L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java|	 |(…‚
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java|	 |(6
 %82domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev1domain.Event*
 Who will win the match?*22 addQuestion(Ljava/lang/String;D)*
-148*õ
-40I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ('
+148*„
+40N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ('
 %230javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javağ ğ(
 %231void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %230javax.persistence.EntityManager*
 
 b3domain.Bezeroa2persist(Ljava/lang/Object;)*
-39*õ
-41I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï('
+39*„
+41N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï('
 %228javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(
 %229void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %228javax.persistence.EntityManager*
 
 b2domain.Bezeroa2persist(Ljava/lang/Object;)*
-40*õ
-42I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î('
+40*„
+42N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î('
 %226javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbú÷
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î(
+dbÿü
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaî î(
 %227void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %226javax.persistence.EntityManager*
 
 b1domain.Bezeroa2persist(Ljava/lang/Object;)*
-41*ö
-43I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í('
+41*…
+43N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í('
 %224javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbûø
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(
+db€ı
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaí í(
 %225void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %224javax.persistence.EntityManager*
 
 l1domain.Langilea2persist(Ljava/lang/Object;)*
-42*ö
-44I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì('
+42*…
+44N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì('
 %222javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbûø
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì(
+db€ı
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaì ì(
 %223void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %222javax.persistence.EntityManager*
 
 l2domain.Langilea2persist(Ljava/lang/Object;)*
-43*ó
-45I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë('
+43*‚
+45N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë('
 %220javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbøõ
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(
+dbıú
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaë ë(
 %221void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %220javax.persistence.EntityManager*
 
 a1domain.Admin2persist(Ljava/lang/Object;)*
-44*ø
-46I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê('
+44*‡
+46N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê('
 %218javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbıú
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(
+db‚ÿ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(
 %219void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %218javax.persistence.EntityManager*
 
 m4domain.Mugimendua2persist(Ljava/lang/Object;)*
-45*ø
-47I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é('
+45*‡
+47N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é('
 %216javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbıú
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(
+db‚ÿ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaé é(
 %217void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %216javax.persistence.EntityManager*
 
 m3domain.Mugimendua2persist(Ljava/lang/Object;)*
-46*ø
-48I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaè è( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaè è('
+46*‡
+48N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaè è(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaè è('
 %214javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbıú
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaè è(
+db‚ÿ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaè è(
 %215void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %214javax.persistence.EntityManager*
 
 m2domain.Mugimendua2persist(Ljava/lang/Object;)*
-47*ø
-49I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç('
+47*‡
+49N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç('
 %212javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbıú
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç(
+db‚ÿ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaç ç(
 %213void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %212javax.persistence.EntityManager*
 
 m1domain.Mugimendua2persist(Ljava/lang/Object;)*
-48*¹
-151G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java{ {(:ÜÙ
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java{ {(:
+48*Ã
+151L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java{ {(:áŞ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java{ {(:
 %81boolean",java.util.Locale#equals(Ljava/lang/Object;)Z*
 
 %78java.util.Locale*
@@ -1604,285 +1604,285 @@ G
 %79java.util.Locale2equals(Ljava/lang/Object;)*
 
 149
-142*ô
-152G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java{4 {(8vt
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java{- {(3
-%79java.util.Locale"java.util.Locale¤
-¡
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java{) {(9
+142*ƒ
+152L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java{4 {(8{y
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java{- {(3
+%79java.util.Locale"java.util.Locale©
+¦
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java{) {(9
 %80",java.util.Locale#<init>(Ljava/lang/String;)V*
 
 %79java.util.Locale*
 en*
-151*„
-153G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java{ {(¬
-©
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java{ {(!
+151*
+153L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java{ {(±
+®
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java{ {(!
 %78java.util.Locale"/java.util.Locale#getDefault()Ljava/util/Locale;*"
 java.util.Locale*
-152*Û
-154G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaz z(Aƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaz z(A
+152*å
+154L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaz z(Aˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaz z(A
 q6domain.Question"__id*
 
 %77domain.Question*
-135*ë
-155G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javay y(9ƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javay y(9
+135*ú
+155L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javay y(9ˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javay y(9
 q5domain.Question"__id*
 
-%76domain.QuestionŠ
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaz	 z(A
+%76domain.Question’
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaz	 z(A
 %77domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev17domain.Event*'%
 #Â¿HabrÃ¡ goles en la primera parte?*22 addQuestion(Ljava/lang/String;D)*
-154*ä
-156G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javax x(;ƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javax x(;
+154*ó
+156L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javax x(;ˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javax x(;
 q4domain.Question"__id*
 
-%75domain.Question†ƒ
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javay	 y(9
+%75domain.Question‹ˆ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javay	 y(9
 %76domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev17domain.Event* 
 Â¿QuiÃ©n ganarÃ¡ el partido?*22 addQuestion(Ljava/lang/String;D)*
-155*æ
-157G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaw w(9ƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaw w(9
+155*õ
+157L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaw w(9ˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaw w(9
 q3domain.Question"__id*
 
-%74domain.Questionˆ…
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javax	 x(;
+%74domain.QuestionŠ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javax	 x(;
 %75domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev11domain.Event*" 
 Â¿CuÃ¡ntos goles se marcarÃ¡n?*22 addQuestion(Ljava/lang/String;D)*
-156*ä
-158G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javav v(;ƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javav v(;
+156*ó
+158L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javav v(;ˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javav v(;
 q2domain.Question"__id*
 
-%73domain.Question†ƒ
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaw	 w(9
+%73domain.Question‹ˆ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaw	 w(9
 %74domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev11domain.Event* 
 Â¿QuiÃ©n ganarÃ¡ el partido?*22 addQuestion(Ljava/lang/String;D)*
-157*æ
-159G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javau u(8ƒ
-€
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javau u(8
+157*õ
+159L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javau u(8ˆ
+…
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javau u(8
 q1domain.Question"__id*
 
-%72domain.Questionˆ…
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javav	 v(;
+%72domain.QuestionŠ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javav	 v(;
 %73domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev1domain.Event*#!
 Â¿QuiÃ©n meterÃ¡ el primer gol?*22 addQuestion(Ljava/lang/String;D)*
-158*ÿ
-50I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaå å( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaå å('
+158*
+50N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaå å(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaå å('
 %210javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaå å(
+db‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaå å(
 %211void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %210javax.persistence.EntityManager* 
 
 pronos11domain.Pronostikoa2persist(Ljava/lang/Object;)*
-49*ÿ
-51I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä('
+49*
+51N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä('
 %208javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db„
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä(
+db‰†
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaä ä(
 %209void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %208javax.persistence.EntityManager* 
 
 pronos10domain.Pronostikoa2persist(Ljava/lang/Object;)*
-50*ş
-52I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã('
+50*
+52N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã('
 %206javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaã ã(
 %207void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %206javax.persistence.EntityManager*
 
 pronos9domain.Pronostikoa2persist(Ljava/lang/Object;)*
-51*ş
-53I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaâ â( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaâ â('
+51*
+53N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaâ â(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaâ â('
 %204javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaâ â(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaâ â(
 %205void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %204javax.persistence.EntityManager*
 
 pronos8domain.Pronostikoa2persist(Ljava/lang/Object;)*
-52*ş
-54I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaá á( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaá á('
+52*
+54N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaá á(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaá á('
 %202javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaá á(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaá á(
 %203void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %202javax.persistence.EntityManager*
 
 pronos7domain.Pronostikoa2persist(Ljava/lang/Object;)*
-53*ş
-55I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à('
+53*
+55N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à('
 %200javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaà à(
 %201void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %200javax.persistence.EntityManager*
 
 pronos6domain.Pronostikoa2persist(Ljava/lang/Object;)*
-54*ş
-56I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaß ß( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaß ß('
+54*
+56N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaß ß(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaß ß('
 %198javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaß ß(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaß ß(
 %199void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %198javax.persistence.EntityManager*
 
 pronos5domain.Pronostikoa2persist(Ljava/lang/Object;)*
-55*ş
-57I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŞ Ş( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŞ Ş('
+55*
+57N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŞ Ş(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŞ Ş('
 %196javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaŞ Ş(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaŞ Ş(
 %197void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %196javax.persistence.EntityManager*
 
 pronos4domain.Pronostikoa2persist(Ljava/lang/Object;)*
-56*ş
-58I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaİ İ( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaİ İ('
+56*
+58N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaİ İ(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaİ İ('
 %194javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaİ İ(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaİ İ(
 %195void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %194javax.persistence.EntityManager*
 
 pronos3domain.Pronostikoa2persist(Ljava/lang/Object;)*
-57*ş
-59I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÜ Ü( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÜ Ü('
+57*
+59N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÜ Ü(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÜ Ü('
 %192javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÜ Ü(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÜ Ü(
 %193void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %192javax.persistence.EntityManager*
 
 pronos2domain.Pronostikoa2persist(Ljava/lang/Object;)*
-58*İ
-160G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javau	 u(…‚
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javau	 u(8
+58*ç
+160L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javau	 u(Š‡
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javau	 u(8
 %72domain.Question">domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;*
 
 ev1domain.Event* 
 Â¿QuiÃ©n ganarÃ¡ el partido?*22 addQuestion(Ljava/lang/String;D)*
-159*¹
-162G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javat t(3ÜÙ
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javat t(3
+159*Ã
+162L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javat t(3áŞ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javat t(3
 %71boolean",java.util.Locale#equals(Ljava/lang/Object;)Z*
 
 %68java.util.Locale*
@@ -1890,263 +1890,263 @@ G
 %69java.util.Locale2equals(Ljava/lang/Object;)*
 
 160
-153*ô
-163G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javat- t(1vt
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javat& t(,
-%69java.util.Locale"java.util.Locale¤
-¡
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javat" t(2
+153*ƒ
+163L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javat- t(1{y
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javat& t(,
+%69java.util.Locale"java.util.Locale©
+¦
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javat" t(2
 %70",java.util.Locale#<init>(Ljava/lang/String;)V*
 
 %69java.util.Locale*
 es*
-162*°
-164G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(Z~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(Z
+162*ß
+164L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(Z„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(Z
 ev20domain.Event"__id*
 
-%66domain.Eventp
-n
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javam m(
+%66domain.Eventu
+s
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javam m(
 q1domain.Question"__id*
-""p
-n
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javan n(
+""u
+s
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javan n(
 q2domain.Question"__id*
-""p
-n
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javao o(
+""u
+s
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javao o(
 q3domain.Question"__id*
-""p
-n
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javap p(
+""u
+s
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javap p(
 q4domain.Question"__id*
-""p
-n
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaq q(
+""u
+s
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaq q(
 q5domain.Question"__id*
-""p
-n
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javar r(
+""u
+s
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javar r(
 q6domain.Question"__id*
-""¬
-©
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javat t(
+""±
+®
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javat t(
 %68java.util.Locale"/java.util.Locale#getDefault()Ljava/util/Locale;*"
 java.util.Locale*
-163*µ
-165G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(Ynl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(
-%66domain.Event"domain.Eventí
-ê
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(Y
+163*Ä
+165L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(Ysq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(
+%66domain.Event"domain.Eventò
+ï
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javak k(Y
 %67"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %66domain.Event*2*
 Betis-Real Madrid*
 
 %65java.util.Date*
-164*¢
-166G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(^~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(^
+164*³
+166L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(^„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(^
 ev19domain.Event"__id*
 
-%63domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javak3 k(X
+%63domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javak3 k(X
 %65java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-165*¹
-167G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(]nl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(
-%63domain.Event"domain.Eventñ
-î
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(]
+165*È
+167L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(]sq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(
+%63domain.Event"domain.Eventö
+ó
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaj j(]
 %64"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %63domain.Event*2*
 Real Sociedad-Levante*
 
 %62java.util.Date*
-166*¢
-168G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(W~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(W
+166*³
+168L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(W„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(W
 ev18domain.Event"__id*
 
-%60domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaj7 j(\
+%60domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaj7 j(\
 %62java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-167*´
-169G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(Vnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(
-%60domain.Event"domain.Eventì
-é
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(V
+167*Ã
+169L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(Vsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(
+%60domain.Event"domain.Eventñ
+î
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javai i(V
 %61"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %60domain.Event*2*
 Girona-Leganï¿½s*
 
 %59java.util.Date*
-168*ş
-60I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÛ Û( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÛ Û('
+168*
+60N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÛ Û(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÛ Û('
 %190javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÛ Û(
+dbˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÛ Û(
 %191void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %190javax.persistence.EntityManager*
 
 pronos1domain.Pronostikoa2persist(Ljava/lang/Object;)*
-59*ù
-61I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÙ Ù( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÙ Ù('
+59*ˆ
+61N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÙ Ù(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÙ Ù('
 %188javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbşû
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÙ Ù(
+dbƒ€
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÙ Ù(
 %189void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %188javax.persistence.EntityManager*
 
 ques4domain.Question2persist(Ljava/lang/Object;)*
-60*ù
-62I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaØ Ø( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaØ Ø('
+60*ˆ
+62N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaØ Ø(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaØ Ø('
 %186javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbşû
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaØ Ø(
+dbƒ€
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaØ Ø(
 %187void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %186javax.persistence.EntityManager*
 
 ques3domain.Question2persist(Ljava/lang/Object;)*
-61*ù
-63I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java× ×( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java× ×('
+61*ˆ
+63N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java× ×(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java× ×('
 %184javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbşû
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java× ×(
+dbƒ€
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java× ×(
 %185void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %184javax.persistence.EntityManager*
 
 ques2domain.Question2persist(Ljava/lang/Object;)*
-62*ù
-64I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö('
+62*ˆ
+64N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö('
 %182javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbşû
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö(
+dbƒ€
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÖ Ö(
 %183void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %182javax.persistence.EntityManager*
 
 ques1domain.Question2persist(Ljava/lang/Object;)*
-63*÷
-65I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÔ Ô( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÔ Ô('
+63*†
+65N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÔ Ô(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÔ Ô('
 %180javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbüù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÔ Ô(
+dbş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÔ Ô(
 %181void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %180javax.persistence.EntityManager*
 
 event2domain.Event2persist(Ljava/lang/Object;)*
-64*„
-66I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(iŠ
-‡
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(i
+64*˜
+66N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(i
+Œ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(i
 m4domain.Mugimendua"__id*
 
-%177domain.Mugimendua 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÓ Ó('
+%177domain.Mugimendua¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÓ Ó('
 %178javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbüù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÓ Ó(
+dbş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÓ Ó(
 %179void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %178javax.persistence.EntityManager*
 
 event1domain.Event2persist(Ljava/lang/Object;)*
-65*Ñ
-67I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(iùö
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(i
+65*Û
+67N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(işû
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(i
 %177domain.Mugimendua"fdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;Ljava/util/Date;)Ldomain/Mugimendua;*
 
 b5domain.Bezeroa*
@@ -2157,39 +2157,39 @@ I
 jokatu*
 
 %176java.util.Date2DaddMugimendua(Ljava/lang/String;DLjava/lang/String;Ljava/util/Date;)*
-66*ó
-68I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ Ğ(]Š
-‡
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ Ğ(]
+66*Œ
+68N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ Ğ(]
+Œ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ Ğ(]
 m3domain.Mugimendua"__id*
 
-%173domain.Mugimendua©
-¦
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(7
+%173domain.Mugimendua®
+«
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(7
 %174java.lang.String"__concat*
 Apustu errepikatua egin (*
 
-b2domain.Bezeroa•
-’
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(;
+b2domain.Bezeroaš
+—
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(;
 %175java.lang.String"__concat*
 
 %174java.lang.String*
-)Ê
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑK Ñ(h
+)Ï
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÑK Ñ(h
 %176java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2å*2*2*
-67*Í
-69I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ Ğ(]õò
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ Ğ(]
+67*×
+69N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ Ğ(]ú÷
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ Ğ(]
 %173domain.Mugimendua"fdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;Ljava/util/Date;)Ldomain/Mugimendua;*
 
 b2domain.Bezeroa*
@@ -2198,180 +2198,180 @@ I
 bankua*
 
 %172java.util.Date2DaddMugimendua(Ljava/lang/String;DLjava/lang/String;Ljava/util/Date;)*
-68*¢
-170G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(X~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(X
+68*³
+170L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(X„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(X
 ev17domain.Event"__id*
 
-%57domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javai0 i(U
+%57domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javai0 i(U
 %59java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-169*µ
-171G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(Wnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(
-%57domain.Event"domain.Eventí
-ê
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(W
+169*Ä
+171L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(Wsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(
+%57domain.Event"domain.Eventò
+ï
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javah h(W
 %58"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %57domain.Event*2*
 Mï¿½laga-Valencia*
 
 %56java.util.Date*
-170*¢
-172G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(V~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(V
+170*³
+172L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(V„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(V
 ev16domain.Event"__id*
 
-%54domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javah1 h(V
+%54domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javah1 h(V
 %56java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-171*¶
-173G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(Unl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(
-%54domain.Event"domain.Eventî
-ë
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(U
+171*Å
+173L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(Usq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(
+%54domain.Event"domain.Eventó
+ğ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaf f(U
 %55"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %54domain.Event*2*
 Las Palmas-Sevilla*
 
 %53java.util.Date*
-172*¢
-174G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(U~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(U
+172*³
+174L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(U„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(U
 ev15domain.Event"__id*
 
-%51domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaf4 f(T
+%51domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaf4 f(T
 %53java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-173*·
-175G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(Tnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(
-%51domain.Event"domain.Eventï
-ì
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(T
+173*Æ
+175L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(Tsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(
+%51domain.Event"domain.Eventô
+ñ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javae e(T
 %52"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %51domain.Event*2*
 Espaï¿½ol-Villareal*
 
 %50java.util.Date*
-174*¢
-176G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(T~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(T
+174*³
+176L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(T„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(T
 ev14domain.Event"__id*
 
-%48domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javae3 e(S
+%48domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javae3 e(S
 %50java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-175*¶
-177G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(Snl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(
-%48domain.Event"domain.Eventî
-ë
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(S
+175*Å
+177L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(Ssq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(
+%48domain.Event"domain.Eventó
+ğ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javad d(S
 %49"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %48domain.Event*2*
 Alavï¿½s-Deportivo*
 
 %47java.util.Date*
-176*¢
-178G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(P~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(P
+176*³
+178L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(P„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(P
 ev13domain.Event"__id*
 
-%45domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javad2 d(R
+%45domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javad2 d(R
 %47java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-177*°
-179G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(Onl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(
-%45domain.Event"domain.Eventè
-å
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(O
+177*¿
+179L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(Osq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(
+%45domain.Event"domain.Eventí
+ê
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javac c(O
 %46"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %45domain.Event*2*
 Getafe-Celta*
 
 %44java.util.Date*
-178*¯
-70I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(UŠ
-‡
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(U
+178*¾
+70N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(U
+Œ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(U
 m2domain.Mugimendua"__id*
 
-%171domain.MugimenduaÊ
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ? Ğ(\
+%171domain.MugimenduaÏ
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaĞ? Ğ(\
 %172java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2å*2*2*
-69*Ç
-71I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(Uïì
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(U
+69*Ñ
+71N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(Uôñ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ Ï(U
 %171domain.Mugimendua"fdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;Ljava/util/Date;)Ldomain/Mugimendua;*
 
 b2domain.Bezeroa*
@@ -2381,25 +2381,25 @@ I
 jokatu*
 
 %170java.util.Date2DaddMugimendua(Ljava/lang/String;DLjava/lang/String;Ljava/util/Date;)*
-70*¯
-72I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(]Š
-‡
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(]
+70*¾
+72N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(]
+Œ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(]
 m1domain.Mugimendua"__id*
 
-%169domain.MugimenduaÊ
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ7 Ï(T
+%169domain.MugimenduaÏ
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÏ7 Ï(T
 %170java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2å*2*2*
-71*Í
-73I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(]õò
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(]
+71*×
+73N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(]ú÷
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ Î(]
 %169domain.Mugimendua"fdomain.Bezeroa#addMugimendua(Ljava/lang/String;DLjava/lang/String;Ljava/util/Date;)Ldomain/Mugimendua;*
 
 b2domain.Bezeroa*
@@ -2408,186 +2408,186 @@ I
 bankua*
 
 %168java.util.Date2DaddMugimendua(Ljava/lang/String;DLjava/lang/String;Ljava/util/Date;)*
-72*ú
-74I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(t
-r
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
+72*˜
+74N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(y
+w
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
 m1domain.Mugimendua"__id*
-""t
-r
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
+""y
+w
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
 m2domain.Mugimendua"__id*
-""t
-r
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
+""y
+w
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
 m3domain.Mugimendua"__id*
-""t
-r
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
+""y
+w
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
 m4domain.Mugimendua"__id*
-""Ê
-Ç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ? Î(\
+""Ï
+Ì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÎ? Î(\
 %168java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*2å*2*2*
-73*ú
-75I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë('
+73*‰
+75N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë('
 %166javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-dbÿü
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(
+db„
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(
 %167void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %166javax.persistence.EntityManager*
 
 apustu2domain.Apustua2persist(Ljava/lang/Object;)*
-74*û
-76I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÊ Ê( 
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÊ Ê('
+74*Š
+76N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÊ Ê(¥
+¢
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÊ Ê('
 %164javax.persistence.EntityManager"__id*!*
 dataAccess.DataAccess"
-db€ı
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÊ Ê(
+db…‚
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÊ Ê(
 %165void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*)
 '
 %164javax.persistence.EntityManager*
 
 apustua1domain.Apustua2persist(Ljava/lang/Object;)*
-75*Ã
-77I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÈ È(
-ëè
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÈ È(
+75*Í
+77N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÈ È(
+ğí
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÈ È(
 %163void"0domain.Pronostikoa#addApustua(Ldomain/Apustua;)V*
 
 pronos4domain.Pronostikoa*
 
 apustua1domain.Apustua2addApustua(Ldomain/Apustua;)*
-76*Â
-78I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÇ Ç(
-êç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÇ Ç(
+76*Ì
+78N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÇ Ç(
+ïì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÇ Ç(
 %162void"0domain.Pronostikoa#addApustua(Ldomain/Apustua;)V*
 
 pronos4domain.Pronostikoa*
 
 apustu2domain.Apustua2addApustua(Ldomain/Apustua;)*
-77*Â
-79I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÆ Æ(
-êç
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÆ Æ(
+77*Ì
+79N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÆ Æ(
+ïì
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÆ Æ(
 %161void"0domain.Pronostikoa#addApustua(Ldomain/Apustua;)V*
 
 pronos2domain.Pronostikoa*
 
 apustu2domain.Apustua2addApustua(Ldomain/Apustua;)*
-78*¢
-180G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(S~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(S
+78*³
+180L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(S„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(S
 ev12domain.Event"__id*
 
-%42domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javac. c(N
+%42domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javac. c(N
 %44java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-179*³
-181G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(Rnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(
-%42domain.Event"domain.Eventë
-è
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(R
+179*Â
+181L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(Rsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(
+%42domain.Event"domain.Eventğ
+í
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javab b(R
 %43"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %42domain.Event*2*
 Eibar-Barcelona*
 
 %41java.util.Date*
-180*¢
-182G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(U~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(U
+180*³
+182L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(U„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(U
 ev11domain.Event"__id*
 
-%39domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javab1 b(Q
+%39domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javab1 b(Q
 %41java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-181*µ
-183G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(Tnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(
-%39domain.Event"domain.Eventí
-ê
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(T
+181*Ä
+183L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(Tsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(
+%39domain.Event"domain.Eventò
+ï
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaa a(T
 %40"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %39domain.Event*2*
 Atletico-Athletic*
 
 %38java.util.Date*
-182*¢
-184G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(V~
-|
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(V
+182*³
+184L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(V„
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(V
 ev10domain.Event"__id*
 
-%36domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaa3 a(S
+%36domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaa3 a(S
 %38java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-183*µ
-185G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(Unl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(
-%36domain.Event"domain.Eventí
-ê
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(U
+183*Ä
+185L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(Usq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(
+%36domain.Event"domain.Eventò
+ï
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java_ _(U
 %37"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %36domain.Event*2
@@ -2595,95 +2595,95 @@ G
 Betis-Real Madrid*
 
 %35java.util.Date*
-184*¡
-186G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(X}
-{
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(X
+184*²
+186L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(Xƒ
+€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(X
 ev9domain.Event"__id*
 
-%33domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java_3 _(T
+%33domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java_3 _(T
 %35java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-185*¹
-187G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(Wnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(
-%33domain.Event"domain.Eventñ
-î
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(W
+185*È
+187L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(Wsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(
+%33domain.Event"domain.Eventö
+ó
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java^ ^(W
 %34"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %33domain.Event*2	*
 Real Sociedad-Levante*
 
 %32java.util.Date*
-186*¡
-188G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](Q}
-{
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](Q
+186*²
+188L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](Qƒ
+€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](Q
 ev8domain.Event"__id*
 
-%30domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java^5 ^(V
+%30domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java^5 ^(V
 %32java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-187*´
-189G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](Pnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](
-%30domain.Event"domain.Eventì
-é
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](P
+187*Ã
+189L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](Psq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](
+%30domain.Event"domain.Eventñ
+î
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java] ](P
 %31"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %30domain.Event*2*
 Girona-Leganï¿½s*
 
 %29java.util.Date*
-188*Ï
-80I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÃ Ã(+‰
-†
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÃ Ã(+
+188*Ş
+80N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÃ Ã(+
+‹
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÃ Ã(+
 apustu2domain.Apustua"__id*
 
-%159domain.Apustuaëè
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÅ Å(
+%159domain.Apustuağí
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÅ Å(
 %160void"0domain.Pronostikoa#addApustua(Ldomain/Apustua;)V*
 
 pronos2domain.Pronostikoa*
 
 apustua1domain.Apustua2addApustua(Ldomain/Apustua;)*
-79*¤
-81I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÂ Â(0Š
-‡
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÂ Â(0
+79*³
+81N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÂ Â(0
+Œ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÂ Â(0
 apustua1domain.Apustua"__id*
 
-%158domain.Apustua¿¼
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÃ Ã(*
+%158domain.ApustuaÄÁ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÃ Ã(*
 %159domain.Apustua"Qdomain.Bezeroa#addApustua(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Apustua;*
 
 b5domain.Bezeroa*
@@ -2691,86 +2691,86 @@ I
 pjava.util.ArrayList*2*
 
 b2domain.Bezeroa22addApustua(Ljava/util/ArrayList;DLdomain/Bezeroa;)*
-80*‡
-82I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÂ Â(¯¬
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÂ Â(/
+80*‘
+82N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÂ Â(´±
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÂ Â(/
 %158domain.Apustua"Qdomain.Bezeroa#addApustua(Ljava/util/ArrayList;DLdomain/Bezeroa;)Ldomain/Apustua;*
 
 b2domain.Bezeroa*
 
 pjava.util.ArrayList*2*
 ""22addApustua(Ljava/util/ArrayList;DLdomain/Bezeroa;)*
-81*„
-83I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÁ Á(¬
-©
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÁ Á(
+81*
+83N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÁ Á(±
+®
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÁ Á(
 %157boolean"
 __arrayAdd*
 
 pjava.util.ArrayList*: *
 
 pronos4domain.Pronostikoa*
-82*”
-84I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¿ ¿(;
-Š
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¿ ¿(;
+82*£
+84N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¿ ¿(;’
+
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¿ ¿(;
 pjava.util.ArrayList"__id*
 
-%154java.util.ArrayList¬
-©
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaÀ À(
+%154java.util.ArrayList±
+®
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaÀ À(
 %156boolean"
 __arrayAdd*
 
 pjava.util.ArrayList*: *
 
 pronos2domain.Pronostikoa*
-83*í
-85I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¿ ¿(:}
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¿" ¿(8
-%154java.util.ArrayList"java.util.ArrayList”
-‘
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¿ ¿(:
+83*ş
+85N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¿ ¿(:…‚
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¿" ¿(8
+%154java.util.ArrayList"java.util.ArrayList™
+–
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¿ ¿(:
 %155"java.util.ArrayList#<init>()V*
 
 %154java.util.ArrayList*
-84*ö
-86I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¼ ¼(J
-š
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¼ ¼(J(
+84*…
+86N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¼ ¼(J¢
+Ÿ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¼ ¼(J(
 errepikapenBerriadomain.Errepikapena"__id*
 
-%152domain.Errepikapenaşû
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java½ ½('
+%152domain.Errepikapenaƒ€
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java½ ½('
 %153void"5domain.Bezeroa#addErrepikatua(Ldomain/Errepikapena;)V*
 
 b5domain.Bezeroa**
 (
 errepikapenBerriadomain.Errepikapena2%addErrepikatua(Ldomain/Errepikapena;)*
-85*’
-87I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¹ ¹('’
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¹ ¹('
+85*¡
+87N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¹ ¹('—
+”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¹ ¹('
 pronos17domain.Pronostikoa"__id*
 
-%151domain.Pronostikoa¥¢
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¼$ ¼(I
+%151domain.Pronostikoaª§
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¼$ ¼(I
 %152domain.Errepikapena"Kdomain.Bezeroa#addErrepikatzailea(Ldomain/Bezeroa;DDD)Ldomain/Errepikapena;*
 
 b2domain.Bezeroa*
@@ -2778,432 +2778,432 @@ I
 b5domain.Bezeroa*2*2
 *
 ""2'addErrepikatzailea(Ldomain/Bezeroa;DDD)*
-86*ê
-88I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¸ ¸('’
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¸ ¸('
+86*ù
+88N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¸ ¸('—
+”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¸ ¸('
 pronos16domain.Pronostikoa"__id*
 
-%150domain.Pronostikoaıú
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¹ ¹('
+%150domain.Pronostikoa‚ÿ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¹ ¹('
 %151domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q4domain.Question*
 >3*
 ""2!addPronostic(Ljava/lang/String;D)*
-87*é
-89I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java· ·('’
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java· ·('
+87*ø
+89N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java· ·('—
+”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java· ·('
 pronos15domain.Pronostikoa"__id*
 
-%149domain.Pronostikoaüù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¸ ¸('
+%149domain.Pronostikoaş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¸ ¸('
 %150domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q4domain.Question*
 3*
 ""2!addPronostic(Ljava/lang/String;D)*
-88*¡
-190G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(R}
-{
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(R
+88*²
+190L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(Rƒ
+€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(R
 ev7domain.Event"__id*
 
-%27domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java]. ](O
+%27domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java]. ](O
 %29java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-189*³
-191G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(Qnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(
-%27domain.Event"domain.Eventë
-è
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(Q
+189*Â
+191L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(Qsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(
+%27domain.Event"domain.Eventğ
+í
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java\ \(Q
 %28"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %27domain.Event*2*
 Malaga-Valencia*
 
 %26java.util.Date*
-190*¡
-192G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(U}
-{
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(U
+190*²
+192L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(Uƒ
+€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(U
 ev6domain.Event"__id*
 
-%24domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java\/ \(P
+%24domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java\/ \(P
 %26java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-191*¶
-193G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(Tnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(
-%24domain.Event"domain.Eventî
-ë
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(T
+191*Å
+193L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(Tsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(
+%24domain.Event"domain.Eventó
+ğ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java[ [(T
 %25"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %24domain.Event*2*
 Las Palmas-Sevilla*
 
 %23java.util.Date*
-192*¡
-194G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(T}
-{
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(T
+192*²
+194L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(Tƒ
+€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(T
 ev5domain.Event"__id*
 
-%21domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java[2 [(S
+%21domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java[2 [(S
 %23java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-193*·
-195G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(Snl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(
-%21domain.Event"domain.Eventï
-ì
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(S
+193*Æ
+195L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(Ssq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(
+%21domain.Event"domain.Eventô
+ñ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ Z(S
 %22"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %21domain.Event*2*
 Espaï¿½ol-Villareal*
 
 %20java.util.Date*
-194*¡
-196G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(S}
-{
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(S
+194*²
+196L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(Sƒ
+€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(S
 ev4domain.Event"__id*
 
-%18domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ1 Z(R
+%18domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaZ1 Z(R
 %20java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-195*¶
-197G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(Rnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(
-%18domain.Event"domain.Eventî
-ë
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(R
+195*Å
+197L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(Rsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(
+%18domain.Event"domain.Eventó
+ğ
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaY Y(R
 %19"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %18domain.Event*2*
 Alavï¿½s-Deportivo*
 
 %17java.util.Date*
-196*¡
-198G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(O}
-{
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(O
+196*²
+198L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(Oƒ
+€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(O
 ev3domain.Event"__id*
 
-%15domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaY0 Y(Q
+%15domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaY0 Y(Q
 %17java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-197*°
-199G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(Nnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(
-%15domain.Event"domain.Eventè
-å
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(N
+197*¿
+199L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(Nsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(
+%15domain.Event"domain.Eventí
+ê
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaX X(N
 %16"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %15domain.Event*2*
 Getafe-Celta*
 
 %14java.util.Date*
-198*ê
-90I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¶ ¶('’
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¶ ¶('
+198*ù
+90N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¶ ¶('—
+”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¶ ¶('
 pronos14domain.Pronostikoa"__id*
 
-%148domain.Pronostikoaıú
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java· ·('
+%148domain.Pronostikoa‚ÿ
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java· ·('
 %149domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q4domain.Question*
 <2*
 ""2!addPronostic(Ljava/lang/String;D)*
-89*é
-91I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaµ µ('’
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaµ µ('
+89*ø
+91N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaµ µ('—
+”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaµ µ('
 pronos13domain.Pronostikoa"__id*
 
-%147domain.Pronostikoaüù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¶ ¶('
+%147domain.Pronostikoaş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¶ ¶('
 %148domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q3domain.Question*
 2*
 ""2!addPronostic(Ljava/lang/String;D)*
-90*é
-92I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´('’
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´('
+90*ø
+92N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´('—
+”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´('
 pronos12domain.Pronostikoa"__id*
 
-%146domain.Pronostikoaüù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaµ µ('
+%146domain.Pronostikoaş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaµ µ('
 %147domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q3domain.Question*
 X*
 ""2!addPronostic(Ljava/lang/String;D)*
-91*Ô
-93I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´(üù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´('
+91*Ş
+93N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´(ş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java´ ´('
 %146domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q3domain.Question*
 1*
 ""2!addPronostic(Ljava/lang/String;D)*
-92*Û
-94I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java² ²(ƒ€
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java² ²($
+92*å
+94N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java² ²(ˆ…
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java² ²($
 %145domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q2domain.Question*
 
 Golik ez*
 ""2!addPronostic(Ljava/lang/String;D)*
-93*Ô
-95I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java± ±(üù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java± ±(
+93*Ş
+95N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java± ±(ş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java± ±(
 %144domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q2domain.Question*
 2*
 ""2!addPronostic(Ljava/lang/String;D)*
-94*Ô
-96I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java° °(üù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java° °(
+94*Ş
+96N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java° °(ş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java° °(
 %143domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q2domain.Question*
 1*
 ""2!addPronostic(Ljava/lang/String;D)*
-95*Ô
-97I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¯ ¯(üù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java¯ ¯(
+95*Ş
+97N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¯ ¯(ş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java¯ ¯(
 %142domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q1domain.Question*
 2*
 ""2!addPronostic(Ljava/lang/String;D)*
-96*Ô
-98I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java® ®(üù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java® ®(
+96*Ş
+98N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java® ®(ş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java® ®(
 %141domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q1domain.Question*
 X*
 ""2!addPronostic(Ljava/lang/String;D)*
-97*é
-99I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java« «(+’
-
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java« «(+
+97*ø
+99N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java« «(+—
+”
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java« «(+
 pronos11domain.Pronostikoa"__id*
 
-%139domain.Pronostikoaüù
-I
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.java­ ­(
+%139domain.Pronostikoaş
+N
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.java­ ­(
 %140domain.Pronostikoa"Edomain.Question#addPronostic(Ljava/lang/String;D)Ldomain/Pronostikoa;*
 
 q1domain.Question*
 1*
 ""2!addPronostic(Ljava/lang/String;D)*
-98*¡
-200G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(R}
-{
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(R
+98*²
+200L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(Rƒ
+€
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(R
 ev2domain.Event"__id*
 
-%12domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaX, X(M
+%12domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaX, X(M
 %14java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-199*³
-201G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(Qnl
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(
-%12domain.Event"domain.Eventë
-è
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(Q
+199*Â
+201L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(Qsq
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(
+%12domain.Event"domain.Eventğ
+í
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaW W(Q
 %13"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %12domain.Event*2*
 Eibar-Barcelona*
 
 %11java.util.Date*
-200* 
-202G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(S|
-z
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(S
+200*°
+202L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(S
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(S
 ev1domain.Event"__id*
 
-%9domain.EventÊ
-Ç
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaW/ W(P
+%9domain.EventÏ
+Ì
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaW/ W(P
 %11java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-201*´
-203G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(Rmk
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(
-%9domain.Event"domain.Eventí
-ê
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(R
+201*Ã
+203L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(Rrp
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(
+%9domain.Event"domain.Eventò
+ï
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(R
 %10"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
 
 %9domain.Event*2*
 Atlï¿½tico-Athletic*
 
 %8java.util.Date*
-202*¡
-204G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(É
-Æ
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaV0 V(Q
+202*«
+204L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaV V(Î
+Ë
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaV0 V(Q
 %8java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
 configuration.UtilDate*
 ""*
 ""*2*
-203*å
-207G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaN N()d
-b
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaP P(%	
+203*ô
+207L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaN N()i
+g
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaP P(%	
 %6int"__id*
-""§¤
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaP P(&	
+""¬©
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaP P(&	
 %7int"java.util.Calendar#get(I)I*
 
 todayjava.util.Calendar*
 	
 %6int2get(I)*
-204*ó
-208G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaL L(+‹
-ˆ
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaL L(+
+204*‡
+208L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaL L(+
+
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaL L(+
 todayjava.util.Calendar"__id*
 
-%3java.util.Calendard
-b
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaN N('	
+%3java.util.Calendari
+g
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaN N('	
 %4int"__id*
-""§¤
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaN N((	
+""¬©
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaN N((	
 %5int"java.util.Calendar#get(I)I*
 
 todayjava.util.Calendar*
 	
 %4int2get(I)*
-207*Œ
-209G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaL L(´
-±
-G
-=D:/Coding/git/Bets21/src/main/java/dataAccess/DataAccess.javaL L(*
+207*–
+209L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaL L(¹
+¶
+L
+B/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccess.javaL L(*
 %3java.util.Calendar"4java.util.Calendar#getInstance()Ljava/util/Calendar;*"
 java.util.Calendar*
 208B

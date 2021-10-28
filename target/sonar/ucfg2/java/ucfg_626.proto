@@ -1,16 +1,255 @@
 
-=domain.ErrepikatuakContainer#getErrepikatua()Ldomain/Bezeroa;N
-DD:/Coding/git/Bets21/src/main/java/domain/ErrepikatuakContainer.java ("1*â
-1N
-DD:/Coding/git/Bets21/src/main/java/domain/ErrepikatuakContainer.java	 (¢
-Ÿ
-N
-DD:/Coding/git/Bets21/src/main/java/domain/ErrepikatuakContainer.java	 (
-%0domain.Bezeroa"__id*1*/
-domain.ErrepikatuakContainer"
-errepikatua"h
-N
-DD:/Coding/git/Bets21/src/main/java/domain/ErrepikatuakContainer.java (
+=dataAccess.DataAccessRemoveMezua#removeMezua(Ldomain/Mezua;)VY
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.java¿ ¿("5"6*Â
+2Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÔ Ô(ÜÙ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÔ Ô(%
+%29void"/domain.ArretaMezua#setIkusgaiBezeroarentzat(Z)V*
+
+mdomain.ArretaMezua*
+""2setIkusgaiBezeroarentzat(Z)*
+1*¾
+3Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÑ Ñ(º
+·
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÑ Ñ(&
+%27javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+db›˜
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÑ Ñ(
+%28void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
+&
+%27javax.persistence.EntityManager*+
+)
+elkarrizketadomain.ArretaElkarrizketa2remove(Ljava/lang/Object;)*
+1*™
+4Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÎ Î(”‘
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÎ Î(
+%23void"<domain.ArretaElkarrizketa#removeMezua(Ldomain/ArretaMezua;)V*+
+)
+elkarrizketadomain.ArretaElkarrizketa*
+
+mdomain.ArretaMezua2!removeMezua(Ldomain/ArretaMezua;)º
+·
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÏ Ï(&
+%24javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+db‰†
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÏ Ï(
+%25void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
+&
+%24javax.persistence.EntityManager*
+
+mdomain.ArretaMezua2remove(Ljava/lang/Object;)ÐÍ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÐ Ð(
+%26boolean"&domain.ArretaElkarrizketa#mezurikEz()Z*+
+)
+elkarrizketadomain.ArretaElkarrizketa2mezurikEz()*
+3
+1*Ÿ
+5Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÊ Ê(º
+·
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÊ Ê(&
+%15javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+dbÝÚ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÊ. Ê(H
+%16java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
+
+mezuadomain.Mezua2getIdentifikadorea()ÏÌ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÊ Ê(I
+%17domain.ArretaMezua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*(
+&
+%15javax.persistence.EntityManager*
+""*
+
+%16java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)š
+—
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÊ Ê(J
+mdomain.ArretaMezua"__id*
+
+%17domain.ArretaMezuaïì
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaË% Ë(8 
+%18domain.ArretaElkarrizketa"?domain.ArretaMezua#getElkarrizketa()Ldomain/ArretaElkarrizketa;*
+
+mdomain.ArretaMezua2getElkarrizketa()³
+°
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaË Ë(9)
+elkarrizketadomain.ArretaElkarrizketa"__id*"
+ 
+%18domain.ArretaElkarrizketaº
+·
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÌ Ì(&
+%19javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+dbš
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÌ Ì(*
+%20#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%19javax.persistence.EntityManager2getTransaction()ÐÍ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÌ Ì(
+%21void",javax.persistence.EntityTransaction#begin()V*,
+*
+%20#javax.persistence.EntityTransaction2begin()ÒÏ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÍ Í(
+%22boolean"'domain.ArretaElkarrizketa#isAmaituta()Z*+
+)
+elkarrizketadomain.ArretaElkarrizketa2isAmaituta()*
+2
+4*é 
+6Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÁ Á(¹
+¶
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÁ Á(%
+%0javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+dbÜÙ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÁ: Á(T
+%1java.lang.Integer"4domain.Mezua#getIdentifikadorea()Ljava/lang/Integer;*
+
+mezuadomain.Mezua2getIdentifikadorea()ÒÏ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÁ Á(U
+%2domain.BezeroartekoMezua"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+%1java.lang.Integer2)find(Ljava/lang/Class;Ljava/lang/Object;)¥
+¢
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÁ Á(V
+mdomain.BezeroartekoMezua"__id* 
+
+%2domain.BezeroartekoMezuaÚ×
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÂ Â( 
+%3domain.Bezeroa"5domain.BezeroartekoMezua#getIgorlea()Ldomain/Bezeroa;*
+
+mdomain.BezeroartekoMezua2getIgorlea()”
+‘
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÂ Â(!
+norkdomain.Bezeroa"__id*
 
-%0domain.BezeroaB 
-domain.ErrepikatuakContainer
+%3domain.BezeroaàÝ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÃ Ã(#
+%4domain.Bezeroa"8domain.BezeroartekoMezua#getHartzailea()Ldomain/Bezeroa;*
+
+mdomain.BezeroartekoMezua2getHartzailea()”
+‘
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÃ Ã($
+noridomain.Bezeroa"__id*
+
+%4domain.Bezeroa¹
+¶
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÄ Ä(%
+%5javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+db›˜
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÄ Ä()
+%6#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
+%
+%5javax.persistence.EntityManager2getTransaction()ÎË
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÄ Ä(
+
+%7void",javax.persistence.EntityTransaction#begin()V*+
+)
+%6#javax.persistence.EntityTransaction2begin()©¦
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÅ Å('
+
+%8void"Hdomain.Bezeroa#ezabatuBidalitakoBezeroMezua(Ldomain/BezeroartekoMezua;)V*
+
+norkdomain.Bezeroa*
+
+mdomain.BezeroartekoMezua28ezabatuBidalitakoBezeroMezua(Ldomain/BezeroartekoMezua;)¥¢
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÆ Æ(%
+
+%9void"Fdomain.Bezeroa#ezabatuJasotakoBezeroMezua(Ldomain/BezeroartekoMezua;)V*
+
+noridomain.Bezeroa*
+
+mdomain.BezeroartekoMezua26ezabatuJasotakoBezeroMezua(Ldomain/BezeroartekoMezua;)º
+·
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÇ Ç(&
+%10javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+dbŒ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÇ Ç(
+%11void";javax.persistence.EntityManager#remove(Ljava/lang/Object;)V*(
+&
+%10javax.persistence.EntityManager*
+
+mdomain.BezeroartekoMezua2remove(Ljava/lang/Object;)º
+·
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÈ È(&
+%12javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+dbš
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÈ È(*
+%13#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%12javax.persistence.EntityManager2getTransaction()ÒÏ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÈ È(
+%14void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%13#javax.persistence.EntityTransaction2commit()*
+0*w
+0 "p
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaØ Ø(
+implicit return*•
+1Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÖ Ö(º
+·
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÖ Ö(&
+%30javax.persistence.EntityManager"__id*,**"
+ dataAccess.DataAccessRemoveMezua"
+dbš
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÖ Ö(*
+%31#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%30javax.persistence.EntityManager2getTransaction()ÒÏ
+Y
+M/home/estrapro/git/Bets21/src/main/java/dataAccess/DataAccessRemoveMezua.javaÖ Ö(
+%32void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%31#javax.persistence.EntityTransaction2commit()*
+0:
+mezuadomain.MezuaB$"
+ dataAccess.DataAccessRemoveMezua

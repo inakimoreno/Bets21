@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DataAccessRemoveMezua.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Bets2222</a> &gt; <a href="index.source.html" class="el_package">dataAccess</a> &gt; <span class="el_source">DataAccessRemoveMezua.java</span></div><h1>DataAccessRemoveMezua.java</h1><pre class="source lang-java linenums">package dataAccess;
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DataAccessRemoveMezua.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Bets2222</a> &gt; <a href="index.source.html" class="el_package">dataAccess</a> &gt; <span class="el_source">DataAccessRemoveMezua.java</span></div><h1>DataAccessRemoveMezua.java</h1><pre class="source lang-java linenums">package dataAccess;
 
 import java.util.ArrayList;
 //hello
@@ -317,16 +317,16 @@ public class DataAccessRemoveMezua {
 <span class="nc" id="L317">	}</span>
 
 	public void removeMezua(Mezua mezua) {
-<span class="nc bnc" id="L320" title="All 2 branches missed.">		if(mezua instanceof BezeroartekoMezua) {</span>
-<span class="nc" id="L321">			BezeroartekoMezua m = db.find(BezeroartekoMezua.class, mezua.getIdentifikadorea());</span>
-<span class="nc" id="L322">			Bezeroa nork = m.getIgorlea();</span>
-<span class="nc" id="L323">			Bezeroa nori = m.getHartzailea();</span>
-<span class="nc" id="L324">			db.getTransaction().begin();</span>
-<span class="nc" id="L325">			nork.ezabatuBidalitakoBezeroMezua(m);</span>
-<span class="nc" id="L326">			nori.ezabatuJasotakoBezeroMezua(m);</span>
-<span class="nc" id="L327">			db.remove(m);</span>
-<span class="nc" id="L328">			db.getTransaction().commit();</span>
-<span class="nc" id="L329">		}else {</span>
+<span class="pc bpc" id="L320" title="1 of 2 branches missed.">		if(mezua instanceof BezeroartekoMezua) {</span>
+<span class="fc" id="L321">			BezeroartekoMezua m = db.find(BezeroartekoMezua.class, mezua.getIdentifikadorea());</span>
+<span class="fc" id="L322">			Bezeroa nork = m.getIgorlea();</span>
+<span class="fc" id="L323">			Bezeroa nori = m.getHartzailea();</span>
+<span class="fc" id="L324">			db.getTransaction().begin();</span>
+<span class="fc" id="L325">			nork.ezabatuBidalitakoBezeroMezua(m);</span>
+<span class="fc" id="L326">			nori.ezabatuJasotakoBezeroMezua(m);</span>
+<span class="fc" id="L327">			db.remove(m);</span>
+<span class="fc" id="L328">			db.getTransaction().commit();</span>
+<span class="fc" id="L329">		}else {</span>
 <span class="nc" id="L330">			ArretaMezua m = db.find(ArretaMezua.class, mezua.getIdentifikadorea());</span>
 <span class="nc" id="L331">			ArretaElkarrizketa elkarrizketa = m.getElkarrizketa();</span>
 <span class="nc" id="L332">			db.getTransaction().begin();</span>
@@ -341,6 +341,6 @@ public class DataAccessRemoveMezua {
 			}
 <span class="nc" id="L342">			db.getTransaction().commit();</span>
 		}
-<span class="nc" id="L344">    }</span>
+<span class="fc" id="L344">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

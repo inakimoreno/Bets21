@@ -1,70 +1,988 @@
 
-;domain.Pronostikoa#pronostikoaEquals(Ldomain/Pronostikoa;)ZD
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javal l(!"3*·
-2D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam3 m(4è
-å
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam3 m(=
-%3domain.Question"__id*'*%
+gui.RegisterGUI#check()ZH
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaπ π("56*û
+46H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java— —(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java— —(!
+%44javax.swing.JPasswordField"__id**
+gui.RegisterGUI"
+pas_1ºπ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java— —($
+%45char[]"*javax.swing.JPasswordField#getPassword()[C*#
+!
+%44javax.swing.JPasswordField2getPassword()wu
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java—
+ —(
+%46java.lang.String"java.lang.Stringû
+õ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java— —(%
+%47"java.lang.String#<init>([C)V*
 
-pdomain.Pronostikoa"
+%46java.lang.String*
 
-question»≈
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam3 m(Q
-%4java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
-
-%3domain.Question2getQuestionNumber()å
-â
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javamY m(a
-%5domain.Question"__id*$*"
-domain.Pronostikoa"
+%45char[]ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java—= —(B!
+%48javax.swing.JPasswordField"__id**
+gui.RegisterGUI"
+pas_2ºπ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java—= —(P
+%49char[]"*javax.swing.JPasswordField#getPassword()[C*#
+!
+%48javax.swing.JPasswordField2getPassword()wu
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java—6 —(<
+%50java.lang.String"java.lang.Stringû
+õ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java—2 —(Q
+%51"java.lang.String#<init>([C)V*
+
+%50java.lang.String*
 
-question»≈
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javamY m(u
-%6java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
-
-%5domain.Question2getQuestionNumber()Ÿ÷
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam3 m(v
-%7boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+%49char[]ﬂ‹
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java— —(S
+
+%52int"/java.lang.String#compareTo(Ljava/lang/String;)I*
 
-%4java.lang.Integer*
+%46java.lang.String*
 
-%6java.lang.Integer2equals(Ljava/lang/Object;)*
-1*”
-3D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam	 m(
-ì
+%50java.lang.String2compareTo(Ljava/lang/String;)*
+44
+45*¿
+47H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŒ Œ(ì
 ê
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam	 m(
-%0java.lang.String"__id***(
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŒ Œ(
+%40javax.swing.JLabel"__id*#*!
+gui.RegisterGUI"
+
+pas_2MezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŒ Œ(;
+%41java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŒ Œ(Q
+%42java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%41java.util.ResourceBundle*
+
+Required2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŒ Œ(R
+%43void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%40javax.swing.JLabel*
 
-pdomain.Pronostikoa"
-deskripzioaê
-ç
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam m(.
-%1java.lang.String"__id*'*%
-domain.Pronostikoa"
-deskripzioa÷”
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam	 m(/
-%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+%42java.lang.String2setText(Ljava/lang/String;)*
+46*Ì
+48H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÕ Õ(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÕ Õ(!
+%35javax.swing.JPasswordField"__id**
+gui.RegisterGUI"
+pas_2ºπ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÕ Õ($
+%36char[]"*javax.swing.JPasswordField#getPassword()[C*#
+!
+%35javax.swing.JPasswordField2getPassword()wu
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÕ
+ Õ(
+%37java.lang.String"java.lang.Stringû
+õ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÕ Õ(%
+%38"java.lang.String#<init>([C)V*
+
+%37java.lang.String*
+
+%36char[]†ù
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÕ Õ(0
+%39boolean"java.lang.String#isEmpty()Z*
+
+%37java.lang.String2	isEmpty()*
+46
+47*¿
+49H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java   (ì
+ê
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java   (
+%31javax.swing.JLabel"__id*#*!
+gui.RegisterGUI"
+
+pas_1MezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java   (;
+%32java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java   (Q
+%33java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%32java.util.ResourceBundle*
+
+Required2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java   (R
+%34void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%31javax.swing.JLabel*
+
+%33java.lang.String2setText(Ljava/lang/String;)*
+48*ï
+28H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java (+æ
+ª
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java (+
+%108int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%107java.lang.String*
+22*ƒ
+29H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java (ô
+ñ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java ( 
+%106javax.swing.JTextField"__id*$*"
+gui.RegisterGUI"
+phoneNumber—Œ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java (*
+%107java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;* 
+
+%106javax.swing.JTextField2	getText()*
+28*Ì
+50H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java… …(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java… …(!
+%26javax.swing.JPasswordField"__id**
+gui.RegisterGUI"
+pas_1ºπ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java… …($
+%27char[]"*javax.swing.JPasswordField#getPassword()[C*#
+!
+%26javax.swing.JPasswordField2getPassword()wu
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java…
+ …(
+%28java.lang.String"java.lang.Stringû
+õ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java… …(%
+%29"java.lang.String#<init>([C)V*
+
+%28java.lang.String*
+
+%27char[]†ù
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java… …(0
+%30boolean"java.lang.String#isEmpty()Z*
+
+%28java.lang.String2	isEmpty()*
+48
+49*ø
+51H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java∆ ∆(ì
+ê
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java∆ ∆(
+%22javax.swing.JLabel"__id*#*!
+gui.RegisterGUI"
+
+pas_1MezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java∆ ∆(;
+%23java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	Etiquetasˇ¸
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java∆ ∆(P
+%24java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%23java.util.ResourceBundle*	
+NotLong2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java∆ ∆(Q
+%25void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%22javax.swing.JLabel*
+
+%24java.lang.String2setText(Ljava/lang/String;)*
+50*Á
+52H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java≈ ≈(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java≈ ≈(!
+%17javax.swing.JPasswordField"__id**
+gui.RegisterGUI"
+pas_1ºπ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java≈ ≈($
+%18char[]"*javax.swing.JPasswordField#getPassword()[C*#
+!
+%17javax.swing.JPasswordField2getPassword()wu
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java≈
+ ≈(
+%19java.lang.String"java.lang.Stringû
+õ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java≈ ≈(%
+%20"java.lang.String#<init>([C)V*
+
+%19java.lang.String*
+
+%18char[]öó
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java≈ ≈(/
+
+%21int"java.lang.String#length()I*
+
+%19java.lang.String2length()*
+50
+51*ø
+53H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¬ ¬(í
+è
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¬ ¬(
+%13javax.swing.JLabel"__id*"* 
+gui.RegisterGUI"
+	nameMezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¬ ¬(:
+%14java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¬ ¬(P
+%15java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%14java.util.ResourceBundle*
+
+Required2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¬ ¬(Q
+%16void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%13javax.swing.JLabel*
+
+%15java.lang.String2setText(Ljava/lang/String;)*
+52* 
+31H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÏ Ï(ò
+ï
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÏ Ï(
+%102javax.swing.JLabel"__id*'*%
+gui.RegisterGUI"
+telefonoaMezuaÓ
+Î
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÏ Ï(? 
+%103java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÅ˛
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÏ Ï(T
+%104java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
+ 
+%103java.util.ResourceBundle*	
+Invalid2getString(Ljava/lang/String;)„‡
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÏ Ï(U
+%105void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%102javax.swing.JLabel*
+
+%104java.lang.String2setText(Ljava/lang/String;)*
+22*·
+54H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¡ ¡(	ë
+é
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¡ ¡(	
+%10javax.swing.JTextField"__id**
+gui.RegisterGUI"
+nameœÃ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¡ ¡(
+%11java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%10javax.swing.JTextField2	getText()†ù
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¡ ¡(
+%12boolean"java.lang.String#isEmpty()Z*
+
+%11java.lang.String2	isEmpty()*
+52
+53*⁄
+10H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˚H ˚(TÑÅ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˚ ˚(U
+%130java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
+ 
+%129java.util.ResourceBundle*
+
+NotAlowed12getString(Ljava/lang/String;)*
+9*Â
+32H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÎ Î(ò
+ï
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÎ Î(
+%99javax.swing.JTextField"__id*$*"
+gui.RegisterGUI"
+phoneNumber–Õ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÎ Î(!
+%100java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%99javax.swing.JTextField2	getText()úô
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÎ Î(*
+%101int"java.lang.String#length()I*
+
+%100java.lang.String2length()*
+29
+31*∏
+55H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaæ æ(í
+è
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaæ æ(
+%6javax.swing.JLabel"__id*#*!
+gui.RegisterGUI"
+
+emailMezuaÏ
+È
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaæ æ(;
+%7java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	Etiquetas˝˙
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaæ æ(P
+%8java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%7java.util.ResourceBundle*	
+Invalid2getString(Ljava/lang/String;)›⁄
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaæ æ(Q
+
+%9void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%6javax.swing.JLabel*
 
-%0java.lang.String*
+%8java.lang.String2setText(Ljava/lang/String;)*
+54*›
+11H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˚ ˚(ï
+í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˚ ˚(
+%128javax.swing.JLabel"__id*$*"
+gui.RegisterGUI"
+date_Mezua2Ó
+Î
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˚ ˚(= 
+%129java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	Etiquetas*
+10*ƒ
+33H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÈ È(ó
+î
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÈ È(
+%95javax.swing.JLabel"__id*'*%
+gui.RegisterGUI"
+telefonoaMezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÈ È(?
+%96java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÈ È(U
+%97java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%96java.util.ResourceBundle*
+
+Required2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÈ È(V
+%98void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%95javax.swing.JLabel*
+
+%97java.lang.String2setText(Ljava/lang/String;)*
+22*Ë
+34H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaË Ë(ò
+ï
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaË Ë(
+%92javax.swing.JTextField"__id*$*"
+gui.RegisterGUI"
+phoneNumberœÃ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaË Ë(
+%93java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%92javax.swing.JTextField2	getText()†ù
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaË Ë($
+%94boolean"java.lang.String#isEmpty()Z*
+
+%93java.lang.String2	isEmpty()*
+32
+33*ô
+56H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java∫ ∫(€
+ÿ
+I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaª" ª(Ü
+%0java.lang.String"__concat*/-
++^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+){0,3}@*86
+4[A-Za-z0-9]+(\\.[A-Za-z0-9]+){0,1}(\\.[A-Za-z]{2,})$Ú
+Ô
+I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaª ª(á
+%1java.util.regex.Pattern"Ljava.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;*"
+java.util.regex.Pattern*
 
-%1java.lang.String2equals(Ljava/lang/Object;)*
-2
-1*ô
-1D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam m(w"N
-D
-:D:/Coding/git/Bets21/src/main/java/domain/Pronostikoa.javam m(w
-"":
-pdomain.PronostikoaB
-domain.Pronostikoa
+%0java.lang.Stringô
+ñ
+I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaª ª(à"
+patternjava.util.regex.Pattern"__id*
+
+%1java.util.regex.Patterní
+è
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaº! º('
+%2javax.swing.JTextField"__id**
+gui.RegisterGUI"
+e_mailÕ 
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaº! º(1
+%3java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%2javax.swing.JTextField2	getText()£†
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaº º(2
+%4java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*$
+"
+patternjava.util.regex.Pattern*
+
+%3java.lang.String2!matcher(Ljava/lang/CharSequence;)ó
+î
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaº º(3!
+matherjava.util.regex.Matcher"__id*
+
+%4java.util.regex.Matcher™ß
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaΩ Ω(
+%5boolean"java.util.regex.Matcher#find()Z*#
+!
+matherjava.util.regex.Matcher2find()*
+54
+55*¿
+35H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÂ Â(ì
+ê
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÂ Â(
+%88javax.swing.JLabel"__id*#*!
+gui.RegisterGUI"
+
+emailMezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÂ Â(;
+%89java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÂ Â(Q
+%90java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%89java.util.ResourceBundle*
+
+Required2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÂ Â(R
+%91void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%88javax.swing.JLabel*
+
+%90java.lang.String2setText(Ljava/lang/String;)*
+34*¸
+13H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˘% ˘(0¢ü
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˘% ˘(:
+%127long"java.util.Date#getTime()J*
+
+jaiotzeDatajava.util.Date2	getTime()*
+11
+1*„
+36H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java‰ ‰(ì
+ê
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java‰ ‰(
+%85javax.swing.JTextField"__id**
+gui.RegisterGUI"
+e_mailœÃ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java‰ ‰(
+%86java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%85javax.swing.JTextField2	getText()†ù
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java‰ ‰(
+%87boolean"java.lang.String#isEmpty()Z*
+
+%86java.lang.String2	isEmpty()*
+35
+34*É
+14I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯ ¯(öç
+ä
+I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯ ¯(ö
+jaiotzeDatajava.util.Date"__id*
+
+%125java.util.Dateõò
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˘ ˘($
+%126long"java.util.Date#getTime()J*
+
+gaurjava.util.Date2	getTime()*
+13*√
+37H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java· ·(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java· ·(
+%81javax.swing.JLabel"__id*&*$
+gui.RegisterGUI"
+usernameMezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java· ·(>
+%82java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java· ·(T
+%83java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%82java.util.ResourceBundle*
+
+NotLong42getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java· ·(U
+%84void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%81javax.swing.JLabel*
+
+%83java.lang.String2setText(Ljava/lang/String;)*
+36*ÿ
+15I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯ ¯(ôÄ
+˝
+I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯ ¯(ô
+%125java.util.Date"3configuration.UtilDate#newDate(III)Ljava/util/Date;*"
+configuration.UtilDate*
+
+%117java.lang.Integer*
+
+%121int*
+
+%124java.lang.Integer*
+14*ﬂ
+38H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java‡ ‡(ï
+í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java‡ ‡(
+%78javax.swing.JTextField"__id*!*
+gui.RegisterGUI"
+
+userNameœÃ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java‡ ‡(
+%79java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%78javax.swing.JTextField2	getText()öó
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java‡ ‡(&
+
+%80int"java.lang.String#length()I*
+
+%79java.lang.String2length()*
+36
+37*∂
+16I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯z ¯(òﬁ
+€
+I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯z ¯(ò
+%124java.lang.Integer"@java.lang.Integer#valueOf(Ljava/lang/String;)Ljava/lang/Integer;*"
+java.lang.Integer*
+
+%123java.lang.String*
+15*√
+39H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaﬁ ﬁ(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaﬁ ﬁ(
+%74javax.swing.JLabel"__id*&*$
+gui.RegisterGUI"
+usernameMezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaﬁ ﬁ(>
+%75java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaﬁ ﬁ(T
+%76java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%75java.util.ResourceBundle*
+
+Required2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaﬁ ﬁ(U
+%77void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%74javax.swing.JLabel*
+
+%76java.lang.String2setText(Ljava/lang/String;)*
+36*¡
+17I
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯z ¯(Åì
+ê
+J
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯ä ¯(ç
+%122javax.swing.JTextField"__id**
+gui.RegisterGUI"
+day”–
+J
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯ä ¯(ó
+%123java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;* 
+
+%122javax.swing.JTextField2	getText()*
+16*€
+18H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯F ¯(yÑÅ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯F ¯(y
+%121int"@javax.swing.DefaultComboBoxModel#getIndexOf(Ljava/lang/Object;)I**
+(
+%118 javax.swing.DefaultComboBoxModel*
+
+%120java.lang.Object2getIndexOf(Ljava/lang/Object;)*
+17*ç
+19H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯F ¯(P¢
+ü
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯F ¯(P(
+%118 javax.swing.DefaultComboBoxModel"__id*#*!
+gui.RegisterGUI"
+
+hilabeteak¢
+ü
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯\ ¯(f(
+%119 javax.swing.DefaultComboBoxModel"__id*#*!
+gui.RegisterGUI"
+
+hilabeteakÏÈ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯\ ¯(x
+%120java.lang.Object"Djavax.swing.DefaultComboBoxModel#getSelectedItem()Ljava/lang/Object;**
+(
+%119 javax.swing.DefaultComboBoxModel2getSelectedItem()*
+18*°
+1H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÉ	 É("R
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaÉ É(
+""*∏
+6H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¸ ¸(U„‡
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¸ ¸(U
+%135void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%132javax.swing.JLabel*
+
+%134java.lang.String2setText(Ljava/lang/String;)*
+1*Ÿ
+7H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¸G ¸(SÑÅ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¸ ¸(T
+%134java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*"
+ 
+%133java.util.ResourceBundle*
+
+NotAlowed22getString(Ljava/lang/String;)*
+6*⁄
+8H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¸ ¸(î
+ë
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¸ ¸(
+%132javax.swing.JLabel"__id*#*!
+gui.RegisterGUI"
+
+date_MezuaÓ
+Î
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¸ ¸(< 
+%133java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	Etiquetas*
+7*∏
+9H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˚ ˚(V„‡
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˚ ˚(V
+%131void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%128javax.swing.JLabel*
+
+%130java.lang.String2setText(Ljava/lang/String;)*
+8*Â
+40H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java› ›(ï
+í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java› ›(
+%71javax.swing.JTextField"__id*!*
+gui.RegisterGUI"
+
+userNameœÃ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java› ›(
+%72java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%71javax.swing.JTextField2	getText()†ù
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java› ›(!
+%73boolean"java.lang.String#isEmpty()Z*
+
+%72java.lang.String2	isEmpty()*
+38
+39*ƒ
+41H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java⁄ ⁄(ó
+î
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java⁄ ⁄(
+%67javax.swing.JLabel"__id*'*%
+gui.RegisterGUI"
+abizena_2MezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java⁄ ⁄(?
+%68java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java⁄ ⁄(U
+%69java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%68java.util.ResourceBundle*
+
+Required2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java⁄ ⁄(V
+%70void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%67javax.swing.JLabel*
+
+%69java.lang.String2setText(Ljava/lang/String;)*
+40*Ê
+42H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŸ Ÿ(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŸ Ÿ(
+%64javax.swing.JTextField"__id*"* 
+gui.RegisterGUI"
+	abizena_2œÃ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŸ Ÿ(
+%65java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%64javax.swing.JTextField2	getText()†ù
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.javaŸ Ÿ("
+%66boolean"java.lang.String#isEmpty()Z*
+
+%65java.lang.String2	isEmpty()*
+40
+41*¥
+20H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯& ¯(E›
+⁄
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯& ¯(E
+%117java.lang.Integer"@java.lang.Integer#valueOf(Ljava/lang/String;)Ljava/lang/Integer;*"
+java.lang.Integer*
+
+%116java.lang.String*
+19*√
+43H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java÷ ÷(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java÷ ÷(
+%60javax.swing.JLabel"__id*&*$
+gui.RegisterGUI"
+abizena_MezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java÷ ÷(>
+%61java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÄ˝
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java÷ ÷(T
+%62java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%61java.util.ResourceBundle*
+
+Required2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java÷ ÷(U
+%63void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%60javax.swing.JLabel*
+
+%62java.lang.String2setText(Ljava/lang/String;)*
+42*≈
+21H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˜ ˜(Ö
+Ç
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˜ ˜(
+gaurjava.util.Date"__id*
+
+%113java.util.Dateí
+è
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯6 ¯(:
+%115javax.swing.JTextField"__id**
+gui.RegisterGUI"
+year—Œ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java¯6 ¯(D
+%116java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;* 
+
+%115javax.swing.JTextField2	getText()*
+20*Ê
+44H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java’ ’(ñ
+ì
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java’ ’(
+%57javax.swing.JTextField"__id*"* 
+gui.RegisterGUI"
+	abizena_1œÃ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java’ ’(
+%58java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%57javax.swing.JTextField2	getText()†ù
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java’ ’("
+%59boolean"java.lang.String#isEmpty()Z*
+
+%58java.lang.String2	isEmpty()*
+42
+43*÷
+22H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˜ ˜(tr
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˜ ˜(
+%113java.util.Date"java.util.Dateâ
+Ü
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java˜ ˜(
+%114"java.util.Date#<init>()V*
+
+%113java.util.Date*
+21*√
+45H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java“ “(ì
+ê
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java“ “(
+%53javax.swing.JLabel"__id*#*!
+gui.RegisterGUI"
+
+pas_2MezuaÌ
+Í
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java“ “(;
+%54java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasÉÄ
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java“ “(T
+%55java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%54java.util.ResourceBundle*
+DiferentPas2getString(Ljava/lang/String;)‡›
+H
+</home/estrapro/git/Bets21/src/main/java/gui/RegisterGUI.java“ “(U
+%56void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*
+
+%53javax.swing.JLabel*
+
+%55java.lang.String2setText(Ljava/lang/String;)*
+44B
+gui.RegisterGUI
