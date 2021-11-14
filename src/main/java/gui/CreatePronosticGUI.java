@@ -13,6 +13,7 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
 import businessLogic.BLFacade;
+import businessLogic.ExtendedIterator;
 import configuration.UtilDate;
 import domain.Event;
 import domain.Question;
@@ -271,9 +272,11 @@ public class CreatePronosticGUI extends JFrame {
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
-
-						if (events.isEmpty())
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
+						
+						events.goFirst();
+						
+						if (!events.hasNext())
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 									+ ": " + dateformat1.format(calendarAct.getTime()));
 						else
@@ -282,8 +285,11 @@ public class CreatePronosticGUI extends JFrame {
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events)
-							modelEvents.addElement(ev);
+						events.goFirst();
+
+						while (events.hasNext()) {
+							modelEvents.addElement(events.next());
+						}
 						jComboBoxEvents.repaint();
 
 

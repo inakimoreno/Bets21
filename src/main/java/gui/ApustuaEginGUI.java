@@ -13,6 +13,8 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
 import businessLogic.BLFacade;
+import businessLogic.ExtendedIterator;
+import businessLogic.ExtendedIteratorEvents;
 import configuration.UtilDate;
 import domain.Bezeroa;
 import domain.Event;
@@ -424,7 +426,7 @@ public class ApustuaEginGUI extends JFrame {
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 //
 //						if (events.isEmpty())
 ////							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
@@ -435,8 +437,12 @@ public class ApustuaEginGUI extends JFrame {
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events)
-							modelEvents.addElement(ev);
+						events.goFirst();
+
+						while (events.hasNext()) {
+							modelEvents.addElement(events.next());
+						}
+							
 						jComboBoxEvents.repaint();
 
 					} catch (Exception e1) {

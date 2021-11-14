@@ -25,6 +25,7 @@ import javax.swing.JScrollPane;
 import com.toedter.calendar.JCalendar;
 
 import businessLogic.BLFacade;
+import businessLogic.ExtendedIterator;
 import configuration.UtilDate;
 import domain.Event;
 
@@ -133,9 +134,11 @@ public class GertaeraEzabatuGUI extends JFrame {
 					/* Orain datorren kodea eventuen comboBox-a eguneratzen du */
 					DateFormat dateformat1 = DateFormat.getDateInstance(1, jCalendar.getLocale());
 					
-					Vector<domain.Event> events = facade.getEvents(firstDay);
+					ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 
-					if (events.isEmpty())
+					events.goFirst();
+					
+					if (!events.hasNext())
 						jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 								+ ": " + dateformat1.format(calendarAct.getTime()));
 					else
@@ -144,8 +147,11 @@ public class GertaeraEzabatuGUI extends JFrame {
 					jComboBoxEvents.removeAllItems();
 					System.out.println("Events " + events);
 
-					for (domain.Event ev : events)
-						modelEvents.addElement(ev);
+					events.goFirst();
+
+					while (events.hasNext()) {
+						modelEvents.addElement(events.next());
+					}
 					jComboBoxEvents.repaint();
 				}else {
 					jLabelMsg.setForeground(Color.RED);
@@ -208,9 +214,11 @@ public class GertaeraEzabatuGUI extends JFrame {
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 
-						if (events.isEmpty())
+						events.goFirst();
+						
+						if (!events.hasNext())
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 									+ ": " + dateformat1.format(calendarAct.getTime()));
 						else
@@ -219,11 +227,16 @@ public class GertaeraEzabatuGUI extends JFrame {
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events)
-							modelEvents.addElement(ev);
+						events.goFirst();
+
+						while (events.hasNext()) {
+							modelEvents.addElement(events.next());
+						}
 						jComboBoxEvents.repaint();
 
-						if (events.size() == 0)
+						events.goFirst();
+						
+						if (!events.hasNext())
 							btnDeleteEvent.setEnabled(false);
 						else
 							btnDeleteEvent.setEnabled(true);
