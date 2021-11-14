@@ -36,7 +36,7 @@ public class BezeroaGUI extends JFrame {
 		
 		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("Customer"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 500);
+		setBounds(100, 100, 450, 601);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -52,7 +52,7 @@ public class BezeroaGUI extends JFrame {
 				saioaItxi();
 			}
 		});
-		SignOut.setBounds(16, 427, 140, 23);
+		SignOut.setBounds(16, 469, 140, 23);
 		contentPane.add(SignOut);
 		
 		JButton btnMakeABet = new JButton();
@@ -82,7 +82,7 @@ public class BezeroaGUI extends JFrame {
 			}
 		});
 		btnDirua.setText(ResourceBundle.getBundle("Etiquetas").getString("btnDirua")); //$NON-NLS-1$ //$NON-NLS-2$
-		btnDirua.setBounds(16, 103, 408, 40);
+		btnDirua.setBounds(16, 145, 408, 40);
 		contentPane.add(btnDirua);
 		
 		JButton btnDiruMugimenduakIkusi = new JButton();
@@ -92,7 +92,7 @@ public class BezeroaGUI extends JFrame {
 			}
 		});
 		btnDiruMugimenduakIkusi.setText(ResourceBundle.getBundle("Etiquetas").getString("btnDiruMugimenduakIkusi")); //$NON-NLS-1$ //$NON-NLS-2$
-		btnDiruMugimenduakIkusi.setBounds(16, 142, 408, 40);
+		btnDiruMugimenduakIkusi.setBounds(16, 184, 408, 40);
 		contentPane.add(btnDiruMugimenduakIkusi);
 		
 		JButton btnQueryQuestions = new JButton();
@@ -103,7 +103,7 @@ public class BezeroaGUI extends JFrame {
 			}
 		});
 		btnQueryQuestions.setText(ResourceBundle.getBundle("Etiquetas").getString("QueryQueries")); //$NON-NLS-1$ //$NON-NLS-2$
-		btnQueryQuestions.setBounds(16, 181, 408, 40);
+		btnQueryQuestions.setBounds(16, 223, 408, 40);
 		contentPane.add(btnQueryQuestions);
 		
 		JButton requestRepeat = new JButton();
@@ -113,7 +113,7 @@ public class BezeroaGUI extends JFrame {
 			}
 		});
 		requestRepeat.setText(ResourceBundle.getBundle("Etiquetas").getString("RequestToRepeat")); //$NON-NLS-1$ //$NON-NLS-2$
-		requestRepeat.setBounds(16, 220, 408, 40);
+		requestRepeat.setBounds(16, 262, 408, 40);
 		contentPane.add(requestRepeat);
 		
 		JButton postontzia = new JButton();
@@ -123,7 +123,7 @@ public class BezeroaGUI extends JFrame {
 			}
 		});
 		postontzia.setText(ResourceBundle.getBundle("Etiquetas").getString("Mailbox")); //$NON-NLS-1$ //$NON-NLS-2$
-		postontzia.setBounds(16, 298, 408, 40);
+		postontzia.setBounds(16, 340, 408, 40);
 		contentPane.add(postontzia);
 		
 		JButton ezarpenak = new JButton();
@@ -133,7 +133,7 @@ public class BezeroaGUI extends JFrame {
 			}
 		});
 		ezarpenak.setText(ResourceBundle.getBundle("Etiquetas").getString("Settings")); //$NON-NLS-1$ //$NON-NLS-2$
-		ezarpenak.setBounds(16, 337, 408, 40);
+		ezarpenak.setBounds(16, 379, 408, 40);
 		contentPane.add(ezarpenak);
 		
 		JButton arretaZerbitzua = new JButton();
@@ -143,7 +143,7 @@ public class BezeroaGUI extends JFrame {
 			}
 		});
 		arretaZerbitzua.setText(ResourceBundle.getBundle("Etiquetas").getString("CustomerService")); //$NON-NLS-1$ //$NON-NLS-2$
-		arretaZerbitzua.setBounds(16, 376, 408, 40);
+		arretaZerbitzua.setBounds(16, 418, 408, 40);
 		contentPane.add(arretaZerbitzua);
 		
 		JButton jarraitzaileak = new JButton();
@@ -153,8 +153,17 @@ public class BezeroaGUI extends JFrame {
 			}
 		});
 		jarraitzaileak.setText(ResourceBundle.getBundle("Etiquetas").getString("CheckFollowers")); //$NON-NLS-1$ //$NON-NLS-2$
-		jarraitzaileak.setBounds(16, 259, 408, 40);
+		jarraitzaileak.setBounds(16, 301, 408, 40);
 		contentPane.add(jarraitzaileak);
+		
+		JButton btnNewButton = new JButton(ResourceBundle.getBundle("Etiquetas").getString("CheckBets")); //$NON-NLS-1$ //$NON-NLS-2$
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				irekiApustuakIkusi();
+			}
+		});
+		btnNewButton.setBounds(16, 103, 408, 40);
+		contentPane.add(btnNewButton);
 	}
 
 	/**
@@ -168,6 +177,12 @@ public class BezeroaGUI extends JFrame {
 	public void irekiApustuaEgin() {
 		this.setVisible(false);
 		JFrame a = new ApustuaEginGUI(this, bezeroa);
+		a.setVisible(true);
+	}
+	
+	public void irekiApustuakIkusi() {
+		this.setVisible(false);
+		JFrame a = new ApustuakIkusiGUI(this, bezeroa);
 		a.setVisible(true);
 	}
 	
